@@ -1,0 +1,9 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "research_review": null
+  },
+  "notes": "Track periodic checks here. Timestamps in Unix ms."
+}

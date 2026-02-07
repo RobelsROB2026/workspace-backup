@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "gitclaw": {
+      "version": "1.0.0",
+      "installedAt": 1770433921001
+    },
+    "elite-longterm-memory": {
+      "version": "1.2.2",
+      "installedAt": 1770433930262
+    },
+    "automation-workflows": {
+      "version": "0.1.0",
+      "installedAt": 1770433934928
+    }
+  }
+}
