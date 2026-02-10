@@ -112,4 +112,74 @@ https://www.reddit.com/r/MachineLearning/hot/.json
 
 ---
 
+## Scheduling & Automation (IMPORTANT)
+
+**⚠️ OpenClaw's internal cron scheduler has a bug** — recurring jobs don't auto-fire.
+Use this hybrid approach instead:
+
+### What Works
+
+| Mechanism | Use For | Reliability |
+|-----------|---------|-------------|
+| **HEARTBEAT.md** | Batched periodic checks (news, email, maintenance) | ✓ Works |
+| **launchd + `openclaw cron run`** | Exact-time tasks (2 AM blog writer) | ✓ Works |
+| **OpenClaw cron `--at`** | One-shot reminders ("in 20 min") | ✓ Works |
+| **OpenClaw cron recurring** | ❌ DON'T USE | Broken |
+
+### Active Launch Agents
+
+```
+~/Library/LaunchAgents/
+├── com.openclaw.blog-writer.plist      # Daily 2 AM
+├── com.openclaw.weekly-improvement.plist # Sunday 3 AM  
+├── com.openclaw.update-check.plist     # Monday 9 AM
+```
+
+**Manage with:**
+```bash
+launchctl list | grep openclaw           # See loaded agents
+launchctl unload ~/Library/LaunchAgents/com.openclaw.*.plist  # Stop all
+launchctl load ~/Library/LaunchAgents/com.openclaw.*.plist    # Start all
+```
+
+### When Adding New Scheduled Tasks
+
+1. **Flexible timing, can batch?** → Add to HEARTBEAT.md
+2. **Exact time required?** → Create launchd plist + OpenClaw cron job
+3. **One-shot reminder?** → Use `openclaw cron add --at "20m" --session main --system-event "..."`
+
+### Creating New launchd Jobs
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "...">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.openclaw.JOBNAME</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/openclaw</string>
+        <string>cron</string>
+        <string>run</string>
+        <string>JOB-UUID-HERE</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>2</integer>
+        <key>Minute</key><integer>0</integer>
+        <!-- Optional: Weekday 0=Sun, 1=Mon, etc. -->
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/tmp/openclaw-JOBNAME.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/openclaw-JOBNAME.log</string>
+</dict>
+</plist>
+```
+
+Then: `launchctl load ~/Library/LaunchAgents/com.openclaw.JOBNAME.plist`
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
