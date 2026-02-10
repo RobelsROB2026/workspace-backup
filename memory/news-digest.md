@@ -14,3 +14,21 @@
 - **Zhipu Pony Alpha**: GLM-5 stealth released on OpenRouter as 'Pony Alpha'.
 - **Cisco AI Chip**: New Silicon One G300 chip to compete with Nvidia/Broadcom.
 
+# News Digest - 2026-02-10 12:12 CST
+
+## Top News
+1. **xAI co-founder Tony Wu resigns**: Tony Wu, reasoning lead, left Elon Musk's xAI.
+2. **Apple/Google UK App Store Commitments**: Companies agree to changes following CMA investigation.
+3. **Spotify Q4 Growth**: Hit 751M MAUs, revenue up 13% YoY; shares up significantly.
+4. **Singapore Telco Cyber-attack**: Government blames Chinese-backed hackers (UNC3886) for months-long campaign.
+5. **Meta Child Safety Trial**: Trial begins in New Mexico over platform safety and child exploitation claims.
+6. **OpenAI ChatGPT Ads**: Testing ads for Free/Go tier users in the US; claims ads don't influence answers.
+7. **Runway Series E**: Raised $315M at $5.3B valuation for world models.
+8. **Zuckerberg Miami Move**: Buying a $200M mansion in Miami, joining the billionaire exodus from California.
+
+## AI/LLM Focus
+- **xAI reasoning lead exit**: Tony Wu resignation.
+- **Zhipu GLM-5 'Pony Alpha'**: Stealth release on OpenRouter.
+- **OpenAI Hardware Delay**: 'io' branding dropped, device delayed until 2027.
+- **Cisco Silicon One G300**: New 3nm chip for AI data centers.
+
