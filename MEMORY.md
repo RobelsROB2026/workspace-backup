@@ -59,8 +59,18 @@ Index at `_index.md`. Template at `_template/`.
 - **My email:** robake2006@gmail.com (for account signups, etc.)
 - **Google account:** robake2006@gmail.com (Chrome)
 - **X account:** @RobelAlema63562 (linked to Google, created 2026-02-04)
-- **GitHub account:** RobelsRob2026 (created 2026-02-08, SSH key at `~/.ssh/id_ed25519_robelsrob`)
+- **GitHub account:** RobelsRob2026 (created 2026-02-08, authenticated via `gh` CLI 2026-02-10)
 - **Chrome extension relay:** installed and working for browser control
+
+---
+
+## Active Projects
+
+### RockLikeAgencyBonds (2026-02-10)
+- **Repo:** `rodejene/RockLikeAgencyBonds`
+- **Role:** Contributor (invited by Robel)
+- **Current Task:** Building `/apply` page with lead capture form.
+- **Note:** `gh` CLI authenticated as `RobelsROB2026`. PRs need to be created/approved after contributor invite is accepted.
 
 ---
 
