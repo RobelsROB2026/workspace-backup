@@ -182,4 +182,23 @@ Then: `launchctl load ~/Library/LaunchAgents/com.openclaw.JOBNAME.plist`
 
 ---
 
+## Git Workflow
+
+**Never push directly to main.** Always use PRs:
+
+```bash
+# Create branch, make changes, push
+git checkout -b feature/description
+# ... make changes ...
+git add . && git commit -m "type: description"
+git push -u origin feature/description
+
+# Create PR via gh CLI
+gh pr create --title "description" --body "details"
+```
+
+Robel reviews and merges.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
