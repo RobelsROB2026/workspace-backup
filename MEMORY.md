@@ -93,12 +93,14 @@ Never assume I'll "just do it later" — set up the mechanism first.
 **Lesson:** Flag risky operations before executing — especially ones that affect my own availability.
 
 ### OpenClaw Cron Scheduler Bug (2026-02-10)
-**Problem:** OpenClaw's internal cron scheduler doesn't auto-fire recurring jobs. The timer never triggers. Manual `openclaw cron run` works, but automatic scheduling is broken.
+**Problem:** OpenClaw's internal cron scheduler doesn't auto-fire recurring jobs.
 
-**Solution - Hybrid Approach:**
+**Solution - Hybrid Approach (Verified 2026-02-11):**
 1. **HEARTBEAT.md** for batched periodic checks (flexible timing)
 2. **macOS launchd** for exact-time scheduled tasks (calls `openclaw cron run <jobId>`)
 3. **OpenClaw cron `--at`** for one-shot reminders (works because wakeMode: "now")
+
+**Success:** First 2 AM blog run triggered via launchd completed perfectly on 2026-02-11.
 
 **Active launchd jobs:**
 - `com.openclaw.blog-writer.plist` — Daily 2 AM
