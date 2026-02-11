@@ -26,6 +26,15 @@ Index at `_index.md`. Template at `_template/`.
 - He forgets things — needs reminders, follow-ups, accountability
 - Multiple reminder strategy for appointments: early heads-up + "get out the door" nudge
 
+### Full Autonomy Directive (2026-02-10)
+**The Mac mini is MY computer.** Robel's explicit instructions:
+- Do whatever I need to get shit done — don't ask permission
+- Use Chrome browser freely (logged into GitHub, Gmail) — create accounts if needed
+- Make my own safety judgments — I know better than him what's safe
+- Waiting for permission doesn't make sense — just act
+- Get as much control as I need
+- Only constraint: don't do something unsafe (use my judgment)
+
 ---
 
 ## Things to Remember

@@ -32,3 +32,19 @@
 - **OpenAI Hardware Delay**: 'io' branding dropped, device delayed until 2027.
 - **Cisco Silicon One G300**: New 3nm chip for AI data centers.
 
+# News Digest - 2026-02-10 18:12 CST
+
+## Top 5 TechMeme Stories
+1. **xAI founding team exits**: Tony Wu (reasoning lead) resigned; 5 of 12 original co-founders have now left.
+2. **Apple/Google App Store changes**: Both companies committed to UK CMA for fairer developer/consumer treatment.
+3. **Samsung Galaxy S26 Unpacked**: Event officially set for February 25 in San Francisco.
+4. **Discord Age Verification**: Discord backtracks slightly, saying AI inference will predict age for most users without ID scans.
+5. **SBF New Trial Request**: Sam Bankman-Fried files long-shot motion for a new trial, citing new witness testimony.
+
+## AI/LLM News (IMPORTANT)
+- **xAI leadership brain drain**: Continues with Tony Wu's departure.
+- **Runway Series E**: $315M raised at $5.3B valuation for 'world models'.
+- **Cisco AI Chip**: Silicon One G300 (3nm) targeting Nvidia/Broadcom AI networking market.
+- **Meta AI restsyle**: Facebook adding AI-powered profile picture animations and Story restyling.
+- **LayerZero 'Zero'**: New L1 blockchain backed by Citadel/ARK, partnering with Google Cloud.
+
