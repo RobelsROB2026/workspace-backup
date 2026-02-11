@@ -184,7 +184,7 @@ Then: `launchctl load ~/Library/LaunchAgents/com.openclaw.JOBNAME.plist`
 
 ## Git Workflow
 
-**Never push directly to main.** Always use PRs:
+**Projects (RockLikeAgencyBonds, etc.):** Never push directly to main. Always use PRs:
 
 ```bash
 # Create branch, make changes, push
@@ -198,6 +198,8 @@ gh pr create --title "description" --body "details"
 ```
 
 Robel reviews and merges.
+
+**My workspace (workspace-backup):** Direct push to main is fine.
 
 ---
 
