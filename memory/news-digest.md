@@ -48,3 +48,9 @@
 - **Meta AI restsyle**: Facebook adding AI-powered profile picture animations and Story restyling.
 - **LayerZero 'Zero'**: New L1 blockchain backed by Citadel/ARK, partnering with Google Cloud.
 
+### TechMeme Digest - Tue Feb 10 21:48:24 CST 2026
+1. OpenAI's Fidji Simo on why ads are coming to ChatGPT.
+2. The rise of the professional vibe coder (a new AI-era job).
+3. OpenAI vs. Anthropic Super Brawl (Amazon's Struggles).
+4. Microsoft AI Diffusion Report key findings.
+
