@@ -54,3 +54,22 @@
 3. OpenAI vs. Anthropic Super Brawl (Amazon's Struggles).
 4. Microsoft AI Diffusion Report key findings.
 
+
+## 2026-02-11 04:55 AM - News Update
+- **xAI Exodus**: Co-founders Jimmy Ba (6th) and Tony Wu (5th) have left Elon Musk's xAI. Half of the original founding team is now gone.
+- **Model Progress**: GPT-5.3-Codex and Claude Opus 4.6 reportedly handling full app dev cycles (Matt Shumer). OpenAI updated Deep Research with GPT-5.2 and site-specific focus.
+- **OpenAI Firing**: VP Ryan Beiermeister fired, allegedly for sexual discrimination, though sources link it to her opposition to a planned "adult mode" (erotic content).
+- **ByteDance Hardware**: Developing in-house AI inference chips (100k target for 2026) with Samsung as potential manufacturer.
+- **Social Media Trial**: YouTube arguing it is an "entertainment service" rather than a "social network" in addiction trial.
+- **Earnings**: Cloudflare revenue up 34% (beat); Robinhood revenue up 27% (missed, crypto down 38%).
+- **Mistral Growth**: CEO claims ARR >$400M, targeting $1B by end of 2026.
+- **H-1B Fees**: Amazon, Google, etc., planning to skirt Trump's $100k H-1B fee by focusing on existing holders and other categories.
+
+## 2026-02-11 10:50 AM - News Update
+- **xAI Moon Factory**: Elon Musk's "moonshot" vision for xAI includes a factory on the moon to build AI satellites and a massive catapult to launch them into space.
+- **OpenAI Anti-Leaker AI**: OpenAI security is reportedly using a custom version of ChatGPT with access to Slack, email, and docs to catch leakers by cross-referencing news articles with access logs.
+- **Mistral Expansion**: French AI startup Mistral is spending €1.2B on its first data center outside France, located in Sweden, with partner EcoDataCenter.
+- **T-Mobile Live Translation**: T-Mobile announced a network-level, AI-based translation feature for phone calls supporting 50+ languages, launching in beta this spring.
+- **Robot Funding**: Austin-based Apptronik raised $520M led by Google at a $5.5B valuation (3x increase in one year) to scale its humanoid robots.
+- **Chip Startup Funding**: London-based AI chip startup Olix raised $220M at a $1B+ valuation to build chips that are "faster and cheaper than Nvidia's."
+- **Chip Shortage Panic**: SMIC CEO Zhao Haijun warned of industry-wide panic over memory chip shortages, with prices up 80%+ so far in 2026.

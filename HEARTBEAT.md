@@ -1,13 +1,12 @@
 # HEARTBEAT.md - Periodic Checks
 
-## News & Research (2-3x daily)
-Check `memory/heartbeat-state.json` for last check times. Rotate through these:
+## OpenClaw Ecosystem (1-2x daily)
+Check `memory/heartbeat-state.json` for last check times. Look for:
 
-- **TechMeme** - If >6h since last check:
-  1. Fetch https://www.techmeme.com/
-  2. Extract top 5 stories (headline + summary)
-  3. Append to `memory/news-digest.md` with timestamp
-  4. Flag any AI/LLM breaking news as URGENT
+- **ClawHub** (https://clawhub.com) - New skills we could use
+- **OpenClaw Discord** - Tips, hacks, community tricks
+- **OpenClaw GitHub** - New releases, useful issues/discussions
+- Log findings to `memory/openclaw-tips.md`
 
 ## Maintenance (once daily, prefer night)
 - Review recent `memory/logs/*.md` files

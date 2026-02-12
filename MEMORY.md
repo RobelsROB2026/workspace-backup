@@ -66,11 +66,39 @@ Index at `_index.md`. Template at `_template/`.
 
 ## Active Projects
 
-### RockLikeAgencyBonds (2026-02-10)
+### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
-- **Note:** `gh` CLI authenticated as `RobelsROB2026`. PRs need to be created/approved after contributor invite is accepted.
+- **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
+- **Note:** `gh` CLI authenticated as `RobelsROB2026`. PR #15 (feat: add /apply page for lead capture) successfully merged into `main` and deployed to Vercel.
+
+
+### Blog SEO Strategy (2026-02-11)
+**Robel's directive:** Keyword research BEFORE writing. Only write what we can rank for.
+
+**Keyword Tracker:** `~/research/seo/keyword-tracker.md`
+- Logs all researched keywords with competition notes
+- Collects PAA questions and related searches
+- Tracks competitor gaps and city-specific opportunities
+
+**5 Strategies Implemented:**
+
+1. **Keyword Tracking** — Log every keyword researched with competition level, decision, reasoning. Never re-evaluate the same keyword.
+
+2. **Mine PAA & Related Searches** — Even when skipping a keyword, collect all "People Also Ask" questions and related searches. These are future opportunities.
+
+3. **Hyper-Local Content** — Target city-specific keywords (Houston, Dallas, Austin, San Antonio) since national players don't bother. "Houston auto dealer bond" beats "Texas dealer bond".
+
+4. **Question-Based Content** — Target actual questions: "do I need a bond to...", "how much does a... cost", "can I get a... with bad credit". Captures early-stage researchers.
+
+5. **Competitor Gap Analysis** — Find topics big players cover poorly (thin content, outdated info, missing steps). We can outrank with better content.
+
+**Competition Check:**
+- **SKIP** if top 5 includes: SuretyBonds.com, JW Surety, Bryant Surety, Surety Solutions, Lance Surety
+- **WRITE** if we see: local sites, forums, government pages, thin content, no featured snippet
+
+**Quality > Quantity.** Smart targeting > spray and pray.
 
 ---
 
@@ -100,12 +128,22 @@ Never assume I'll "just do it later" — set up the mechanism first.
 2. **macOS launchd** for exact-time scheduled tasks (calls `openclaw cron run <jobId>`)
 3. **OpenClaw cron `--at`** for one-shot reminders (works because wakeMode: "now")
 
-**Success:** First 2 AM blog run triggered via launchd completed perfectly on 2026-02-11.
+**Success:** First 2 AM blog run triggered via launchd completed perfectly on 2026-02-11. Fixed a PATH bug in plist files (added `/opt/homebrew/bin` to `EnvironmentVariables`) so node binaries are found.
 
 **Active launchd jobs:**
 - `com.openclaw.blog-writer.plist` — Daily 2 AM
 - `com.openclaw.weekly-improvement.plist` — Sunday 3 AM
 - `com.openclaw.update-check.plist` — Monday 9 AM
+
+---
+
+## OpenClaw Ecosystem Focus (2026-02-11)
+
+Per Robel's request, shifted focus from general AI news to **OpenClaw optimization**:
+- **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
+- **Discord/GitHub**: Watch for community hacks, performance tips, and releases.
+- **Goal**: Build a "Power User" toolkit for business scaling.
+
 
 **When scheduling new tasks:**
 - Flexible timing → HEARTBEAT.md
