@@ -57,16 +57,35 @@ Structure per topic:
 
 ---
 
-## Browser
+## Browser Workflow (IMPORTANT)
 
-**Two options:**
-1. **OpenClaw managed browser** (profile: openclaw) - isolated, no extension needed
-2. **Chrome extension relay** (profile: chrome) - Robel's actual Chrome
+**Two profiles:**
+1. **openclaw** — isolated browser, no logins, use for generic browsing
+2. **chrome** — Robel's Chrome with MY logged-in sessions (X, Gmail, GitHub)
 
-**Chrome extension workflow:**
-- If relay disconnected → use Peekaboo to click the OpenClaw toolbar icon
-- Once connected → use browser tool with `profile=chrome`
-- This lets me use Robel's logged-in sessions (X, Gmail, etc.)
+**When to use which:**
+| Task | Profile | Why |
+|------|---------|-----|
+| View public webpage | openclaw | No login needed |
+| Browse X/Twitter | chrome | Need my @RobelAlema63562 login |
+| Access Gmail | chrome | Need login |
+| Generic Google search | openclaw | No login needed |
+| GitHub (logged-in actions) | chrome | Need RobelsROB2026 login |
+
+**Activating Chrome extension relay:**
+1. Use Peekaboo to click the OpenClaw toolbar icon in Chrome
+2. Once attached, use `browser` tool with `profile=chrome`
+
+```bash
+# Step 1: Activate extension (Peekaboo)
+peekaboo see --app "Google Chrome" --annotate --path /tmp/chrome-toolbar.png
+peekaboo click --app "Google Chrome" --on <extension-icon-id>
+
+# Step 2: Browse with Chrome profile
+browser action:snapshot profile:chrome targetUrl:"https://x.com/..."
+```
+
+**Rule: For any site where I have a login (X, Gmail, GitHub), use Chrome extension relay, not openclaw browser.**
 
 ---
 
@@ -89,15 +108,19 @@ gemini --model gemini-3-flash-preview "Analyze these search results and extract 
 
 ## X/Twitter Access
 
-**bird CLI** (installed at /opt/homebrew/bin/bird) ✓ WORKING:
-- Uses Chrome cookies (keychain approved 2026-02-04)
-- Account: @RobelAlema63562
-- Commands: `bird home`, `bird search "query"`, `bird news`, `bird whoami`
-- Ignore Safari warnings (using Chrome, not Safari)
+**PRIMARY: Chrome extension relay** (profile: chrome)
+- Account: @RobelAlema63562 (MY account, logged in via Chrome)
+- Use for: browsing X, viewing tweets, posting
+- Requires: extension attached to a tab (see Browser Workflow below)
 
-**Browser fallbacks:**
-- Chrome extension relay (profile: chrome) - for logged-in browsing
-- OpenClaw browser (profile: openclaw) - not logged in yet
+**FALLBACK: bird CLI** (/opt/homebrew/bin/bird)
+- Uses Chrome cookies
+- Commands: `bird home`, `bird search "query"`, `bird news`, `bird whoami`
+- Can be flaky with auth — prefer Chrome extension
+
+**DON'T USE: OpenClaw browser** (profile: openclaw)
+- Not logged in to X
+- Will get blocked or show login wall
 
 ---
 

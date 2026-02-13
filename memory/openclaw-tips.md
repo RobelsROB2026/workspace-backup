@@ -113,4 +113,19 @@ done | awk '{a[$1]+=$2} END {for(d in a) print d, "$"a[d]}' | sort -r
 ```
 
 ---
-*Last updated: 2026-02-11*
+*Last updated: 2026-02-13*
+
+## New Release Highlights (v2026.2.12)
+
+### 🚀 Cron Reliability
+Scheduler received major fixes. It no longer skips jobs when timers drift or re-fires duplicates on restart. Safe to move back from launchd to native OpenClaw cron.
+
+### 🧠 Opus 4.6 Support
+Native forward-compatibility for Opus 4.6 added.
+
+### 🛡️ Security
+- **SSRF Policy**: Hardened URL-based `input_file`/`input_image` handling.
+- **Untrusted Web Content**: Browser snapshots and web fetch results are now wrapped as untrusted content to reduce prompt-injection risk.
+
+### 🪵 Log Improvements
+Use `openclaw logs --local-time` to see timestamps in your local timezone instead of UTC.

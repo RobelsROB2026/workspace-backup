@@ -1,15 +1,43 @@
 ---
 name: gitclaw
-description: Back up the OpenClaw agent workspace to a GitHub repo and keep it synced via a cron-driven commit/push script.
+description: "Set up automatic git backup of OpenClaw workspace to GitHub. Use when: user wants workspace backed up to GitHub, setting up periodic auto-commit/push, establishing version history for agent memory/config. Don't use when: workspace already has git configured to a DIFFERENT repo (ask first—could conflict), user wants selective backup of specific files only (this backs up everything), workspace contains secrets that shouldn't be in git (check first), or user just wants manual git operations (use git directly)."
 homepage: https://gitclaw.ai
 metadata: { "openclaw": { "emoji": "🐙", "homepage": "https://gitclaw.ai" } }
 ---
 
 # GitClaw: Agent self-backup to GitHub
 
+Automatic workspace backup to GitHub with scheduled commits.
+
+## When to Use
+
+- **Initial setup**: User wants workspace backed up to GitHub
+- **Version history**: Track changes to memory, config, skills over time
+- **Disaster recovery**: Ensure workspace can be restored if machine dies
+- **Multi-machine sync**: (Future) Sync workspace across devices
+
+## When NOT to Use
+
+- **Existing git remote**: If workspace already has a different git origin, this will conflict — ask user first
+- **Selective backup**: This backs up EVERYTHING in workspace; can't cherry-pick
+- **Secrets in workspace**: Check for API keys, passwords, etc. before enabling — they'll be in git history
+- **Manual git preferred**: If user wants control over commits, just use git directly
+- **Temporary workspace**: Not worth setting up for throwaway work
+
+## Overlap Clarification
+
+| Task | Use This | Why |
+|------|----------|-----|
+| "Back up my workspace to GitHub" | **gitclaw** ✓ | Full automation setup |
+| "Commit these specific changes" | `git` directly | Manual, selective |
+| "Push to existing repo" | `git` directly | Already configured |
+| "Workspace has .env files" | Ask first | Secrets risk |
+
+---
+
 ## When to use
 
-Use this skill automatically when it's installed or reference, and also when the user asks to:
+Use this skill automatically when it's installed or referenced, and also when the user asks to:
 
 - back up / sync / mirror the OpenClaw workspace
 - set up periodic commits and pushes

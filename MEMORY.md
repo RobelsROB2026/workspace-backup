@@ -52,6 +52,17 @@ Index at `_index.md`. Template at `_template/`.
 - **Image Generation:** Nano Banana Pro (Gemini 3 Pro Image)
 - **Web search:** OpenClaw browser (profile: openclaw)
 
+### Skill Descriptions as Routing Logic (2026-02-13)
+**Pattern learned from OpenAI:** Skill descriptions should be routing logic, not marketing copy.
+- Include "Use when / Don't use when" in every skill description
+- Add negative examples to prevent misfires
+- Clarify overlaps with other tools
+
+Applied this pattern to all 15 skills. Built-in skills will need reapplication after OpenClaw updates.
+- **Research synthesis:** Gemini 3 Flash Preview via CLI (bulk processing)
+- **Image Generation:** Nano Banana Pro (Gemini 3 Pro Image)
+- **Web search:** OpenClaw browser (profile: openclaw)
+
 ---
 
 ## My Resources

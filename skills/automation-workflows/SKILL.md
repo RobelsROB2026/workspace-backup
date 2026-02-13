@@ -1,9 +1,39 @@
 ---
 name: automation-workflows
-description: Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on "automate", "automation", "workflow automation", "save time", "reduce manual work", "automate my business", "no-code automation".
+description: "Design no-code automation workflows using Zapier, Make, or n8n. Use when: identifying repetitive tasks to automate, designing multi-tool workflows (form → CRM → email), planning triggers/actions/conditions, auditing existing automations for optimization. Don't use when: automation needs custom code (write the code instead), it's an OpenClaw-native task (use cron or heartbeat), one-off task not worth setup time, task requires human judgment each time, or you're just doing the task not designing automation."
 ---
 
 # Automation Workflows
+
+Design and implement no-code automations to save time and scale operations.
+
+## When to Use
+
+- **Automation discovery**: "What should I automate?" — run an audit
+- **Workflow design**: Map out trigger → conditions → actions
+- **Tool selection**: Choose between Zapier, Make, n8n based on needs
+- **Optimization**: Review existing automations for improvements
+- **ROI calculation**: Is this automation worth the setup time?
+
+## When NOT to Use
+
+- **Needs custom code**: If Zapier/Make can't do it, write code instead
+- **OpenClaw-native**: Use `cron` tool for scheduled tasks, `heartbeat` for periodic checks
+- **One-off task**: Setup time > time saved = not worth it
+- **Requires judgment**: If every instance needs human decision, don't automate
+- **Doing, not designing**: If you're executing a task (not planning automation), just do it
+
+## Overlap Clarification
+
+| Task | Use This | Why |
+|------|----------|-----|
+| "What tasks should I automate?" | **automation-workflows** ✓ | Audit and prioritization |
+| "Run this every day at 9am" | `cron` tool | OpenClaw-native scheduling |
+| "Check inbox periodically" | `heartbeat` / HEARTBEAT.md | OpenClaw-native periodic |
+| "Build Zapier flow for leads" | **automation-workflows** ✓ | Workflow design guidance |
+| "Just send this email" | Do it directly | Action, not automation design |
+
+---
 
 ## Overview
 As a solopreneur, your time is your most valuable asset. Automation lets you scale without hiring. The goal is simple: automate anything you do more than twice a week that doesn't require creative thinking. This playbook shows you how to identify automation opportunities, design workflows, and implement them without writing code.
