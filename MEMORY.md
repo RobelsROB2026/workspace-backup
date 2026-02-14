@@ -156,13 +156,22 @@ Never assume I'll "just do it later" — set up the mechanism first.
 
 ---
 
-## OpenClaw Ecosystem Focus (2026-02-13)
+## OpenClaw Ecosystem Focus (2026-02-14)
 
 Per Robel's request, shifted focus from general AI news to **OpenClaw optimization**:
 - **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
 - **Discord/GitHub**: Watch for community hacks, performance tips, and releases.
 - **Goal**: Build a "Power User" toolkit for business scaling.
-- **Recent Update**: OpenClaw v2026.2.12 released (cron fixes, security hardening).
+- **Recent Update**: OpenClaw v2026.2.13 released.
+  - Discord: Voice messages with waveforms.
+  - Discord: Configurable presence status/activity.
+  - Outbound: Write-ahead delivery queue (prevents message loss on restart).
+  - Auto-reply: Implicit reply threading.
+  - Telegram: Command cap (100).
+
+- **New Tool**: Installed `gogcli` v0.10.0 via Homebrew.
+  - Purpose: Full Google Workspace terminal control (Gmail, Drive, Docs, etc.).
+  - Status: Awaiting OAuth2 credential setup.
 
 ### Skill Audit & Routing Logic (2026-02-13)
 Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
