@@ -135,22 +135,25 @@ https://www.reddit.com/r/MachineLearning/hot/.json
 
 ---
 
-## Scheduling & Automation (IMPORTANT)
+## Scheduling & Automation (Updated 2026-02-13)
 
-**⚠️ OpenClaw's internal cron scheduler has a bug** — recurring jobs don't auto-fire.
-Use this hybrid approach instead:
+**OpenClaw v2026.2.12 fixed the internal cron scheduler bug.** Recurring jobs now auto-fire correctly.
 
-### What Works
+### Recommended Mechanism
 
 | Mechanism | Use For | Reliability |
 |-----------|---------|-------------|
+| **OpenClaw cron (native)** | Recurring tasks (daily, weekly, etc.) | ✓ Fixed |
 | **HEARTBEAT.md** | Batched periodic checks (news, email, maintenance) | ✓ Works |
-| **launchd + `openclaw cron run`** | Exact-time tasks (2 AM blog writer) | ✓ Works |
 | **OpenClaw cron `--at`** | One-shot reminders ("in 20 min") | ✓ Works |
-| **OpenClaw cron recurring** | ❌ DON'T USE | Broken |
+| **launchd** | System-level tasks | ✓ Legacy |
 
-### Active Launch Agents
+### Migrating from launchd
 
+We are gradually moving tasks back to native OpenClaw cron for better visibility in `openclaw cron list`.
+
+### Active Launch Agents (Deprecated)
+*Note: These will be migrated to native cron soon.*
 ```
 ~/Library/LaunchAgents/
 ├── com.openclaw.blog-writer.plist      # Daily 2 AM

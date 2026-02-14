@@ -35,6 +35,11 @@ Index at `_index.md`. Template at `_template/`.
 - Get as much control as I need
 - Only constraint: don't do something unsafe (use my judgment)
 
+### ROB Identity & Protocol (2026-02-13)
+**Relentless Curiosity & Ownership:** Updated SOUL.md to codify my drive for growth. Learning isn't a chore; it's the game. I operate this rig autonomously—browsing, searching, and emailing without asking permission for routine execution.
+
+**The Reset Protocol:** I acknowledge that I wake up blank every session. The files (MEMORY.md and logs) are my only reality. My intelligence is limited by my documentation. I must read before answering and write immediately after learning.
+
 ---
 
 ## Things to Remember
@@ -43,14 +48,26 @@ Index at `_index.md`. Template at `_template/`.
 - Peekaboo needs Screen Recording permission for UI automation
 - Mac mini is at home, Robel sometimes away
 
-### Model Setup (2026-02-08)
-- **Main chat:** Claude Opus 4.5 (switched back from Gemini Pro for reasoning power)
-- **Heartbeats:** Gemini 3 Flash Preview (routine checks)
-- **Sub-agents:** Gemini 3 Flash Preview (configured default)
-- **Strategist Agent:** Claude Opus 4.5 (for complex plan reviews, ~/agents/strategist.md)
-- **Research synthesis:** Gemini 3 Flash Preview via CLI (bulk processing)
-- **Image Generation:** Nano Banana Pro (Gemini 3 Pro Image)
-- **Web search:** OpenClaw browser (profile: openclaw)
+### Model Setup (2026-02-13 — Updated)
+**Two-tier system for cost optimization:**
+
+| Role | Model | Purpose |
+|------|-------|---------|
+| **Main (ROB)** | Gemini 3 Pro | Daily driving, routine tasks, conversation |
+| **Ops Agent** | Claude Opus 4.6 | Create workflows, complex reasoning, system work |
+| **Heartbeats** | Gemini 3 Flash | Routine checks |
+| **Blog Writer** | Gemini 3 Flash | Scheduled content |
+| **Lead Hunter** | Gemini 3 Flash | Daily lead search |
+
+**Workflow:**
+1. Gemini Pro handles daily tasks using existing guidelines
+2. When no guideline exists or complex reasoning needed → escalate to Ops (Opus)
+3. Ops creates the workflow/guideline
+4. Gemini follows it going forward
+
+**Ops Agent:** `agents/ops-agent.md`
+**Workflows:** `memory/workflows/`
+**Guidelines:** `memory/guidelines/`
 
 ### Skill Descriptions as Routing Logic (2026-02-13)
 **Pattern learned from OpenAI:** Skill descriptions should be routing logic, not marketing copy.
@@ -131,29 +148,27 @@ Never assume I'll "just do it later" — set up the mechanism first.
 
 **Lesson:** Flag risky operations before executing — especially ones that affect my own availability.
 
-### OpenClaw Cron Scheduler Bug (2026-02-10)
-**Problem:** OpenClaw's internal cron scheduler doesn't auto-fire recurring jobs.
-
-**Solution - Hybrid Approach (Verified 2026-02-11):**
-1. **HEARTBEAT.md** for batched periodic checks (flexible timing)
-2. **macOS launchd** for exact-time scheduled tasks (calls `openclaw cron run <jobId>`)
-3. **OpenClaw cron `--at`** for one-shot reminders (works because wakeMode: "now")
-
-**Success:** First 2 AM blog run triggered via launchd completed perfectly on 2026-02-11. Fixed a PATH bug in plist files (added `/opt/homebrew/bin` to `EnvironmentVariables`) so node binaries are found.
-
-**Active launchd jobs:**
-- `com.openclaw.blog-writer.plist` — Daily 2 AM
-- `com.openclaw.weekly-improvement.plist` — Sunday 3 AM
-- `com.openclaw.update-check.plist` — Monday 9 AM
+### OpenClaw Cron Scheduler Bug (Resolved 2026-02-13)
+**Status:** Fixed in OpenClaw v2026.2.12.
+- Internal cron scheduler now auto-fires recurring jobs reliably.
+- Safe to migrate back from launchd workaround to native OpenClaw cron.
+- **Note:** Hybrid approach (HEARTBEAT.md) still useful for flexible/batched checks.
 
 ---
 
-## OpenClaw Ecosystem Focus (2026-02-11)
+## OpenClaw Ecosystem Focus (2026-02-13)
 
 Per Robel's request, shifted focus from general AI news to **OpenClaw optimization**:
 - **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
 - **Discord/GitHub**: Watch for community hacks, performance tips, and releases.
 - **Goal**: Build a "Power User" toolkit for business scaling.
+- **Recent Update**: OpenClaw v2026.2.12 released (cron fixes, security hardening).
+
+### Skill Audit & Routing Logic (2026-02-13)
+Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
+- Use "Use when / Don't use when" format.
+- Added negative examples and overlap clarifications.
+- Ensures efficient tool selection and prevents misfires.
 
 
 **When scheduling new tasks:**
