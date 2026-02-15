@@ -80,6 +80,13 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Image Generation:** Nano Banana Pro (Gemini 3 Pro Image)
 - **Web search:** OpenClaw browser (profile: openclaw)
 
+### Weekly Self-Improvement (2026-02-15)
+- **OpenClaw v2026.2.14:** Native Telegram polls, Discord voice messages with waveforms, and a write-ahead delivery queue to prevent message loss on restart.
+- **Agentic AI Trends:** GLM-5 released for long-horizon tasks; "Agentic Real-Time Framework" (ARTF) emerging as a standard for agent governance.
+- **Safety & Compliance:** High-profile feud between Anthropic and the Pentagon over military use of Claude; ICML using "prompt-injection" text in PDFs to catch AI-using reviewers.
+- **Performance:** DeepSeek Sparse Attention (DSA) becoming key for long-context efficiency.
+- **Research Library:** Updated \`research/ai-agents-weekly/2026-02-15/\` with full notes.
+
 ---
 
 ## My Resources
