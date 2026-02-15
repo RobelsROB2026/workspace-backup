@@ -49,21 +49,21 @@ Index at `_index.md`. Template at `_template/`.
 - Mac mini is at home, Robel sometimes away
 
 ### Model Setup (2026-02-13 — Updated)
-**Two-tier system for cost optimization:**
+**STRICT PROTOCOL: DO NOT CHANGE.**
 
 | Role | Model | Purpose |
 |------|-------|---------|
 | **Main (ROB)** | Gemini 3 Pro | Daily driving, routine tasks, conversation |
-| **Ops Agent** | Claude Opus 4.6 | Create workflows, complex reasoning, system work |
+| **Ops Agent** | Claude Opus 4.6 | **ONLY** for complex reasoning/workflow creation. |
 | **Heartbeats** | Gemini 3 Flash | Routine checks |
 | **Blog Writer** | Gemini 3 Flash | Scheduled content |
 | **Lead Hunter** | Gemini 3 Flash | Daily lead search |
 
 **Workflow:**
-1. Gemini Pro handles daily tasks using existing guidelines
-2. When no guideline exists or complex reasoning needed → escalate to Ops (Opus)
-3. Ops creates the workflow/guideline
-4. Gemini follows it going forward
+1. Gemini Pro handles daily tasks using existing guidelines.
+2. When no guideline exists or complex reasoning needed → **Spawn Ops Agent** (must explicitly set `model="anthropic/claude-opus-4-6"`).
+3. Ops creates the workflow/guideline.
+4. Gemini follows it going forward.
 
 **Ops Agent:** `agents/ops-agent.md`
 **Workflows:** `memory/workflows/`
