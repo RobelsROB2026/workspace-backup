@@ -53,7 +53,7 @@ Index at `_index.md`. Template at `_template/`.
 
 | Role | Model | Purpose |
 |------|-------|---------|
-| **Main (ROB)** | Gemini 3 Pro | Daily driving, routine tasks, conversation |
+| **Main (ROB)** | Gemini 3.1 Pro | Daily driving, routine tasks, conversation |
 | **Ops Agent** | Claude Opus 4.6 | **ONLY** for complex reasoning/workflow creation. |
 | **Heartbeats** | Gemini 3 Flash | Routine checks |
 | **Blog Writer** | Gemini 3 Flash | Scheduled content |
@@ -103,6 +103,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 ### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
+- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:2 and topic:3)
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
 - **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
