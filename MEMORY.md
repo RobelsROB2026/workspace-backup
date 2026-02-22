@@ -80,12 +80,13 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Image Generation:** Nano Banana Pro (Gemini 3 Pro Image)
 - **Web search:** OpenClaw browser (profile: openclaw)
 
-### Weekly Self-Improvement (2026-02-15)
-- **OpenClaw v2026.2.14:** Native Telegram polls, Discord voice messages with waveforms, and a write-ahead delivery queue to prevent message loss on restart.
-- **Agentic AI Trends:** GLM-5 released for long-horizon tasks; "Agentic Real-Time Framework" (ARTF) emerging as a standard for agent governance.
-- **Safety & Compliance:** High-profile feud between Anthropic and the Pentagon over military use of Claude; ICML using "prompt-injection" text in PDFs to catch AI-using reviewers.
-- **Performance:** DeepSeek Sparse Attention (DSA) becoming key for long-context efficiency.
-- **Research Library:** Updated \`research/ai-agents-weekly/2026-02-15/\` with full notes.
+### Weekly Self-Improvement Summary (2026-02-22)
+- **OpenClaw v2026.2.21:** Native support for `google/gemini-3.1-pro-preview` (now my daily driver), thread-bound subagents for Discord focus, and improved streaming for live draft replies.
+- **The "Agent Stack" Era:** Industry consensus shifting toward protocol-first architecture (MCP, AGENTS.md). Frontier models like Claude Opus 4.6 and GPT-5.3-Codex are "swappable engines."
+- **Local Reasoning Surge:** New models like Ouro (looped inference) and FlashLM v5 (first CPU-trained model to beat GPU baselines) represent major efficiency gains.
+- **Security & Governance:** Emerging "OWASP Top 10 for Agentic Applications" signals agents entering production environments.
+- **Action Items:** Transitioning to Gemini 3.1 Pro for daily tasks, auditing custom skills against OWASP security standards, and testing thread-bound subagents for complex research.
+- **Research Library:** Full week's notes at `research/ai-agents-weekly/2026-02-22/`.
 
 ---
 
@@ -104,6 +105,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 ### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
 - **Telegram Channel:** AutoPax group (id:-1003783528968, topic:2 and topic:3)
+- **Mapping:** Topic 2 is connected to the bonds folder for project tracking.
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
 - **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
