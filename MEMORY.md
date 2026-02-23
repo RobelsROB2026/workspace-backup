@@ -109,6 +109,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
 - **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
+- **Workflow Rule (2026-02-21):** I MUST ALWAYS push new code/blogs to a feature branch, NEVER directly to `main`. Every single time I push something, I must notify Robel in the AutoPax Telegram group (topic 2) so he can merge it.
 - **Note:** `gh` CLI authenticated as `RobelsROB2026`. PR #15 (feat: add /apply page for lead capture) successfully merged into `main` and deployed to Vercel.
 
 
