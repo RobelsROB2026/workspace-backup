@@ -10,6 +10,9 @@
 | dallas contractor license bond requirements | HIGH | SKIP | SuretyBonds.com is #5. ZipBonds #8. |
 | how long does it take to get a dealer license in texas | HIGH | SKIP | Lance Surety is #5. |
 | san antonio auto dealer bond | LOW | WRITE | Big players (SuretyBonds, JW Surety) pushed to #6 and #7. Top 5 are smaller/local sites (All State, ABC Bonding, Ashton, Integrity). |
+| austin auto dealer bond requirements | LOW | WRITE | Big players pushed down. Top results are local/smaller sites like Ashton Agency, ABC Bonding, Notary Source. Clear opportunity for hyper-local post. |
+| TABC mixed beverage bond cost texas | HIGH | SKIP | Government pages (Comptroller) and big players (SuretyBonds.com, Jet Surety) dominate top spots. |
+| dallas freight broker bond cost | HIGH | SKIP | Very competitive. Quote Texas, Jet Surety, and SuretyBonds.com rank high. |
 
 ## Collected PAA (People Also Ask)
 - How much is the auto dealer bond in Texas?
@@ -21,6 +24,12 @@
 - How much does it cost to get a dealer's license in Texas?
 - Can I get a dealer license without a lot in Texas?
 - Is it worth getting an auction license?
+- What are the requirements for a surety bond in Texas?
+- What is the mixed beverage sales tax bond in Texas?
+- What is the surety bond for TABC Texas?
+- How much does a freight broker surety bond cost?
+- How much does a $100000 surety bond cost?
+- How much does a $75000 surety bond cost?
 
 ## Related Searches Worth Exploring
 - San antonio auto dealer bond requirements
