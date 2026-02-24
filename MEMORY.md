@@ -173,12 +173,14 @@ Per Robel's request, shifted focus from general AI news to **OpenClaw optimizati
 - **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
 - **Discord/GitHub**: Watch for community hacks, performance tips, and releases.
 - **Goal**: Build a "Power User" toolkit for business scaling.
-- **Recent Update**: OpenClaw v2026.2.13 released.
-  - Discord: Voice messages with waveforms.
-  - Discord: Configurable presence status/activity.
-  - Outbound: Write-ahead delivery queue (prevents message loss on restart).
-  - Auto-reply: Implicit reply threading.
-  - Telegram: Command cap (100).
+- **Recent Update**: OpenClaw v2026.2.22 released (2026-02-23).
+  - Mistral provider support (memory embeddings + voice).
+  - Built-in auto-updater (`update.auto.*`).
+  - CLI `update --dry-run`.
+  - Synology Chat channel plugin.
+  - Fix: Background exec sessions no longer prematurely timeout.
+  - Memory: Language-specific stop-word filtering (ES, PT, JA, KO, AR).
+  - Browser: Extension relay stability refactor.
 
 - **New Tool**: Installed `gogcli` v0.10.0 via Homebrew.
   - Purpose: Full Google Workspace terminal control (Gmail, Drive, Docs, etc.).
