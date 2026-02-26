@@ -1,16 +1,14 @@
-# OpenClaw Tips & Findings
+# OpenClaw Tips & Updates
 
-## New Releases
-- **v2026.2.21 (2026-02-21)**: 
-  - Native Gemini 3.1 support.
-  - Thread-bound subagents for Discord (keeps helpers pinned to specific threads).
-  - Improved live draft streaming for Discord/Telegram.
-  - Outbound routing fallback `defaultTo`.
-  - Lifecycle reactions for status updates.
+## [2026-02-26] v2026.2.25 Released
+- **Android/Chat**: Improved streaming and markdown rendering.
+- **Android/Startup**: Better perf tracking and deferred startup.
+- **Heartbeat Config**: `agents.defaults.heartbeat.directPolicy` (allow|block) replaces the old DM toggle. **Note: default is now 'allow' again.**
+- **Subagents**: Refactored completion announce state machine for better reliability.
+- **Security**: Hardened Gateway auth and WebSocket origin checks. Pairing now required for operator device-identity sessions.
+- **Branding**: Migration to `ai.openclaw` continues (replaces `bot.molt`).
 
-## News
-- **Anthropic Tool Use Stats**: 50% of AI agent tool calls are for software engineering. The rest is "wide open" for other verticals.
-
-## Skills found on ClawHub
-- **clawsync**: Backup/restore workspace to Git.
-- **news-summary**: Automated news collection and synthesis.
+## General Tips
+- Use `openclaw update` to pull the latest version.
+- `openclaw status --deep` for channel testing.
+- `agents.defaults.heartbeat.directPolicy: "block"` if you want to keep heartbeats out of DMs.
