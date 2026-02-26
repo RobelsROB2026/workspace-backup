@@ -139,6 +139,13 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 **Quality > Quantity.** Smart targeting > spray and pray.
 
+### Lead Hunter Results (2026-02-25)
+- **Texas Bond Lead Hunter:** Identified high-intent leads on Reddit.
+    - Dallas VIN/Title discrepancy (Potential Bonded Title).
+    - Aspiring dealer planning to flip cars (Needs Texas Auto Dealer Bond).
+- **Status:** Reported to AutoPax group (topic 3) for follow-up.
+- **Tool Note:** Web search missing API key, relying on direct Reddit API fetches.
+
 ---
 
 ## Lessons Learned
