@@ -5,7 +5,12 @@
 ### Research Library (2026-02-02)
 Location: `~/research/`
 
-Organized knowledge base by topic. Each topic gets:
+Organized knowledge base by topic. Current structure (consolidated 2026-02-26):
+- `bonds/` (Texas surety bonds + SEO keyword tracker)
+- `new-york-permit/` (NYC tour bus / permit research)
+- `self-improvement/` (AI agent news and weekly summaries)
+
+Each topic gets:
 - README.md (overview + takeaways)
 - sources.md (links, references)
 - notes/ (detailed findings)
