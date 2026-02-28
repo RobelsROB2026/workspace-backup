@@ -220,4 +220,17 @@ Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
 - One-shot → Use `--at` flag
 
 Full details in TOOLS.md.
+
+---
+
+### Security Audit (2026-02-28)
+- **ClawJacked Flaw**: High-severity flaw in OpenClaw (discovered Feb 26).
+- **Status**: Verified current local version (v2026.2.26) contains the fix released Feb 27.
+- **Action**: No immediate action required; staying on stable update channel.
+
+### Lead Hunting Results (2026-02-28)
+- **Texas Bond Leads**: Found 2 high-intent leads on Reddit (r/projectcar, r/mazda).
+- **Status**: Logged to `leads.csv` and reported to AutoPax Telegram group (Topic 3) for follow-up.
+- **Project Link**: Topic 3 is for lead follow-up; Topic 2 for project tracking (git).
+
  
