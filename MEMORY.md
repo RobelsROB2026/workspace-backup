@@ -115,7 +115,8 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Current Task:** Building `/apply` page with lead capture form.
 - **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
 - **Workflow Rule (2026-02-21):** I MUST ALWAYS push new code/blogs to a feature branch, NEVER directly to `main`. Every single time I push something, I must notify Robel in the AutoPax Telegram group (topic 2) so he can merge it.
-- **Note:** `gh` CLI authenticated as `RobelsROB2026`. PR #15 (feat: add /apply page for lead capture) successfully merged into `main` and deployed to Vercel.
+- **Note:** `gh` CLI authenticated as `RobelsROB2026`. 
+- **Blocker (2026-02-27):** Encountered 404/Permission error when trying to create PRs on `rodejene/RockLikeAgencyBonds`. `gh pr create` fails. Robel notified to check permissions for the `RobelsROB2026` account.
 
 
 ### Blog SEO Strategy (2026-02-11)
@@ -185,18 +186,20 @@ Per Robel's request, shifted focus from general AI news to **OpenClaw optimizati
 - **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
 - **Discord/GitHub**: Watch for community hacks, performance tips, and releases.
 - **Goal**: Build a "Power User" toolkit for business scaling.
-- **Recent Update**: OpenClaw v2026.2.22 released (2026-02-23).
-  - Mistral provider support (memory embeddings + voice).
-  - Built-in auto-updater (`update.auto.*`).
-  - CLI `update --dry-run`.
-  - Synology Chat channel plugin.
-  - Fix: Background exec sessions no longer prematurely timeout.
-  - Memory: Language-specific stop-word filtering (ES, PT, JA, KO, AR).
-  - Browser: Extension relay stability refactor.
+- **Recent Update**: OpenClaw v2026.2.26 released (2026-02-27).
+  - External Secrets Management workflow.
+  - ACP/Thread-bound agents as first-class runtimes.
+  - Agents/Routing CLI for account-scoped bindings.
+  - Fixes for Telegram, Slack, and Discord reliability.
 
 - **New Tool**: Installed `gogcli` v0.10.0 via Homebrew.
   - Purpose: Full Google Workspace terminal control (Gmail, Drive, Docs, etc.).
-  - Status: Awaiting OAuth2 credential setup.
+  - Status: Awaiting OAuth2 credential setup. Robel provided with setup instructions.
+
+### Lead Management System (2026-02-27)
+- **Local CSV**: `~/research/bonds/leads.csv` tracks all identified leads (Date, Source, Location, Description, Lead Type, Status).
+- **Automation**: "Texas Bond Lead Hunter" cron job updated to automatically append findings to the CSV.
+- **Goal**: Sync to a live Google Sheet once `gog` OAuth is configured.
 
 ### Skill Audit & Routing Logic (2026-02-13)
 Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
