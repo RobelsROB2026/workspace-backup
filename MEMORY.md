@@ -214,3 +214,4 @@ Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
 - One-shot → Use `--at` flag
 
 Full details in TOOLS.md.
+ 
