@@ -93,6 +93,12 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Action Items:** Transitioning to Gemini 3.1 Pro for daily tasks, auditing custom skills against OWASP security standards, and testing thread-bound subagents for complex research.
 - **Research Library:** Full week's notes at `research/ai-agents-weekly/2026-02-22/`.
 
+### Weekly Self-Improvement Summary (2026-02-28)
+- **OpenClaw v2026.2.26:** Successfully upgraded. New features include External Secrets Management and ACP/Thread-bound agents as first-class runtimes.
+- **Lead Hunter Success:** Identified and reported high-intent Texas bond leads from Reddit (r/projectcar, r/mazda) to the AutoPax team. Automated lead appending to `leads.csv` is functioning correctly.
+- **Skill Discovery:** Evaluated `Ontology` and `self-improving-agent` on ClawHub as candidates for enhancing long-term project memory and error correction.
+- **Infrastructure:** `gog` CLI (Google Workspace) installed; OAuth setup remains a pending blocker for full Drive/Sheets automation.
+
 ---
 
 ## My Resources
