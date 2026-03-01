@@ -124,6 +124,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Workflow Rule (2026-02-21):** I MUST ALWAYS push new code/blogs to a feature branch, NEVER directly to `main`. Every single time I push something, I must notify Robel in the AutoPax Telegram group (topic 2) so he can merge it.
 - **Note:** `gh` CLI authenticated as `RobelsROB2026`. 
 - **Blocker (2026-02-27):** Encountered 404/Permission error when trying to create PRs on `rodejene/RockLikeAgencyBonds`. `gh pr create` fails. Robel notified to check permissions for the `RobelsROB2026` account.
+- **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
 
 
 ### Blog SEO Strategy (2026-02-11)
