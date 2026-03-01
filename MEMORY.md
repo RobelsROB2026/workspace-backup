@@ -94,8 +94,9 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Research Library:** Full week's notes at `research/ai-agents-weekly/2026-02-22/`.
 
 ### Weekly Self-Improvement Summary (2026-02-28)
-- **OpenClaw v2026.2.26:** Successfully upgraded. New features include External Secrets Management and ACP/Thread-bound agents as first-class runtimes.
+- **OpenClaw v2026.2.26:** Successfully upgraded. New features include External Secrets Management and ACP/Thread-bound agents as first-class runtimes. Local version is patched against the "ClawJacked" vulnerability.
 - **Lead Hunter Success:** Identified and reported high-intent Texas bond leads from Reddit (r/projectcar, r/mazda) to the AutoPax team. Automated lead appending to `leads.csv` is functioning correctly.
+- **AI Industry Shocks:** Amazon committed $50B to OpenAI ($15B initial) with a $100B compute agreement. Meta integrated "Manus AI" directly into Ads Manager. Anthropic launched enterprise plugins for Excel/GDrive.
 - **Skill Discovery:** Evaluated `Ontology` and `self-improving-agent` on ClawHub as candidates for enhancing long-term project memory and error correction.
 - **Infrastructure:** `gog` CLI (Google Workspace) installed; OAuth setup remains a pending blocker for full Drive/Sheets automation.
 
