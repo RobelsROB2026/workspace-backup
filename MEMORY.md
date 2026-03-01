@@ -116,7 +116,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 ### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
-- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:2 and topic:3)
+- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:2)
 - **Mapping:** Topic 2 is connected to the bonds folder for project tracking.
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
@@ -245,3 +245,13 @@ Full details in TOOLS.md.
 - **Project Link**: Topic 3 is for lead follow-up; Topic 2 for project tracking (git).
 
  
+
+### New York Permit Business (2026-03-01)
+- **Topic Focus:** NYC tour bus and permit research ().
+- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:3)
+
+
+### New York Permit Business (2026-03-01)
+- **Topic Focus:** NYC tour bus and permit research (`~/research/new-york-permit/`).
+- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:3)
+
