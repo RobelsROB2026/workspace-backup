@@ -116,15 +116,20 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 ### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
-- **Telegram Channel:** AutoPax group (id:-1003783528968, topic:2)
-- **Mapping:** Topic 2 is connected to the bonds folder for project tracking.
+- **Telegram Channel:** AutoPax group (id:-1003783528968, Topic 2 and Topic 4)
+- **Mapping:** Topic 2 is connected to the bonds folder for project tracking. Topic 4 is for lead follow-up.
 - **Role:** Contributor (invited by Robel)
 - **Current Task:** Building `/apply` page with lead capture form.
-- **Blog Status:** 16 posts total. Categories: Bonded Title (6), Dealer Bonds (4), Contractor, Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
+- **Blog Status:** 19 posts total. Categories: Bonded Title (8), Dealer Bonds (4), Contractor (1), Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
 - **Workflow Rule (2026-02-21):** I MUST ALWAYS push new code/blogs to a feature branch, NEVER directly to `main`. Every single time I push something, I must notify Robel in the AutoPax Telegram group (topic 2) so he can merge it.
 - **Note:** `gh` CLI authenticated as `RobelsROB2026`. 
 - **Blocker (2026-02-27):** Encountered 404/Permission error when trying to create PRs on `rodejene/RockLikeAgencyBonds`. `gh pr create` fails. Robel notified to check permissions for the `RobelsROB2026` account.
 - **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
+
+### New York Tour Bus Permits (2026-03-01)
+- **Mapping:** Topic 3 in the AutoPax group is exclusively for the New York tour bus permit business.
+- **Role:** Lead Researcher
+- **Current Task:** Consolidating NYC permit research.
 
 
 ### Blog SEO Strategy (2026-02-11)
@@ -157,7 +162,7 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Texas Bond Lead Hunter:** Identified high-intent leads on Reddit.
     - Dallas VIN/Title discrepancy (Potential Bonded Title).
     - Aspiring dealer planning to flip cars (Needs Texas Auto Dealer Bond).
-- **Status:** Reported to AutoPax group (topic 3) for follow-up.
+- **Status:** Reported to AutoPax group (Topic 4) for follow-up.
 - **Tool Note:** Web search missing API key, relying on direct Reddit API fetches.
 
 ---
