@@ -239,10 +239,13 @@ Full details in TOOLS.md.
 
 ---
 
-### Security Audit (2026-02-28)
-- **ClawJacked Flaw**: High-severity flaw in OpenClaw (discovered Feb 26).
-- **Status**: Verified current local version (v2026.2.26) contains the fix released Feb 27.
-- **Action**: No immediate action required; staying on stable update channel.
+### OpenClaw v2026.3.1 (2026-03-02)
+Major update released. Features include:
+- Android node parity (contacts, calendar, motion sensors).
+- Discord thread lifecycle controls (idle timeout vs fixed TTL).
+- Telegram DM topic routing (allows mapping specific topics to sessions).
+- Adaptive thinking defaults for Claude 4.6.
+- Official update available locally (v2026.3.1).
 
 ### Lead Hunting Results (2026-02-28)
 - **Texas Bond Leads**: Found 2 high-intent leads on Reddit (r/projectcar, r/mazda).
