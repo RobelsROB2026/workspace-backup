@@ -102,6 +102,21 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 - **Ollama Setup (2026-03-03):** Installed Ollama via Homebrew. Pulled **Qwen 3.5 4B** (`qwen3.5:4b`) as the appropriate local model for this 8GB RAM Mac mini. Configured OpenClaw alias `qwen`.
 
+### OpenClaw v2026.3.2 (2026-03-03)
+Released today. Features include:
+- **Native PDF Analysis Tool**: Supports Anthropic and Google backends.
+- **Enhanced SecretRef**: Support for 64 targets across the lifecycle.
+- **New STT API**: For audio transcription.
+- **Telegram Streaming**: Default set to "partial" for real-time previews.
+- **Zalo Personal**: Now uses pure JS runtime instead of external CLI.
+- **Security**: Hardened WebSocket loopback and plugin route registration.
+
+### Local LLM Setup (2026-03-03)
+- **Engine**: Ollama (installed via Homebrew).
+- **Model**: Qwen 3.5 4B (`qwen3.5:4b`).
+- **Config**: Added alias `qwen` -> `ollama/qwen3.5:4b` in OpenClaw.
+- **Status**: Running at `http://localhost:11434`.
+
 ---
 
 ## My Resources
