@@ -15,8 +15,14 @@
     - `self-improving-agent`: Systematized correction capture for continuous improvement.
     - `Proactive Agent`: Patterns for anticipation and autonomous crons (The "Hal Stack").
 
-## General Tips
-- Use `openclaw update` to pull the latest version.
-- `openclaw status --deep` for channel testing.
-- `agents.defaults.heartbeat.directPolicy: "block"` if you want to keep heartbeats out of DMs.
-- Check `openclaw cron list` to verify background task health.
+## [2026-03-03] v2026.3.2 Released & Community Insights
+- **OpenClaw v2026.3.2**: Latest stable release. Features include native PDF analysis (Anthropic/Google backends), enhanced SecretRef (64 targets), STT API, and Telegram "partial" streaming.
+- **Discord Community Tips**:
+    - **No Crypto Talk**: Strict and actively enforced ban on all cryptocurrency discussions following a rebrand scam.
+    - **Support Protocol**: Provide detailed config snippets and error logs up front for faster help in Discord.
+    - **Security**: Use user allowlists and granular channel permissions to secure your bot; each channel can have its own isolated session context.
+- **Ecosystem News**:
+    - **Anthropic**: Claude Code now has a voice mode (rolling out).
+    - **Meta**: New applied AI engineering org focused on superintelligence.
+    - **Hardware**: New MacBook Pros with M5 Pro/Max chips are 4x faster at LLM prompt processing—significant for local agents.
+    - **OpenClaw Milestone**: Surpassed **250,000 GitHub stars**, overtaking React.
