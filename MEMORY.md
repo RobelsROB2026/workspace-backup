@@ -104,12 +104,16 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 
 ### OpenClaw v2026.3.2 (2026-03-03)
 Released today. Features include:
-- **Native PDF Analysis Tool**: Supports Anthropic and Google backends.
-- **Enhanced SecretRef**: Support for 64 targets across the lifecycle.
-- **New STT API**: For audio transcription.
+- **Native PDF Analysis Tool**: Supports Anthropic and Google backends with configurable extraction fallback.
+- **Enhanced SecretRef**: Support for 64 targets across the lifecycle (planning, execution, audit).
+- **New STT API**: For audio transcription via service providers.
 - **Telegram Streaming**: Default set to "partial" for real-time previews.
-- **Zalo Personal**: Now uses pure JS runtime instead of external CLI.
-- **Security**: Hardened WebSocket loopback and plugin route registration.
+- **Security**: Hardened WebSocket loopback, plugin route registration, pre-auth parsing for webhooks, and protective symlink checks.
+- **Disruptive Changes**: 
+    - `registerHttpHandler` -> `registerHttpRoute` (requires explicit auth declaration).
+    - Zalo Personal now JS-native (requires `openclaw channels login --channel zalouser` to refresh sessions).
+    - Default tool configuration for new installs shifts to "messaging" config.
+    - ACP scheduling enabled by default.
 
 ### Local LLM Setup (2026-03-03)
 - **Engine**: Ollama (installed via Homebrew).
