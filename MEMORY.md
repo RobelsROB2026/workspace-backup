@@ -100,6 +100,8 @@ Applied this pattern to all 15 skills. Built-in skills will need reapplication a
 - **Skill Discovery:** Evaluated `Ontology` and `self-improving-agent` on ClawHub as candidates for enhancing long-term project memory and error correction.
 - **Infrastructure:** `gog` CLI (Google Workspace) installed; OAuth setup remains a pending blocker for full Drive/Sheets automation.
 
+- **Ollama Setup (2026-03-03):** Installed Ollama via Homebrew. Pulled **Qwen 3.5 4B** (`qwen3.5:4b`) as the appropriate local model for this 8GB RAM Mac mini. Configured OpenClaw alias `qwen`.
+
 ---
 
 ## My Resources
