@@ -293,4 +293,5 @@ Major update released. Features include:
 | `1` | 🌐 Topic 1: General | Group default chat | None |
 | `2` | 🏗️ Topic 2: Bonds Dev | RockLikeAgencyBonds | Git branch updates, SEO blog reports |
 | `3` | 🚌 Topic 3: NYC Permits | New York Tour Bus | Research, data dumps |
-| `4` | 🎯 Topic 4: Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
+| `4` | 🎯 Topic 4: Bonds Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
+| `5` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
