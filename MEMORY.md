@@ -50,6 +50,7 @@ Index at `_index.md`. Template at `_template/`.
 - When spawning sub-agents or executing long commands, build in a polling/checking system instead of just killing the process.
 - Background the task (`background: true` or high `runTimeoutSeconds`) and use tools like `process(action="poll")` or `subagents` to monitor status.
 - Goal: Ensure complex tasks complete reliably without silently dropping them.
+- **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 
 ---
 
@@ -217,6 +218,9 @@ Never assume I'll "just do it later" — set up the mechanism first.
 - Internal cron scheduler now auto-fires recurring jobs reliably.
 - Safe to migrate back from launchd workaround to native OpenClaw cron.
 - **Note:** Hybrid approach (HEARTBEAT.md) still useful for flexible/batched checks.
+
+### OpenClaw v2026.3.2 (2026-03-04)
+- **Security Awareness:** Be vigilant about "PleaseFix" family vulnerabilities affecting agentic browsers. Strategy: Maintain strict isolation between browser profiles and use `openclaw` profile for untrusted research.
 
 ---
 
