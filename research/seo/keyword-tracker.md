@@ -13,6 +13,11 @@
 | austin auto dealer bond requirements | LOW | WRITE | Big players pushed down. Top results are local/smaller sites like Ashton Agency, ABC Bonding, Notary Source. Clear opportunity for hyper-local post. |
 | TABC mixed beverage bond cost texas | HIGH | SKIP | Government pages (Comptroller) and big players (SuretyBonds.com, Jet Surety) dominate top spots. |
 | dallas freight broker bond cost | HIGH | SKIP | Very competitive. Quote Texas, Jet Surety, and SuretyBonds.com rank high. |
+| fort worth auto dealer bond | LOW | Actioned | Top results are local agencies like ABC Bonding and Notary Source. |
+| el paso auto dealer bond | LOW-MEDIUM | PLANNED | Lower competition than state-wide keywords. |
+| austin right-of-way bond | LOW | Actioned | Very specific municipal requirement. |
+| san antonio right-of-way bond | LOW | Actioned | Specific city requirement. Opportunity for a detailed guide. |
+| texas oversized load bond | MEDIUM | WRITE | Good niche topic with specific form (Form 439) requirements. |
 
 ## Collected PAA (People Also Ask)
 - How much is the auto dealer bond in Texas?
@@ -30,6 +35,10 @@
 - How much does a freight broker surety bond cost?
 - How much does a $100000 surety bond cost?
 - How much does a $75000 surety bond cost?
+- What is a right-of-way bond in Austin?
+- How do I get a right-of-way permit in Austin?
+- How much does a San Antonio contractor bond cost?
+- What is Form 439 for Texas TxDMV?
 
 ## Related Searches Worth Exploring
 - San antonio auto dealer bond requirements
@@ -40,6 +49,9 @@
 - Dallas contractor license bond form
 - Wholesale dealer license Texas
 - Retail dealer license Texas
+- Austin ROW permit bond
+- San Antonio street cut bond
+- Texas overweight permit bond cost
 
 ## Competitor Gaps
 - Big players are generally failing to rank high for specific city queries like "San Antonio Auto Dealer Bond". Local agencies and smaller brokers are winning the top 5 spots. 
@@ -49,3 +61,6 @@
 - Dallas auto dealer bond
 - Houston auto dealer bond (needs highly specific long-tail like "Houston auto dealer bond cost with bad credit")
 - San Antonio auto dealer bond (Actioned)
+- Fort Worth auto dealer bond (Actioned)
+- Austin right-of-way bond (Actioned)
+- San Antonio right-of-way bond (Actioned)
