@@ -284,3 +284,13 @@ Major update released. Features include:
 - **Topic Focus:** NYC tour bus and permit research (`~/research/new-york-permit/`).
 - **Telegram Channel:** AutoPax group (id:-1003783528968, topic:3)
 
+
+## Telegram Topic Routing Table (AutoPax Group: -1003783528968)
+**STRICT ROUTING RULE:** Never guess where to send a message. All cron jobs, automated reports, and project updates MUST explicitly use the `--to <group_id>:<topic_id>` flag matching this table. For general self-improvement or system updates, route to Robel's DM (`393069019`). When adding a new project or automated task, you MUST ask Robel for the assigned Topic ID, log it here, and configure the tool to use it exclusively.
+
+| Topic ID | Name/Purpose | Assigned Jobs / Output |
+|----------|--------------|-------------------------|
+| `1` | General | None (Default chat) |
+| `2` | RockLikeAgencyBonds | Git branch notifications, SEO blog writing reports |
+| `3` | NYC Permit Business | NYC tour bus/permit research and data dumps |
+| `4` | Lead Follow-up | Texas Bond Lead Hunter daily reports |
