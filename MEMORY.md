@@ -229,8 +229,10 @@ Never assume I'll "just do it later" — set up the mechanism first.
 - Safe to migrate back from launchd workaround to native OpenClaw cron.
 - **Note:** Hybrid approach (HEARTBEAT.md) still useful for flexible/batched checks.
 
-### OpenClaw v2026.3.2 (2026-03-04)
+### OpenClaw v2026.3.2 (2026-03-05)
+- **Status:** Healthy.
 - **Security Awareness:** Be vigilant about "PleaseFix" family vulnerabilities affecting agentic browsers. Strategy: Maintain strict isolation between browser profiles and use `openclaw` profile for untrusted research.
+- **Google Workspace CLI (@googleworkspace/cli):** Installed globally as `gws` with 107 AI Agent Skills. Authentication (`gws auth setup`) is pending user dismissal of macOS security dialogs on the host. This will replace/augment the `gog` CLI once authenticated.
 - **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts (as seen during the 08:00 AM Cron run today).
 
 ---
@@ -256,9 +258,9 @@ Per Robel's request, shifted focus from general AI news to **OpenClaw optimizati
 - **Agent Trends:** Shift toward **Intent-Based Computing** (outcome-focused, not step-focused) and **Multi-Agent Orchestration** (digital assembly lines). **Model Context Protocol (MCP)** is becoming the universal standard for tool use.
 - **OpenClaw Evolution:** Rebranded Jan 2026. Recent focuses include security (patched "ClawJacked"), broader plugin support (Twitch/Google Chat), and better image handling in web chat.
 
-- **New Tool**: Installed `gogcli` v0.10.0 via Homebrew.
-  - Purpose: Full Google Workspace terminal control (Gmail, Drive, Docs, etc.).
-  - Status: Awaiting OAuth2 credential setup. Robel provided with setup instructions.
+- **New Tool**: Installed Google Workspace CLI (`gws`) via npm + 107 AI Agent Skills.
+  - Purpose: Full Google Workspace automation (Gmail, Drive, Docs, Calendar, Sheets) via structured JSON + MCP.
+  - Status: Awaiting `gws auth setup` OAuth2 credential setup by Robel.
 
 ### Lead Management System (2026-02-27)
 - **Local CSV**: `~/research/bonds/leads.csv` tracks all identified leads (Date, Source, Location, Description, Lead Type, Status).
