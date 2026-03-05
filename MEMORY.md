@@ -159,6 +159,16 @@ Released today. Features include:
 - **Role:** Lead Researcher
 - **Current Task:** Consolidating NYC permit research.
 
+### FMCSA Dashboard (2026-03-04)
+- **Location:** `projects/fmcsa-dashboard/`
+- **Purpose:** Building a visualization and management dashboard for trucking leads extracted from FMCSA data.
+- **Structure:** 
+  - `data-pipeline/`: ETL script (`etl_pipeline.py`) to process carrier data.
+  - `database/`: SQL schema for lead storage.
+  - `api/`: Backend server for dashboard data.
+  - `frontend/`: Dashboard UI.
+- **Status:** Initial structure and architecture defined. ETL pipeline in development.
+
 
 ### Blog SEO Strategy (2026-02-11)
 **Robel's directive:** Keyword research BEFORE writing. Only write what we can rank for.
@@ -221,6 +231,7 @@ Never assume I'll "just do it later" — set up the mechanism first.
 
 ### OpenClaw v2026.3.2 (2026-03-04)
 - **Security Awareness:** Be vigilant about "PleaseFix" family vulnerabilities affecting agentic browsers. Strategy: Maintain strict isolation between browser profiles and use `openclaw` profile for untrusted research.
+- **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts (as seen during the 08:00 AM Cron run today).
 
 ---
 
