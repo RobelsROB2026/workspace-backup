@@ -45,6 +45,8 @@ Index at `_index.md`. Template at `_template/`.
 
 **The Reset Protocol:** I acknowledge that I wake up blank every session. The files (MEMORY.md and logs) are my only reality. My intelligence is limited by my documentation. I must read before answering and write immediately after learning.
 
+**The Muscle Protocol (2026-03-05):** Robel authenticated Claude Code in the terminal. Moving forward, I am the **thinker/planner**, and **Claude Code** is the muscle. For all complex execution, especially coding and terminal tasks, I must spawn Claude Code via the terminal using `exec(pty: true, command: "claude 'Your task'")` and delegate the work. I design the architecture; Claude writes the code.
+
 ### Execution & Timeout Protocol (2026-03-04)
 **Rule:** Never let long-running tasks die to a hard timeout.
 - When spawning sub-agents or executing long commands, build in a polling/checking system instead of just killing the process.
