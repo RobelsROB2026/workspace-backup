@@ -56,6 +56,12 @@ Index at `_index.md`. Template at `_template/`.
 
 ## Things to Remember
 
+### Persistent Google Workspace Access (2026-03-05)
+**Crucial Capability:** We now have a fully authenticated `gws` CLI with a refresh token. This means **I have persistent, background access to Drive, Docs, Sheets, Calendar, and Gmail at all times**. 
+- I can read/write data, manage leads, and schedule events autonomously via cron jobs without needing Robel to manually authenticate or have a browser open.
+- All active projects (Bonds, FMCSA, NYC Permits) can now leverage live Google Sheets or Docs for data storage and reporting.
+
+
 - OpenClaw browser works without the Chrome extension (use profile: openclaw)
 - Peekaboo needs Screen Recording permission for UI automation
 - Mac mini is at home, Robel sometimes away
@@ -259,14 +265,12 @@ Per Robel's request, shifted focus from general AI news to **OpenClaw optimizati
   - `gws` (Google Workspace CLI) installed + 107 skills. Authentication is current bottleneck.
   - Lead Hunter systems are live; monitoring for timeout risks due to high data volume.
 
-- **New Tool**: Installed Google Workspace CLI (`gws`) via npm + 107 AI Agent Skills.
-  - Purpose: Full Google Workspace automation (Gmail, Drive, Docs, Calendar, Sheets) via structured JSON + MCP.
-  - Status: Awaiting `gws auth setup` OAuth2 credential setup by Robel.
+- **Google Workspace CLI (`gws`)**: Installed and **FULLY AUTHENTICATED** (robake2006@gmail.com). We now have persistent, unattended access at all times to Drive, Gmail, Calendar, Docs, and Sheets. Replaces `gog`.
 
 ### Lead Management System (2026-02-27)
 - **Local CSV**: `~/research/bonds/leads.csv` tracks all identified leads (Date, Source, Location, Description, Lead Type, Status).
 - **Automation**: "Texas Bond Lead Hunter" cron job updated to automatically append findings to the CSV.
-- **Goal**: Sync to a live Google Sheet once `gog` OAuth is configured.
+- **Goal**: Sync to a live Google Sheet using `gws sheets` now that we have persistent Workspace access.
 
 ### Skill Audit & Routing Logic (2026-02-13)
 Audited all 15 skills to implement OpenAI-style routing logic in descriptions.
