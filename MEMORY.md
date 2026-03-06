@@ -49,7 +49,7 @@ Index at `_index.md`. Template at `_template/`.
 **Rule:** Never let long-running tasks die to a hard timeout.
 - When spawning sub-agents or executing long commands, build in a polling/checking system instead of just killing the process.
 - Background the task (`background: true` or high `runTimeoutSeconds`) and use tools like `process(action="poll")` or `subagents` to monitor status.
-- Goal: Ensure complex tasks complete reliably without silently dropping them.
+- **Large Context Caution:** Avoid ingesting >500k tokens in a single automated turn (e.g. Lead Hunters). High data volume causes LLM request timeouts. Break tasks into smaller chunks if possible.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 
 ---
