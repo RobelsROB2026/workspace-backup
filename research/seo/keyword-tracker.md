@@ -9,15 +9,16 @@
 | can i get a texas dealer bond with bad credit | HIGH | SKIP | Bryant Surety and BuySuretyBonds in top 5. |
 | dallas contractor license bond requirements | HIGH | SKIP | SuretyBonds.com is #5. ZipBonds #8. |
 | how long does it take to get a dealer license in texas | HIGH | SKIP | Lance Surety is #5. |
-| san antonio auto dealer bond | LOW | WRITE | Big players (SuretyBonds, JW Surety) pushed to #6 and #7. Top 5 are smaller/local sites (All State, ABC Bonding, Ashton, Integrity). |
-| austin auto dealer bond requirements | LOW | WRITE | Big players pushed down. Top results are local/smaller sites like Ashton Agency, ABC Bonding, Notary Source. Clear opportunity for hyper-local post. |
+| san antonio auto dealer bond | LOW | Actioned | Big players (SuretyBonds, JW Surety) pushed to #6 and #7. Top 5 are smaller/local sites (All State, ABC Bonding, Ashton, Integrity). |
+| austin auto dealer bond requirements | LOW | Actioned | Big players pushed down. Top results are local/smaller sites like Ashton Agency, ABC Bonding, Notary Source. |
 | TABC mixed beverage bond cost texas | HIGH | SKIP | Government pages (Comptroller) and big players (SuretyBonds.com, Jet Surety) dominate top spots. |
 | dallas freight broker bond cost | HIGH | SKIP | Very competitive. Quote Texas, Jet Surety, and SuretyBonds.com rank high. |
 | fort worth auto dealer bond | LOW | Actioned | Top results are local agencies like ABC Bonding and Notary Source. |
-| el paso auto dealer bond | LOW-MEDIUM | PLANNED | Lower competition than state-wide keywords. |
+| el paso auto dealer bond | LOW-MEDIUM | Actioned | Lower competition than state-wide keywords. Local focus opportunity. |
 | austin right-of-way bond | LOW | Actioned | Very specific municipal requirement. |
 | san antonio right-of-way bond | LOW | Actioned | Specific city requirement. Opportunity for a detailed guide. |
-| texas oversized load bond | MEDIUM | WRITE | Good niche topic with specific form (Form 439) requirements. |
+| texas oversized load bond | MEDIUM | Actioned | Good niche topic with specific form (Form 439) requirements. |
+| dallas auto dealer bond | MEDIUM | SKIP | More competitive than Austin/El Paso. Strong presence from Lance Surety and Ashton Agency. |
 
 ## Collected PAA (People Also Ask)
 - How much is the auto dealer bond in Texas?
@@ -39,6 +40,9 @@
 - How do I get a right-of-way permit in Austin?
 - How much does a San Antonio contractor bond cost?
 - What is Form 439 for Texas TxDMV?
+- What is the $10,000 superheavy permit bond?
+- How long is the oversized load bond valid in Texas?
+- When does the Texas superheavy bond expire?
 
 ## Related Searches Worth Exploring
 - San antonio auto dealer bond requirements
@@ -52,15 +56,19 @@
 - Austin ROW permit bond
 - San Antonio street cut bond
 - Texas overweight permit bond cost
+- Texas Form 439 download
+- Texas oversized load permit fee
 
 ## Competitor Gaps
 - Big players are generally failing to rank high for specific city queries like "San Antonio Auto Dealer Bond". Local agencies and smaller brokers are winning the top 5 spots. 
 - Some major surety sites have outdated "Texas Auto Dealer Bond" pages that don't aggressively target the city level.
 
 ## City-Specific Opportunities
-- Dallas auto dealer bond
+- Dallas auto dealer bond (Actioned)
 - Houston auto dealer bond (needs highly specific long-tail like "Houston auto dealer bond cost with bad credit")
 - San Antonio auto dealer bond (Actioned)
 - Fort Worth auto dealer bond (Actioned)
 - Austin right-of-way bond (Actioned)
 - San Antonio right-of-way bond (Actioned)
+- Austin auto dealer bond (Actioned)
+- El Paso auto dealer bond (Actioned)
