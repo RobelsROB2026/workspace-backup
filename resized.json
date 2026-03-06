@@ -1,0 +1,512 @@
+{
+  "success" : true,
+  "data" : {
+    "execution_time" : 0.27108001708984375,
+    "interactable_count" : 48,
+    "snapshot_id" : "5BCB2BAB-A8C3-482A-884F-AF045F7623EC",
+    "success" : true,
+    "screenshot_raw" : "\/Users\/roba\/Desktop\/peekaboo_see_1772756526.png",
+    "is_dialog" : false,
+    "screenshot_annotated" : "\/Users\/roba\/Desktop\/peekaboo_see_1772756526.png",
+    "capture_mode" : "window",
+    "element_count" : 53,
+    "ui_elements" : [
+      {
+        "label" : "Back",
+        "title" : "",
+        "id" : "elem_10",
+        "description" : "Back",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : false
+      },
+      {
+        "label" : "Forward",
+        "title" : "",
+        "id" : "elem_11",
+        "description" : "Forward",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : false
+      },
+      {
+        "label" : "Reload",
+        "title" : "",
+        "id" : "elem_12",
+        "description" : "Reload",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "pop up button",
+        "title" : "",
+        "id" : "elem_14",
+        "description" : "View site information",
+        "role_description" : "pop up button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Bookmark this tab",
+        "title" : "",
+        "id" : "elem_17",
+        "description" : "Bookmark this tab",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "pop up button",
+        "title" : "",
+        "id" : "elem_19",
+        "description" : "OpenClaw Browser Relay (click to attach\/detach)\nWants access to this site",
+        "role_description" : "pop up button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "pop up button",
+        "title" : "",
+        "id" : "elem_20",
+        "description" : "Extensions",
+        "role_description" : "pop up button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "pop up button",
+        "title" : "",
+        "id" : "elem_22",
+        "description" : "Tab Search - pinned",
+        "role_description" : "pop up button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Robel (robake2006@gmail.com)",
+        "title" : "",
+        "id" : "elem_23",
+        "description" : "Robel (robake2006@gmail.com)",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "pop up button",
+        "title" : "",
+        "id" : "elem_24",
+        "description" : "Relaunch to update",
+        "role_description" : "pop up button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_32",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_34",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_36",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_38",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_40",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_42",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Close",
+        "title" : "",
+        "id" : "elem_44",
+        "description" : "Close",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "label" : "New Tab",
+        "title" : "",
+        "id" : "elem_46",
+        "description" : "New Tab",
+        "role_description" : "button",
+        "role" : "button",
+        "is_actionable" : true
+      },
+      {
+        "role_description" : "close button",
+        "is_actionable" : true,
+        "role" : "button",
+        "label" : "close button",
+        "id" : "elem_48"
+      },
+      {
+        "role_description" : "full screen button",
+        "help" : "this button also has an action to zoom the window",
+        "is_actionable" : true,
+        "role" : "button",
+        "label" : "full screen button",
+        "id" : "elem_49"
+      },
+      {
+        "role_description" : "minimize button",
+        "is_actionable" : true,
+        "role" : "button",
+        "label" : "minimize button",
+        "id" : "elem_52"
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_9",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "textField",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_13",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "textField",
+        "is_actionable" : true
+      },
+      {
+        "label" : "accounts.google.com\/v3\/signin\/accountchooser?access_type=offline&client_id=32555940559.apps.googleusercontent.com&code_challenge=3ExJYYqU-NmDdIrO9POkikOqNI5q260XJAVY5zLu_ew&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=cdHgH3m9MU6VVl4EWIMTd9p7ACPIXA&dsh=S1695991068%3A1772756441676699&o2v=1&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAM54FOowDT7BlEGS8CgFbsqIY7TQueAuSsjcA7IBsOEcKpUYiF_sJgZnbxOhnUbpezU3WQ8eOuNVlRhCh5kgQGUgC-rOiYP4cuc1ErHUIifFFFCZ4ClurCY__lruVmBLpf9MzkROLOZeI8nW1X-ErwUv1FW_yHRr8Dg_Ldp1lqp_zooBefG6Zi3VCGbk9VEszt89ysx7u4y4aGDDJlGAaq00J16dIm1ZvkKYlziKtgztj5i3USnOWOMXLdKj1jkTCzWq-7bO9sLE5sHDxMqEPWmCOwf3K6zNDxMp1KIAi6dX2VtjJu_2A-6kaSLIb-oi8FALQ7wO-mlQlNY1bwXlBcevlcIZJG172IBGjHImGUSklsq8PtF0U1-OMsb3LIjMMsX3AAWYLBw9sMUrUwtzA7oV9awmrgY1cbfHmP0B_nW3FnhTmT2JdAyRGCPepjyVmA8Z6XhvW0SFDH89yePbDegJnaz7A%26flowName%3DGeneralOAuthFlow%26as%3DS1695991068%253A1772756441676699%26client_id%3D32555940559.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=http%3A%2F%2Flocalhost%3A8085",
+        "title" : "",
+        "id" : "elem_15",
+        "description" : "Address and search bar",
+        "role_description" : "text field",
+        "role" : "textField",
+        "is_actionable" : true
+      },
+      {
+        "label" : "Sign in - Google Accounts - Google Chrome",
+        "title" : "Sign in - Google Accounts - Google Chrome",
+        "id" : "elem_1",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_2",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_3",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_4",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_5",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_7",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_8",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_16",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_18",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_21",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_25",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_26",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_27",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_29",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_30",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_45",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "label" : "group",
+        "title" : "",
+        "id" : "elem_47",
+        "description" : "",
+        "role_description" : "group",
+        "role" : "group",
+        "is_actionable" : true
+      },
+      {
+        "role_description" : "group",
+        "is_actionable" : false,
+        "role" : "group",
+        "label" : "group",
+        "id" : "elem_50"
+      },
+      {
+        "role_description" : "group",
+        "is_actionable" : false,
+        "role" : "group",
+        "label" : "group",
+        "id" : "elem_51"
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_31",
+        "description" : "OpenClaw Browser Relay",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_33",
+        "description" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet - Inactive tab - 73.9 MB freed up",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_35",
+        "description" : "Claude",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_37",
+        "description" : "Sign in - Google Accounts",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_39",
+        "description" : "Sign in - Google Accounts",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_41",
+        "description" : "Sign in - Google Accounts",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab",
+        "title" : "",
+        "id" : "elem_43",
+        "description" : "Sign in - Google Accounts",
+        "role_description" : "tab",
+        "role" : "checkbox",
+        "is_actionable" : true
+      },
+      {
+        "role_description" : "standard window",
+        "is_actionable" : false,
+        "role" : "other",
+        "title" : "Sign in - Google Accounts - Google Chrome",
+        "id" : "elem_0",
+        "label" : "Sign in - Google Accounts - Google Chrome"
+      },
+      {
+        "label" : "toolbar",
+        "title" : "",
+        "id" : "elem_6",
+        "description" : "",
+        "role_description" : "toolbar",
+        "role" : "other",
+        "is_actionable" : true
+      },
+      {
+        "label" : "tab group",
+        "title" : "",
+        "id" : "elem_28",
+        "description" : "",
+        "role_description" : "tab group",
+        "role" : "other",
+        "is_actionable" : true
+      }
+    ],
+    "ui_map" : "\/Users\/roba\/.peekaboo\/snapshots\/5BCB2BAB-A8C3-482A-884F-AF045F7623EC\/snapshot.json",
+    "application_name" : "Google Chrome",
+    "window_title" : "Sign in - Google Accounts - Google Chrome"
+  },
+  "debug_logs" : [
+    "[2026-03-06T00:22:06.678Z] DEBUG: Runtime host: local (in-process)",
+    "[2026-03-06T00:22:06.679Z] VERBOSE [Operation]: Starting operation {annotate=false, menubar=false, operation=see_command, app=Google Chrome, mode=auto, hasAnalyzePrompt=false}",
+    "[2026-03-06T00:22:06.679Z] VERBOSE [Performance]: Starting timer 'see_command'",
+    "[2026-03-06T00:22:06.679Z] VERBOSE [Permissions]: Checking screen recording permissions",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Permissions]: Screen recording permission granted",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Capture]: Starting capture and detection phase",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Capture]: Determined capture mode {mode=window}",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Operation]: Starting operation {operation=capture_phase, mode=window}",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Performance]: Starting timer 'capture_phase'",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Capture]: Initiating window capture {app=Google Chrome, windowTitle=any}",
+    "[2026-03-06T00:22:06.680Z] VERBOSE [Performance]: Starting timer 'window_capture'",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Performance]: Timer 'window_capture' completed {duration_ms=81}",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Operation]: Operation completed {operation=capture_phase, mode=window, success=true}",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Performance]: Timer 'capture_phase' completed {duration_ms=82}",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Performance]: Starting timer 'file_write'",
+    "[2026-03-06T00:22:06.762Z] VERBOSE: Saved screenshot to: \/Users\/roba\/Desktop\/peekaboo_see_1772756526.png",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Performance]: Timer 'file_write' completed {duration_ms=0}",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Operation]: Starting operation {operation=element_detection}",
+    "[2026-03-06T00:22:06.762Z] VERBOSE [Performance]: Starting timer 'element_detection'",
+    "[2026-03-06T00:22:06.947Z] VERBOSE [Operation]: Operation completed {operation=element_detection, success=true}",
+    "[2026-03-06T00:22:06.947Z] VERBOSE [Performance]: Timer 'element_detection' completed {duration_ms=184}",
+    "[2026-03-06T00:22:06.950Z] VERBOSE [Capture]: Capture completed successfully {screenshotSize=59680, elementCount=53, snapshotId=5BCB2BAB-A8C3-482A-884F-AF045F7623EC}",
+    "[2026-03-06T00:22:06.950Z] VERBOSE [Operation]: Operation completed {operation=see_command, executionTimeMs=271, success=true}",
+    "[2026-03-06T00:22:06.950Z] VERBOSE [Performance]: Timer 'see_command' completed {duration_ms=270}"
+  ]
+}

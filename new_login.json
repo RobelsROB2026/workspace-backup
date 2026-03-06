@@ -1,0 +1,2786 @@
+{
+  "success" : true,
+  "data" : {
+    "application_name" : "Google Chrome",
+    "is_dialog" : false,
+    "screenshot_raw" : "\/Users\/roba\/Desktop\/peekaboo_see_1772756346.png",
+    "interactable_count" : 290,
+    "success" : true,
+    "execution_time" : 0.6071569919586182,
+    "ui_map" : "\/Users\/roba\/.peekaboo\/snapshots\/E14B74D9-E8D0-4DF6-BC06-EC74617DB2C5\/snapshot.json",
+    "snapshot_id" : "E14B74D9-E8D0-4DF6-BC06-EC74617DB2C5",
+    "window_title" : "Sign in - Google Accounts - Google Chrome",
+    "ui_elements" : [
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Back",
+        "id" : "elem_10",
+        "is_actionable" : false,
+        "label" : "Back",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Forward",
+        "id" : "elem_11",
+        "is_actionable" : false,
+        "label" : "Forward",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Reload",
+        "id" : "elem_12",
+        "is_actionable" : true,
+        "label" : "Reload",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "View site information",
+        "id" : "elem_14",
+        "is_actionable" : true,
+        "label" : "pop up button",
+        "role_description" : "pop up button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Bookmark this tab",
+        "id" : "elem_17",
+        "is_actionable" : true,
+        "label" : "Bookmark this tab",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "OpenClaw Browser Relay (click to attach\/detach)\nWants access to this site",
+        "id" : "elem_19",
+        "is_actionable" : true,
+        "label" : "pop up button",
+        "role_description" : "pop up button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Extensions",
+        "id" : "elem_20",
+        "is_actionable" : true,
+        "label" : "pop up button",
+        "role_description" : "pop up button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Tab Search - pinned",
+        "id" : "elem_22",
+        "is_actionable" : true,
+        "label" : "pop up button",
+        "role_description" : "pop up button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Robel (robake2006@gmail.com)",
+        "id" : "elem_23",
+        "is_actionable" : true,
+        "label" : "Robel (robake2006@gmail.com)",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Relaunch to update",
+        "id" : "elem_24",
+        "is_actionable" : true,
+        "label" : "pop up button",
+        "role_description" : "pop up button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Close",
+        "id" : "elem_32",
+        "is_actionable" : true,
+        "label" : "Close",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Close",
+        "id" : "elem_34",
+        "is_actionable" : true,
+        "label" : "Close",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Close",
+        "id" : "elem_36",
+        "is_actionable" : true,
+        "label" : "Close",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Close",
+        "id" : "elem_38",
+        "is_actionable" : true,
+        "label" : "Close",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "Close",
+        "id" : "elem_40",
+        "is_actionable" : true,
+        "label" : "Close",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "title" : "",
+        "description" : "New Tab",
+        "id" : "elem_42",
+        "is_actionable" : true,
+        "label" : "New Tab",
+        "role_description" : "button"
+      },
+      {
+        "role" : "button",
+        "is_actionable" : true,
+        "label" : "close button",
+        "role_description" : "close button",
+        "id" : "elem_44"
+      },
+      {
+        "role" : "button",
+        "help" : "this button also has an action to zoom the window",
+        "is_actionable" : true,
+        "label" : "full screen button",
+        "role_description" : "full screen button",
+        "id" : "elem_45"
+      },
+      {
+        "role" : "button",
+        "is_actionable" : true,
+        "label" : "minimize button",
+        "role_description" : "minimize button",
+        "id" : "elem_48"
+      },
+      {
+        "role" : "textField",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_9",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "textField",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_13",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "textField",
+        "title" : "",
+        "description" : "Address and search bar",
+        "id" : "elem_15",
+        "is_actionable" : true,
+        "label" : "accounts.google.com\/v3\/signin\/accountchooser?access_type=offline&client_id=32555940559.apps.googleusercontent.com&code_challenge=3ExJYYqU-NmDdIrO9POkikOqNI5q260XJAVY5zLu_ew&code_challenge_method=S256&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&response_type=code&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=cdHgH3m9MU6VVl4EWIMTd9p7ACPIXA&dsh=S-29663304%3A1772756336739787&o2v=1&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAMdblemBcBaF6iRJyzhfJDOwd9RqhbmsxJmfmheaZLMAyGDOb9buZbeJSxEeAARko3o55H6N8AN4nDCQVbAqE20iEsEHc5k7jDRArgsnUOuval-NlZq4neLHY9J8oMxF2jZC0MyvC71JsXiSJD3CsgmMqtX1cFbzbWv3QDDa_SmidUW0T9fULU4VKfPgadn86FMX0dIYmIUaz9T8iPqciSII-od2p0Ha7wCLd7W_8hEnYvo7HMIpV7sDHk8iDxXV2hCVBcJAXZ4-rq_nICZeRxSXUl6yKqkThRYvog6xVKX2BctBrXqVe3gz16iTGllvl3lsCEYARNcSJeVoT4_syC1NCsWxI7ISlLu9tEJOrM9zddHX2J3Ch4LlZYCpr41ImiQJy8kVQv0vxS8LhgkP_WZZgQA2YJ2072ulu2KJky2zLDt1cFSJcX6RmPAdpQLL6gArT_Mgz-CFp_J0oRa58kbzh6Mkg%26flowName%3DGeneralOAuthFlow%26as%3DS-29663304%253A1772756336739787%26client_id%3D32555940559.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=http%3A%2F%2Flocalhost%3A8085",
+        "role_description" : "text field"
+      },
+      {
+        "role" : "group",
+        "title" : "Sign in - Google Accounts - Google Chrome",
+        "description" : "",
+        "id" : "elem_1",
+        "is_actionable" : true,
+        "label" : "Sign in - Google Accounts - Google Chrome",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_2",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_3",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_4",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_5",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_7",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_8",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_16",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_18",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_21",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_25",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_26",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_27",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_29",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_30",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_41",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_43",
+        "is_actionable" : true,
+        "label" : "group",
+        "role_description" : "group"
+      },
+      {
+        "role" : "group",
+        "is_actionable" : false,
+        "label" : "group",
+        "role_description" : "group",
+        "id" : "elem_46"
+      },
+      {
+        "role" : "group",
+        "is_actionable" : false,
+        "label" : "group",
+        "role_description" : "group",
+        "id" : "elem_47"
+      },
+      {
+        "role" : "checkbox",
+        "title" : "",
+        "description" : "OpenClaw Browser Relay",
+        "id" : "elem_31",
+        "is_actionable" : true,
+        "label" : "tab",
+        "role_description" : "tab"
+      },
+      {
+        "role" : "checkbox",
+        "title" : "",
+        "description" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet - Inactive tab - 73.9 MB freed up",
+        "id" : "elem_33",
+        "is_actionable" : true,
+        "label" : "tab",
+        "role_description" : "tab"
+      },
+      {
+        "role" : "checkbox",
+        "title" : "",
+        "description" : "Claude",
+        "id" : "elem_35",
+        "is_actionable" : true,
+        "label" : "tab",
+        "role_description" : "tab"
+      },
+      {
+        "role" : "checkbox",
+        "title" : "",
+        "description" : "Sign in - Google Accounts",
+        "id" : "elem_37",
+        "is_actionable" : true,
+        "label" : "tab",
+        "role_description" : "tab"
+      },
+      {
+        "role" : "checkbox",
+        "title" : "",
+        "description" : "Sign in - Google Accounts",
+        "id" : "elem_39",
+        "is_actionable" : true,
+        "label" : "tab",
+        "role_description" : "tab"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Apple",
+        "id" : "menu_49"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Chrome",
+        "id" : "menu_105"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "File",
+        "id" : "menu_126"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Edit",
+        "id" : "menu_154"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "View",
+        "id" : "menu_206"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "History",
+        "id" : "menu_234"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Bookmarks",
+        "id" : "menu_283"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Profiles",
+        "id" : "menu_288"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Tab",
+        "id" : "menu_295"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Window",
+        "id" : "menu_318"
+      },
+      {
+        "role" : "menu",
+        "is_actionable" : true,
+        "label" : "Help",
+        "id" : "menu_370"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Sign in - Google Accounts - Google Chrome",
+        "label" : "Sign in - Google Accounts - Google Chrome",
+        "role_description" : "standard window",
+        "id" : "elem_0"
+      },
+      {
+        "role" : "other",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_6",
+        "is_actionable" : true,
+        "label" : "toolbar",
+        "role_description" : "toolbar"
+      },
+      {
+        "role" : "other",
+        "title" : "",
+        "description" : "",
+        "id" : "elem_28",
+        "is_actionable" : true,
+        "label" : "tab group",
+        "role_description" : "tab group"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_50"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "About This Mac",
+        "label" : "About This Mac",
+        "id" : "menuitem_51"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "System Information",
+        "label" : "System Information",
+        "id" : "menuitem_52"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_53"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "System Settings…, 2 updates",
+        "label" : "System Settings…, 2 updates",
+        "id" : "menuitem_54"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "App Store",
+        "label" : "App Store",
+        "id" : "menuitem_55"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_56"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Recent Items",
+        "label" : "Recent Items",
+        "id" : "menuitem_57"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_58"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Applications",
+        "label" : "Applications",
+        "id" : "menuitem_59"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "App Store",
+        "label" : "App Store",
+        "id" : "menuitem_60"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “App Store” in Finder",
+        "label" : "Show “App Store” in Finder",
+        "id" : "menuitem_61"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Finder",
+        "label" : "Finder",
+        "id" : "menuitem_62"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Finder” in Finder",
+        "label" : "Show “Finder” in Finder",
+        "id" : "menuitem_63"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Google Chrome",
+        "label" : "Google Chrome",
+        "id" : "menuitem_64"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Google Chrome” in Finder",
+        "label" : "Show “Google Chrome” in Finder",
+        "id" : "menuitem_65"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Mail",
+        "label" : "Mail",
+        "id" : "menuitem_66"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Mail” in Finder",
+        "label" : "Show “Mail” in Finder",
+        "id" : "menuitem_67"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Maps",
+        "label" : "Maps",
+        "id" : "menuitem_68"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Maps” in Finder",
+        "label" : "Show “Maps” in Finder",
+        "id" : "menuitem_69"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Preview",
+        "label" : "Preview",
+        "id" : "menuitem_70"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Preview” in Finder",
+        "label" : "Show “Preview” in Finder",
+        "id" : "menuitem_71"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Safari",
+        "label" : "Safari",
+        "id" : "menuitem_72"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Safari” in Finder",
+        "label" : "Show “Safari” in Finder",
+        "id" : "menuitem_73"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "System Settings",
+        "label" : "System Settings",
+        "id" : "menuitem_74"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “System Settings” in Finder",
+        "label" : "Show “System Settings” in Finder",
+        "id" : "menuitem_75"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Terminal",
+        "label" : "Terminal",
+        "id" : "menuitem_76"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Terminal” in Finder",
+        "label" : "Show “Terminal” in Finder",
+        "id" : "menuitem_77"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Tips",
+        "label" : "Tips",
+        "id" : "menuitem_78"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Tips” in Finder",
+        "label" : "Show “Tips” in Finder",
+        "id" : "menuitem_79"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_80"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Documents",
+        "label" : "Documents",
+        "id" : "menuitem_81"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Preview",
+        "label" : "Preview",
+        "id" : "menuitem_82"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “Preview” in Finder",
+        "label" : "Show “Preview” in Finder",
+        "id" : "menuitem_83"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "test.png",
+        "label" : "test.png",
+        "id" : "menuitem_84"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show “test.png” in Finder",
+        "label" : "Show “test.png” in Finder",
+        "id" : "menuitem_85"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_86"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Servers",
+        "label" : "Servers",
+        "id" : "menuitem_87"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Macintosh HD",
+        "label" : "Macintosh HD",
+        "id" : "menuitem_88"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_89"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Clear Menu",
+        "label" : "Clear Menu",
+        "id" : "menuitem_90"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_91"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Force Quit…",
+        "label" : "Force Quit…",
+        "keyboard_shortcut" : "⎋",
+        "id" : "menuitem_92"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Force Quit Chrome",
+        "label" : "Force Quit Chrome",
+        "keyboard_shortcut" : "⎋",
+        "id" : "menuitem_93"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_94"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sleep",
+        "label" : "Sleep",
+        "id" : "menuitem_95"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Restart…",
+        "label" : "Restart…",
+        "id" : "menuitem_96"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Restart",
+        "label" : "Restart",
+        "id" : "menuitem_97"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Shut Down…",
+        "label" : "Shut Down…",
+        "id" : "menuitem_98"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Shut Down",
+        "label" : "Shut Down",
+        "id" : "menuitem_99"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_100"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Lock Screen",
+        "label" : "Lock Screen",
+        "keyboard_shortcut" : "Q",
+        "id" : "menuitem_101"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Log Out Robel Alemayehu…",
+        "label" : "Log Out Robel Alemayehu…",
+        "keyboard_shortcut" : "Q",
+        "id" : "menuitem_102"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Log Out Robel Alemayehu",
+        "label" : "Log Out Robel Alemayehu",
+        "keyboard_shortcut" : "Q",
+        "id" : "menuitem_103"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_104"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_106"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "About Google Chrome",
+        "label" : "About Google Chrome",
+        "id" : "menuitem_107"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_108"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Settings…",
+        "label" : "Settings…",
+        "keyboard_shortcut" : ",",
+        "id" : "menuitem_109"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_110"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Delete Browsing Data…",
+        "label" : "Delete Browsing Data…",
+        "keyboard_shortcut" : "\b",
+        "id" : "menuitem_111"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Import Bookmarks and Settings…",
+        "label" : "Import Bookmarks and Settings…",
+        "id" : "menuitem_112"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_113"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Services",
+        "label" : "Services",
+        "id" : "menuitem_114"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_115"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "No Services Apply",
+        "label" : "No Services Apply",
+        "id" : "menuitem_116"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Services Settings…",
+        "label" : "Services Settings…",
+        "id" : "menuitem_117"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_118"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Hide Google Chrome",
+        "label" : "Hide Google Chrome",
+        "keyboard_shortcut" : "H",
+        "id" : "menuitem_119"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Hide Others",
+        "label" : "Hide Others",
+        "keyboard_shortcut" : "H",
+        "id" : "menuitem_120"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Show All",
+        "label" : "Show All",
+        "id" : "menuitem_121"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_122"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Warn Before Quitting (⌘Q)",
+        "label" : "Warn Before Quitting (⌘Q)",
+        "id" : "menuitem_123"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_124"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Quit Google Chrome",
+        "label" : "Quit Google Chrome",
+        "keyboard_shortcut" : "Q",
+        "id" : "menuitem_125"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_127"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "New Tab",
+        "label" : "New Tab",
+        "keyboard_shortcut" : "T",
+        "id" : "menuitem_128"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "New Window",
+        "label" : "New Window",
+        "keyboard_shortcut" : "N",
+        "id" : "menuitem_129"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "New Incognito Window",
+        "label" : "New Incognito Window",
+        "keyboard_shortcut" : "N",
+        "id" : "menuitem_130"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Reopen Closed Tab",
+        "label" : "Reopen Closed Tab",
+        "keyboard_shortcut" : "T",
+        "id" : "menuitem_131"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Open File…",
+        "label" : "Open File…",
+        "keyboard_shortcut" : "O",
+        "id" : "menuitem_132"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Open Location…",
+        "label" : "Open Location…",
+        "keyboard_shortcut" : "L",
+        "id" : "menuitem_133"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_134"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Close Window",
+        "label" : "Close Window",
+        "keyboard_shortcut" : "W",
+        "id" : "menuitem_135"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Close All",
+        "label" : "Close All",
+        "keyboard_shortcut" : "W",
+        "id" : "menuitem_136"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Close Tab",
+        "label" : "Close Tab",
+        "keyboard_shortcut" : "W",
+        "id" : "menuitem_137"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Save Page As…",
+        "label" : "Save Page As…",
+        "keyboard_shortcut" : "S",
+        "id" : "menuitem_138"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_139"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Share",
+        "label" : "Share",
+        "id" : "menuitem_140"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_141"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Email Link",
+        "label" : "Email Link",
+        "keyboard_shortcut" : "I",
+        "id" : "menuitem_142"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "AirDrop",
+        "label" : "AirDrop",
+        "id" : "menuitem_143"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Messages",
+        "label" : "Messages",
+        "id" : "menuitem_144"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Notes",
+        "label" : "Notes",
+        "id" : "menuitem_145"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Open in News",
+        "label" : "Open in News",
+        "id" : "menuitem_146"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Freeform",
+        "label" : "Freeform",
+        "id" : "menuitem_147"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Journal",
+        "label" : "Journal",
+        "id" : "menuitem_148"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Reminders",
+        "label" : "Reminders",
+        "id" : "menuitem_149"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "More…",
+        "label" : "More…",
+        "id" : "menuitem_150"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_151"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Print…",
+        "label" : "Print…",
+        "keyboard_shortcut" : "P",
+        "id" : "menuitem_152"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Print Using System Dialog…",
+        "label" : "Print Using System Dialog…",
+        "keyboard_shortcut" : "P",
+        "id" : "menuitem_153"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_155"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Undo",
+        "label" : "Undo",
+        "keyboard_shortcut" : "Z",
+        "id" : "menuitem_156"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Redo",
+        "label" : "Redo",
+        "keyboard_shortcut" : "Z",
+        "id" : "menuitem_157"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_158"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Cut",
+        "label" : "Cut",
+        "keyboard_shortcut" : "X",
+        "id" : "menuitem_159"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Copy",
+        "label" : "Copy",
+        "keyboard_shortcut" : "C",
+        "id" : "menuitem_160"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Paste",
+        "label" : "Paste",
+        "keyboard_shortcut" : "V",
+        "id" : "menuitem_161"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Paste and Match Style",
+        "label" : "Paste and Match Style",
+        "keyboard_shortcut" : "V",
+        "id" : "menuitem_162"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Paste and Match Style",
+        "label" : "Paste and Match Style",
+        "keyboard_shortcut" : "V",
+        "id" : "menuitem_163"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Delete",
+        "label" : "Delete",
+        "id" : "menuitem_164"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Select All",
+        "label" : "Select All",
+        "keyboard_shortcut" : "A",
+        "id" : "menuitem_165"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_166"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Find",
+        "label" : "Find",
+        "id" : "menuitem_167"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_168"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Search the Web…",
+        "label" : "Search the Web…",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_169"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_170"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Find…",
+        "label" : "Find…",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_171"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Find Next",
+        "label" : "Find Next",
+        "keyboard_shortcut" : "G",
+        "id" : "menuitem_172"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Find Previous",
+        "label" : "Find Previous",
+        "keyboard_shortcut" : "G",
+        "id" : "menuitem_173"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Use Selection for Find",
+        "label" : "Use Selection for Find",
+        "keyboard_shortcut" : "E",
+        "id" : "menuitem_174"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Jump to Selection",
+        "label" : "Jump to Selection",
+        "keyboard_shortcut" : "J",
+        "id" : "menuitem_175"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Spelling and Grammar",
+        "label" : "Spelling and Grammar",
+        "id" : "menuitem_176"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_177"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show Spelling and Grammar",
+        "label" : "Show Spelling and Grammar",
+        "keyboard_shortcut" : ":",
+        "id" : "menuitem_178"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Check Document Now",
+        "label" : "Check Document Now",
+        "keyboard_shortcut" : ";",
+        "id" : "menuitem_179"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Check Spelling While Typing",
+        "label" : "Check Spelling While Typing",
+        "id" : "menuitem_180"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Check Grammar With Spelling",
+        "label" : "Check Grammar With Spelling",
+        "id" : "menuitem_181"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Substitutions",
+        "label" : "Substitutions",
+        "id" : "menuitem_182"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_183"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show Substitutions",
+        "label" : "Show Substitutions",
+        "id" : "menuitem_184"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_185"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Smart Quotes",
+        "label" : "Smart Quotes",
+        "id" : "menuitem_186"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Smart Dashes",
+        "label" : "Smart Dashes",
+        "id" : "menuitem_187"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Text Replacement",
+        "label" : "Text Replacement",
+        "id" : "menuitem_188"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Transformations",
+        "label" : "Transformations",
+        "id" : "menuitem_189"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_190"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Make Uppercase",
+        "label" : "Make Uppercase",
+        "id" : "menuitem_191"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Make Lowercase",
+        "label" : "Make Lowercase",
+        "id" : "menuitem_192"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Capitalize",
+        "label" : "Capitalize",
+        "id" : "menuitem_193"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Speech",
+        "label" : "Speech",
+        "id" : "menuitem_194"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_195"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Start Speaking",
+        "label" : "Start Speaking",
+        "id" : "menuitem_196"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Stop Speaking",
+        "label" : "Stop Speaking",
+        "id" : "menuitem_197"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_198"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "AutoFill",
+        "label" : "AutoFill",
+        "id" : "menuitem_199"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_200"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Contact…",
+        "label" : "Contact…",
+        "id" : "menuitem_201"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Passwords…",
+        "label" : "Passwords…",
+        "id" : "menuitem_202"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Credit Card…",
+        "label" : "Credit Card…",
+        "id" : "menuitem_203"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Start Dictation…",
+        "label" : "Start Dictation…",
+        "keyboard_shortcut" : "D",
+        "id" : "menuitem_204"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Emoji & Symbols",
+        "label" : "Emoji & Symbols",
+        "keyboard_shortcut" : "E",
+        "id" : "menuitem_205"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_207"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Always Show Bookmarks Bar",
+        "label" : "Always Show Bookmarks Bar",
+        "keyboard_shortcut" : "B",
+        "id" : "menuitem_208"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Always Show Toolbar in Full Screen",
+        "label" : "Always Show Toolbar in Full Screen",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_209"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Always Show Full URLs",
+        "label" : "Always Show Full URLs",
+        "id" : "menuitem_210"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Always Show Google Lens Shortcut",
+        "label" : "Always Show Google Lens Shortcut",
+        "id" : "menuitem_211"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Always Show AI Mode Shortcuts",
+        "label" : "Always Show AI Mode Shortcuts",
+        "id" : "menuitem_212"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Show Search Shortcuts",
+        "label" : "Show Search Shortcuts",
+        "id" : "menuitem_213"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_214"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Stop",
+        "label" : "Stop",
+        "keyboard_shortcut" : ".",
+        "id" : "menuitem_215"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Reload This Page",
+        "label" : "Reload This Page",
+        "keyboard_shortcut" : "R",
+        "id" : "menuitem_216"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Force Reload This Page",
+        "label" : "Force Reload This Page",
+        "keyboard_shortcut" : "R",
+        "id" : "menuitem_217"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_218"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Enter Full Screen",
+        "label" : "Enter Full Screen",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_219"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Enter Full Screen",
+        "label" : "Enter Full Screen",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_220"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Actual Size",
+        "label" : "Actual Size",
+        "keyboard_shortcut" : "0",
+        "id" : "menuitem_221"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Zoom In",
+        "label" : "Zoom In",
+        "keyboard_shortcut" : "+",
+        "id" : "menuitem_222"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Zoom Out",
+        "label" : "Zoom Out",
+        "keyboard_shortcut" : "-",
+        "id" : "menuitem_223"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_224"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Cast…",
+        "label" : "Cast…",
+        "id" : "menuitem_225"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_226"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Developer",
+        "label" : "Developer",
+        "id" : "menuitem_227"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_228"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "View Source",
+        "label" : "View Source",
+        "keyboard_shortcut" : "U",
+        "id" : "menuitem_229"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Developer Tools",
+        "label" : "Developer Tools",
+        "keyboard_shortcut" : "I",
+        "id" : "menuitem_230"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Inspect Elements",
+        "label" : "Inspect Elements",
+        "keyboard_shortcut" : "C",
+        "id" : "menuitem_231"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "JavaScript Console",
+        "label" : "JavaScript Console",
+        "keyboard_shortcut" : "J",
+        "id" : "menuitem_232"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Allow JavaScript from Apple Events",
+        "label" : "Allow JavaScript from Apple Events",
+        "id" : "menuitem_233"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_235"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Home",
+        "label" : "Home",
+        "keyboard_shortcut" : "H",
+        "id" : "menuitem_236"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Back",
+        "label" : "Back",
+        "keyboard_shortcut" : "[",
+        "id" : "menuitem_237"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Forward",
+        "label" : "Forward",
+        "keyboard_shortcut" : "]",
+        "id" : "menuitem_238"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_239"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Recently Closed",
+        "label" : "Recently Closed",
+        "id" : "menuitem_240"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "1 Tab",
+        "label" : "1 Tab",
+        "id" : "menuitem_241"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_242"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Restore All Tabs",
+        "label" : "Restore All Tabs",
+        "id" : "menuitem_243"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_244"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "kids games - Google Search",
+        "label" : "kids games - Google Search",
+        "id" : "menuitem_245"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "1 Tab",
+        "label" : "1 Tab",
+        "id" : "menuitem_246"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_247"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Restore All Tabs",
+        "label" : "Restore All Tabs",
+        "id" : "menuitem_248"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_249"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Arthur - Back to School | PBS KIDS",
+        "label" : "Arthur - Back to School | PBS KIDS",
+        "id" : "menuitem_250"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Subtraction Word Problems Games for Kids - Fun Math Games | SplashLearn",
+        "label" : "Subtraction Word Problems Games for Kids - Fun Math Games | SplashLearn",
+        "id" : "menuitem_251"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Brave Search - API",
+        "label" : "Brave Search - API",
+        "id" : "menuitem_252"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "AdaptedMind",
+        "label" : "AdaptedMind",
+        "id" : "menuitem_253"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "b.com",
+        "label" : "b.com",
+        "id" : "menuitem_254"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Typing Games - Learn to Type with Free Typing Games - Typing.com",
+        "label" : "Typing Games - Learn to Type with Free Typing Games - Typing.com",
+        "id" : "menuitem_255"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "2 Tabs",
+        "label" : "2 Tabs",
+        "id" : "menuitem_256"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_257"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Restore All Tabs",
+        "label" : "Restore All Tabs",
+        "id" : "menuitem_258"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_259"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Inbox - robake2006@gmail.com - Gmail",
+        "label" : "Inbox - robake2006@gmail.com - Gmail",
+        "id" : "menuitem_260"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Brave Search - API",
+        "label" : "Brave Search - API",
+        "id" : "menuitem_261"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Play Chess Online for FREE - 2 Player Chess - Chess.com",
+        "label" : "Play Chess Online for FREE - 2 Player Chess - Chess.com",
+        "id" : "menuitem_262"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "6 OpenClaw use cases I promise will change your life - YouTube",
+        "label" : "6 OpenClaw use cases I promise will change your life - YouTube",
+        "id" : "menuitem_263"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_264"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Recently Visited",
+        "label" : "Recently Visited",
+        "id" : "menuitem_265"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sign in - Google Accounts",
+        "label" : "Sign in - Google Accounts",
+        "id" : "menuitem_266"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sign in - Google Accounts",
+        "label" : "Sign in - Google Accounts",
+        "id" : "menuitem_267"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Claude",
+        "label" : "Claude",
+        "id" : "menuitem_268"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Claude",
+        "label" : "Claude",
+        "id" : "menuitem_269"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "label" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "id" : "menuitem_270"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "label" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "id" : "menuitem_271"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "slither.io",
+        "label" : "slither.io",
+        "id" : "menuitem_272"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "OpenClaw Browser Relay",
+        "label" : "OpenClaw Browser Relay",
+        "id" : "menuitem_273"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "kids games - Google Search",
+        "label" : "kids games - Google Search",
+        "id" : "menuitem_274"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Arthur - Back to School | PBS KIDS",
+        "label" : "Arthur - Back to School | PBS KIDS",
+        "id" : "menuitem_275"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Back to School Games | Games | PBS KIDS",
+        "label" : "Back to School Games | Games | PBS KIDS",
+        "id" : "menuitem_276"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "kids games - Google Search",
+        "label" : "kids games - Google Search",
+        "id" : "menuitem_277"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "‎Kids Games for 2,3,4 Year Olds App - App Store",
+        "label" : "‎Kids Games for 2,3,4 Year Olds App - App Store",
+        "id" : "menuitem_278"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "kids games - Google Search",
+        "label" : "kids games - Google Search",
+        "id" : "menuitem_279"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "kji - Google Search",
+        "label" : "kji - Google Search",
+        "id" : "menuitem_280"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_281"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Show Full History",
+        "label" : "Show Full History",
+        "keyboard_shortcut" : "Y",
+        "id" : "menuitem_282"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_284"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bookmark Manager",
+        "label" : "Bookmark Manager",
+        "keyboard_shortcut" : "B",
+        "id" : "menuitem_285"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bookmark This Tab…",
+        "label" : "Bookmark This Tab…",
+        "keyboard_shortcut" : "D",
+        "id" : "menuitem_286"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bookmark All Tabs…",
+        "label" : "Bookmark All Tabs…",
+        "keyboard_shortcut" : "D",
+        "id" : "menuitem_287"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_289"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Robel (robake2006@gmail.com)",
+        "label" : "Robel (robake2006@gmail.com)",
+        "id" : "menuitem_290"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_291"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Edit…",
+        "label" : "Edit…",
+        "id" : "menuitem_292"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_293"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Add Profile…",
+        "label" : "Add Profile…",
+        "id" : "menuitem_294"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_296"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "New Tab to the Right",
+        "label" : "New Tab to the Right",
+        "id" : "menuitem_297"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Select Next Tab",
+        "label" : "Select Next Tab",
+        "keyboard_shortcut" : "\t",
+        "id" : "menuitem_298"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Select Previous Tab",
+        "label" : "Select Previous Tab",
+        "keyboard_shortcut" : "\t",
+        "id" : "menuitem_299"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Duplicate Tab",
+        "label" : "Duplicate Tab",
+        "id" : "menuitem_300"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Duplicate Selected Tab",
+        "label" : "Duplicate Selected Tab",
+        "id" : "menuitem_301"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Mute Site",
+        "label" : "Mute Site",
+        "id" : "menuitem_302"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Mute Selected Site",
+        "label" : "Mute Selected Site",
+        "id" : "menuitem_303"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Pin Tab",
+        "label" : "Pin Tab",
+        "id" : "menuitem_304"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Pin Selected Tab",
+        "label" : "Pin Selected Tab",
+        "id" : "menuitem_305"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Group Tab",
+        "label" : "Group Tab",
+        "id" : "menuitem_306"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Group Selected Tab",
+        "label" : "Group Selected Tab",
+        "id" : "menuitem_307"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Close Other Tabs",
+        "label" : "Close Other Tabs",
+        "id" : "menuitem_308"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Close Tabs to the Right",
+        "label" : "Close Tabs to the Right",
+        "id" : "menuitem_309"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Move Tab to New Window",
+        "label" : "Move Tab to New Window",
+        "id" : "menuitem_310"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Search Tabs…",
+        "label" : "Search Tabs…",
+        "keyboard_shortcut" : "A",
+        "id" : "menuitem_311"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_312"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "OpenClaw Browser Relay",
+        "label" : "OpenClaw Browser Relay",
+        "id" : "menuitem_313"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "label" : "Learnሀሁ - Master the Ethiopian and Eritrean Alphabet",
+        "id" : "menuitem_314"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Claude",
+        "label" : "Claude",
+        "id" : "menuitem_315"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sign in - Google Accounts",
+        "label" : "Sign in - Google Accounts",
+        "id" : "menuitem_316"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sign in - Google Accounts",
+        "label" : "Sign in - Google Accounts",
+        "id" : "menuitem_317"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_319"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Minimize",
+        "label" : "Minimize",
+        "keyboard_shortcut" : "M",
+        "id" : "menuitem_320"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Minimize All",
+        "label" : "Minimize All",
+        "keyboard_shortcut" : "M",
+        "id" : "menuitem_321"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Zoom",
+        "label" : "Zoom",
+        "id" : "menuitem_322"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Zoom All",
+        "label" : "Zoom All",
+        "id" : "menuitem_323"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Fill",
+        "label" : "Fill",
+        "keyboard_shortcut" : "F",
+        "id" : "menuitem_324"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Center",
+        "label" : "Center",
+        "keyboard_shortcut" : "C",
+        "id" : "menuitem_325"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_326"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Move & Resize",
+        "label" : "Move & Resize",
+        "id" : "menuitem_327"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_328"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Halves",
+        "label" : "Halves",
+        "id" : "menuitem_329"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Left",
+        "label" : "Left",
+        "id" : "menuitem_330"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Right",
+        "label" : "Right",
+        "id" : "menuitem_331"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Top",
+        "label" : "Top",
+        "id" : "menuitem_332"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bottom",
+        "label" : "Bottom",
+        "id" : "menuitem_333"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_334"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Quarters",
+        "label" : "Quarters",
+        "id" : "menuitem_335"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Top Left",
+        "label" : "Top Left",
+        "id" : "menuitem_336"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Top Right",
+        "label" : "Top Right",
+        "id" : "menuitem_337"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bottom Left",
+        "label" : "Bottom Left",
+        "id" : "menuitem_338"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bottom Right",
+        "label" : "Bottom Right",
+        "id" : "menuitem_339"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_340"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Arrange",
+        "label" : "Arrange",
+        "id" : "menuitem_341"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Left & Right",
+        "label" : "Left & Right",
+        "id" : "menuitem_342"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Left & Quarters",
+        "label" : "Left & Quarters",
+        "id" : "menuitem_343"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Right & Left",
+        "label" : "Right & Left",
+        "id" : "menuitem_344"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Right & Quarters",
+        "label" : "Right & Quarters",
+        "id" : "menuitem_345"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Top & Bottom",
+        "label" : "Top & Bottom",
+        "id" : "menuitem_346"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Top & Quarters",
+        "label" : "Top & Quarters",
+        "id" : "menuitem_347"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bottom & Top",
+        "label" : "Bottom & Top",
+        "id" : "menuitem_348"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bottom & Quarters",
+        "label" : "Bottom & Quarters",
+        "id" : "menuitem_349"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Quarters",
+        "label" : "Quarters",
+        "id" : "menuitem_350"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_351"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Return to Previous Size",
+        "label" : "Return to Previous Size",
+        "keyboard_shortcut" : "R",
+        "id" : "menuitem_352"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Full Screen Tile",
+        "label" : "Full Screen Tile",
+        "id" : "menuitem_353"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_354"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Left of Screen",
+        "label" : "Left of Screen",
+        "id" : "menuitem_355"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Right of Screen",
+        "label" : "Right of Screen",
+        "id" : "menuitem_356"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_357"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "Remove Window from Set",
+        "label" : "Remove Window from Set",
+        "id" : "menuitem_358"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_359"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Name Window…",
+        "label" : "Name Window…",
+        "id" : "menuitem_360"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_361"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Downloads",
+        "label" : "Downloads",
+        "keyboard_shortcut" : "J",
+        "id" : "menuitem_362"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Extensions",
+        "label" : "Extensions",
+        "id" : "menuitem_363"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Task Manager",
+        "label" : "Task Manager",
+        "id" : "menuitem_364"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_365"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Bring All to Front",
+        "label" : "Bring All to Front",
+        "id" : "menuitem_366"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Arrange in Front",
+        "label" : "Arrange in Front",
+        "id" : "menuitem_367"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : false,
+        "title" : "",
+        "label" : "",
+        "id" : "menuitem_368"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Sign in - Google Accounts",
+        "label" : "Sign in - Google Accounts",
+        "id" : "menuitem_369"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "label" : "Menu Item",
+        "id" : "menuitem_371"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Report an Issue…",
+        "label" : "Report an Issue…",
+        "keyboard_shortcut" : "I",
+        "id" : "menuitem_372"
+      },
+      {
+        "role" : "other",
+        "is_actionable" : true,
+        "title" : "Google Chrome Help",
+        "label" : "Google Chrome Help",
+        "id" : "menuitem_373"
+      }
+    ],
+    "element_count" : 374,
+    "screenshot_annotated" : "\/Users\/roba\/Desktop\/peekaboo_see_1772756346.png",
+    "capture_mode" : "window"
+  },
+  "debug_logs" : [
+    "[2026-03-06T00:19:06.762Z] DEBUG: Runtime host: local (in-process)",
+    "[2026-03-06T00:19:06.763Z] VERBOSE [Operation]: Starting operation {hasAnalyzePrompt=false, operation=see_command, mode=auto, menubar=false, annotate=false, app=Google Chrome}",
+    "[2026-03-06T00:19:06.763Z] VERBOSE [Performance]: Starting timer 'see_command'",
+    "[2026-03-06T00:19:06.763Z] VERBOSE [Permissions]: Checking screen recording permissions",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Permissions]: Screen recording permission granted",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Capture]: Starting capture and detection phase",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Capture]: Determined capture mode {mode=window}",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Operation]: Starting operation {mode=window, operation=capture_phase}",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Performance]: Starting timer 'capture_phase'",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Capture]: Initiating window capture {windowTitle=any, app=Google Chrome}",
+    "[2026-03-06T00:19:06.764Z] VERBOSE [Performance]: Starting timer 'window_capture'",
+    "[2026-03-06T00:19:06.853Z] VERBOSE [Performance]: Timer 'window_capture' completed {duration_ms=89}",
+    "[2026-03-06T00:19:06.853Z] VERBOSE [Operation]: Operation completed {mode=window, operation=capture_phase, success=true}",
+    "[2026-03-06T00:19:06.853Z] VERBOSE [Performance]: Timer 'capture_phase' completed {duration_ms=89}",
+    "[2026-03-06T00:19:06.853Z] VERBOSE [Performance]: Starting timer 'file_write'",
+    "[2026-03-06T00:19:06.854Z] VERBOSE: Saved screenshot to: \/Users\/roba\/Desktop\/peekaboo_see_1772756346.png",
+    "[2026-03-06T00:19:06.854Z] VERBOSE [Performance]: Timer 'file_write' completed {duration_ms=0}",
+    "[2026-03-06T00:19:06.854Z] VERBOSE [Operation]: Starting operation {operation=element_detection}",
+    "[2026-03-06T00:19:06.854Z] VERBOSE [Performance]: Starting timer 'element_detection'",
+    "[2026-03-06T00:19:07.364Z] VERBOSE [Operation]: Operation completed {operation=element_detection, success=true}",
+    "[2026-03-06T00:19:07.364Z] VERBOSE [Performance]: Timer 'element_detection' completed {duration_ms=509}",
+    "[2026-03-06T00:19:07.370Z] VERBOSE [Capture]: Capture completed successfully {screenshotSize=114408, snapshotId=E14B74D9-E8D0-4DF6-BC06-EC74617DB2C5, elementCount=374}",
+    "[2026-03-06T00:19:07.370Z] VERBOSE [Operation]: Operation completed {executionTimeMs=607, success=true, operation=see_command}",
+    "[2026-03-06T00:19:07.370Z] VERBOSE [Performance]: Timer 'see_command' completed {duration_ms=606}"
+  ]
+}

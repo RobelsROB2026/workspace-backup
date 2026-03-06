@@ -231,8 +231,7 @@ Never assume I'll "just do it later" — set up the mechanism first.
 
 ### OpenClaw v2026.3.2 (2026-03-05)
 - **Status:** Healthy.
-- **Security Awareness:** Be vigilant about "PleaseFix" family vulnerabilities affecting agentic browsers. Strategy: Maintain strict isolation between browser profiles and use `openclaw` profile for untrusted research.
-- **Google Workspace CLI (@googleworkspace/cli):** Installed globally as `gws` with 107 AI Agent Skills. Authentication (`gws auth setup`) is pending user dismissal of macOS security dialogs on the host. This will replace/augment the `gog` CLI once authenticated.
+- **Google Workspace CLI (@googleworkspace/cli):** Installed globally as `gws` with 107 AI Agent Skills. Authentication (`gws auth setup`) is currently STUCK on the "Choose an account" screen. Despite user intervention, the page hasn't advanced. Monitoring for completion.
 - **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts (as seen during the 08:00 AM Cron run today).
 
 ---

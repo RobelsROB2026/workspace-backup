@@ -1,0 +1,22 @@
+{
+  "success" : false,
+  "debug_logs" : [
+    "[2026-03-06T00:20:03.450Z] DEBUG: Runtime host: local (in-process)",
+    "[2026-03-06T00:20:03.450Z] VERBOSE [Operation]: Starting operation {operation=see_command, annotate=false, menubar=false, app=UserNotificationCenter, mode=auto, hasAnalyzePrompt=false}",
+    "[2026-03-06T00:20:03.450Z] VERBOSE [Performance]: Starting timer 'see_command'",
+    "[2026-03-06T00:20:03.450Z] VERBOSE [Permissions]: Checking screen recording permissions",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Permissions]: Screen recording permission granted",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Capture]: Starting capture and detection phase",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Capture]: Determined capture mode {mode=window}",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Operation]: Starting operation {operation=capture_phase, mode=window}",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Performance]: Starting timer 'capture_phase'",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Capture]: Initiating window capture {app=UserNotificationCenter, windowTitle=any}",
+    "[2026-03-06T00:20:03.451Z] VERBOSE [Performance]: Starting timer 'window_capture'",
+    "[2026-03-06T00:20:03.485Z] VERBOSE [Operation]: Operation completed {success=false, error=Window not found, operation=see_command}",
+    "[2026-03-06T00:20:03.485Z] VERBOSE [Performance]: Timer 'see_command' completed {duration_ms=34}"
+  ],
+  "error" : {
+    "message" : "Window not found",
+    "code" : "WINDOW_NOT_FOUND"
+  }
+}
