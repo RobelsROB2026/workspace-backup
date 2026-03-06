@@ -161,6 +161,7 @@ Released today. Features include:
 - **Note:** `gh` CLI authenticated as `RobelsROB2026`. 
 - **Blocker (2026-02-27):** Encountered 404/Permission error when trying to create PRs on `rodejene/RockLikeAgencyBonds`. `gh pr create` fails. Robel notified to check permissions for the `RobelsROB2026` account.
 - **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
+- **Workflow Rule (2026-03-05):** For all feature development and coding on this repo, I must spawn Claude Code via the terminal (`exec pty:true command:"claude ..."` ) to write the actual code.
 
 ### New York Tour Bus Permits (2026-03-01)
 - **Mapping:** Topic 3 in the AutoPax group is exclusively for the New York tour bus permit business.
@@ -176,6 +177,7 @@ Released today. Features include:
   - `api/`: Backend server for dashboard data.
   - `frontend/`: Dashboard UI.
 - **Status:** Initial structure and architecture defined. ETL pipeline in development.
+- **Workflow Rule (2026-03-05):** All backend/frontend coding for this dashboard must be delegated to Claude Code via terminal (`claude` CLI).
 
 
 ### Blog SEO Strategy (2026-02-11)
