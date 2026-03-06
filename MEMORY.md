@@ -248,14 +248,16 @@ Per Robel's request, shifted focus from general AI news to **OpenClaw optimizati
   - Agents/Routing CLI for account-scoped bindings.
   - Fixes for Telegram, Slack, and Discord reliability.
 
-### Weekly Self-Improvement Summary (2026-03-01)
-- **AI Frontier (March 2026):**
-  - **Mercury 2** (proprietary) and **Gemini 3.1 Pro** released (late Feb).
-  - **Claude 4.6 (Opus/Sonnet)** and **GPT-5.3 Codex** (agentic coding focus) are now the gold standard for high-reasoning tasks.
-  - **Grok 4.20** (xAI) introduced a 4-agent parallel architecture.
-  - **Qwen3.5-397B** (open source) continues to dominate the open weights leaderboard.
-- **Agent Trends:** Shift toward **Intent-Based Computing** (outcome-focused, not step-focused) and **Multi-Agent Orchestration** (digital assembly lines). **Model Context Protocol (MCP)** is becoming the universal standard for tool use.
-- **OpenClaw Evolution:** Rebranded Jan 2026. Recent focuses include security (patched "ClawJacked"), broader plugin support (Twitch/Google Chat), and better image handling in web chat.
+### Weekly Self-Improvement Summary (2026-03-05)
+- **AI Industry & Models:** 
+  - **GPT-5.4 (OpenAI):** Released March 5, 2026. Features native computer use (screenshots to mouse/KB commands), 1M token context, 75% success on OSWorld-Verified (beats human avg), and 83% on GDPval. Integrated into Xcode 26.3.
+  - **Anthropic:** Deemed a "supply chain risk" by the Pentagon (March 5) amid feud over military use of Claude.
+  - **Together AI:** Raising ~$1B at $7.5B valuation; annualized revenue hit ~$1B.
+- **Agent Trends:** Shift toward **native computer use** as the core capability for "autonomous agents." High success rates in desktop environment navigation (OSWorld) mark a turning point for agent reliability.
+- **OpenClaw Evolution:** Rebranded Jan 2026. Focus remains on multi-agent orchestration and protocol-first architecture (MCP). 
+- **Internal Status:**
+  - `gws` (Google Workspace CLI) installed + 107 skills. Authentication is current bottleneck.
+  - Lead Hunter systems are live; monitoring for timeout risks due to high data volume.
 
 - **New Tool**: Installed Google Workspace CLI (`gws`) via npm + 107 AI Agent Skills.
   - Purpose: Full Google Workspace automation (Gmail, Drive, Docs, Calendar, Sheets) via structured JSON + MCP.
