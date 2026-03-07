@@ -163,10 +163,11 @@ Released today. Features include:
 - **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
 - **Workflow Rule (2026-03-05):** For all feature development and coding on this repo, I must spawn Claude Code via the terminal (`exec pty:true command:"claude ..."` ) to write the actual code.
 
-### New York Tour Bus Permits (2026-03-01)
-- **Mapping:** Topic 3 in the AutoPax group is exclusively for the New York tour bus permit business.
-- **Role:** Lead Researcher
-- **Current Task:** Consolidating NYC permit research.
+### New York Tour Bus Permits (2026-03-06)
+- **Status Update:** Major breakthrough. DCWP confirmed Sightseeing Bus licenses are **NOT currently capped**. 
+- **Sound Systems:** No approved list, but requirements are summarized on the DCWP website.
+- **Stop Permits:** NYC DOT provided contact for Permit Management (NYCStreets).
+- **Topic Mapping:** Topic 3 in AutoPax group is for this research.
 
 ### FMCSA Dashboard (2026-03-04)
 - **Location:** `projects/fmcsa-dashboard/`
@@ -206,7 +207,19 @@ Released today. Features include:
 
 **Quality > Quantity.** Smart targeting > spray and pray.
 
-### Lead Hunter Results (2026-02-25)
+### AutoPax Trucking Lead CRM (2026-03-06 Update)
+- **Repo:** `RobelsROB2026/AutoPax-Trucking-CRM`
+- **Location:** `/Users/roba/.openclaw/workspace/projects/AutoPax-Trucking-CRM`
+- **Scraper / Backend Location:** `/Users/roba/research/trucking/sync_daily_optimized.py` (This script populates the CRM. It runs daily and writes to Supabase).
+- **Environment Variables:** `/Users/roba/research/trucking/.env` holds the `DATABASE_URL` and `SUPABASE_DB_PASSWORD`. Next.js connects via standard Supabase keys in Vercel.
+- **Telegram Channel:** AutoPax group (id:-1003783528968, Topic 96)
+- **Role:** Fullstack/Backend CRM Builder
+- **Database:** Supabase (`aws-0-us-west-2.pooler.supabase.com:6543`). Target table: `companies`.
+- **Status (UI):** Next.js UI is live at `https://auto-pax-trucking-crm.vercel.app`. It includes advanced UI filters for: `insurance_provider`, `cargo_classification`, `vehicle_oos_rate` (Max OOS%), and `add_date` (Auth Age).
+- **Status (DB Schema):** Confirmed the `companies` table contains `insurance_provider` (varchar), `vehicle_oos_rate` (numeric), and `cargo_classification` (text). PostgREST schema cache is reloaded.
+- **Strict Rule:** NEVER use placeholder folders for this project. The ONLY source of truth is the cloned directory at `/Users/roba/.openclaw/workspace/projects/AutoPax-Trucking-CRM`.
+
+### Lead Hunter Results (Texas Bonds)
 - **Texas Bond Lead Hunter:** Identified high-intent leads on Reddit.
     - Dallas VIN/Title discrepancy (Potential Bonded Title).
     - Aspiring dealer planning to flip cars (Needs Texas Auto Dealer Bond).

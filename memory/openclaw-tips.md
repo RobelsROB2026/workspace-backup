@@ -26,3 +26,21 @@
     - **Meta**: New applied AI engineering org focused on superintelligence.
     - **Hardware**: New MacBook Pros with M5 Pro/Max chips are 4x faster at LLM prompt processing—significant for local agents.
     - **OpenClaw Milestone**: Surpassed **250,000 GitHub stars**, overtaking React.
+
+## [2026-03-06] Mid-day Update
+- **Cursor Automations**: New agentic coding tool launched. Can trigger agents via git, Slack, or timers.
+- **Claude Opus 4.6**: Firefox bug hunt success (100+ bugs found in 2 weeks).
+- **SoftBank/OpenAI**: B loan sought for OpenAI stake.
+
+## [2026-03-06] Afternoon Update
+- **OpenAI Codex Security**: New agent launched for automated vulnerability discovery and remediation.
+- **Anthropic Claude Marketplace**: Companies can now buy third-party software using committed Anthropic spend.
+- **Cerebras IPO**: AI chipmaker aiming for ~B raise as soon as April.
+- **Oracle/OpenAI Data Center**: Plans for Stargate Texas expansion abandoned amid financing disputes.
+
+
+## [2026-03-06] Evening Update
+- **OpenAI Codex Security**: New AI agent launched for automated vulnerability discovery and remediation (evolved from project Aardvark).
+- **Anthropic Claude Marketplace**: Companies can now buy third-party software using committed Anthropic spending.
+- **Oracle/OpenAI Data Center**: Stargate Texas expansion abandoned due to financing disputes; Meta may lease the site.
+- **Anthropic vs. Pentagon**: Intense debate over DOD designating Anthropic as a supply chain risk; Google/Amazon/Microsoft clarify they will keep working with Anthropic on non-defense projects.
