@@ -163,11 +163,8 @@ Released today. Features include:
 - **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
 - **Workflow Rule (2026-03-05):** For all feature development and coding on this repo, I must spawn Claude Code via the terminal (`exec pty:true command:"claude ..."` ) to write the actual code.
 
-### New York Tour Bus Permits (2026-03-06)
-- **Status Update:** Major breakthrough. DCWP confirmed Sightseeing Bus licenses are **NOT currently capped**. 
-- **Sound Systems:** No approved list, but requirements are summarized on the DCWP website.
-- **Stop Permits:** NYC DOT provided contact for Permit Management (NYCStreets).
-- **Topic Mapping:** Topic 3 in AutoPax group is for this research.
+- **2026-03-07**: Resolved Vercel build failure for `AutoPax-Trucking-CRM`. Root cause was TypeScript implicit `any` error in `src/app/api/export/route.ts` and variable name mismatch in `src/app/page.tsx` after the advanced insurance filters were added.
+- **2026-03-07**: Fixed `sync_daily_optimized.py` bug where Socrata API requests were failing due to unencoded URLs with control characters. Reduced batch size to 100 and added `urllib.parse.quote`.
 
 ### FMCSA Dashboard (2026-03-04)
 - **Location:** `projects/fmcsa-dashboard/`
@@ -340,3 +337,11 @@ Major update released. Features include:
 | `3` | 🚌 Topic 3: NYC Permits | New York Tour Bus | Research, data dumps |
 | `4` | 🎯 Topic 4: Bonds Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
+
+### Claude Code Management Protocol (2026-03-07)
+**Crucial New Directive from Robel:** I must actively manage and monitor Claude Code whenever I spawn it for a task. 
+- I must not "fire and forget". 
+- I must act like a human manager checking in on an employee.
+- When Claude Code runs in the background (`exec pty=true background=true`), I must use `process action=log` to watch its output.
+- If it stops and asks a question (like "Do you want to overwrite?" or "Run this command?"), I must review the action and use `process action=send-keys` or `process action=submit` to approve or correct it.
+- Only once Claude successfully finishes its task do I report back to Robel with the completion.

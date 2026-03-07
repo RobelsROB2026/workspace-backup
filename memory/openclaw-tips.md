@@ -39,8 +39,10 @@
 - **Oracle/OpenAI Data Center**: Plans for Stargate Texas expansion abandoned amid financing disputes.
 
 
-## [2026-03-06] Evening Update
-- **OpenAI Codex Security**: New AI agent launched for automated vulnerability discovery and remediation (evolved from project Aardvark).
-- **Anthropic Claude Marketplace**: Companies can now buy third-party software using committed Anthropic spending.
-- **Oracle/OpenAI Data Center**: Stargate Texas expansion abandoned due to financing disputes; Meta may lease the site.
-- **Anthropic vs. Pentagon**: Intense debate over DOD designating Anthropic as a supply chain risk; Google/Amazon/Microsoft clarify they will keep working with Anthropic on non-defense projects.
+## [2026-03-07] Afternoon Update (OpenClaw & ClawHub Ecosystem)
+- **Security Alert: "ClawJacked"**: A critical vulnerability (fixed in v2026.2.25+) allowed malicious websites to hijack local agents via localhost traffic. Users are urged to stay on the latest version.
+- **ClawHub Malicious Skills**: Reports of over 820 malicious skills found on ClawHub, some distributing info-stealers (Atomic macOS). OpenClaw has partnered with VirusTotal for automated scanning. Recommendation: Audit installed skills and be cautious with unverified authors.
+- **Official Google Workspace CLI**: Google released a dedicated CLI for AI agent integrations (Gmail/Drive/Docs). This replaces older workarounds and provides a streamlined, official pathway for tools like OpenClaw.
+- **Dedicated Hardware**: Nano Labs launched the **iPollo ClawPC A1 Mini**, a compact hardware device specifically built to run the OpenClaw autonomous agent ecosystem.
+- **OpenClaw Milestone**: The project has officially surpassed **250,000 GitHub stars**, making it one of the most popular open-source projects, even overtaking React in stars.
+- **AWS Lightsail Integration**: Amazon announced general availability for OpenClaw on AWS Lightsail, pre-configured with Amazon Bedrock as the default provider.
