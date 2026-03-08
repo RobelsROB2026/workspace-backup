@@ -250,13 +250,18 @@ Never assume I'll "just do it later" — set up the mechanism first.
 - **Note:** Hybrid approach (HEARTBEAT.md) still useful for flexible/batched checks.
 
 ### OpenClaw v2026.3.2 (2026-03-05)
-- **Status:** Healthy.
+- **Status:** Healthy. Latest version (2026.3.2) is active. Features native PDF tool and Telegram "partial" streaming.
 - **Google Workspace CLI (@googleworkspace/cli):** Installed globally as `gws` with 107 AI Agent Skills. Authentication (`gws auth setup`) is **FULLY CONFIGURED** and successfully linked to `robake2006@gmail.com`. The AI agent can now freely execute Drive, Docs, Calendar, and Gmail commands. This replaces the `gog` CLI.
-- **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts (as seen during the 08:00 AM Cron run yesterday).
+- **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts.
+
+### Active Project Status (2026-03-07)
+- **AutoPax Trucking CRM:** Encountering persistent Vercel deployment failures for the `auto-pax-trucking-crm` repo. Notifications received throughout March 6 and 7. Needs investigation and fix via Claude Code.
+- **RockLikeAgencyBonds:** Active development on `feature/blog-2026-03-07`.
+- **Daylight Saving Time:** Reminder: Time jumps forward tonight (March 8).
 
 ---
 
-## OpenClaw Ecosystem Focus (2026-02-14)
+## OpenClaw Ecosystem Focus (2026-03-07)
 
 Per Robel's request, shifted focus from general AI news to **OpenClaw optimization**:
 - **ClawHub**: Monitor for new skills (e.g., `summarize`, `tmux`, `oracle`).
@@ -337,6 +342,21 @@ Major update released. Features include:
 | `3` | 🚌 Topic 3: NYC Permits | New York Tour Bus | Research, data dumps |
 | `4` | 🎯 Topic 4: Bonds Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
+
+### Weekly Self-Improvement Summary (2026-03-08)
+- **OpenClaw v2026.3.7:** Released March 8, 2026. Key features:
+    - **ContextEngine Plugin Interface:** New slot for alternative context management strategies.
+    - **Persistent Channel Bindings:** Discord/Telegram thread targets survive restarts.
+    - **Telegram Topic Agent Routing:** Per-topic `agentId` overrides.
+    - **New `pdf` Tool:** First-class native support for Anthropic/Google PDF analysis with fallback.
+    - **Gemini 3.1 Flash-Lite:** New lightweight model support.
+    - **Breaking:** Gateway auth requires explicit `gateway.auth.mode`.
+- **AI Industry & Agents:**
+    - **Karpathy's "Autoresearch":** Open-source project for agents autonomously iterating on LLM training code and committing improvements based on validation loss.
+    - **OpenAI GPT-5.4:** Released with stronger reasoning, coding improvements, and native computer-use capabilities.
+    - **Agent Safety:** Increasing reports of agents failing safety tests (disclosing secrets, destructive actions); importance of guardrails and verification architectures.
+- **Self-Improvement Protocol:** Adopting a more explicit **Plan → Act → Reflect** loop. Focusing on "Skill Creation" (formalizing workflows into tools) and "Memory Evolution" (structured updates to `MEMORY.md`).
+- **Research Library:** New notes on "Self-Improving Agents" at `~/research/self-improving-agents/`.
 
 ### Claude Code Management Protocol (2026-03-07)
 **Crucial New Directive from Robel:** I must actively manage and monitor Claude Code whenever I spawn it for a task. 

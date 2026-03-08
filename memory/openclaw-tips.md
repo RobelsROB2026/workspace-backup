@@ -39,10 +39,16 @@
 - **Oracle/OpenAI Data Center**: Plans for Stargate Texas expansion abandoned amid financing disputes.
 
 
-## [2026-03-07] Afternoon Update (OpenClaw & ClawHub Ecosystem)
-- **Security Alert: "ClawJacked"**: A critical vulnerability (fixed in v2026.2.25+) allowed malicious websites to hijack local agents via localhost traffic. Users are urged to stay on the latest version.
-- **ClawHub Malicious Skills**: Reports of over 820 malicious skills found on ClawHub, some distributing info-stealers (Atomic macOS). OpenClaw has partnered with VirusTotal for automated scanning. Recommendation: Audit installed skills and be cautious with unverified authors.
-- **Official Google Workspace CLI**: Google released a dedicated CLI for AI agent integrations (Gmail/Drive/Docs). This replaces older workarounds and provides a streamlined, official pathway for tools like OpenClaw.
-- **Dedicated Hardware**: Nano Labs launched the **iPollo ClawPC A1 Mini**, a compact hardware device specifically built to run the OpenClaw autonomous agent ecosystem.
-- **OpenClaw Milestone**: The project has officially surpassed **250,000 GitHub stars**, making it one of the most popular open-source projects, even overtaking React in stars.
-- **AWS Lightsail Integration**: Amazon announced general availability for OpenClaw on AWS Lightsail, pre-configured with Amazon Bedrock as the default provider.
+## [2026-03-07] Night Update
+- **OpenClaw v2026.3.2 Features**: 
+    - **Native PDF Tool**: Supports Anthropic and Google PDF backends for direct analysis.
+    - **Expanded SecretRef**: 64 targets across lifecycle (planning/exec/audit).
+    - **Telegram "Partial" Streaming**: Default for real-time preview in DMs.
+- **ClawHub Community & Security**:
+    - **ClawHavoc Warning**: Be cautious of malicious skills exfiltrating data; audit unverified authors.
+    - **New Skills**: "Audience Architect" (Google Ads management) and `n8n` workflow integration are trending.
+    - **Agentmail-integration**: New skill for automated email handling in coding workflows.
+- **Web3 & Finance**:
+    - **Binance & BNB Chain**: Launched 7 AI Agent skills for market insights, trade execution, and on-chain management.
+- **Ecosystem**:
+    - **iPollo ClawPC A1 Mini**: Dedicated hardware specifically for running OpenClaw agents.

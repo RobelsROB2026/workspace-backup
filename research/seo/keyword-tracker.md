@@ -18,6 +18,9 @@
 | austin right-of-way bond | LOW | Actioned | Very specific municipal requirement. |
 | san antonio right-of-way bond | LOW | Actioned | Specific city requirement. Opportunity for a detailed guide. |
 | texas oversized load bond | MEDIUM | Actioned | Good niche topic with specific form (Form 439) requirements. |
+| texas mobile home dealer bond | HIGH | SKIP | Dominated by big players (SuretyBonds, SuretyBondsDirect). |
+| texas property tax lender bond | LOW-MEDIUM | Actioned | Active industry, specific OCCC requirement. Big players cover it but top spots have room for detailed guide. |
+| texas patient trust fund bond | LOW | Actioned | Very specific requirement for care facilities. Low competition for detailed compliance guides. |
 | dallas auto dealer bond | MEDIUM | SKIP | More competitive than Austin/El Paso. Strong presence from Lance Surety and Ashton Agency. |
 
 ## Collected PAA (People Also Ask)
