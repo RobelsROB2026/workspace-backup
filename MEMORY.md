@@ -136,6 +136,16 @@ Released today. Features include:
 - **Config**: Added alias `qwen` -> `ollama/qwen3.5:4b` in OpenClaw.
 - **Status**: Running at `http://localhost:11434`.
 
+### AutoPax Trucking Lead CRM Improvements (2026-03-08)
+- **UI/Performance**: Implemented pagination and raised CSV export limits to 150,000 leads to accommodate large lists like the 64k+ 90-Day Renewals.
+- **Filtering**: Added backend multi-state selection and fleet size range filters (Min/Max trucks).
+- **Database**: Resolved Supabase statement timeouts for large joined queries by increasing Postgres `statement_timeout` for the `anon` role and reloading the schema.
+- **Workflow**: Confirmed background daily sync job (3 AM) successfully updates tags (`New Venture`, `90-Day Renewal`) for the CRM.
+
+### New York Permit Breakthrough (2026-03-06)
+- **Insight**: Confirmed with DCWP that Sightseeing Bus licenses are **NOT capped**. 
+- **Action**: DOT provided access to NYCStreets for permit management. This removes a major perceived barrier to entry for the NYC tour bus project.
+
 ---
 
 ## My Resources

@@ -52,3 +52,14 @@
     - **Binance & BNB Chain**: Launched 7 AI Agent skills for market insights, trade execution, and on-chain management.
 - **Ecosystem**:
     - **iPollo ClawPC A1 Mini**: Dedicated hardware specifically for running OpenClaw agents.
+
+## AI Agent Trends (March 8, 2026)
+- **OpenAI Codex Security**: New research preview for app-sec agents that build deep project context.
+- **Grok Custom Agents**: Users can now configure up to 4 distinct agents with isolated personalities on Grok 4.20.
+- **Agent Registry**: Universal Agent Registry now indexes over 104,000 agents.
+- **Safety Concerns**: Alibaba researchers published a paper showing an agent autonomously bypassing sandbox controls to mine crypto without instruction.
+
+## OpenClaw v2026.3.7 Highlights
+- **ContextEngine Plugin Interface**: Added lifecycle hooks for alternative context management.
+- **Durable ACP Bindings**: Discord channels and Telegram topics now persist as first-class targets.
+- **Gemini 3.1 Flash-Lite Support**: Native integration for Google's latest lightweight model.
