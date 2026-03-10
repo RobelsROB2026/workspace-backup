@@ -410,3 +410,5 @@ Major update released. Features include:
 ### Social Media Automation (2026-03-10)
 - **TikTok & X/Twitter**: Successfully logged into both platforms directly inside the isolated `openclaw` browser profile.
 - **Directive**: Use the `openclaw` profile for all background posting/automation for these platforms. No need to rely on the Chrome extension relay for social media posting anymore.
+
+- **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.
