@@ -63,3 +63,11 @@
 - **ContextEngine Plugin Interface**: Added lifecycle hooks for alternative context management.
 - **Durable ACP Bindings**: Discord channels and Telegram topics now persist as first-class targets.
 - **Gemini 3.1 Flash-Lite Support**: Native integration for Google's latest lightweight model.
+
+## 2026-03-10 Update
+- **OpenClaw v2026.3.8-beta.1** is released as of March 8th. The update focuses on the appcast and ongoing stability improvements.
+- **Security Warning:** Malicious actors are hosting fake OpenClaw installers on GitHub using SEO and Bing AI search results. These deliver information stealers. **Rule:** Only install from official OpenClaw repositories and verify SHAs when possible.
+- **2026-03-10 Ecosystem Insight:** 
+    - **OpenClaw GitHub Activity (March 9):** Fixes for cron interims, iOS foreground reconnection, and Perplexity citation recovery. 
+    - **ClawHub Skills:** `self-improving-agent` skill is gaining traction for agents to log errors and preferences autonomously. `tavily` and `exa-search` are recommended for specialized research over generic browsing.
+

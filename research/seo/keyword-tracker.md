@@ -22,6 +22,19 @@
 | texas property tax lender bond | LOW-MEDIUM | Actioned | Active industry, specific OCCC requirement. Big players cover it but top spots have room for detailed guide. |
 | texas patient trust fund bond | LOW | Actioned | Very specific requirement for care facilities. Low competition for detailed compliance guides. |
 | dallas auto dealer bond | MEDIUM | SKIP | More competitive than Austin/El Paso. Strong presence from Lance Surety and Ashton Agency. |
+| Fort Worth contractor license bond | HIGH | SKIP | JetSurety and SuretyBondsDirect dominate top 5. |
+| Arlington auto dealer bond | HIGH | SKIP | SuretyBonds.com and Lance Surety in top 5. |
+| Texas public adjuster bond | HIGH | SKIP | Major players (BondAbility, SuretyBonds.com, Jet) dominate. |
+| McAllen auto dealer bond | LOW-MEDIUM | Actioned | Top results include local McAllen Auto Title Services, suggesting room for localized content. |
+| Texas Professional Employer Organization bond | LOW-MEDIUM | Actioned | Niche topic, major players aren't dominating the top spots as aggressively. |
+| Laredo auto dealer bond | LOW-MEDIUM | Actioned | ABC Bonding is #1, but room for a comprehensive city-specific guide. |
+| Lubbock auto dealer bond | LOW | Actioned | Mostly national landing pages; local agencies like Lubbock Insurance Agency exist but room for a city-specific guide. |
+| McAllen contractor license bond | LOW | Actioned | Highly specific requirements ($2k sign, $15k ROW, $1k sidewalk). Underserved by major surety sites. |
+| Laredo contractor license bond | LOW | Actioned | Focus on $10,000 ROW and Excavation bonds. Major trade hub with specific local permit needs. |
+| Plano auto dealer bond | HIGH | SKIP | DFW area is very competitive with SuretyBonds.com, Jet, and All State. |
+| Corpus Christi right-of-way bond | LOW | Actioned | City primarily requires insurance/indemnity rather than a fixed bond for general ROW, making it a great "how-to" guide topic. |
+| Amarillo auto dealer bond | LOW | PENDING | Preliminary check shows local agency focus; opportunity for detailed city guide. |
+| Brownsville auto dealer bond | LOW | PENDING | High trade volume area, underserved by specific city content. |
 
 ## Collected PAA (People Also Ask)
 - How much is the auto dealer bond in Texas?
