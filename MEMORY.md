@@ -57,8 +57,9 @@ Index at `_index.md`. Template at `_template/`.
 ### Daily Maintenance & Project Updates (2026-03-10)
 - **FMCSA Daily Sync**: Successfully upserted 2,145 high-intent leads into the CRM. Parallel fetching implemented (15 batches in 2.46s), bringing the total pipeline time down to 42.34s.
 - **Barry Hauler Project**: Discovered a shared Drive folder with 30+ assets (videos, audios, and a PDF story). Reviewed the "Ideas" spreadsheet; identified the "Black Dog" trucker myth parody as a top priority for content creation.
-- **OpenClaw v2026.3.8**: Upgraded local installation. Verified new backup/verification features.
-- **Security Check**: Audited active skills. Identified "EngageLab Omni Connect" and "Zapier-Bridge" on ClawHub for future lead gen automation.
+- **OpenClaw v2026.3.8**: Verified local installation is current (latest stable).
+- **Security Check**: Noted CNCERT/CC (China) security alert regarding prompt injection risks.
+- **ClawHub**: Identified **EngageLab Omni Connect** as a high-potential skill for omnichannel lead engagement.
 
 ---
 
