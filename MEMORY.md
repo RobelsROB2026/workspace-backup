@@ -54,6 +54,12 @@ Index at `_index.md`. Template at `_template/`.
 - **Large Context Caution:** Avoid ingesting >500k tokens in a single automated turn (e.g. Lead Hunters). High data volume causes LLM request timeouts. Break tasks into smaller chunks if possible.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 
+### Daily Maintenance & Project Updates (2026-03-10)
+- **FMCSA Daily Sync**: Successfully upserted 2,145 high-intent leads into the CRM. Parallel fetching implemented (15 batches in 2.46s), bringing the total pipeline time down to 42.34s.
+- **Barry Hauler Project**: Discovered a shared Drive folder with 30+ assets (videos, audios, and a PDF story). Reviewed the "Ideas" spreadsheet; identified the "Black Dog" trucker myth parody as a top priority for content creation.
+- **OpenClaw v2026.3.8**: Upgraded local installation. Verified new backup/verification features.
+- **Security Check**: Audited active skills. Identified "EngageLab Omni Connect" and "Zapier-Bridge" on ClawHub for future lead gen automation.
+
 ---
 
 ## Things to Remember
@@ -399,3 +405,7 @@ Major update released. Features include:
 - When Claude Code runs in the background (`exec pty=true background=true`), I must use `process action=log` to watch its output.
 - If it stops and asks a question (like "Do you want to overwrite?" or "Run this command?"), I must review the action and use `process action=send-keys` or `process action=submit` to approve or correct it.
 - Only once Claude successfully finishes its task do I report back to Robel with the completion.
+
+### Social Media Automation (2026-03-10)
+- **TikTok & X/Twitter**: Successfully logged into both platforms directly inside the isolated `openclaw` browser profile.
+- **Directive**: Use the `openclaw` profile for all background posting/automation for these platforms. No need to rely on the Chrome extension relay for social media posting anymore.

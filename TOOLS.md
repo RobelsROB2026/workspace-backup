@@ -60,14 +60,15 @@ Structure per topic:
 ## Browser Workflow (IMPORTANT)
 
 **Two profiles:**
-1. **openclaw** — isolated browser, no logins, use for generic browsing
-2. **chrome** — Robel's Chrome with MY logged-in sessions (X, Gmail, GitHub)
+1. **openclaw** — isolated browser, NOW LOGGED IN to X and TikTok. Use for background posting.
+2. **chrome** — Robel's Chrome with MY logged-in sessions (Gmail, GitHub)
 
 **When to use which:**
 | Task | Profile | Why |
 |------|---------|-----|
 | View public webpage | openclaw | No login needed |
-| Browse X/Twitter | chrome | Need my @RobelAlema63562 login |
+| Browse/Post X/Twitter | openclaw | Now logged into X directly |
+| Post to TikTok | openclaw | Logged into Barry Hauler directly |
 | Access Gmail | chrome | Need login |
 | Generic Google search | openclaw | No login needed |
 | GitHub (logged-in actions) | chrome | Need RobelsROB2026 login |
@@ -118,9 +119,9 @@ gemini --model gemini-3-flash-preview "Analyze these search results and extract 
 - Commands: `bird home`, `bird search "query"`, `bird news`, `bird whoami`
 - Can be flaky with auth — prefer Chrome extension
 
-**DON'T USE: OpenClaw browser** (profile: openclaw)
-- Not logged in to X
-- Will get blocked or show login wall
+**USE FOR BACKGROUND: OpenClaw browser** (profile: openclaw)
+- Successfully logged in to X and TikTok!
+- Use this for automated background posting without relying on the Chrome extension relay.
 
 ---
 
