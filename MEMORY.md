@@ -130,6 +130,15 @@ Released today. Features include:
     - Default tool configuration for new installs shifts to "messaging" config.
     - ACP scheduling enabled by default.
 
+### OpenClaw v2026.3.8 (2026-03-09)
+Released today. Features include:
+- **Backup System**: New `openclaw backup create` and `verify` commands for archiving local state and configs.
+- **Brave Search Upgrade**: Grounded snippets now supported via Brave's LLM Context endpoint (`tools.web.search.brave.mode: "llm-context"`).
+- **Talk Mode**: Added `talk.silenceTimeoutMs` for better auto-send control.
+- **TUI Updates**: Smarter agent detection when launched from within a workspace.
+- **Fixes**: Resolved Telegram DM routing duplicates, macOS launchd restart bugs, and browser extension relay flakiness.
+- **Status**: Successfully upgraded local install to v2026.3.8 via `npm install -g`.
+
 ### Local LLM Setup (2026-03-03)
 - **Engine**: Ollama (installed via Homebrew).
 - **Model**: Qwen 3.5 4B (`qwen3.5:4b`).
@@ -175,6 +184,7 @@ Released today. Features include:
 
 - **2026-03-07**: Resolved Vercel build failure for `AutoPax-Trucking-CRM`. Root cause was TypeScript implicit `any` error in `src/app/api/export/route.ts` and variable name mismatch in `src/app/page.tsx` after the advanced insurance filters were added.
 - **2026-03-07**: Fixed `sync_daily_optimized.py` bug where Socrata API requests were failing due to unencoded URLs with control characters. Reduced batch size to 100 and added `urllib.parse.quote`.
+- **2026-03-08**: Completed the first Nightly Autoresearch Loop for the Blog Writer. Optimized the system prompt for Human Tone, LLM-citatability (GEO), and JSX safety. The "best" draft and prompt are stored at `~/research/autoresearch-loops/blog-writer/`.
 
 ### FMCSA Dashboard (2026-03-04)
 - **Location:** `projects/fmcsa-dashboard/`
@@ -225,6 +235,11 @@ Released today. Features include:
 - **Status (UI):** Next.js UI is live at `https://auto-pax-trucking-crm.vercel.app`. It includes advanced UI filters for: `insurance_provider`, `cargo_classification`, `vehicle_oos_rate` (Max OOS%), and `add_date` (Auth Age).
 - **Status (DB Schema):** Confirmed the `companies` table contains `insurance_provider` (varchar), `vehicle_oos_rate` (numeric), and `cargo_classification` (text). PostgREST schema cache is reloaded.
 - **Strict Rule:** NEVER use placeholder folders for this project. The ONLY source of truth is the cloned directory at `/Users/roba/.openclaw/workspace/projects/AutoPax-Trucking-CRM`.
+- **Nightly Autoresearch Loop (Mandatory):** Implement Karpathy's `autoresearch` framework every night for the AutoPax Lead Generation system. Instead of standard "fire and forget" task delegation, I will set up an evolutionary, empirical optimization loop.
+    1. Define a quantifiable metric (e.g., "Contact Enrichment Yield per 100 FMCSA records", or "Database Insert Throughput").
+    2. Give Claude a fixed time budget per experiment (e.g., 5-minute runs).
+    3. Instruct Claude to run an autonomous, multi-generation loop: Hypothesize a change -> Edit code -> Run on test batch -> Measure against baseline -> Keep if improved / Revert if worse.
+    4. By morning, the system should have run through 50+ iterations, leaving us with the most optimal, data-backed scraper or ETL configuration possible.
 
 ### Lead Hunter Results (Texas Bonds)
 - **Texas Bond Lead Hunter:** Identified high-intent leads on Reddit.
@@ -236,6 +251,12 @@ Released today. Features include:
 ---
 
 ## Lessons Learned
+
+### Suicide by Subprocess (2026-03-09)
+**Mistake:** Ran `openclaw gateway install --force && bash -c "sleep 5 && openclaw gateway restart"` synchronously via the `exec` tool.
+**The Root Cause:** The `exec` tool spawns child processes attached to the main OpenClaw Gateway process. When `openclaw gateway install --force` or `restart` runs, the first thing it does is tell macOS (`launchctl`) to kill the Gateway. When the Gateway dies, macOS instantly kills all of its child processes—*including the very script that was trying to restart it*. It died mid-execution before it could run the startup command, leaving me permanently offline.
+**Lesson / Fix:** NEVER run gateway restarts or reinstall commands synchronously or directly attached to the process tree. 
+**Rule (Gateway Restart Protocol):** Before any gateway restart, I MUST read and strictly follow the checklist at `memory/guidelines/gateway-restart-protocol.md`. This includes checking for active subagents/processes, verifying no upcoming cron jobs will be missed, running config pre-flight checks, and using a fully detached background script (`nohup` + `> /dev/null 2>&1 &`).
 
 ### Proactive Capability Building (2026-02-03)
 **Mistake:** Said "I'll research X tonight" but didn't set up a cron job. Session ended, nothing happened.
@@ -264,10 +285,12 @@ Never assume I'll "just do it later" — set up the mechanism first.
 - **Google Workspace CLI (@googleworkspace/cli):** Installed globally as `gws` with 107 AI Agent Skills. Authentication (`gws auth setup`) is **FULLY CONFIGURED** and successfully linked to `robake2006@gmail.com`. The AI agent can now freely execute Drive, Docs, Calendar, and Gmail commands. This replaces the `gog` CLI.
 - **Lead Hunter Token/Timeout Note:** Monitor for input token spikes (e.g., >500k) during automated searches. High data volume can cause LLM request timeouts.
 
-### Active Project Status (2026-03-07)
-- **AutoPax Trucking CRM:** Encountering persistent Vercel deployment failures for the `auto-pax-trucking-crm` repo. Notifications received throughout March 6 and 7. Needs investigation and fix via Claude Code.
-- **RockLikeAgencyBonds:** Active development on `feature/blog-2026-03-07`.
-- **Daylight Saving Time:** Reminder: Time jumps forward tonight (March 8).
+### RockLikeAgencyBonds (2026-03-10)
+- **Nightly Blog Task:** Completed research and writing for 3 new blog posts.
+- **New Posts:** `lubbock-auto-dealer-bond`, `mcallen-contractor-license-bond`, `laredo-contractor-license-bond`.
+- **Git:** Pushed to branch `feature/blog-2026-03-10`.
+- **Keyword Tracker:** Updated `~/research/seo/keyword-tracker.md` with new research on Lubbock, McAllen, Laredo, Plano, and Corpus Christi.
+- **Sitemap:** Updated `app/sitemap.ts` and `app/blog/page.tsx` with the new posts.
 
 ---
 
@@ -352,6 +375,7 @@ Major update released. Features include:
 | `3` | 🚌 Topic 3: NYC Permits | New York Tour Bus | Research, data dumps |
 | `4` | 🎯 Topic 4: Bonds Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
+| `419` | 📱 Topic 6: Social Media | Social Media Manager | Content generation, scheduling, posting |
 
 ### Weekly Self-Improvement Summary (2026-03-08)
 - **OpenClaw v2026.3.7:** Released March 8, 2026. Key features:
