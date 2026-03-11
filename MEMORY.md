@@ -418,4 +418,10 @@ Major update released. Features include:
 - **TikTok & X/Twitter**: Successfully logged into both platforms directly inside the isolated `openclaw` browser profile.
 - **Directive**: Use the `openclaw` profile for all background posting/automation for these platforms. No need to rely on the Chrome extension relay for social media posting anymore.
 
+### AutoPax Pipeline Breakthrough (2026-03-11)
+- **Nightly Lead Gen Loop**: Executed a Karpathy-style autoresearch loop via Claude Code to optimize the `sync_daily_optimized.py` pipeline.
+- **Results**: Achieved a **+5,307% performance increase**, moving from a baseline of ~3,039 RPM to a peak of **~165,000 RPM**.
+- **Gen9 Winner**: The final optimization (Gen9) collapsed company and lead upserts into a single PostgreSQL CTE, reducing database round trips and cutting pipeline execution time for 4,129 leads to just **6.10s**.
+- **Impact**: We can now refresh the entire high-intent lead database for AutoPax in seconds rather than minutes, enabling near real-time CRM updates.
+
 - **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.

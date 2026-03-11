@@ -1,0 +1,18 @@
+{
+  "sessions": {
+    "nightly-loop": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "nightly-loop",
+      "projectDir": "/Users/roba/research/trucking",
+      "goal": "Run the Nightly Lead Gen Autoresearch Loop for AutoPax. Baseline: ~3,039 RPM (2,145 records in 42.34s). Goal: Optimize 'Records upserted per minute'. 1. Analyze sync_daily_optimized.py. 2. Implement Gen1 optimizations. 3. Run a 5-minute timed test. 4. Evaluate and commit if improved. 5. Report results.",
+      "status": "running"
+    },
+    "nightly-lead-gen": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "nightly-lead-gen",
+      "projectDir": "/Users/roba/research/trucking",
+      "goal": "Run the Nightly Lead Gen Autoresearch Loop for AutoPax.\nLocation: sync_daily_optimized.py\nBaseline: ~3,039 RPM (2,145 records in 42.34s).\nGoal: Optimize 'Records upserted per minute'.\n1. Analyze the current sync script.\n2. Hypothesize improvements (e.g. better parallel fetching, bulk upsert tuning).\n3. Implement and run 5-minute test batches.\n4. Evaluate and commit if improved, or revert.\n5. Continue until 3 AM or no further gains.\n6. Report the winning generation and the final RPM.",
+      "status": "running"
+    }
+  }
+}

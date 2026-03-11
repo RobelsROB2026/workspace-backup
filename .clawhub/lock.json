@@ -24,6 +24,22 @@
     "publora": {
       "version": "1.1.0",
       "installedAt": 1773123872171
+    },
+    "engagelab-omni-connect": {
+      "version": "1.0.2",
+      "installedAt": 1773200853515
+    },
+    "self-improving": {
+      "version": "1.2.10",
+      "installedAt": 1773200855264
+    },
+    "seo": {
+      "version": "1.0.3",
+      "installedAt": 1773200856900
+    },
+    "claude-code-supervisor": {
+      "version": "1.0.0",
+      "installedAt": 1773200859257
     }
   }
 }
