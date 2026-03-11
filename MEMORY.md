@@ -424,4 +424,9 @@ Major update released. Features include:
 - **Gen9 Winner**: The final optimization (Gen9) collapsed company and lead upserts into a single PostgreSQL CTE, reducing database round trips and cutting pipeline execution time for 4,129 leads to just **6.10s**.
 - **Impact**: We can now refresh the entire high-intent lead database for AutoPax in seconds rather than minutes, enabling near real-time CRM updates.
 
+### New York Permit Breakthrough (2026-03-10)
+- **Insight**: Confirmed via email from DCWP that Sightseeing Bus licenses are **NOT currently capped**. 
+- **Insight**: Confirmed via email from DOT that there is **NO moratorium** on new sightseeing bus stops in Manhattan.
+- **Action**: DOT directed us to the **NYCStreets Permit Management System** for registrations and applications. This clears the major regulatory hurdles for the NYC tour bus project.
+
 - **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.
