@@ -159,9 +159,15 @@ Released today. Features include:
 - **Database**: Resolved Supabase statement timeouts for large joined queries by increasing Postgres `statement_timeout` for the `anon` role and reloading the schema.
 - **Workflow**: Confirmed background daily sync job (3 AM) successfully updates tags (`New Venture`, `90-Day Renewal`) for the CRM.
 
-### New York Permit Breakthrough (2026-03-06)
-- **Insight**: Confirmed with DCWP that Sightseeing Bus licenses are **NOT capped**. 
-- **Action**: DOT provided access to NYCStreets for permit management. This removes a major perceived barrier to entry for the NYC tour bus project.
+### New York Permit Breakthrough (2026-03-10)
+- **Insight**: Confirmed via email from DCWP that Sightseeing Bus licenses are **NOT currently capped**. 
+- **Insight**: Confirmed via email from DOT that there is **NO moratorium** on new sightseeing bus stops in Manhattan.
+- **Action**: DOT directed us to the **NYCStreets Permit Management System** for registrations and applications. This clears the major regulatory hurdles for the NYC tour bus project.
+
+### Master/Muscle Protocol Verified (2026-03-10)
+- **Verification**: Successfully installed and tested the `claude-code-supervisor` skill. 
+- **Automation**: Created `scripts/launch-claude-supervised.sh` to autonomously spawn monitored Claude Code sessions in `tmux`.
+- **Status**: The mastery loop is live—I design the architecture, Claude executes the code, and the supervisor triages lifecycle events to keep me informed without active polling.
 
 ---
 
