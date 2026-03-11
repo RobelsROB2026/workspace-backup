@@ -13,6 +13,20 @@
       "projectDir": "/Users/roba/research/trucking",
       "goal": "Run the Nightly Lead Gen Autoresearch Loop for AutoPax.\nLocation: sync_daily_optimized.py\nBaseline: ~3,039 RPM (2,145 records in 42.34s).\nGoal: Optimize 'Records upserted per minute'.\n1. Analyze the current sync script.\n2. Hypothesize improvements (e.g. better parallel fetching, bulk upsert tuning).\n3. Implement and run 5-minute test batches.\n4. Evaluate and commit if improved, or revert.\n5. Continue until 3 AM or no further gains.\n6. Report the winning generation and the final RPM.",
       "status": "running"
+    },
+    "post-trucking-video": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "post-trucking-video",
+      "projectDir": "/Users/roba/research/social-auto",
+      "goal": "Write a Node.js Playwright script to connect to the running OpenClaw browser at /Users/roba/.openclaw/browser/profiles/openclaw, navigate to https://www.tiktok.com/tiktokstudio/upload?from=webapp and https://x.com/compose/post, and upload the video at /tmp/no-trucking-old-men.mp4 with the caption 'This job ain't for the weak. 50 years hauling, and I've seen it all. No trucking for old men. #truckerlife #trucking #truckersoftiktok #cdl'. Use the existing browser session so auth is maintained. Run the script to post the video, handle any popups or iframes, and report back when finished.",
+      "status": "running"
+    },
+    "post-wrenchnator": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "post-wrenchnator",
+      "projectDir": "/Users/roba/research/social-auto",
+      "goal": "Write and execute a Node.js Playwright script that connects to the existing OpenClaw browser profile at /Users/roba/.openclaw/browser/profiles/openclaw. Your task is to upload the video located at /tmp/no-trucking-old-men.mp4 to BOTH TikTok (https://www.tiktok.com/tiktokstudio/upload?from=webapp) and X (https://x.com/compose/post). Use the exact caption: 'Looks like my past is catching up with me. If you see this wrench on the lot, lock your doors and keep rolling. #truckersoftiktok #barryhauler #trucking'. Wait for the uploads to finish posting successfully on both platforms. Handle any popups or dynamic iframes along the way. Report success when completely done.",
+      "status": "running"
     }
   }
 }
