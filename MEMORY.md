@@ -53,6 +53,7 @@ Index at `_index.md`. Template at `_template/`.
 - Background the task (`background: true` or high `runTimeoutSeconds`) and use tools like `process(action="poll")` or `subagents` to monitor status.
 - **Large Context Caution:** Avoid ingesting >500k tokens in a single automated turn (e.g. Lead Hunters). High data volume causes LLM request timeouts. Break tasks into smaller chunks if possible.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
+- **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
 ### Daily Maintenance & Project Updates (2026-03-11)
 - **FMCSA Daily Sync**: Successfully upserted 2,145 high-intent leads into the CRM. Parallel fetching implemented (15 batches in 2.46s), bringing the total pipeline time down to 42.34s (a 75% performance improvement).
