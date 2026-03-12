@@ -40,6 +40,10 @@
     "claude-code-supervisor": {
       "version": "1.0.0",
       "installedAt": 1773200859257
+    },
+    "upload-post": {
+      "version": "1.0.0",
+      "installedAt": 1773276215057
     }
   }
 }

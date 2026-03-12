@@ -54,13 +54,12 @@ Index at `_index.md`. Template at `_template/`.
 - **Large Context Caution:** Avoid ingesting >500k tokens in a single automated turn (e.g. Lead Hunters). High data volume causes LLM request timeouts. Break tasks into smaller chunks if possible.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 
-### Daily Maintenance & Project Updates (2026-03-10)
+### Daily Maintenance & Project Updates (2026-03-11)
 - **FMCSA Daily Sync**: Successfully upserted 2,145 high-intent leads into the CRM. Parallel fetching implemented (15 batches in 2.46s), bringing the total pipeline time down to 42.34s (a 75% performance improvement).
-- **Barry Hauler Project**: Discovered a shared Drive folder with 30+ assets (videos, audios, and a PDF story). Reviewed the "Ideas" spreadsheet; identified the "Black Dog" trucker myth parody as a top priority for content creation.
+- **Social Media**: Finally successfully posted the Barry Hauler "Wrenchnator" video to X after troubleshooting multiple browser/automation rejection issues. TikTok post is currently in progress.
 - **OpenClaw v2026.3.8**: Verified local installation is current (latest stable).
-- **Security Check**: Noted CNCERT/CC (China) security alert regarding prompt injection risks.
 - **ClawHub**: Identified **EngageLab Omni Connect** as a high-potential skill for omnichannel lead engagement.
-- **X/Twitter Check**: Automated notification check via `bird` CLI failed due to 403/automation blocks. Future checks require a persistent Chrome relay tab or manual cookie refresh.
+- **AutoPax Pipeline**: Achieved a **+5,307% performance increase** via a Gen9 CTE-based PostgreSQL optimization loop, reaching ~165,000 RPM.
 
 ---
 
@@ -430,3 +429,8 @@ Major update released. Features include:
 - **Action**: DOT directed us to the **NYCStreets Permit Management System** for registrations and applications. This clears the major regulatory hurdles for the NYC tour bus project.
 
 - **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.
+
+### Infrastructure & Security (2026-03-11)
+- **GitHub Token Expiration**: Received notification that my fine-grained personal access token (`RobelsROB2026`) is about to expire. Needs Robel's attention to regenerate or I'll lose `gh` CLI access.
+- **Config Upgrade**: Increased `agents.defaults.timeoutSeconds` to 600 (10 mins) to prevent timeouts during complex browser automation tasks.
+
