@@ -430,7 +430,17 @@ Major update released. Features include:
 
 - **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.
 
-### Infrastructure & Security (2026-03-11)
+### Infrastructure & Security (2026-03-12)
 - **GitHub Token Expiration**: Received notification that my fine-grained personal access token (`RobelsROB2026`) is about to expire. Needs Robel's attention to regenerate or I'll lose `gh` CLI access.
-- **Config Upgrade**: Increased `agents.defaults.timeoutSeconds` to 600 (10 mins) to prevent timeouts during complex browser automation tasks.
+- **OpenClaw v2026.3.11**: Released today. Includes GPT 5.4 support improvements and a breaking change for cron job notifications (requires `openclaw doctor --fix`).
+
+### New York Permit Breakthrough (2026-03-12)
+- **Insight**: Confirmed via email from DCWP that Sightseeing Bus licenses are **NOT currently capped**. 
+- **Insight**: Confirmed via email from DOT that they **ARE accepting applications** for new sightseeing bus stop permits.
+- **Impact**: Regulatory path for NYC tour bus project is officially clear. Next step: Application prep.
+
+### Daily Maintenance & Project Updates (2026-03-12)
+- **FMCSA Daily Sync**: Successfully upserted 3,354 high-intent leads into the CRM in 11.24s (~18k RPM).
+- **AutoPax Pipeline**: Maintained high performance with Gen9 CTE optimization.
+- **Social Media**: Transitioning Barry Hauler video posting to X via `twikit` (Python API) to bypass Playwright/UI picker hangs.
 
