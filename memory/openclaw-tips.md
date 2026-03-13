@@ -19,3 +19,10 @@
 
 ## Productivity
 - **Parallel Fetching**: Implementing parallel batching in data pipelines (like the Trucking Daily Sync) reduces execution time by ~75% (from 3 mins to 42s).
+
+### 2026-03-12: OpenClaw v2026.3.12 Released
+- **Control UI v2**: Modular overview, command palette, and mobile optimization.
+- **Fast Mode**: Per-model /fast toggles for GPT-5.4 and Claude.
+- **Security**: Short-lived bootstrap tokens for device pairing.
+- **Yield**: New `sessions_yield` for orchestrators.
+- **Upgrade**: `npm install -g openclaw`

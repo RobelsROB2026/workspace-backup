@@ -110,7 +110,7 @@ gemini --model gemini-3-flash-preview "Analyze these search results and extract 
 ## X/Twitter Access
 
 **PRIMARY: Chrome extension relay** (profile: chrome)
-- Account: @RobelAlema63562 (MY account, logged in via Chrome)
+- Account: @barryhauler (MY account, logged in via Chrome)
 - Use for: browsing X, viewing tweets, posting
 - Requires: extension attached to a tab (see Browser Workflow below)
 

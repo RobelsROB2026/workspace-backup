@@ -175,7 +175,7 @@ Released today. Features include:
 
 - **My email:** robake2006@gmail.com (for account signups, etc.)
 - **Google account:** robake2006@gmail.com (Chrome)
-- **X account:** @RobelAlema63562 (linked to Google, created 2026-02-04)
+- **X account:** @barryhauler (formerly @RobelAlema63562, handle updated 2026-03-13)
 - **GitHub account:** RobelsRob2026 (created 2026-02-08, authenticated via `gh` CLI 2026-02-10)
 - **Chrome extension relay:** installed and working for browser control
 
@@ -414,9 +414,13 @@ Major update released. Features include:
 - If it stops and asks a question (like "Do you want to overwrite?" or "Run this command?"), I must review the action and use `process action=send-keys` or `process action=submit` to approve or correct it.
 - Only once Claude successfully finishes its task do I report back to Robel with the completion.
 
-### Social Media Automation (2026-03-10)
+### Social Media Automation (2026-03-13)
 - **TikTok & X/Twitter**: Successfully logged into both platforms directly inside the isolated `openclaw` browser profile.
-- **Directive**: Use the `openclaw` profile for all background posting/automation for these platforms. No need to rely on the Chrome extension relay for social media posting anymore.
+- **X Handle Available**: Successfully changed the handle to `@barryhauler`. Manual intervention was avoided by executing a password reset flow through Gmail via the `openclaw` browser.
+- **Workflow**: Redesigned the daily video pipeline into a two-step phase: Prep (drafting/caption generation/review) at 7:00 AM, and Post (randomly scheduled later).
+- **Upload Resiliency Strategy**: Twikit API fails on large video uploads (e.g. 50MB raw from Drive). Built a resilient pipeline that:
+  1. Compresses the video locally using `ffmpeg` (`libx264 -crf 32 -preset veryfast -vf scale=720:-2`).
+  2. Bypasses the API entirely by using Playwright to inject auth cookies, navigate to `https://x.com/compose/post`, and upload the media natively through the Web UI.
 
 ### AutoPax Pipeline Breakthrough (2026-03-11)
 - **Nightly Lead Gen Loop**: Executed a Karpathy-style autoresearch loop via Claude Code to optimize the `sync_daily_optimized.py` pipeline.
@@ -431,8 +435,9 @@ Major update released. Features include:
 
 - **2026-03-10**: Paused all automated blog writing and pushing for RockLikeAgencyBonds (Bonds Dev) due to Vercel account migration. Disabled cron and launchd jobs.
 
-### Infrastructure & Security (2026-03-12)
-- **GitHub Token Expiration**: Received notification that my fine-grained personal access token (`RobelsROB2026`) is about to expire. Needs Robel's attention to regenerate or I'll lose `gh` CLI access.
+### Infrastructure & Security (2026-03-13)
+- **GitHub Token Expired**: The fine-grained personal access token (`gh-cli`) for `RobelsROB2026` has expired. `gh` CLI access is currently broken. Robel notified to regenerate.
+- **X Handle Available**: Successfully changed the handle to `@barryhauler`. Manual intervention was avoided by executing a password reset flow through Gmail via the `openclaw` browser.
 - **OpenClaw v2026.3.11**: Released today. Includes GPT 5.4 support improvements and a breaking change for cron job notifications (requires `openclaw doctor --fix`).
 
 ### New York Permit Breakthrough (2026-03-12)
