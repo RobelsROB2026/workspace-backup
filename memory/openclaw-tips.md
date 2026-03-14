@@ -38,3 +38,8 @@
 - **ContextEngine (v2026.3.7)**: A new pluggable interface for context management, maturing the agentic architecture for sophisticated workflows.
 - **Security Hardening (v2026.2.23+)**: Improved CVE handling and optional HSTS headers. High-risk actions should be containerized (e.g., using Docker as seen in NanoClaw).
 - **Founder Move**: OpenClaw creator Peter Steinberger reportedly joined OpenAI to lead personal agents, signaling industry-wide shift toward agentic AI.
+
+### 2026-03-13: OpenClaw v2026.3.13 Released
+- **Latest Stable**: v2026.3.13 just dropped.
+- **Features**: Focused on dashboard UI enhancements, chat settings, and improved subagent spawning/iOS sharing.
+- **Status**: We are on v2026.3.11. Update available via `npm update`.
