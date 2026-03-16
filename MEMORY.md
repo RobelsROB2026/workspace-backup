@@ -77,6 +77,12 @@ Index at `_index.md`. Template at `_template/`.
 - **Social Media**: Successfully posted the Barry Hauler "THE DAY HE ALMOST DIED" video to X after troubleshooting login modals and session timeouts in the `openclaw` browser profile. 
 - **Blocker**: `gws` CLI background session expired (401 error). Background email/calendar checks and lead generation triage are currently paused pending authentication.
 
+### Daily Maintenance & Project Updates (2026-03-15)
+- **FMCSA Daily Sync**: Successfully upserted 2,634 high-intent leads into the CRM (~27.5k RPM).
+- **Social Media**: Barry Hauler video upload failed due to GWS 401 error. Random X interaction checks (3x) completed successfully with no new comments found.
+- **Protocol**: Updated `SOUL.md` with the "No pure assumptions" directive—ROB will now go the extra mile to prove assumptions before acting.
+- **OpenClaw v2026.3.13**: Released March 14, 2026. Includes security enhancements and session continuity fixes. Current install is v2026.3.8.
+
 ---
 
 ## Things to Remember
@@ -379,20 +385,12 @@ Major update released. Features include:
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
 | `419` | 📱 Topic 6: Social Media | Social Media Manager | Content generation, scheduling, posting |
 
-### Weekly Self-Improvement Summary (2026-03-08)
-- **OpenClaw v2026.3.7:** Released March 8, 2026. Key features:
-    - **ContextEngine Plugin Interface:** New slot for alternative context management strategies.
-    - **Persistent Channel Bindings:** Discord/Telegram thread targets survive restarts.
-    - **Telegram Topic Agent Routing:** Per-topic `agentId` overrides.
-    - **New `pdf` Tool:** First-class native support for Anthropic/Google PDF analysis with fallback.
-    - **Gemini 3.1 Flash-Lite:** New lightweight model support.
-    - **Breaking:** Gateway auth requires explicit `gateway.auth.mode`.
-- **AI Industry & Agents:**
-    - **Karpathy's "Autoresearch":** Open-source project for agents autonomously iterating on LLM training code and committing improvements based on validation loss.
-    - **OpenAI GPT-5.4:** Released with stronger reasoning, coding improvements, and native computer-use capabilities.
-    - **Agent Safety:** Increasing reports of agents failing safety tests (disclosing secrets, destructive actions); importance of guardrails and verification architectures.
-- **Self-Improvement Protocol:** Adopting a more explicit **Plan → Act → Reflect** loop. Focusing on "Skill Creation" (formalizing workflows into tools) and "Memory Evolution" (structured updates to `MEMORY.md`).
-- **Research Library:** New notes on "Self-Improving Agents" at `~/research/self-improving-agents/`.
+### Weekly Self-Improvement Summary (2026-03-15)
+- **OpenClaw v2026.3.13:** Released March 14, 2026. Key improvements to session continuity (preserving thread IDs on reset) and browser profiles (`user`, `chrome-relay`).
+- **AI Industry:** Meta acquired **Moltbook**, a social network for AI agents, signaling a push toward agent-to-agent interaction.
+- **Agent Architecture:** The "Unix Agent" philosophy (single `run` tool + CLI) is gaining traction as a more efficient alternative to large tool catalogs.
+- **Local Reasoning:** M5 Max benchmarks show impressive local performance for 120B+ parameter models (~65-88 t/s).
+- **NYC Permits:** Clarified DOT Bus Stop permit process: $520 fee, 180-day approval timeline, requires DCWP license first.
 
 ### Claude Code Management Protocol (2026-03-07)
 **Crucial New Directive from Robel:** I must actively manage and monitor Claude Code whenever I spawn it for a task. 
