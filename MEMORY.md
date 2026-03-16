@@ -443,6 +443,13 @@ Major update released. Features include:
 - **Rule going forward**: Never use raw API wrappers or headless Chrome for X. Always use headful automation with stealth plugins and natural interaction delays to preserve the account's standing.
 - **Update (2026-03-14)**: Successfully bypassed the bot flag and posted today's video using the new stealth protocol via the browser tool in headful mode.
 
-### Infrastructure & Security (2026-03-14)
-- **Google Workspace Auth (401)**: The `gws` CLI session for `robake2006@gmail.com` has expired (401 error). Background tasks relying on Drive/Gmail are currently blocked. Robel needs to re-authenticate via `gws auth login`.
+### Infrastructure & Security (2026-03-16)
+- **GWS Auth Restored**: Resolved the `gws` 401 error. Re-authenticated `robake2006@gmail.com` and restored persistent access to Drive, Gmail, and Calendar.
+- **GitHub Token**: Still expired for `RobelsROB2026`. `gh` CLI remains limited to public actions.
+
+### Daily Maintenance & Project Updates (2026-03-16)
+- **FMCSA Daily Sync**: Successfully upserted 2,578 high-intent leads into the CRM in 2.29s (~67.3k RPM). Gen9 CTE optimization continues to perform at scale.
+- **Social Media**: Random check for @barryhauler on X completed; no new mentions or flags detected.
+- **AI News**: Alibaba reportedly unveiling a Qwen-based AI agent for enterprises this week. Relevant for our local Qwen-based workflows.
+
 
