@@ -81,7 +81,7 @@ Index at `_index.md`. Template at `_template/`.
 - **FMCSA Daily Sync**: Successfully upserted 2,634 high-intent leads into the CRM (~27.5k RPM).
 - **Social Media**: Barry Hauler video upload failed due to GWS 401 error. Random X interaction checks (3x) completed successfully with no new comments found.
 - **Protocol**: Updated `SOUL.md` with the "No pure assumptions" directive—ROB will now go the extra mile to prove assumptions before acting.
-- **OpenClaw v2026.3.13**: Released March 14, 2026. Includes security enhancements and session continuity fixes. Current install is v2026.3.8.
+- **OpenClaw v2026.3.13**: Released March 14, 2026. Verified local install is updated to v2026.3.13.
 
 ---
 
@@ -206,12 +206,9 @@ Released today. Features include:
 
 ### RockLikeAgencyBonds (2026-02-11)
 - **Repo:** `rodejene/RockLikeAgencyBonds`
-- **Telegram Channel:** AutoPax group (id:-1003783528968, Topic 2 and Topic 4)
-- **Mapping:** Topic 2 is connected to the bonds folder for project tracking. Topic 4 is for lead follow-up.
-- **Role:** Contributor (invited by Robel)
-- **Current Task:** Building `/apply` page with lead capture form.
-- **Blog Status:** 19 posts total. Categories: Bonded Title (8), Dealer Bonds (4), Contractor (1), Notary, Freight Broker, Collection Agency, Mortgage Broker, and Spanish language posts.
-- **Workflow Rule (2026-02-21):** I MUST ALWAYS push new code/blogs to a feature branch, NEVER directly to `main`. Every single time I push something, I must notify Robel in the AutoPax Telegram group (topic 2) so he can merge it.
+- **Telegram Channel:** AutoPax group (id:-1003783528968, Topic 2)
+- **Mapping:** Topic 2 is STRICTLY and EXCLUSIVELY for the Bonds project (RockLikeAgencyBonds). NOTHING ELSE.
+- **Workflow Rule (2026-03-16 - CRITICAL):** ALL blog posts for RockLikeAgencyBonds must ONLY be uploaded directly to the Supabase database (`blog_posts` table on `jbomtgndvxrbdlkpkxbu.supabase.co`). NEVER push code to GitHub for this project. The `content` field must be pure markdown format only. This overrides all previous rules about pushing to feature branches or modifying `app/blog/*.tsx`.
 - **Note:** `gh` CLI authenticated as `RobelsROB2026`. 
 - **Blocker (2026-02-27):** Encountered 404/Permission error when trying to create PRs on `rodejene/RockLikeAgencyBonds`. `gh pr create` fails. Robel notified to check permissions for the `RobelsROB2026` account.
 - **Workflow Rule (2026-02-28):** JSX Quote Escaping Rule for blog posts (`app/blog/*/page.tsx`). NEVER use literal quotes (`"`, `'`) or `>` inside JSX text content. Use `&quot;`, `&apos;`, and `&gt;` to prevent `react/no-unescaped-entities` Vercel build failures. Quotes in attributes like `className="..."` are fine.
@@ -448,8 +445,14 @@ Major update released. Features include:
 - **GitHub Token**: Still expired for `RobelsROB2026`. `gh` CLI remains limited to public actions.
 
 ### Daily Maintenance & Project Updates (2026-03-16)
+- **GWS Auth Restored**: Resolved the `gws` 401 error. Re-authenticated `robake2006@gmail.com` and restored persistent access to Drive, Gmail, and Calendar.
 - **FMCSA Daily Sync**: Successfully upserted 2,578 high-intent leads into the CRM in 2.29s (~67.3k RPM). Gen9 CTE optimization continues to perform at scale.
-- **Social Media**: Random check for @barryhauler on X completed; no new mentions or flags detected.
+- **Social Media**: Random check for @barryhauler on X completed; no new mentions or flags detected. Deleted a failed text-only post from this morning.
+- **Nationality Tagging**: Rescued the historical backfill script (`tag_nationality_historical.py`) which had been hung since 9:20 AM. Patched the script with explicit HTTP timeouts and optimized batch processing for `gemini-3-flash-preview`'s reasoning capabilities. Backfill of ~81k leads is now resuming.
 - **AI News**: Alibaba reportedly unveiling a Qwen-based AI agent for enterprises this week. Relevant for our local Qwen-based workflows.
 
 
+
+### Telegram Topic Routing Table & Rules (AutoPax Group: -1003783528968)
+**STRICT ROUTING RULE FOR TOPIC 2:** Topic 2 is STRICTLY and EXCLUSIVELY for the Bonds project (RockLikeAgencyBonds). NOTHING ELSE. 
+**GIT PUSH RULE FOR BONDS:** NEVER push code to GitHub for the Bonds project due to Vercel account migration. ALWAYS upload blog posts to Supabase ONLY. Do NOT use `git push` or `gh pr create` for RockLikeAgencyBonds.

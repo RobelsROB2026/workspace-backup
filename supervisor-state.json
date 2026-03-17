@@ -27,6 +27,13 @@
       "projectDir": "/Users/roba/research/social-auto",
       "goal": "Write and execute a Node.js Playwright script that connects to the existing OpenClaw browser profile at /Users/roba/.openclaw/browser/profiles/openclaw. Your task is to upload the video located at /tmp/no-trucking-old-men.mp4 to BOTH TikTok (https://www.tiktok.com/tiktokstudio/upload?from=webapp) and X (https://x.com/compose/post). Use the exact caption: 'Looks like my past is catching up with me. If you see this wrench on the lot, lock your doors and keep rolling. #truckersoftiktok #barryhauler #trucking'. Wait for the uploads to finish posting successfully on both platforms. Handle any popups or dynamic iframes along the way. Report success when completely done.",
       "status": "running"
+    },
+    "trucking-tag-bottom": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "trucking-tag-bottom",
+      "projectDir": "/Users/roba/research/trucking",
+      "goal": "Create tag_nationality_anthropic.py that mirrors tag_nationality_historical.py but uses the Anthropic API (claude-3-5-haiku-20241022) to classify trucking leads by nationality (Ethiopian, Eritrean, Indian, Pakistani). It must fetch the leads ORDER BY l.created_at DESC to work from the bottom up while the other script works top down. Then install 'anthropic' via pip if needed, and run the script in the background via nohup, logging to tag_anthropic.log. Do not modify the original tag_nationality_historical.py.",
+      "status": "running"
     }
   }
 }
