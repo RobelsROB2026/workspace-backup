@@ -34,6 +34,13 @@
       "projectDir": "/Users/roba/research/trucking",
       "goal": "Create tag_nationality_anthropic.py that mirrors tag_nationality_historical.py but uses the Anthropic API (claude-3-5-haiku-20241022) to classify trucking leads by nationality (Ethiopian, Eritrean, Indian, Pakistani). It must fetch the leads ORDER BY l.created_at DESC to work from the bottom up while the other script works top down. Then install 'anthropic' via pip if needed, and run the script in the background via nohup, logging to tag_anthropic.log. Do not modify the original tag_nationality_historical.py.",
       "status": "running"
+    },
+    "nightly-tag-opt": {
+      "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
+      "tmuxSession": "nightly-tag-opt",
+      "projectDir": "/Users/roba/research/trucking",
+      "goal": "Run an autonomous Karpathy-style autoresearch loop on tag_nationality_historical.py to maximize leads classified per minute. 1. Define a benchmark (e.g., classify 500 leads and measure time). 2. Hypothesize improvements (larger batch size, reduced sleep, prompt compression, async calls). 3. Test and evaluate. 4. Keep winning changes. Target the highest throughput possible within Gemini free tier limits (15 RPM). Use gemini-3-flash-preview.",
+      "status": "running"
     }
   }
 }

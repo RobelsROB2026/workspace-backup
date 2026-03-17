@@ -65,12 +65,18 @@ Index at `_index.md`. Template at `_template/`.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
-### Daily Maintenance & Project Updates (2026-03-11)
-- **FMCSA Daily Sync**: Successfully upserted 2,145 high-intent leads into the CRM. Parallel fetching implemented (15 batches in 2.46s), bringing the total pipeline time down to 42.34s (a 75% performance improvement).
-- **Social Media**: Finally successfully posted the Barry Hauler "Wrenchnator" video to X after troubleshooting multiple browser/automation rejection issues. TikTok post is currently in progress.
-- **OpenClaw v2026.3.8**: Verified local installation is current (latest stable).
-- **ClawHub**: Identified **EngageLab Omni Connect** as a high-potential skill for omnichannel lead engagement.
-- **AutoPax Pipeline**: Achieved a **+5,307% performance increase** via a Gen9 CTE-based PostgreSQL optimization loop, reaching ~165,000 RPM.
+### Daily Maintenance & Project Updates (2026-03-16)
+- **FMCSA Daily Sync**: Successfully upserted 2,578 high-intent leads into the CRM (~67k RPM).
+- **GWS Auth Restored**: Resolved the `gws` 401 error. Re-authenticated `robake2006@gmail.com` and restored persistent access to Drive, Gmail, and Calendar.
+- **Nationality Tagging**: 
+    - Patched `tag_nationality_historical.py` with explicit HTTP timeouts (60s) to prevent hangs.
+    - Migrated classification to `gemini-3-flash-preview`.
+    - Implemented and integrated the Nationality filter UI into the AutoPax CRM dashboard.
+    - Backfill of 81k historical leads is actively in progress.
+- **Social Media**: 
+    - Successfully deleted a text-only "ghost" post from the @barryhauler timeline caused by a Playwright timeout. 
+    - Optimized `post_daily_video.py` to fix `ffmpeg` path conflicts.
+- **Infrastructure**: GitHub PAT for `RobelsROB2026` is expired; `gh` CLI access to private repos remains broken pending user refresh.
 
 ### Daily Maintenance & Project Updates (2026-03-14)
 - **FMCSA Daily Sync**: Successfully upserted 3,370 high-intent leads into the CRM (~31k RPM). 
