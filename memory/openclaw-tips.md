@@ -25,3 +25,13 @@
 
 ### Maintenance
 - Update available via `npm install -g openclaw`.
+
+### OpenClaw Updates & News (2026-03-17)
+- **GitHub Release v2026.3.13-1**: Recovery release fixing broken tag/release path.
+- **New Channels**: Twitch and Google Chat plugins now available.
+- **Model Support**: Added support for KIMI K2.5 and Xiaomi MiMo-V2-Flash models.
+- **Onboarding**: Improved daemon installation for slower Macs/fresh VMs.
+- **Security**: ClawHub now integrates VirusTotal for automatic skill scanning; still recommended to review skills before install.
+- **Pro-Tip**: Use memory categorization (3-tier system) to reduce token costs and improve performance by only providing relevant context.
+- **Debugging**: Use verbose mode ("full" option) to observe agent tool calls and learn which tools to invoke explicitly.
+

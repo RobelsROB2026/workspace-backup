@@ -69,7 +69,7 @@ Index at `_index.md`. Template at `_template/`.
 - **Nationality Tagging**: Completed the historical backfill of 79,705 leads. Tagged 7,026 total leads by nationality (Indian: 4,102, Ethiopian: 1,345, Pakistani: 1,248, Eritrean: 331).
 - **FMCSA Daily Sync**: Successfully upserted 4,236 records into the CRM at 3:00 AM.
 - **OpenClaw v2026.3.13**: Upgraded the local install to v2026.3.13. Restarted the gateway via launchd.
-- **Social Media**: Prepped today's Barry Hauler video and scheduled the upload for 2:15 PM. Scheduled 3 random X notification checks.
+- **Social Media**: Prepped today's Barry Hauler video and successfully uploaded it to X after a custom script timeout, using the manual browser protocol.
 - **Infrastructure**: GitHub PAT for `RobelsROB2026` is confirmed expired; `gh` CLI remains broken for private repo access.
 
 ### Daily Maintenance & Project Updates (2026-03-16)
