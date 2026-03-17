@@ -39,7 +39,7 @@
       "socket": "/tmp/openclaw-tmux-sockets/openclaw.sock",
       "tmuxSession": "nightly-tag-opt",
       "projectDir": "/Users/roba/research/trucking",
-      "goal": "Run an autonomous Karpathy-style autoresearch loop on tag_nationality_historical.py to maximize leads classified per minute. 1. Define a benchmark (e.g., classify 500 leads and measure time). 2. Hypothesize improvements (larger batch size, reduced sleep, prompt compression, async calls). 3. Test and evaluate. 4. Keep winning changes. Target the highest throughput possible within Gemini free tier limits (15 RPM). Use gemini-3-flash-preview.",
+      "goal": "Optimize tag_nationality_historical.py to maximize leads processed per minute. Current baseline is 50 leads per batch with 4.1s sleep. \n1. Use gemini-3-flash-preview. \n2. Implement concurrent API calls (e.g. 5 parallel threads) with a shared rate limiter to stay under 15 RPM. \n3. Increase BATCH_SIZE to 100. \n4. Implement a background thread for database writes so classification doesn't block on I/O.\n5. Benchmark the new version for 5 minutes and report the final leads-per-minute. \nUse --permission-mode bypassPermissions internally.",
       "status": "running"
     }
   }
