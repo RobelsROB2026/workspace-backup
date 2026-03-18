@@ -70,7 +70,9 @@ Index at `_index.md`. Template at `_template/`.
     - `sync_daily_optimized.py` upgraded to **Gen10** (~167k RPM, +2.8x speedup).
     - `tag_nationality_historical.py` upgraded to **Gen3** (3x speedup, 24x fewer DB writes).
     - Database: Implemented GIN index `idx_leads_tags_gin` for fast nationality filtering.
-- **Nationality Tagging**: Backfill complete (~85k leads processed, ~6.7k tagged). Nightly cron (03:10 AM) added.
+- **Nationality Tagging**: Historical backfill complete (~81k leads processed). Final run tagged 1,427 new leads. Nightly cron (03:10 AM) active.
+- **Social Media**: Prepped today's Barry Hauler video and scheduled post for 2:42 PM CDT.
+- **OpenClaw**: v2026.3.13 is available. Current gateway is v2026.3.11.
 
 ### Daily Maintenance & Project Updates (2026-03-17)
 - **Nationality Tagging**: Completed the historical backfill of 79,705 leads. Tagged 7,026 total leads by nationality (Indian: 4,102, Ethiopian: 1,345, Pakistani: 1,248, Eritrean: 331).

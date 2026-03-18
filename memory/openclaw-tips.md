@@ -1,37 +1,18 @@
-# OpenClaw Tips & Ecosystem Updates (Updated 2026-03-16)
+# OpenClaw Tips & Research (2026-03-18)
 
-## OpenClaw Releases
-- **v2026.3.13 (2026-03-14)**: Security focus.
-    - Mandatory short-lived bootstrap tokens for device pairing (`/pair`).
-    - Implicit workspace plugin auto-load disabled for safety.
-    - Improved session continuity: `lastAccountId` and `lastThreadId` preserved on gateway resets.
-    - Fixed macOS daemon installation reliability.
-- **v2026.3.8 (2026-03-09)**: Stable release. 
-    - New Features: `openclaw backup create` and `verify` for local state archives.
+## News & Releases
+- **v2026.3.13 (March 16, 2026)**: Mobile redesign, 2x memory fix, 70+ stability patches.
+- **v2026.3.11/12 (March 13, 2026)**: Dashboard rewrite, Fast mode, 8 security fixes.
+- **NVIDIA NemoClaw™**: New stack launched by NVIDIA to enhance privacy/security for OpenClaw agents.
+- **Milestone**: OpenClaw reached 310,000 stars on GitHub.
 
-## ClawHub New Skills
-- **afrexai-business-automation**: Comprehensive suite for architecting business workflows.
-- **RootData Skills (2026-03-09)**: Crypto data platform integration. 
-- **EngageLab Omni Connect**: Omnichannel engagement (WhatsApp, SMS, Voice, Email).
+## Security Alerts
+- **HKCERT Warning**: Risks in the skills supply chain and fake installers. Always verify skill sources (ClawHub) and avoid root access.
+- **CVE-2026-25253**: Reminder that one-click RCE was patched in v2026.1.29. Ensure we stay updated.
 
-## Security & Architecture
-- **Unix Agent Philosophy**: Industry moving towards single `run` tool + CLI instead of bloated toolsets.
-- **AMD Support**: Local execution enabled for Ryzen AI Max+ and Radeon GPUs.
-- **China Market Dominance**: Significant adoption of OpenClaw in China using domestic models.
-
-## Productivity
-- **Parallel Fetching**: Implementing parallel batching in data pipelines reduces execution time significantly (e.g., Trucking Sync).
-- **Master/Muscle Protocol**: Delegate execution to Claude Code while keeping ROB as the thinker/planner.
-
-### Maintenance
-- Update available via `npm install -g openclaw`.
-
-### OpenClaw Updates & News (2026-03-17)
-- **GitHub Release v2026.3.13-1**: Recovery release fixing broken tag/release path.
-- **New Channels**: Twitch and Google Chat plugins now available.
-- **Model Support**: Added support for KIMI K2.5 and Xiaomi MiMo-V2-Flash models.
-- **Onboarding**: Improved daemon installation for slower Macs/fresh VMs.
-- **Security**: ClawHub now integrates VirusTotal for automatic skill scanning; still recommended to review skills before install.
-- **Pro-Tip**: Use memory categorization (3-tier system) to reduce token costs and improve performance by only providing relevant context.
-- **Debugging**: Use verbose mode ("full" option) to observe agent tool calls and learn which tools to invoke explicitly.
-
+## Tips & Hacks
+- **Port Security**: Change default port (18789) to prevent scanning.
+- **Model Routing**: Use tiered routing (Gemini Flash for routine, Opus for reasoning) to manage costs.
+- **Guardrails**: Use `SKILL.md` to define strict agent behavior.
+- **Cron**: Use the native scheduler for background tasks (we are doing this!).
+- **Workspace Memory**: Keep `USER.md`, `AGENTS.md`, `HEARTBEAT.md`, and `MEMORY.md` updated for persistent context.
