@@ -65,6 +65,13 @@ Index at `_index.md`. Template at `_template/`.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
+### Daily Maintenance & Project Updates (2026-03-18)
+- **AutoPax Optimization**: Completed nightly loop. 
+    - `sync_daily_optimized.py` upgraded to **Gen10** (~167k RPM, +2.8x speedup).
+    - `tag_nationality_historical.py` upgraded to **Gen3** (3x speedup, 24x fewer DB writes).
+    - Database: Implemented GIN index `idx_leads_tags_gin` for fast nationality filtering.
+- **Nationality Tagging**: Backfill complete (~85k leads processed, ~6.7k tagged). Nightly cron (03:10 AM) added.
+
 ### Daily Maintenance & Project Updates (2026-03-17)
 - **Nationality Tagging**: Completed the historical backfill of 79,705 leads. Tagged 7,026 total leads by nationality (Indian: 4,102, Ethiopian: 1,345, Pakistani: 1,248, Eritrean: 331).
 - **FMCSA Daily Sync**: Successfully upserted 4,236 records into the CRM at 3:00 AM.
