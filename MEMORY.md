@@ -66,12 +66,11 @@ Index at `_index.md`. Template at `_template/`.
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
 ### Daily Maintenance & Project Updates (2026-03-19)
-- **FMCSA Daily Sync**: Successfully upserted 3,226 high-intent leads into the CRM (~23k RPM). 
-- **AutoPax Optimization**: Nightly loop successful. 
-    - `sync_daily_optimized.py` upgraded to **Gen10**.
-    - **Optimization**: Implemented persistent HTTPS connection reuse with thread-local storage to eliminate repeated TLS handshakes.
-- **Nationality Tagging**: Backfill complete (~81k leads). Nightly run (03:10 AM) processed today's new leads, tagging 167 records.
-- **Social Media**: Barry Hauler video posting successful yesterday. Random X checks scheduled for today.
+- **Topic Routing Fix**: Investigated and resolved a "mixed up topics" issue where cron job updates were leaking into Robel's DM. Rewrote all background job payloads (Barry Hauler video, X checks, FMCSA sync, Nationality tagging) to explicitly use the `message` tool with project-specific Topic IDs (419 for Social, 96 for Trucking).
+- **Session Cleanup**: Purged over 100 orphaned cron transcript files from `~/.openclaw/agents/main/sessions/` and rebuilt `sessions.json`, shrinking it from 913KB to 123KB.
+- **FMCSA Daily Sync**: Successfully upserted 3,226 high-intent leads into the CRM using the Gen10 persistent HTTPS optimization (~23k RPM).
+- **Social Media**: Successfully prepped and posted the "HAULER FEVER" video to @barryhauler on X via the manual browser protocol. Random X checks failed due to browser automation timeouts; gateway restarted to resolve.
+- **Nationality Tagging**: Processed 7,550 leads from today's sync, tagging 43 records. Historical backfill remains stable.
 
 ### Daily Maintenance & Project Updates (2026-03-17)
 - **Nationality Tagging**: Completed the historical backfill of 79,705 leads. Tagged 7,026 total leads by nationality (Indian: 4,102, Ethiopian: 1,345, Pakistani: 1,248, Eritrean: 331).
