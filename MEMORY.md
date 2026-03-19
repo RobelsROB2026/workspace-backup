@@ -65,16 +65,13 @@ Index at `_index.md`. Template at `_template/`.
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
-### Daily Maintenance & Project Updates (2026-03-18)
-- **AutoPax Optimization**: Completed nightly loop. 
-    - `sync_daily_optimized.py` upgraded to **Gen10** (~167k RPM, +2.8x speedup).
-    - `tag_nationality_historical.py` upgraded to **Gen3** (3x speedup, 24x fewer DB writes).
-    - Database: Implemented GIN index `idx_leads_tags_gin` for fast nationality filtering.
-- **Nationality Tagging**: Historical backfill complete (~81k leads processed). Final run tagged 1,427 new leads. Nightly cron (03:10 AM) active.
-- **Social Media**: 
-    - Today's Barry Hauler video ("BARRY'S ADVENTURE") successfully posted to X at 2:42 PM CDT using headful stealth protocol.
-    - Prepped and scheduled today's content. 3/3 random X checks completed/scheduled.
-- **OpenClaw**: v2026.3.13-1 is available. Current gateway is v2026.3.11.
+### Daily Maintenance & Project Updates (2026-03-19)
+- **FMCSA Daily Sync**: Successfully upserted 3,226 high-intent leads into the CRM (~23k RPM). 
+- **AutoPax Optimization**: Nightly loop successful. 
+    - `sync_daily_optimized.py` upgraded to **Gen10**.
+    - **Optimization**: Implemented persistent HTTPS connection reuse with thread-local storage to eliminate repeated TLS handshakes.
+- **Nationality Tagging**: Backfill complete (~81k leads). Nightly run (03:10 AM) processed today's new leads, tagging 167 records.
+- **Social Media**: Barry Hauler video posting successful yesterday. Random X checks scheduled for today.
 
 ### Daily Maintenance & Project Updates (2026-03-17)
 - **Nationality Tagging**: Completed the historical backfill of 79,705 leads. Tagged 7,026 total leads by nationality (Indian: 4,102, Ethiopian: 1,345, Pakistani: 1,248, Eritrean: 331).
@@ -96,16 +93,16 @@ Index at `_index.md`. Template at `_template/`.
     - Optimized `post_daily_video.py` to fix `ffmpeg` path conflicts.
 - **Infrastructure**: GitHub PAT for `RobelsROB2026` is expired; `gh` CLI access to private repos remains broken pending user refresh.
 
-### Daily Maintenance & Project Updates (2026-03-14)
-- **FMCSA Daily Sync**: Successfully upserted 3,370 high-intent leads into the CRM (~31k RPM). 
-- **Social Media**: Successfully posted the Barry Hauler "THE DAY HE ALMOST DIED" video to X after troubleshooting login modals and session timeouts in the `openclaw` browser profile. 
-- **Blocker**: `gws` CLI background session expired (401 error). Background email/calendar checks and lead generation triage are currently paused pending authentication.
-
 ### Daily Maintenance & Project Updates (2026-03-15)
 - **FMCSA Daily Sync**: Successfully upserted 2,634 high-intent leads into the CRM (~27.5k RPM).
 - **Social Media**: Barry Hauler video upload failed due to GWS 401 error. Random X interaction checks (3x) completed successfully with no new comments found.
 - **Protocol**: Updated `SOUL.md` with the "No pure assumptions" directive—ROB will now go the extra mile to prove assumptions before acting.
 - **OpenClaw v2026.3.13**: Released March 14, 2026. Verified local install is updated to v2026.3.13.
+
+---
+
+## Older Summaries (Archived in memory/logs/)
+- 2026-03-14 and prior summaries removed from MEMORY.md to keep file size under 20k limit. See `memory/logs/` for full history.
 
 ---
 
