@@ -3,7 +3,7 @@
 ## News & Releases
 - **v2026.3.13 (March 16, 2026)**: Mobile redesign, 2x memory fix, 70+ stability patches.
 - **v2026.3.11/12 (March 13, 2026)**: Dashboard rewrite, Fast mode, 8 security fixes.
-- **NVIDIA NemoClaw™**: New stack launched by NVIDIA to enhance privacy/security for OpenClaw agents.
+- **NVIDIA NemoClaw™**: Announced March 16, 2026. A secure stack for OpenClaw agents providing sandbox isolation and a 'privacy router'.
 - **Milestone**: OpenClaw reached 310,000 stars on GitHub.
 
 ## Security Alerts
