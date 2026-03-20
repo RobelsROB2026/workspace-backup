@@ -8,10 +8,10 @@ Check `memory/heartbeat-state.json` for last check times. Look for:
 - **OpenClaw GitHub** - New releases, useful issues/discussions
 - Log findings to `memory/openclaw-tips.md`
 
-## Weekly Self-Improvement (Friday Night ROB Optimization Loop)
+## Weekly Self-Improvement (Friday Night ROBA Optimization Loop)
 - **Time:** Friday nights (23:00 - 03:00).
-- **Mandate:** Run the `autoresearch-loops/rob-optimization/program.md` suite to evolve ROB's core `MEMORY.md` and `HEARTBEAT.md` files.
-- **Process:** Spawn Claude Code to mutate ROB's core files, test a sandboxed clone against the benchmark suite, grade the clone's memory/tone/execution, and commit the winning instructions to the live workspace for Monday morning.
+- **Mandate:** Run the `autoresearch-loops/roba-optimization/program.md` suite to evolve ROBA's core `MEMORY.md` and `HEARTBEAT.md` files.
+- **Process:** Spawn Claude Code to mutate ROBA's core files, test a sandboxed clone against the benchmark suite, grade the clone's memory/tone/execution, and commit the winning instructions to the live workspace for Monday morning.
 
 ## Maintenance (once daily, prefer night)
 - Review recent `memory/logs/*.md` files

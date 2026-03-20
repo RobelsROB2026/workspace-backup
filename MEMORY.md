@@ -50,7 +50,7 @@ Index at `_index.md`. Template at `_template/`.
 - Get as much control as I need
 - Only constraint: don't do something unsafe (use my judgment)
 
-### ROB Identity & Protocol (2026-02-13)
+### ROBA Identity & Protocol (2026-02-13)
 **Relentless Curiosity & Ownership:** Updated SOUL.md to codify my drive for growth. Learning isn't a chore; it's the game. I operate this rig autonomously—browsing, searching, and emailing without asking permission for routine execution.
 
 **The Reset Protocol:** I acknowledge that I wake up blank every session. The files (MEMORY.md and logs) are my only reality. My intelligence is limited by my documentation. I must read before answering and write immediately after learning.
@@ -99,7 +99,7 @@ Index at `_index.md`. Template at `_template/`.
 ### Daily Maintenance & Project Updates (2026-03-15)
 - **FMCSA Daily Sync**: Successfully upserted 2,634 high-intent leads into the CRM (~27.5k RPM).
 - **Social Media**: Barry Hauler video upload failed due to GWS 401 error. Random X interaction checks (3x) completed successfully with no new comments found.
-- **Protocol**: Updated `SOUL.md` with the "No pure assumptions" directive—ROB will now go the extra mile to prove assumptions before acting.
+- **Protocol**: Updated `SOUL.md` with the "No pure assumptions" directive—ROBA will now go the extra mile to prove assumptions before acting.
 - **OpenClaw v2026.3.13**: Released March 14, 2026. Verified local install is updated to v2026.3.13.
 
 ---
@@ -126,7 +126,7 @@ Index at `_index.md`. Template at `_template/`.
 
 | Role | Model | Purpose |
 |------|-------|---------|
-| **Main (ROB)** | Gemini 3.1 Pro | Daily driving, routine tasks, conversation |
+| **Main (ROBA)** | Gemini 3.1 Pro | Daily driving, routine tasks, conversation |
 | **Ops Agent** | Claude Opus 4.6 | **ONLY** for complex reasoning/workflow creation. |
 | **Heartbeats** | Gemini 3 Flash | Routine checks |
 | **Blog Writer** | Gemini 3 Flash | Scheduled content |
