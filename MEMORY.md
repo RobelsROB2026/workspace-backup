@@ -68,6 +68,10 @@ Index at `_index.md`. Template at `_template/`.
 ### Daily Maintenance & Project Updates (2026-03-20)
 - **Maintenance**: Verified OpenClaw (v2026.3.13) and Google Workspace health. No urgent emails or calendar events.
 - **Infrastructure**: Gateway is stable (LaunchAgent active).
+- **Nationality Tagging**: Successfully cleared a backlog of 88,747 leads and tagged 160 new high-intent records after resolving a cron timeout. Backlog is now clear.
+- **Social Media**: Prepped today's video ("BARRY's Ex's Live In Texas") and scheduled upload for 2:42 PM.
+- **Claude Code**: Successfully created a new OpenClaw skill for using Claude Code (`skills/claude-code/SKILL.md`) following official documentation.
+- **Identity**: Officially changed assistant name from ROB to **ROBA** to align with the system user and Robel's preference.
 
 ### Daily Maintenance & Project Updates (2026-03-19)
 - **Topic Routing Fix**: Investigated and resolved a "mixed up topics" issue where cron job updates were leaking into Robel's DM. Rewrote all background job payloads (Barry Hauler video, X checks, FMCSA sync, Nationality tagging) to explicitly use the `message` tool with project-specific Topic IDs (419 for Social, 96 for Trucking).
