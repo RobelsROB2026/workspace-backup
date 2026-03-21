@@ -106,5 +106,102 @@
     "improvement_pct": -5.99,
     "adopted": false,
     "timestamp": "2026-03-20T23:57:52.933915"
+  },
+  {
+    "gen": "gen11",
+    "hypothesis": "httpx_phase1",
+    "description": "httpx for Phase 1 source fetches",
+    "rpm": 34608,
+    "baseline_rpm": 166557,
+    "improvement_pct": -79.22,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:58:35.840645"
+  },
+  {
+    "gen": "gen12",
+    "hypothesis": "leads_do_nothing",
+    "description": "leads ON CONFLICT DO NOTHING (skip re-inserting existing leads)",
+    "rpm": 131634,
+    "baseline_rpm": 166557,
+    "improvement_pct": -20.97,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:59:07.601345"
+  },
+  {
+    "gen": "gen13",
+    "hypothesis": "gzip_only",
+    "description": "Accept-Encoding: gzip only (avoid deflate overhead)",
+    "rpm": 158073,
+    "baseline_rpm": 166557,
+    "improvement_pct": -5.09,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:59:38.298255"
+  },
+  {
+    "gen": "gen14",
+    "hypothesis": "reduce_http_timeout",
+    "description": "HTTP_TIMEOUT=15 (faster failure detection)",
+    "rpm": 152626,
+    "baseline_rpm": 166557,
+    "improvement_pct": -8.36,
+    "adopted": false,
+    "timestamp": "2026-03-21T00:00:11.476488"
+  },
+  {
+    "gen": "gen15",
+    "hypothesis": "parallel_db_writes",
+    "description": "Parallel DB writes \u2014 2 connections for company upsert",
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T00:00:16.628059"
+  },
+  {
+    "gen": "gen16",
+    "hypothesis": "workers_8",
+    "description": "MAX_BATCH_WORKERS=8 (fewer threads, less contention)",
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T00:00:16.628255"
+  },
+  {
+    "gen": "gen17",
+    "hypothesis": "prefilter_batch_dots",
+    "description": "Pre-filter batch DOTs \u2014 skip Socrata fetch for DOTs already in DB",
+    "rpm": 120123,
+    "baseline_rpm": 166557,
+    "improvement_pct": -27.88,
+    "adopted": false,
+    "timestamp": "2026-03-21T00:00:44.648703"
+  },
+  {
+    "gen": "gen18",
+    "hypothesis": "pipeline_phase2",
+    "description": "Pipeline Phase 2 start before all Phase 1 completes",
+    "rpm": 120662,
+    "baseline_rpm": 166557,
+    "improvement_pct": -27.56,
+    "adopted": false,
+    "timestamp": "2026-03-21T00:01:18.641422"
+  },
+  {
+    "gen": "gen19",
+    "hypothesis": "batch_400_workers_16",
+    "description": "BATCH_SIZE=400 + workers=12 combo",
+    "rpm": 129407,
+    "baseline_rpm": 166557,
+    "improvement_pct": -22.3,
+    "adopted": false,
+    "timestamp": "2026-03-21T00:01:49.268219"
+  },
+  {
+    "gen": "gen20",
+    "hypothesis": "combined_best",
+    "description": "Stack best improvements: split-CTE + reduce cols + workers=16",
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T00:01:54.419702"
   }
 ]
