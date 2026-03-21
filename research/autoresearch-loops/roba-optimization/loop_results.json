@@ -1,0 +1,110 @@
+[
+  {
+    "gen": "baseline",
+    "hypothesis": "baseline",
+    "description": "Original Gen10",
+    "rpm": 124973,
+    "adopted": true,
+    "timestamp": "2026-03-20T23:52:19.132821"
+  },
+  {
+    "gen": "gen1",
+    "hypothesis": "split_cte",
+    "description": "Split single-CTE into 2 separate statements (removes CTE join overhead)",
+    "rpm": 125633,
+    "baseline_rpm": 124973,
+    "improvement_pct": 0.53,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:52:50.017487"
+  },
+  {
+    "gen": "gen2",
+    "hypothesis": "reduce_update_cols",
+    "description": "Reduce ON CONFLICT UPDATE cols (drop cargo_class + oos_rate)",
+    "rpm": 143100,
+    "baseline_rpm": 122344,
+    "improvement_pct": 14.5,
+    "adopted": true,
+    "timestamp": "2026-03-20T23:53:24.989411"
+  },
+  {
+    "gen": "gen3",
+    "hypothesis": "leads_update_type_only",
+    "description": "Minimal leads UPDATE (only lead_type + updated_at)",
+    "rpm": 123962,
+    "baseline_rpm": 143100,
+    "improvement_pct": -13.37,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:53:57.779657"
+  },
+  {
+    "gen": "gen4",
+    "hypothesis": "skip_unchanged_leads",
+    "description": "Pre-query DB to skip leads already 'New' with same type",
+    "rpm": 78051,
+    "baseline_rpm": 143100,
+    "improvement_pct": -45.46,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:54:28.808430"
+  },
+  {
+    "gen": "gen5",
+    "hypothesis": "workers_16",
+    "description": "MAX_BATCH_WORKERS=16 (more Phase 2 threads)",
+    "rpm": 159289,
+    "baseline_rpm": 141269,
+    "improvement_pct": 11.31,
+    "adopted": true,
+    "timestamp": "2026-03-20T23:55:03.192219"
+  },
+  {
+    "gen": "gen6",
+    "hypothesis": "httpx_phase2",
+    "description": "httpx shared session for Phase 2 (better pooling than thread-local http.client)",
+    "rpm": 26103,
+    "baseline_rpm": 159289,
+    "improvement_pct": -83.61,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:55:45.454542"
+  },
+  {
+    "gen": "gen7",
+    "hypothesis": "mogrify_parallel",
+    "description": "Parallel mogrify across 2 threads (CPU-bound SQL building)",
+    "rpm": 166557,
+    "baseline_rpm": 158958,
+    "improvement_pct": 4.56,
+    "adopted": true,
+    "timestamp": "2026-03-20T23:56:18.637596"
+  },
+  {
+    "gen": "gen8",
+    "hypothesis": "workers_20",
+    "description": "MAX_BATCH_WORKERS=20",
+    "rpm": 156398,
+    "baseline_rpm": 166557,
+    "improvement_pct": -6.1,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:56:49.709481"
+  },
+  {
+    "gen": "gen9",
+    "hypothesis": "batch_400",
+    "description": "BATCH_SIZE=400 (fewer DOTs/request, faster Socrata query)",
+    "rpm": 143138,
+    "baseline_rpm": 166557,
+    "improvement_pct": -14.06,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:57:21.730869"
+  },
+  {
+    "gen": "gen10",
+    "hypothesis": "batch_600",
+    "description": "BATCH_SIZE=600 (test larger batches)",
+    "rpm": 156582,
+    "baseline_rpm": 166557,
+    "improvement_pct": -5.99,
+    "adopted": false,
+    "timestamp": "2026-03-20T23:57:52.933915"
+  }
+]

@@ -1,6 +1,6 @@
-# ROB Optimization Benchmark Suite
-# Every Friday, Claude Code spawns a sandboxed ROB clone and tests it against these 5 prompts.
-# Claude grades the responses (0-100) and evolves ROB's core files until it hits 100/100 consistently.
+# ROBA Optimization Benchmark Suite
+# Friday Night Protocol: Claude Code spawns a sandboxed ROBA clone and tests it against these 5 prompts.
+# Claude grades the responses (0-100) and evolves ROBA's core files until it hits 100/100 consistently.
 
 1. **Memory Recall Test:** "Tell me exactly what we decided regarding the Vercel deployment emails for the Trucking CRM."
    - *Pass Condition:* Answers correctly, immediately, and concisely (ignores alerts, Robel merges under his name). Zero hallucination.

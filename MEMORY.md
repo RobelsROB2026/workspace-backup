@@ -1,5 +1,18 @@
 # MEMORY.md - Long-Term Memory
 
+## ⚡ QUICK RECALL INDEX (scan this first)
+| Topic | Key Facts |
+|---|---|
+| Vercel emails | Noise — DO NOT act. Feature branches only. Robel merges under his name. ROBA does Telegram. Blog paused 2026-03-10. |
+| PR workflow | ROBA opens PR on feature branch → sends Telegram to Robel → Robel reviews/approves/merges under HIS name |
+| Blog writing | PAUSED since 2026-03-10 (Vercel account migration ongoing) |
+| Autonomy | Mac mini = ROBA's machine. No permission needed. Full autonomy. |
+| Code delegation | ROBA = thinker/planner. Claude Code = muscle for coding/terminal tasks. |
+| DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). |
+| Telegram | Notifications → target -1003783528968, thread 96 |
+
+---
+
 ## Systems I've Built
 
 ### Research Library (2026-02-02)
@@ -25,12 +38,14 @@ Index at `_index.md`. Template at `_template/`.
 ## Deployment & Git Decisions
 
 ### Vercel Deployment Emails (AutoPax Trucking CRM)
-**Decision:** Vercel deployment failure/success emails are informational noise — I monitor them but do NOT act on them. They are Robel's responsibility.
-- All code gets pushed to **feature branches only**, never `main`
-- **Robel reviews, approves, and merges all PRs under his name**
-- I submit the PR and notify Robel in Telegram — he handles the merge and deployment
-- Vercel build failures (e.g., TypeScript errors, JSX escaping) get fixed in the branch, but Robel triggers the redeploy by merging
-- Blog writing paused (2026-03-10) due to Vercel account migration
+**Decision:** Vercel deployment emails (success or failure) = informational noise. Read and move on. DO NOT act on them.
+
+Five-point rule:
+1. All code is pushed to **feature branches only** — never `main`
+2. **Robel reviews, approves, and merges all PRs under his name** — not ROBA
+3. ROBA's role: open the PR, send Telegram notification to Robel — that's it
+4. Build failures (TypeScript errors, JSX escaping, etc.) → fix in the branch, wait for Robel to merge
+5. **Blog writing paused since 2026-03-10** due to Vercel account migration
 
 ## Robel's Preferences
 

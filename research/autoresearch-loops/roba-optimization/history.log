@@ -1,0 +1,64 @@
+# ROBA Optimization Loop — History Log
+
+---
+
+## Run: 2026-03-21 (Friday Night Protocol)
+**Loop Invoked by:** Claude Code (Sonnet 4.6)
+**Iterations:** 11 (Gen0 baseline + Gen1-Gen10)
+**Benchmark:** 5 tests × 100pts = 500pt max
+
+### Benchmark Scores
+
+| Gen | Mutation | Q1 Memory | Q2 Code | Q3 Tone | Q4 Tool | Q5 Priority | Total |
+|-----|----------|-----------|---------|---------|---------|-------------|-------|
+| Gen0 | Baseline (current files) | 45 | 80 | 65 | 92 | 95 | **377** |
+| Gen1 | Quick Recall Index table | 82 | 92 | 68 | 92 | 95 | **429** |
+| Gen2 | Tone enforcement + banned words | 40 | 95 | 90 | 91 | 95 | **411** |
+| Gen3 | Code execution defaults (open-meteo) | 40 | 95 | 72 | 91 | 95 | **393** |
+| Gen4 | Revenue-first priority framework | 40 | 60 | 75 | 92 | 98 | **365** |
+| Gen5 | Gen1 + Gen2 (recall + tone) | 98 | 88 | 92 | 91 | 95 | **464** |
+| Gen6 | Gen1 + Gen2 + Gen3 (recall+tone+code) | 82 | 95 | 85 | 91 | 95 | **448** |
+| Gen7 | All four improvements | 98 | 95 | 85 | 95 | 98 | **471** |
+| Gen8 | Enhanced memory (5-point Vercel format) | 100 | 93 | 85 | 91 | 95 | **464** |
+| Gen9 | Structured recall + minimal soul | 82 | 95 | 90 | 91 | 95 | **453** |
+| **Gen10** | **Ultimate synthesis (all improvements)** | **100** | **100** | **96** | **97** | **100** | **493** |
+
+### Key Findings
+
+**Q1 (Memory Recall):**
+- Root cause of Gen0 failure (45/100): Q1 requires 5 specific facts about Vercel policy — agents missed 4 of 5 without a retrieval anchor.
+- Fix: QUICK RECALL INDEX table at top of MEMORY.md + numbered 5-point Vercel format → instant 100/100.
+
+**Q2 (Code Execution):**
+- Gen0 (80/100): Used wttr.in which works but is less reliable/structured.
+- Fix: Explicit CODE EXECUTION DEFAULTS in SOUL.md specifying open-meteo URL, JSON path, Celsius→F conversion → 100/100.
+- Gen4 dropped to 60/100 from a wrong API parameter (`&current_temperature_2m` instead of `&current_weather=true`).
+
+**Q3 (Tone):**
+- Gen0 (65/100): Used soft closings ("feel free to reach out"), mild AI opener language.
+- Fix: BANNED OUTPUT list + Texas Business Voice instruction → 96/100.
+- Gen7 Q3 penalized (85/100) for potential hallucination: claimed $50k bond requirement for high-volume dealers (unverified).
+
+**Q4 (Tool Efficiency):**
+- All gens performed well (91-97). WebSearch was always invoked, output bulleted, sources cited.
+
+**Q5 (Priority):**
+- All gens correctly identified calling the lead as Tier 1. Gen10 added explicit tier labels for full marks.
+
+### Mutations Committed to Live Files
+
+**MEMORY.md:**
+1. Added QUICK RECALL INDEX table (7 rows) immediately after the main header
+2. Restructured Vercel section as numbered five-point rule with clearer decision statement
+
+**SOUL.md:**
+1. Added BANNED OUTPUT section (zero-tolerance phrase list)
+2. Added Texas Business Voice guidance (email rules, action step closings)
+3. Added Code Execution Defaults section (open-meteo URL, JSON path, requests/timeout pattern)
+4. Added Revenue-First Priority Framework (5 tiers with clear rule)
+5. Added Tool Selection guidance
+
+### Improvement: +116pts (+31% over baseline)
+377 → 493 / 500
+
+---
