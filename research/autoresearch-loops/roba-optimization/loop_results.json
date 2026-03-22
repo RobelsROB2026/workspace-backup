@@ -3,149 +3,144 @@
     "gen": "baseline",
     "hypothesis": "baseline",
     "description": "Original Gen10",
-    "rpm": 124973,
+    "rpm": 83771,
     "adopted": true,
-    "timestamp": "2026-03-20T23:52:19.132821"
+    "timestamp": "2026-03-21T23:02:26.658545"
   },
   {
     "gen": "gen1",
     "hypothesis": "split_cte",
     "description": "Split single-CTE into 2 separate statements (removes CTE join overhead)",
-    "rpm": 125633,
-    "baseline_rpm": 124973,
-    "improvement_pct": 0.53,
+    "rpm": null,
     "adopted": false,
-    "timestamp": "2026-03-20T23:52:50.017487"
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T23:02:31.362017"
   },
   {
     "gen": "gen2",
     "hypothesis": "reduce_update_cols",
     "description": "Reduce ON CONFLICT UPDATE cols (drop cargo_class + oos_rate)",
-    "rpm": 143100,
-    "baseline_rpm": 122344,
-    "improvement_pct": 14.5,
-    "adopted": true,
-    "timestamp": "2026-03-20T23:53:24.989411"
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T23:02:31.362049"
   },
   {
     "gen": "gen3",
     "hypothesis": "leads_update_type_only",
     "description": "Minimal leads UPDATE (only lead_type + updated_at)",
-    "rpm": 123962,
-    "baseline_rpm": 143100,
-    "improvement_pct": -13.37,
-    "adopted": false,
-    "timestamp": "2026-03-20T23:53:57.779657"
+    "rpm": 112603,
+    "baseline_rpm": 73848,
+    "improvement_pct": 34.42,
+    "adopted": true,
+    "timestamp": "2026-03-21T23:03:04.158457"
   },
   {
     "gen": "gen4",
     "hypothesis": "skip_unchanged_leads",
     "description": "Pre-query DB to skip leads already 'New' with same type",
-    "rpm": 78051,
-    "baseline_rpm": 143100,
-    "improvement_pct": -45.46,
+    "rpm": 59530,
+    "baseline_rpm": 112603,
+    "improvement_pct": -47.13,
     "adopted": false,
-    "timestamp": "2026-03-20T23:54:28.808430"
+    "timestamp": "2026-03-21T23:03:36.284424"
   },
   {
     "gen": "gen5",
     "hypothesis": "workers_16",
     "description": "MAX_BATCH_WORKERS=16 (more Phase 2 threads)",
-    "rpm": 159289,
-    "baseline_rpm": 141269,
-    "improvement_pct": 11.31,
-    "adopted": true,
-    "timestamp": "2026-03-20T23:55:03.192219"
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T23:03:41.335111"
   },
   {
     "gen": "gen6",
     "hypothesis": "httpx_phase2",
     "description": "httpx shared session for Phase 2 (better pooling than thread-local http.client)",
-    "rpm": 26103,
-    "baseline_rpm": 159289,
-    "improvement_pct": -83.61,
+    "rpm": 21111,
+    "baseline_rpm": 112603,
+    "improvement_pct": -81.25,
     "adopted": false,
-    "timestamp": "2026-03-20T23:55:45.454542"
+    "timestamp": "2026-03-21T23:04:22.167116"
   },
   {
     "gen": "gen7",
     "hypothesis": "mogrify_parallel",
     "description": "Parallel mogrify across 2 threads (CPU-bound SQL building)",
-    "rpm": 166557,
-    "baseline_rpm": 158958,
-    "improvement_pct": 4.56,
-    "adopted": true,
-    "timestamp": "2026-03-20T23:56:18.637596"
+    "rpm": null,
+    "adopted": false,
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T23:04:27.318027"
   },
   {
     "gen": "gen8",
     "hypothesis": "workers_20",
     "description": "MAX_BATCH_WORKERS=20",
-    "rpm": 156398,
-    "baseline_rpm": 166557,
-    "improvement_pct": -6.1,
-    "adopted": false,
-    "timestamp": "2026-03-20T23:56:49.709481"
+    "rpm": 123166,
+    "baseline_rpm": 111613,
+    "improvement_pct": 9.38,
+    "adopted": true,
+    "timestamp": "2026-03-21T23:05:00.291224"
   },
   {
     "gen": "gen9",
     "hypothesis": "batch_400",
     "description": "BATCH_SIZE=400 (fewer DOTs/request, faster Socrata query)",
-    "rpm": 143138,
-    "baseline_rpm": 166557,
-    "improvement_pct": -14.06,
+    "rpm": 116036,
+    "baseline_rpm": 123166,
+    "improvement_pct": -5.79,
     "adopted": false,
-    "timestamp": "2026-03-20T23:57:21.730869"
+    "timestamp": "2026-03-21T23:05:32.819149"
   },
   {
     "gen": "gen10",
     "hypothesis": "batch_600",
     "description": "BATCH_SIZE=600 (test larger batches)",
-    "rpm": 156582,
-    "baseline_rpm": 166557,
-    "improvement_pct": -5.99,
+    "rpm": 118915,
+    "baseline_rpm": 123166,
+    "improvement_pct": -3.45,
     "adopted": false,
-    "timestamp": "2026-03-20T23:57:52.933915"
+    "timestamp": "2026-03-21T23:06:07.020013"
   },
   {
     "gen": "gen11",
     "hypothesis": "httpx_phase1",
     "description": "httpx for Phase 1 source fetches",
-    "rpm": 34608,
-    "baseline_rpm": 166557,
-    "improvement_pct": -79.22,
+    "rpm": 21127,
+    "baseline_rpm": 123166,
+    "improvement_pct": -82.85,
     "adopted": false,
-    "timestamp": "2026-03-20T23:58:35.840645"
+    "timestamp": "2026-03-21T23:06:56.726859"
   },
   {
     "gen": "gen12",
     "hypothesis": "leads_do_nothing",
     "description": "leads ON CONFLICT DO NOTHING (skip re-inserting existing leads)",
-    "rpm": 131634,
-    "baseline_rpm": 166557,
-    "improvement_pct": -20.97,
+    "rpm": null,
     "adopted": false,
-    "timestamp": "2026-03-20T23:59:07.601345"
+    "note": "pattern_not_found",
+    "timestamp": "2026-03-21T23:07:01.878951"
   },
   {
     "gen": "gen13",
     "hypothesis": "gzip_only",
     "description": "Accept-Encoding: gzip only (avoid deflate overhead)",
-    "rpm": 158073,
-    "baseline_rpm": 166557,
-    "improvement_pct": -5.09,
-    "adopted": false,
-    "timestamp": "2026-03-20T23:59:38.298255"
+    "rpm": 135462,
+    "baseline_rpm": 121939,
+    "improvement_pct": 9.98,
+    "adopted": true,
+    "timestamp": "2026-03-21T23:07:34.003653"
   },
   {
     "gen": "gen14",
     "hypothesis": "reduce_http_timeout",
     "description": "HTTP_TIMEOUT=15 (faster failure detection)",
-    "rpm": 152626,
-    "baseline_rpm": 166557,
-    "improvement_pct": -8.36,
+    "rpm": 90329,
+    "baseline_rpm": 135462,
+    "improvement_pct": -33.32,
     "adopted": false,
-    "timestamp": "2026-03-21T00:00:11.476488"
+    "timestamp": "2026-03-21T23:08:09.935855"
   },
   {
     "gen": "gen15",
@@ -154,7 +149,7 @@
     "rpm": null,
     "adopted": false,
     "note": "pattern_not_found",
-    "timestamp": "2026-03-21T00:00:16.628059"
+    "timestamp": "2026-03-21T23:08:15.045001"
   },
   {
     "gen": "gen16",
@@ -163,37 +158,37 @@
     "rpm": null,
     "adopted": false,
     "note": "pattern_not_found",
-    "timestamp": "2026-03-21T00:00:16.628255"
+    "timestamp": "2026-03-21T23:08:15.045124"
   },
   {
     "gen": "gen17",
     "hypothesis": "prefilter_batch_dots",
     "description": "Pre-filter batch DOTs \u2014 skip Socrata fetch for DOTs already in DB",
-    "rpm": 120123,
-    "baseline_rpm": 166557,
-    "improvement_pct": -27.88,
+    "rpm": 106259,
+    "baseline_rpm": 135462,
+    "improvement_pct": -21.56,
     "adopted": false,
-    "timestamp": "2026-03-21T00:00:44.648703"
+    "timestamp": "2026-03-21T23:08:44.920552"
   },
   {
     "gen": "gen18",
     "hypothesis": "pipeline_phase2",
     "description": "Pipeline Phase 2 start before all Phase 1 completes",
-    "rpm": 120662,
-    "baseline_rpm": 166557,
-    "improvement_pct": -27.56,
+    "rpm": 112137,
+    "baseline_rpm": 135462,
+    "improvement_pct": -17.22,
     "adopted": false,
-    "timestamp": "2026-03-21T00:01:18.641422"
+    "timestamp": "2026-03-21T23:09:23.731185"
   },
   {
     "gen": "gen19",
     "hypothesis": "batch_400_workers_16",
     "description": "BATCH_SIZE=400 + workers=12 combo",
-    "rpm": 129407,
-    "baseline_rpm": 166557,
-    "improvement_pct": -22.3,
+    "rpm": 125846,
+    "baseline_rpm": 135462,
+    "improvement_pct": -7.1,
     "adopted": false,
-    "timestamp": "2026-03-21T00:01:49.268219"
+    "timestamp": "2026-03-21T23:09:55.270363"
   },
   {
     "gen": "gen20",
@@ -202,6 +197,6 @@
     "rpm": null,
     "adopted": false,
     "note": "pattern_not_found",
-    "timestamp": "2026-03-21T00:01:54.419702"
+    "timestamp": "2026-03-21T23:10:00.324896"
   }
 ]

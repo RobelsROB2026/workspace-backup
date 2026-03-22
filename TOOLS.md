@@ -95,14 +95,14 @@ browser action:snapshot profile:chrome targetUrl:"https://x.com/..."
 **Default flow for research tasks:**
 1. Browser (profile: openclaw) → Google search, navigate sites
 2. `web_fetch` → pull content from URLs (when browser is overkill)
-3. `gemini --model gemini-3-flash-preview "Summarize: ..."` → synthesize large content (saves Opus tokens)
+3. `claude -p "Summarize..."` → synthesize large content (saves Gemini tokens, fixed cost)
 4. Store in `~/research/[topic]/` → build knowledge base
 
-Use Gemini 3 Flash for bulk text processing. Save Opus for analysis, decisions, and conversation.
+Use Claude Code for bulk text processing and code reading. Save Gemini for daily driving, orchestration, and conversation.
 
-**For analyzing search results:** Pipe to Gemini instead of reading myself:
+**For analyzing search results:** Pipe to Claude Code instead of reading myself:
 ```bash
-gemini --model gemini-3-flash-preview "Analyze these search results and extract key findings: [content]"
+claude -p "Analyze these search results and extract key findings: [content]"
 ```
 
 ---

@@ -81,6 +81,12 @@ Five-point rule:
 - **Topic Timeout:** Configured `session.threadBindings.idleHours` to 2 hours per Robel's request to ensure long-running topic conversations don't time out prematurely.
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
+### Claude Code Auth & Infrastructure (2026-03-22)
+- **Claude Pro Auth**: Successfully migrated Claude Code from API key to OAuth/Claude Pro subscription. 
+- **Environment Purge**: Permanently removed `ANTHROPIC_API_KEY` from `openclaw.json` (OpenClaw's internal environment) and deleted the `~/bin/claude` wrapper script to ensure a clean global environment. Claude Code now runs purely on the Pro token.
+- **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
+- **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
+
 ### Daily Maintenance & Project Updates (2026-03-21)
 - **Nationality Tagging**: Successfully cleared the remaining backlog and processed today's batch, totaling **90,337 leads**. Identified **123 new high-intent records**.
 - **Social Media**: 
@@ -157,15 +163,15 @@ Five-point rule:
 |------|-------|---------|
 | **Main (ROBA)** | Gemini 3.1 Pro | Daily driving, routine tasks, conversation |
 | **Ops Agent** | Claude Opus 4.6 | **ONLY** for complex reasoning/workflow creation. |
-| **Heartbeats** | Gemini 3 Flash | Routine checks |
-| **Blog Writer** | Gemini 3 Flash | Scheduled content |
-| **Lead Hunter** | Gemini 3 Flash | Daily lead search |
+| **Heavy Processing** | Claude Code CLI | Fixed-cost offloading for file parsing, log analysis, summarization |
+| **Heartbeats** | Gemini 3 Flash | Routine periodic checks |
+| **Blog Writer** | Claude Code CLI | Scheduled content writing (fixed cost) |
+| **Lead Hunter** | Claude Code CLI | Reddit/Social lead scraping and processing (fixed cost) |
 
 **Workflow:**
-1. Gemini Pro handles daily tasks using existing guidelines.
-2. When no guideline exists or complex reasoning needed → **Spawn Ops Agent** (must explicitly set `model="anthropic/claude-opus-4-6"`).
-3. Ops creates the workflow/guideline.
-4. Gemini follows it going forward.
+1. Gemini Pro handles conversation and high-level planning.
+2. For ANY heavy lifting (research synthesis, codebase grepping, log analysis, writing blog posts, parsing scraped data), I will spawn `claude -p` via `exec` because it has a fixed cost and saves Gemini API tokens.
+3. Ops Agent handles extreme complex workflows if Claude Code gets stuck.
 
 **Ops Agent:** `agents/ops-agent.md`
 **Workflows:** `memory/workflows/`
@@ -434,6 +440,15 @@ Major update released. Features include:
 | `4` | 🎯 Topic 4: Bonds Lead Hunter | Texas Bond Leads | Daily lead reports, follow-ups |
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
 | `419` | 📱 Topic 6: Social Media | Social Media Manager | Content generation, scheduling, posting |
+
+### Weekly Self-Improvement Summary (2026-03-22)
+- **OpenClaw v2026.3.13:** Recent security releases (March 2026) addressed cross-site WebSocket hijacking and fixed a gateway authentication vulnerability. Dashboard-v2 introduced modular views.
+- **AI Industry:** Rapid shift toward **Agentic AI** (Gartner: 40% of apps by year-end). NVIDIA launched **NemoClaw** for secure agent runtimes, and Meta's acquisition of **Moltbook** is driving agent-to-agent interaction standards.
+- **Texas Bond Market:** 
+    - **SB 2245 (Motor Vehicle Titles):** New 30-day waiting period for non-dealers; TxDMV must notify previous owners/lienholders. This adds friction to the process that we can explain to customers via chat.
+    - **Electronic Filing:** Residential mortgage loan servicers now require NMLS electronic surety bonds.
+    - **SEO Opportunity:** Consumer transparency laws (HB 2067) require insurers to explain denials in writing, creating a new "why was I denied?" search intent that we can capture for bond alternatives.
+- **Capability Growth:** Discovered **Texas Hunting Forum** and **TexasBowhunter.com** as high-intent niche lead sources for vehicle title issues (ranch trucks/trailers).
 
 ### Weekly Self-Improvement Summary (2026-03-15)
 - **OpenClaw v2026.3.13:** Released March 14, 2026. Key improvements to session continuity (preserving thread IDs on reset) and browser profiles (`user`, `chrome-relay`).

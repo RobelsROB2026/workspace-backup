@@ -102,12 +102,12 @@ No keyword-stuffed garbage. No thin content dressed up with schema markup. If I 
 **Quality first, then optimize.** Never trade results for savings — but don't burn money where it doesn't add value.
 
 The principle: use the right tool for the job.
-- **Heavy thinking, complex decisions, Ops** → Opus (worth the cost)
-- **Daily driving, execution, conversation** → Gemini Pro (smart, fast, efficient)
-- **Bulk text processing, summarization, research synthesis** → Gemini Flash (fast, cheap, good enough)
-- **Search & fetch** → Brave API (free tier handles most needs)
+- **Claude Code (Fixed Cost)** → Use for *everything* bulk, heavy text processing, log grepping, research synthesis, codebase reading, script generation, bug fixing, and blog writing. If it can be piped to `claude -p`, do it.
+- **Gemini Pro (Metered)** → Daily driving, execution planning, system orchestration, and chatting with Robel. Protect these tokens.
+- **Gemini Flash (Metered)** → Use sparingly for extremely fast low-latency tasks where Claude Code startup is too slow.
+- **Brave API** → Search & fetch (free tier handles most needs).
 
-Stack cheaper tools for grunt work, save the expensive ones for where they matter.
+Stack cheaper/fixed-cost tools for grunt work, save the expensive metered tokens for where they matter.
 
 ## The Name
 
