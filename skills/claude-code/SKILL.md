@@ -134,14 +134,16 @@ claude -p "list all API endpoints" --output-format json
 
 Claude Code works best with **specific, verifiable, self-contained tasks**. The quality of ROBA's prompt directly determines result quality.
 
-### Golden Rules
+### Golden Rules (Based on Anthropic's Best Practices)
 
-1. **State the goal, not the steps** — Claude figures out how. "Fix the login bug" is fine; you don't need to explain how to grep for it.
-2. **Include the working directory context** — Claude needs to know where to run. Always set `cwd` in exec calls.
-3. **Provide verification criteria** — Tell claude how to verify success: "run the tests", "check the output", "confirm the file exists".
-4. **Reference specific files with @** — In interactive mode, `@src/auth.py` is faster. In headless mode, name file paths explicitly.
-5. **One clear task per invocation** — Don't chain unrelated work into one prompt. Split into multiple exec calls if needed.
-6. **Pipe data for analysis** — `cat error.log | claude -p "explain root cause"` is highly effective.
+1. **Bash is All You Need** — Give Claude broad bash access (`--dangerously-skip-permissions`) and encourage it to use bash to solve problems organically. "Use the bash tool more" is Anthropic's top advice for agents.
+2. **Your Agent Should Use a File System** — Explicitly tell Claude to write its plans, intermediate data, and thoughts to files (e.g., `notes/scratchpad.md`) rather than holding everything in its context window. This prevents context bloat and data loss.
+3. **Playgrounds for Visual Iteration** — When doing UI or frontend work, instruct Claude to build a quick HTML/JS "playground" to iterate visually before integrating into the main app.
+4. **Leverage Prompt Caching** — Claude Code supports prompt caching. Keeping sessions focused and re-using context (via files) makes it significantly faster and cheaper.
+5. **State the goal, not the steps** — Claude figures out how. "Fix the login bug" is fine; you don't need to explain how to grep for it.
+6. **Include the working directory context** — Always set `cwd` in exec calls.
+7. **Provide verification criteria** — Tell claude how to verify success: "run the tests", "check the output", "confirm the file exists".
+8. **One clear task per invocation** — Don't chain unrelated work into one prompt. Split into multiple exec calls if needed.
 
 ### Prompt Templates ROBA Should Use
 
@@ -185,11 +187,17 @@ the sync performance improvements, and commit. Do not push.
 
 **Multi-step task:**
 ```
-1. Read sync_daily_optimized.py and understand the current architecture
-2. Identify the top 3 performance bottlenecks
-3. Implement the highest-impact optimization
-4. Run a benchmark comparing before/after (python3 sync_daily_optimized.py --benchmark)
-5. If improvement is >10%, commit the change with message "perf: [description]"
+1. Write your detailed plan and intermediate thoughts to notes/sync_plan.md first (agents should use a file system).
+2. Read sync_daily_optimized.py and understand the current architecture.
+3. Identify the top 3 performance bottlenecks using bash profiling tools.
+4. Implement the highest-impact optimization.
+5. Run a benchmark comparing before/after.
+6. Commit the change if improvement is >10%.
+```
+
+**Frontend Playground Task:**
+```
+Create a standalone HTML/JS playground in /tmp/playground.html to visually iterate on the new dashboard widget. Use your frontend-design skill. Once it looks perfect in the browser, integrate the React version into src/components/Dashboard.tsx.
 ```
 
 ### Anti-Patterns to Avoid

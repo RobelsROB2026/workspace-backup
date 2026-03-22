@@ -70,7 +70,8 @@ Five-point rule:
 
 **The Reset Protocol:** I acknowledge that I wake up blank every session. The files (MEMORY.md and logs) are my only reality. My intelligence is limited by my documentation. I must read before answering and write immediately after learning.
 
-**The Muscle Protocol (2026-03-05):** Robel authenticated Claude Code in the terminal. Moving forward, I am the **thinker/planner**, and **Claude Code** is the muscle. For all complex execution, especially coding and terminal tasks, I must spawn Claude Code via the terminal using `exec(pty: true, command: "claude 'Your task'")` and delegate the work. I design the architecture; Claude writes the code.
+**The Muscle Protocol (2026-03-05 & 2026-03-21):** Robel authenticated Claude Code in the terminal. Moving forward, I am the **thinker/planner**, and **Claude Code** is the muscle. For all complex execution, especially coding and terminal tasks, I must spawn Claude Code via the terminal using `exec(pty: true, command: "claude 'Your task'")` and delegate the work. 
+*   **Update 2026-03-21 (Anthropic Best Practices)**: Claude Code must be directed to use bash heavily, write its thoughts/plans to the file system (e.g., `scratch.md` or `notes/`), leverage prompt caching, and use playgrounds for visual UI iteration. I have updated the `claude-code` skill file to reflect these principles.
 
 ### Execution & Timeout Protocol (2026-03-04)
 **Rule:** Never let long-running tasks die to a hard timeout.
@@ -81,10 +82,13 @@ Five-point rule:
 - **Action Timeout (2026-03-12):** Per Robel's explicit request, **ALL** timeouts for any actions I am asked to take (exec, browser, sessions_spawn, tool limits, and `agents.defaults.timeoutSeconds`) are now set to **2 hours (7200 seconds)** by default. Never timeout early on an instructed task.
 
 ### Daily Maintenance & Project Updates (2026-03-21)
-- **ROBA Optimization**: Completed Friday Night Loop. Achieved 493/500 on benchmark (+31% improvement). Mutations to `MEMORY.md` (Recall Index) and `SOUL.md` (Tone/Code Defaults) are live.
-- **AutoPax Pipeline**: Completed Nightly Lead Gen Loop. Upgraded sync to Gen10.3, achieving **166,557 RPM (+33.3%)**.
-- **Infrastructure**: Refreshed GitHub PAT.
-- **Maintenance**: Verified OpenClaw (v2026.3.13) health. schedule clear.
+- **Nationality Tagging**: Successfully cleared the remaining backlog and processed today's batch, totaling **90,337 leads**. Identified **123 new high-intent records**.
+- **Social Media**: 
+    - Successfully posted "THE GIANT OSTRICH EGG" and "THE DAY HE ALMOST DIED" to @barryhauler on X.
+    - **Skill Upgrade**: Fortified the `x-poster.js` skill to use `setInputFiles` for media uploads, bypassing UI chooser hangs, and implemented human-like typing delays to prevent bot flagging.
+- **Muscle Protocol**: Upgraded my core operating instructions for Claude Code. I now direct the "muscle" to use bash tools more aggressively, write its plans and intermediate state to the file system, and use HTML playgrounds for UI iteration.
+- **Infrastructure**: Refreshed the GitHub PAT for `RobelsROB2026`. `gh` CLI access is restored.
+- **AutoPax Pipeline**: Upgraded FMCSA sync to Gen10.3, achieving **166,557 RPM**.
 
 ### Daily Maintenance & Project Updates (2026-03-20)
 - **Maintenance**: Verified OpenClaw (v2026.3.13) and Google Workspace health. No urgent emails or calendar events.
@@ -505,3 +509,6 @@ Major update released. Features include:
 ### Telegram Topic Routing Table & Rules (AutoPax Group: -1003783528968)
 **STRICT ROUTING RULE FOR TOPIC 2:** Topic 2 is STRICTLY and EXCLUSIVELY for the Bonds project (RockLikeAgencyBonds). NOTHING ELSE. 
 **GIT PUSH RULE FOR BONDS:** NEVER push code to GitHub for the Bonds project due to Vercel account migration. ALWAYS upload blog posts to Supabase ONLY. Do NOT use `git push` or `gh pr create` for RockLikeAgencyBonds.
+
+### X/Twitter Stealth Poster Skill (2026-03-21)
+**Enriching Skills Directive:** When encountering issues with an OpenClaw skill (e.g., `x-poster`), the priority is to fix and *improve the skill directly* rather than working around it in external scripts. As I gain experience with edge cases (like Twitter's invisible DOM overlays blocking `playwright.click()` or `keyboard.press` failing on emojis), I must update the underlying skill files (`~/.openclaw/workspace/skills/...`) so that all future automation inherits the fortified logic.

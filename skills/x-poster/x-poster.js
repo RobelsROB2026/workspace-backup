@@ -6,150 +6,94 @@ const { chromium } = require(path.join(process.env.HOME, 'research/social-auto/n
 const stealth = require(path.join(process.env.HOME, 'research/social-auto/node_modules/puppeteer-extra-plugin-stealth'))();
 chromium.use(stealth);
 
-// Parse args
 const args = process.argv.slice(2);
-if (args.length < 1) {
-  console.error("Usage: node x-poster.js <caption_text> [optional_media_path] [optional_cookie_json_path]");
-  process.exit(1);
-}
-
 const caption = args[0];
 const mediaPath = args[1] || null;
 const cookiesFile = args[2] || '/tmp/openclaw/uploads/twikit_cookies.json';
-
-// Utility to create random delays to seem more human
 const randomDelay = (min, max) => new Promise(resolve => setTimeout(resolve, Math.floor(Math.random() * (max - min + 1) + min)));
 
 (async () => {
-  console.log(`Starting Stealth X-Poster...`);
-  console.log(`Caption: ${caption}`);
-  if (mediaPath) console.log(`Media: ${mediaPath}`);
-
-  // Run in non-headless mode
-  const browser = await chromium.launch({ 
-    headless: false, 
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  });
-  
+  const browser = await chromium.launch({ headless: false, args: ['--no-sandbox'] });
   const context = await browser.newContext({
-    viewport: { width: 1280, height: 800 },
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
   });
 
-  // Load cookies
   if (fs.existsSync(cookiesFile)) {
-    console.log(`Loading cookies from ${cookiesFile}`);
     const rawCookies = JSON.parse(fs.readFileSync(cookiesFile, 'utf8'));
-    let cookiesToSet = [];
-    
-    // Check if it's twikit format (object) or playwright format (array)
-    if (!Array.isArray(rawCookies)) {
-      for (let domain of ['.x.com', '.twitter.com']) {
-        for (let name of Object.keys(rawCookies)) {
-          cookiesToSet.push({
-            name,
-            value: String(rawCookies[name]),
-            domain: domain,
-            path: '/',
-            secure: true,
-            sameSite: 'Lax'
-          });
-        }
-      }
-    } else {
-      cookiesToSet = rawCookies;
-      // Ensure both domains exist
-      const extraCookies = [];
-      for (let c of cookiesToSet) {
-        if (c.domain.includes('twitter.com')) extraCookies.push({...c, domain: '.x.com'});
-        if (c.domain.includes('x.com')) extraCookies.push({...c, domain: '.twitter.com'});
-      }
-      cookiesToSet.push(...extraCookies);
+    let cookiesToSet = Array.isArray(rawCookies) ? rawCookies : Object.keys(rawCookies).map(k => ({ name: k, value: String(rawCookies[k]), domain: '.x.com', path: '/' }));
+    if (Array.isArray(rawCookies)) {
+      const extra = [];
+      rawCookies.forEach(c => {
+        if (c.domain.includes('twitter.com')) extra.push({...c, domain: '.x.com'});
+        if (c.domain.includes('x.com')) extra.push({...c, domain: '.twitter.com'});
+      });
+      cookiesToSet.push(...extra);
     }
-    
     await context.addCookies(cookiesToSet);
-  } else {
-    console.error(`Cookie file not found at ${cookiesFile}. You must be logged in!`);
   }
 
   const page = await context.newPage();
   
   try {
-    console.log("Navigating to compose page...");
+    console.log("Navigating...");
     await page.goto('https://x.com/compose/post', { waitUntil: 'domcontentloaded' });
     await randomDelay(4000, 7000);
 
-    // Click the text box
     const textBox = await page.waitForSelector('div[data-testid="tweetTextarea_0"]', { timeout: 15000 });
-    await textBox.click();
+    await textBox.click({ force: true });
     await randomDelay(1000, 2000);
     
-    // Type out the caption with random key delays to simulate human typing
     console.log("Typing caption...");
-    for (const char of caption) {
-        await page.keyboard.press(char);
-        await page.waitForTimeout(Math.random() * 50 + 10);
-    }
+    await page.keyboard.type(caption, { delay: 50 });
     await randomDelay(1500, 3000);
 
-    // Upload file if provided
     if (mediaPath) {
-      if (!fs.existsSync(mediaPath)) {
-        console.error(`Media file not found: ${mediaPath}`);
-        throw new Error("Media missing");
-      }
       console.log(`Attaching media: ${mediaPath}`);
+      const fileInput = await page.waitForSelector('input[type="file"][data-testid="fileInput"]', { timeout: 15000 });
+      await fileInput.setInputFiles(mediaPath);
       
-      const fileChooserPromise = page.waitForEvent('filechooser');
-      await page.click('div[aria-label="Add media"]');
-      const fileChooser = await fileChooserPromise;
-      await fileChooser.setFiles(mediaPath);
-      
-      console.log("File attached. Waiting for upload to complete...");
-      
-      // Wait for the edit media button to appear, indicating upload finished
+      console.log("Waiting for media to upload...");
       try {
-          await page.waitForSelector('button[aria-label="Edit media"], div[data-testid="attachments"]', { timeout: 120000 });
+          await page.waitForSelector('button[aria-label="Edit media"]', { timeout: 60000 });
           console.log("Media processed.");
       } catch (e) {
-          console.log("Could not confirm media upload via Edit Media button, but proceeding...");
+          console.log("Edit Media button not seen, continuing...");
       }
       await randomDelay(5000, 8000);
     }
 
-    // Click Post
-    console.log("Locating Post button...");
-    const postBtn = await page.waitForSelector('button[data-testid="tweetButton"]', { timeout: 10000 });
+    console.log("Waiting for post button to be enabled...");
+    await page.waitForSelector('button[data-testid="tweetButton"]:not([disabled])', { timeout: 120000 });
+    await randomDelay(1000, 2000);
     
-    // Simulate natural mouse movement to the button
-    const box = await postBtn.boundingBox();
-    if (box) {
-        await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2, { steps: 10 });
-        await randomDelay(500, 1000);
-        await page.mouse.down();
-        await randomDelay(100, 300);
-        await page.mouse.up();
-        console.log("Post button clicked.");
-    } else {
-        await postBtn.click();
-        console.log("Post button clicked (fallback).");
-    }
+    console.log("Submitting post via DOM click...");
+    await page.evaluate(() => {
+        const btn = document.querySelector('button[data-testid="tweetButton"]');
+        if (btn) btn.click();
+    });
 
-    // Wait for the success toast
+    console.log("Checking if post succeeded...");
+    // Check for success: wait for the toast OR wait for URL to not be /compose/post
     try {
-        await page.waitForSelector('div[data-testid="toast"]', { timeout: 20000 });
-        console.log("Success toast detected!");
+        await Promise.race([
+            page.waitForSelector('div[data-testid="toast"]', { timeout: 15000 }),
+            page.waitForFunction(() => window.location.pathname !== '/compose/post', { timeout: 15000 })
+        ]);
+        console.log("Post confirmed via redirect or toast!");
     } catch (e) {
-        console.log("No toast found, but proceeding. The post likely succeeded.");
+        console.log("No toast or redirect seen, checking if text box cleared...");
+        const text = await page.evaluate(() => document.querySelector('div[data-testid="tweetTextarea_0"]')?.innerText || "");
+        if (text.length > 5) {
+             throw new Error("Text is still in the compose box and we didn't redirect. Post failed.");
+        } else {
+             console.log("Text box is empty. Post probably succeeded.");
+        }
     }
-    
-    await randomDelay(2000, 4000);
-    console.log("Done.");
 
   } catch (e) {
-    console.error("\n❌ Failed to post via Web UI:", e);
-    await page.screenshot({ path: '/tmp/x_poster_error.png' });
-    console.log("Screenshot saved to /tmp/x_poster_error.png");
+    console.error("❌ Failed:", e.message);
+    const text = await page.evaluate(() => document.body.innerText).catch(()=>"");
+    console.error("Page Text:", text.substring(0, 500));
     process.exit(1);
   } finally {
     await browser.close();
