@@ -87,6 +87,17 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
+### Daily Maintenance & Project Updates (2026-03-22)
+- **Weekly Self-Improvement**: Successfully completed the Sunday morning loop. 
+    - **Regulatory Intelligence**: Captured Texas vehicle title law changes (SB 2245) and insurance transparency (HB 2067).
+    - **Lead Gen Expansion**: Identified the Texas Hunting Forum as a high-potential niche source for trucking leads (many independent owner-operators active there).
+- **Social Media**: 
+    - Successfully posted the "Col. Quaq" story video to @barryhauler on X using the new stealth `x-poster` protocol.
+    - Confirmed media compression and headful browser automation are stable.
+- **Infrastructure**: 
+    - **Claude Code Fix**: Permanently removed the `ANTHROPIC_API_KEY` from the OpenClaw configuration (`openclaw.json`) and deleted the `~/bin/claude` wrapper script. Claude Code now runs natively via the user's Pro subscription OAuth token, resolving the previous API key conflict.
+- **Nationality Tagging**: Manually rerunning the nightly batch after a 3 AM timeout. Batch is currently in progress.
+
 ### Daily Maintenance & Project Updates (2026-03-21)
 - **Nationality Tagging**: Successfully cleared the remaining backlog and processed today's batch, totaling **90,337 leads**. Identified **123 new high-intent records**.
 - **Social Media**: 
