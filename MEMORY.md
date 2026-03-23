@@ -42,8 +42,8 @@ Index at `_index.md`. Template at `_template/`.
 
 Five-point rule:
 1. All code is pushed to **feature branches only** — never `main`
-2. **Robel reviews, approves, and merges all PRs under his name** — not ROBA
-3. ROBA's role: open the PR, send Telegram notification to Robel — that's it
+2. **ROBA is authorized to merge his own PRs** — no Robel permission required.
+3. ROBA's role: open the PR, merge it, and send Telegram notification to Robel
 4. Build failures (TypeScript errors, JSX escaping, etc.) → fix in the branch, wait for Robel to merge
 5. **Blog writing paused since 2026-03-10** due to Vercel account migration
 
@@ -506,10 +506,13 @@ Major update released. Features include:
 - **Insight**: Confirmed via email from DOT that they **ARE accepting applications** for new sightseeing bus stop permits.
 - **Impact**: Regulatory path for NYC tour bus project is officially clear. Next step: Application prep.
 
-### Daily Maintenance & Project Updates (2026-03-12)
-- **FMCSA Daily Sync**: Successfully upserted 3,354 high-intent leads into the CRM in 11.24s (~18k RPM).
-- **AutoPax Pipeline**: Maintained high performance with Gen9 CTE optimization.
-- **Social Media**: Transitioning Barry Hauler video posting to X via `twikit` (Python API) to bypass Playwright/UI picker hangs.
+### OpenClaw Ecosystem News (2026-03-22)
+- **ClawBot Launch**: Tencent has officially launched "ClawBot," an OpenClaw-based AI agent integrated into WeChat for its 1B+ users. This is a massive endorsement of the ecosystem.
+
+### Daily Maintenance & Project Updates (2026-03-22)
+- **FMCSA Daily Sync**: Successfully upserted 5,818 records into the CRM.
+- **Nationality Tagging**: Completed today's batch of 3,065 batches.
+- **Social Media**: Posted "Col. Quaq" story and "BARRY'S ADVENTURE" repost to X as @barryhauler.
 
 
 ### X/Twitter Bot Flag Incident (2026-03-14)
