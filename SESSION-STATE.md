@@ -10,7 +10,8 @@ Chat history is a BUFFER. This file is STORAGE.
 [None yet]
 
 ## Pending Actions
-- [ ] None
+- [ ] Report Gen11 optimization results to Robel (145-165k RPM achieved)
+- [ ] Monitor NYC permit emails for application requirements.
 
 ## Recent Decisions
 [None yet]
