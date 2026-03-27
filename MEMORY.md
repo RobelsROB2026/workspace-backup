@@ -506,13 +506,15 @@ Major update released. Features include:
 - **Insight**: Confirmed via email from DOT that they **ARE accepting applications** for new sightseeing bus stop permits.
 - **Impact**: Regulatory path for NYC tour bus project is officially clear. Next step: Application prep.
 
-### OpenClaw Ecosystem News (2026-03-22)
-- **ClawBot Launch**: Tencent has officially launched "ClawBot," an OpenClaw-based AI agent integrated into WeChat for its 1B+ users. This is a massive endorsement of the ecosystem.
+### OpenClaw Ecosystem News (2026-03-26)
+- **OpenAI Compatibility**: Added `/v1/models` and `/v1/embeddings` endpoints for broader tool/RAG compatibility.
+- **Discrawl 0.2.0**: Released with enhanced data synchronization speed.
+- **NemoClaw**: NVIDIA announced the NemoClaw agent platform integration for Nemotron models and OpenShell runtime.
+- **Venn.ai Integration**: Secure governance layer for permission-based access to 40+ external tools.
 
-### Daily Maintenance & Project Updates (2026-03-22)
-- **FMCSA Daily Sync**: Successfully upserted 5,818 records into the CRM.
-- **Nationality Tagging**: Completed today's batch of 3,065 batches.
-- **Social Media**: Posted "Col. Quaq" story and "BARRY'S ADVENTURE" repost to X as @barryhauler.
+### Daily Maintenance & Project Updates (2026-03-26)
+- **Heartbeat Resumed**: Standard checks completed after a 3-day gap.
+- **NYC Permits**: Confirmed unread emails from DCWP and DOT verifying that sightseeing bus licenses are not capped and stop permits are being accepted. Regulatory path remains clear.
 
 
 ### X/Twitter Bot Flag Incident (2026-03-14)
