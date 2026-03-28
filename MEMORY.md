@@ -441,7 +441,7 @@ Major update released. Features include:
 
 
 ## Telegram Topic Routing Table (AutoPax Group: -1003783528968)
-**STRICT ROUTING RULE:** Never guess where to send a message. All cron jobs, automated reports, and project updates MUST explicitly use the `--to <group_id>:<topic_id>` flag matching this table. For general self-improvement or system updates, route to Robel's DM (`393069019`). When adding a new project or automated task, you MUST ask Robel for the assigned Topic ID, log it here, and configure the tool to use it exclusively.
+**STRICT ROUTING RULE:** Never guess where to send a message. All cron jobs, automated reports, and project updates MUST explicitly use the `--to <group_id>:<topic_id>` flag matching this table. For general system updates (OpenClaw, ROBA, infra), route to Robel's DM (`393069019`). ALL OTHER output MUST go to its assigned topic in the AutoPax Group. If a project has no topic, discuss it in the DM first and create one. NEVER send project output to the DM or General topic. When adding a new project or automated task, you MUST ask Robel for the assigned Topic ID, log it here, and configure the tool to use it exclusively.
 
 | Topic ID | Band / Visual Tag | Name/Purpose | Assigned Jobs / Output |
 |----------|-------------------|--------------|-------------------------|
