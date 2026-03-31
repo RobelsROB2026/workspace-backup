@@ -1,0 +1,476 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="review-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Cureus</journal-id><journal-id journal-id-type="iso-abbrev">Cureus</journal-id><journal-id journal-id-type="pmc-domain-id">2757</journal-id><journal-id journal-id-type="pmc-domain">cureus</journal-id><journal-title-group><journal-title>Cureus</journal-title></journal-title-group><issn pub-type="epub">2168-8184</issn><publisher><publisher-name>Cureus Inc.</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12741572</article-id><article-id pub-id-type="pmcid-ver">PMC12741572.1</article-id><article-id pub-id-type="pmcaid">12741572</article-id><article-id pub-id-type="pmcaiid">12741572</article-id><article-id pub-id-type="pmid">41458700</article-id><article-id pub-id-type="doi">10.7759/cureus.97819</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Physical Medicine &amp; Rehabilitation</subject></subj-group><subj-group><subject>Healthcare Technology</subject></subj-group><subj-group><subject>Cardiac/Thoracic/Vascular Surgery</subject></subj-group></article-categories><title-group><article-title>Virtual Reality for Perioperative Care in Cardiac Surgery: A Systematic Review and Meta-Analysis</article-title></title-group><contrib-group><contrib contrib-type="editor"><name name-style="western"><surname>Muacevic</surname><given-names initials="A">Alexander</given-names></name></contrib><contrib contrib-type="editor"><name name-style="western"><surname>Adler</surname><given-names initials="JR">John R</given-names></name></contrib></contrib-group><contrib-group><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Alseneid</surname><given-names initials="A">Ali</given-names></name><xref rid="aff-1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Xiang</surname><given-names initials="H">Harvey</given-names></name><xref rid="aff-1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Alseneid</surname><given-names initials="A">Alhassen</given-names></name><xref rid="aff-2" ref-type="aff">2</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ibrahim</surname><given-names initials="M">Marwan</given-names></name><xref rid="aff-3" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Bhindi</surname><given-names initials="S">Shivam</given-names></name><xref rid="aff-4" ref-type="aff">4</xref></contrib></contrib-group><aff id="aff-1">
+<label>1</label>
+Internal Medicine, William Harvey Hospital, Ashford, GBR </aff><aff id="aff-2">
+<label>2</label>
+Internal Medicine, Princess Royal Hospital, Haywards Heath, GBR </aff><aff id="aff-3">
+<label>3</label>
+General Surgery, Milton Keynes University Hospital, Milton Keynes, GBR </aff><aff id="aff-4">
+<label>4</label>
+Internal Medicine, King's College London GKT School of Medical Education, London, GBR </aff><author-notes><corresp id="cor1">
+Ali Alseneid <email>alialseneid123@gmail.com</email>
+</corresp></author-notes><pub-date date-type="pub" publication-format="electronic"><day>25</day><month>11</month><year>2025</year></pub-date><pub-date date-type="collection" publication-format="electronic"><month>11</month><year>2025</year></pub-date><volume>17</volume><issue>11</issue><issue-id pub-id-type="pmc-issue-id">499895</issue-id><elocation-id>e97819</elocation-id><history><date date-type="accepted"><day>25</day><month>11</month><year>2025</year></date></history><pub-history><event event-type="pmc-release"><date><day>25</day><month>11</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>27</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-29 09:25:13.383"><day>29</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2025, Alseneid et al.</copyright-statement><copyright-year>2025</copyright-year><copyright-holder>Alseneid et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License CC-BY 4.0., which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="cureus-0017-00000097819.pdf"><?pdf-name cureus-0017-00000097819.pdf?><?pdf-size 2912915?><?pdf-md5 1bfd901846787b9c0d59eaf2c26cccda?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:7bb3/12741572/1bfd90184678/cureus-0017-00000097819.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://cureus.com/articles/432820-virtual-reality-for-perioperative-care-in-cardiac-surgery-a-systematic-review-and-meta-analysis">This article is available from https://cureus.com/articles/432820-virtual-reality-for-perioperative-care-in-cardiac-surgery-a-systematic-review-and-meta-analysis</self-uri><abstract><p>Cardiac surgery imposes substantial physiological and psychological stress, with preoperative anxiety and postoperative pain persisting despite advances in perioperative care. Elevated anxiety has been associated with longer recovery and poorer outcomes, emphasizing the need for adjunctive, nonpharmacological interventions. Virtual reality (VR), an immersive digital technology that modulates sensory perception and emotional responses, has shown benefit in other surgical fields but has not been systematically evaluated in cardiac surgery. This systematic review and meta-analysis provide the first comprehensive synthesis of randomized controlled trials (RCTs) assessing VR in adult cardiac surgery. Following the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) 2020 guidelines and International Prospective Register of Systematic Reviews (PROSPERO) registration, PubMed, Embase, and Cochrane Library were searched from inception to October 2025. Primary outcomes were anxiety, pain, and satisfaction; secondary outcomes included physiological responses, opioid use, and adverse events. Risk of bias was assessed using the RoB 2 tool, and evidence certainty was evaluated with the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. The data were synthesized using a random-effects meta-analysis. Nine RCTs encompassing 888 participants were included. Meta-analysis of seven trials showed a nonsignificant trend toward lower preoperative anxiety with VR versus control (standardized mean difference (SMD) = -0.23; 95% CI -0.50 to 0.04, low heterogeneity (I² = 37%)). Four studies assessing patient satisfaction also showed a nonsignificant favor of VR (SMD = 0.36; 95% CI -0.65 to 1.38; I² = 92%). While two studies found no consistent analgesic benefit, physiological data suggested VR may attenuate autonomic arousal, lowering heart rate and blood pressure in select settings, though findings remained heterogeneous. Across all trials, VR was well tolerated, with only mild, transient adverse events reported. VR represents a feasible and safe perioperative adjunct in cardiac surgery, demonstrating favorable, nonsignificant trends in anxiety reduction and patient satisfaction. Further large-scale, standardized RCTs are warranted to confirm its physiological and clinical utility.</p></abstract><kwd-group kwd-group-type="author"><kwd>adult cardiac surgery</kwd><kwd>immersive technologies</kwd><kwd>immersive virtual reality</kwd><kwd>perioperative anxiety</kwd><kwd>perioperative outcomes</kwd><kwd>perioperative pain management</kwd><kwd>systematic review and meta-analysis</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro"><title>Introduction and background</title><p>Cardiac surgery, including coronary artery bypass grafting (CABG) and valve operations, continues to be performed at high volumes across both Europe and the United States [<xref rid="REF1" ref-type="bibr">1</xref>,<xref rid="REF2" ref-type="bibr">2</xref>]. National registry analyses consistently highlight its central role in the management of advanced cardiovascular disease, with tens of thousands of procedures undertaken annually and outcomes that remain a major focus of quality improvement initiatives [<xref rid="REF1" ref-type="bibr">1</xref>,<xref rid="REF2" ref-type="bibr">2</xref>]. Despite advances in perioperative care, cardiac surgery continues to be associated with significant psychological and physiological stress, including impaired quality of life and heightened levels of anxiety, particularly in the perioperative period [<xref rid="REF3" ref-type="bibr">3</xref>]. An observational study by AbuRuz et al. demonstrated that higher preoperative anxiety was significantly associated with prolonged hospital length of stay following CABG [<xref rid="REF4" ref-type="bibr">4</xref>]. Similarly, Tasbihgou et al. found that psychological and behavioral factors, including preoperative anxiety, were linked to an increased risk of postoperative neurocognitive disorder and delayed recovery in this population [<xref rid="REF5" ref-type="bibr">5</xref>]. Furthermore, poorly controlled perioperative pain and distress can diminish patient satisfaction and impede functional recovery [<xref rid="REF6" ref-type="bibr">6</xref>]. Collectively, these outcomes highlight the importance of effective perioperative interventions aimed not only at improving surgical success but also at enhancing patient experience and subsequent postoperative prognosis.</p><p>Virtual reality (VR) has emerged as an encouraging adjunctive technology in healthcare, offering immersive environments that can modulate attention, reduce pain perception, and alleviate anxiety during medical procedures [<xref rid="REF7" ref-type="bibr">7</xref>]. The evidence across surgical specialties, including orthopedics, otolaryngology, and minimally invasive interventions, has demonstrated that VR can enhance patient comfort and perioperative experiences [<xref rid="REF8" ref-type="bibr">8</xref>-<xref rid="REF10" ref-type="bibr">10</xref>]. Within cardiology, VR has recently been evaluated in interventional settings such as percutaneous coronary intervention (PCI) and catheter ablation. A recent systematic review and meta-analysis of RCTs found that VR significantly reduced peri-procedural anxiety in patients undergoing cardiac procedures, although evidence for its effectiveness in pain reduction was inconclusive [<xref rid="REF11" ref-type="bibr">11</xref>]. Despite these encouraging findings, the application of VR specifically in cardiac surgery, a setting associated with uniquely high levels of psychological distress and physiological stressors, has not yet been systematically synthesized.</p><p>As immersive technologies become increasingly integrated into perioperative practice, their potential to enhance patient-centered outcomes in cardiac surgery warrants rigorous evaluation. This review seeks to provide the first comprehensive synthesis of randomized controlled evidence examining the effectiveness of VR interventions in this setting. Specifically, we assess whether VR improves key perioperative outcomes, including preoperative anxiety, postoperative pain, patient satisfaction, and other important outcomes, compared with standard care or control conditions.</p></sec><sec sec-type="review"><title>Review</title><p>Methodology</p><p>Protocol and Registration</p><p>This systematic review and meta-analysis adhered to the Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA) 2020 guidelines. The review protocol was prospectively registered with PROSPERO (registration ID: CRD420251159413). The protocol details are publicly available.</p><p>Search Strategy</p><p>A comprehensive literature search of PubMed, Embase, and Cochrane CENTRAL was undertaken from database inception to October 2025. The search combined controlled vocabulary and free-text terms related to VR and cardiac surgery, including (“virtual reality” OR “VR” OR “immersive video” OR “3-Dimensional video”) AND (“cardiac surgery” OR “open heart surgery” OR “coronary artery bypass grafting” OR “valve surgery”) AND (“anxiety” OR “pain” OR “patient satisfaction”). The reference lists of all included studies and relevant reviews were also screened to identify additional eligible articles.</p><p>Studies were considered eligible if they were RCTs that evaluated the use of a VR intervention in adults undergoing cardiac surgery in the perioperative period. Only trials that included a control group receiving standard care or a non-VR intervention were included. Nonrandomized designs, conference abstracts, case reports, reviews, and studies involving nonsurgical cardiac procedures such as PCI or catheter ablation were excluded. Studies involving pediatric populations or those not available in English were also excluded.</p><p>Study Selection and Data Extraction</p><p>Two reviewers (AA and HX) independently screened titles and abstracts for eligibility, followed by full-text review. All duplicates were removed using Rayyan software (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rayyan.ai" ext-link-type="uri">www.rayyan.ai</ext-link>), and discrepancies were resolved through discussion or consultation with the remaining others. Data extraction was performed independently by two reviewers (AA and HX) using a standardized template, and variables included study design, sample size, patient demographics, type and timing of surgery, VR intervention details, comparator group, and all reported outcomes. Primary outcomes of interest were preoperative anxiety, pain, and patient satisfaction. Secondary outcomes included physiologic measures (heart rate, blood pressure, respiratory rate, and oxygen saturation), opioid use, and adverse events.</p><p>Risk of Bias Assessment</p><p>Risk of bias was assessed using the Cochrane Risk of Bias 2.0 (RoB 2.0) tool for RCTs [<xref rid="REF12" ref-type="bibr">12</xref>]. Five domains were evaluated: randomization process, deviations from intended interventions, missing outcome data, measurement of outcomes, and selection of reported results. Each study was rated as low risk, some concerns, or high risk.</p><p>Certainty of Evidence Assessment</p><p>The overall confidence in the evidence for each outcome was evaluated using the GRADE approach. This process considered key domains, including study limitations, inconsistency of results, indirectness of evidence, imprecision, and potential publication bias.</p><p>Statistical Analysis</p><p>For continuous outcomes, effect sizes were expressed as standardized mean differences (SMDs) with 95% CIs, using Hedges’ g correction to account for small sample sizes. Meta-analyses were performed using a random-effects model (DerSimonian-Laird method), given the expected clinical and methodological heterogeneity across studies. Statistical heterogeneity was quantified using the I² statistic. A Knapp-Hartung adjustment was applied to improve CI estimation in analyses with fewer than 10 studies. All analyses were performed using the online platform <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://MetaAnalysisOnline.com" ext-link-type="uri">MetaAnalysisOnline.com</ext-link>.</p><p>When sufficient studies reported an outcome (≥3 RCTs), pooled estimates were calculated and presented as forest plots. Funnel plots were generated to assess small-study effects and potential publication bias. When meta-analysis was not possible, a narrative synthesis was conducted.</p><p>Results</p><p>Study Selection and Study Characteristics</p><p>The initial search of PubMed, Embase, and Cochrane CENTRAL identified 266 records. After removal of duplicates (n = 82), 184 records underwent title and abstract screening, of which 147 were excluded as not meeting the inclusion criteria. A total of 37 full-text reports were assessed for eligibility, with 16 not retrieved. Of the 21 reports reviewed, 12 were excluded, and ultimately, nine RCTs were included in the final synthesis. The study selection process is seen in the PRISMA flow diagram in Figure <xref rid="FIG1" ref-type="fig">1</xref>.</p><fig position="anchor" fig-type="figure" id="FIG1" orientation="portrait"><label>Figure 1</label><caption><title>PRISMA flow diagram illustrating the study selection process for inclusion in the systematic review and meta-analysis</title><p>A total of 266 records were retrieved, with nine studies meeting the inclusion criteria and incorporated into the final analysis.</p><p>PRISMA, Preferred Reporting Items for Systematic reviews and Meta-Analyses</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i01.jpg"><?image-name cureus-0017-00000097819-i01.jpg?><?image-size 132600?><?image-md5 87a23e695df74fe0f1471cfff8c3767a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 4179?><?image-original-width 3000?><?image-scaled-height 1045?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/87a23e695df7/cureus-0017-00000097819-i01.jpg?><?thumb-name cureus-0017-00000097819-i01.gif?><?thumb-size 5154?><?thumb-md5 5f583844a9855cbfd4a5a25bb097a7df?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 139?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/5f583844a985/cureus-0017-00000097819-i01.gif?></graphic></fig><p>The nine studies, published between 2020 and 2025, were conducted across Europe, North America, Asia, and Russia [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF21" ref-type="bibr">21</xref>]. Collectively, these trials enrolled 888 participants, with mean ages ranging from 50 to 67 years and predominantly male cohorts. All studies focused on adult patients undergoing cardiac surgery.</p><p>VR interventions varied in design and application but consistently utilized immersive environments during the perioperative period. These included 360° hospital and operating theater tours, interactive 3D cardiac models, nature- and relaxation-based experiences, and cognitive training modules. Most interventions were delivered preoperatively as a single session, while several incorporated multi-session or postoperative components [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF21" ref-type="bibr">21</xref>]. Control groups included standard education, 2D videos, printed materials, or conventional care.</p><p>Primary outcomes commonly assessed were preoperative anxiety, postoperative pain, and patient satisfaction, measured using validated instruments such as the State-Trait Anxiety Inventory (STAI), the Amsterdam Preoperative Anxiety and Information Scale (APAIS), and the Visual Analogue Scale (VAS) or Numerical Rating Scale (NRS). Secondary outcomes included physiological parameters (e.g., heart rate, blood pressure, respiratory rate, and oxygen saturation), opioid use, and adverse effects. A detailed summary of study characteristics is presented in Table <xref rid="TAB1" ref-type="table">1</xref>.</p><table-wrap position="float" id="TAB1" orientation="portrait"><label>Table 1</label><caption><title>Summary of key features of the studies included in the systematic review and meta-analysis evaluating VR interventions during the perioperative period for patients undergoing cardiac surgery</title><p>AVR, aortic valve replacement; CABG, coronary artery bypass grafting; MVR, mitral valve replacement; RCT, randomized controlled trial; SAVR, surgical aortic valve repair; TAA, thoracic aortic aneurysm; VR, virtual reality; VRH, virtual reality hypnosis</p></caption><table frame="hsides" rules="groups"><tbody><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Study
+</td><td rowspan="1" colspan="1">
+Design
+</td><td rowspan="1" colspan="1">
+Participants (M/F)
+</td><td rowspan="1" colspan="1">
+Population
+</td><td rowspan="1" colspan="1">
+Procedure
+</td><td rowspan="1" colspan="1">
+VR type
+</td><td rowspan="1" colspan="1">
+VR content
+</td><td rowspan="1" colspan="1">
+Control group intervention
+</td></tr><tr><td rowspan="1" colspan="1">
+El Mathari et al. [<xref rid="REF13" ref-type="bibr">13</xref>]
+</td><td rowspan="1" colspan="1">
+RCT (single-center)
+</td><td rowspan="1" colspan="1">
+121 (98M/23F)
+</td><td rowspan="1" colspan="1">
+Adults (CABG/valve surgery via sternotomy)
+</td><td rowspan="1" colspan="1">
+CABG/valve surgery
+</td><td rowspan="1" colspan="1">
+360° VR animation
+</td><td rowspan="1" colspan="1">
+Patient journey + 3D animation
+</td><td rowspan="1" colspan="1">
+Oral + flyer traditional education
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Subramaniam et al. [<xref rid="REF14" ref-type="bibr">14</xref>]
+</td><td rowspan="1" colspan="1">
+RCT (single-center)
+</td><td rowspan="1" colspan="1">
+100 (65M/35F)
+</td><td rowspan="1" colspan="1">
+Adults (21-80 years) first-time sternotomy
+</td><td rowspan="1" colspan="1">
+First-time sternotomy (CABG/valve)
+</td><td rowspan="1" colspan="1">
+Immersive VR (Oculus)
+</td><td rowspan="1" colspan="1">
+Nature and seasonal scenes
+</td><td rowspan="1" colspan="1">
+Tablet with the same non-immersive content
+</td></tr><tr><td rowspan="1" colspan="1">
+Grab et al. [<xref rid="REF15" ref-type="bibr">15</xref>]
+</td><td rowspan="1" colspan="1">
+RCT (monocentric)
+</td><td rowspan="1" colspan="1">
+99 (87M/12F)
+</td><td rowspan="1" colspan="1">
+Adults ≥18 years scheduled for CABG, SAVR, and TAA
+</td><td rowspan="1" colspan="1">
+CABG, SAVR, and TAA
+</td><td rowspan="1" colspan="1">
+Oculus Quest 2
+</td><td rowspan="1" colspan="1">
+Interactive 3D surgical models
+</td><td rowspan="1" colspan="1">
+Paper-based education + 3D models
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Amiri et al. [<xref rid="REF16" ref-type="bibr">16</xref>]
+</td><td rowspan="1" colspan="1">
+RCT (interventional-educational approach)
+</td><td rowspan="1" colspan="1">
+60 (38M/22F)
+</td><td rowspan="1" colspan="1">
+Adults (30-70 years) open heart surgery (CABG)
+</td><td rowspan="1" colspan="1">
+Open heart surgery (CABG)
+</td><td rowspan="1" colspan="1">
+TSCO VR glasses
+</td><td rowspan="1" colspan="1">
+360° VR orientation video 
+</td><td rowspan="1" colspan="1">
+Ordinary 2D video
+</td></tr><tr><td rowspan="1" colspan="1">
+Tarasova et al. [<xref rid="REF17" ref-type="bibr">17</xref>]
+</td><td rowspan="1" colspan="1">
+RCT (single-center)
+</td><td rowspan="1" colspan="1">
+100 (100M/0F)
+</td><td rowspan="1" colspan="1">
+Adults (45-75 years) elective CABG
+</td><td rowspan="1" colspan="1">
+CABG
+</td><td rowspan="1" colspan="1">
+HP Reverb G2 VR headset
+</td><td rowspan="1" colspan="1">
+Multitask VR driving + cognitive task
+</td><td rowspan="1" colspan="1">
+Standard postoperative care
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Laghlam et al. [<xref rid="REF18" ref-type="bibr">18</xref>]
+</td><td rowspan="1" colspan="1">
+Prospective RCT (noninferiority)
+</td><td rowspan="1" colspan="1">
+200 (134M/46F)
+</td><td rowspan="1" colspan="1">
+Adults &gt;18 years, chest drain removal post-cardiac surgery
+</td><td rowspan="1" colspan="1">
+Chest drain removal post-cardiac surgery
+</td><td rowspan="1" colspan="1">
+Think Reality VRX headset
+</td><td rowspan="1" colspan="1">
+360° relaxing immersive environments
+</td><td rowspan="1" colspan="1">
+Kalinox (nitrous oxide/oxygen mixture)
+</td></tr><tr><td rowspan="1" colspan="1">
+Rousseaux et al. [<xref rid="REF19" ref-type="bibr">19</xref>]
+</td><td rowspan="1" colspan="1">
+Prospective RCT, four-arm
+</td><td rowspan="1" colspan="1">
+100 (76M/24F)
+</td><td rowspan="1" colspan="1">
+Adults undergoing CABG, AVR, and MVR
+</td><td rowspan="1" colspan="1">
+CABG, AVR, and MVR
+</td><td rowspan="1" colspan="1">
+Oncomfort Sedakit VR headset
+</td><td rowspan="1" colspan="1">
+Passive VR (landscape, sunrise/clouds)
+</td><td rowspan="1" colspan="1">
+Standard care; comparator arms: hypnosis and VRH
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Sadlonova et al. [<xref rid="REF20" ref-type="bibr">20</xref>]
+</td><td rowspan="1" colspan="1">
+Three-arm RCT
+</td><td rowspan="1" colspan="1">
+88 (69M/19F)
+</td><td rowspan="1" colspan="1">
+Adults (≥18 yrs) elective CABG
+</td><td rowspan="1" colspan="1">
+CABG
+</td><td rowspan="1" colspan="1">
+VR (within multimodal package)
+</td><td rowspan="1" colspan="1">
+Relaxing VR images + music, light therapy, noise reduction
+</td><td rowspan="1" colspan="1">
+Standard medical care
+</td></tr><tr><td rowspan="1" colspan="1">
+Hendricks et al. [<xref rid="REF21" ref-type="bibr">21</xref>]
+</td><td rowspan="1" colspan="1">
+RCT pilot (single-blind)
+</td><td rowspan="1" colspan="1">
+20 (18M/2F)
+</td><td rowspan="1" colspan="1">
+Adults undergoing first-time sternotomy
+</td><td rowspan="1" colspan="1">
+CABG/valve surgery
+</td><td rowspan="1" colspan="1">
+Samsung Gear Oculus
+</td><td rowspan="1" colspan="1">
+Interactive VR game
+</td><td rowspan="1" colspan="1">
+Tablet-based non-VR game
+</td></tr></tbody></table></table-wrap><p>Risk of bias assessment using the RoB 2.0 tool indicated that the majority of trials were judged as having “some concerns,” primarily due to issues related to blinding, deviations from intended interventions, and selective outcome reporting. Three studies were rated at high risk of bias, largely because of limitations in the randomization process and missing outcome data [<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF17" ref-type="bibr">17</xref>,<xref rid="REF20" ref-type="bibr">20</xref>]. The remaining studies were judged to be at low risk in most domains, though concerns regarding the measurement of subjective outcomes (e.g., anxiety and pain scores) and allocation concealment were common. The risk of bias assessment is demonstrated in Figure <xref rid="FIG2" ref-type="fig">2</xref>.</p><fig position="anchor" fig-type="figure" id="FIG2" orientation="portrait"><label>Figure 2</label><caption><title>RoB 2 tool assessing risk of bias in RCT studies</title><p>Summary of risk-of-bias evaluations for the RCTs included in the review, assessed using the Cochrane RoB 2.0 tool. Visualization was generated with the RobVis online platform.</p><p>RCT, randomized controlled trial</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i02.jpg"><?image-name cureus-0017-00000097819-i02.jpg?><?image-size 128843?><?image-md5 c2cd976b8326965aefa40382c029f6bd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 2151?><?image-original-width 3000?><?image-scaled-height 538?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/c2cd976b8326/cureus-0017-00000097819-i02.jpg?><?thumb-name cureus-0017-00000097819-i02.gif?><?thumb-size 5717?><?thumb-md5 7791ad2ceb60dfbe05afd102e56a446d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 111?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/7791ad2ceb60/cureus-0017-00000097819-i02.gif?></graphic></fig><p>Effect of VR on Preoperative Anxiety of Cardiac Surgery Patients</p><p>Of the nine included RCTs, seven reported quantitative preoperative anxiety outcomes using validated measures (STAI, VAS, APAIS, or NRS) [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. Two studies were excluded: Tarasova et al., which assessed only neurophysiological markers, and Sadlonova et al., where VR was embedded within a multimodal intervention and anxiety could not be isolated [<xref rid="REF17" ref-type="bibr">17</xref>,<xref rid="REF20" ref-type="bibr">20</xref>].</p><p>A random-effects meta-analysis of the seven eligible trials, including 670 participants (294 VR, 376 controls), demonstrated a nonsignificant trend toward reduced anxiety with VR compared to controls (SMD = -0.23, 95% CI -0.50 to 0.04; p = 0.079) [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. Heterogeneity was low (I² = 37.4%), and funnel plot inspection and Egger’s regression test (p = 0.15) did not suggest evidence of publication bias. These results are visualized in the forest plot in Figure <xref rid="FIG3" ref-type="fig">3</xref> and the funnel plot in Figure <xref rid="FIG4" ref-type="fig">4</xref>.</p><fig position="anchor" fig-type="figure" id="FIG3" orientation="portrait"><label>Figure 3</label><caption><title>Forest plot comparing VR versus control management for preoperative anxiety scores in cardiac surgery patients (random-effects meta-analysis)</title><p>Forest plot comparing VR interventions with standard care or control conditions for preoperative anxiety in patients undergoing cardiac surgery. The analysis demonstrated a nonsignificant trend toward reduced anxiety with VR compared to controls, based on a random-effects meta-analysis.</p><p>VR, virtual reality</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i03.jpg"><?image-name cureus-0017-00000097819-i03.jpg?><?image-size 48395?><?image-md5 5c1ac049bae54da25aa6d7909b68a623?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 789?><?image-original-width 3000?><?image-scaled-height 197?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/5c1ac049bae5/cureus-0017-00000097819-i03.jpg?><?thumb-name cureus-0017-00000097819-i03.gif?><?thumb-size 4717?><?thumb-md5 415376388daa008a6621ffe31347f202?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 53?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/415376388daa/cureus-0017-00000097819-i03.gif?></graphic></fig><fig position="anchor" fig-type="figure" id="FIG4" orientation="portrait"><label>Figure 4</label><caption><title>Funnel plot evaluating potential publication bias for preoperative anxiety outcomes in cardiac surgery patients</title><p>Funnel plot illustrating the distribution of studies assessing preoperative anxiety outcomes. The plot demonstrates a balanced spread of effect sizes around the pooled estimate, indicating minimal evidence of publication bias or small-study effects [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>].</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i04.jpg"><?image-name cureus-0017-00000097819-i04.jpg?><?image-size 28284?><?image-md5 587aeb4194850f93a9efabf2ec6e225b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1534?><?image-original-width 3000?><?image-scaled-height 384?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/587aeb419485/cureus-0017-00000097819-i04.jpg?><?thumb-name cureus-0017-00000097819-i04.gif?><?thumb-size 2760?><?thumb-md5 12d884661d9d5133f242e957d7465141?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 156?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/12d884661d9d/cureus-0017-00000097819-i04.gif?></graphic></fig><p>Individual trial results were mixed. Amiri et al. and Hendricks et al. demonstrated significant anxiety reduction in the VR group compared to controls, while Subramaniam et al. observed significant within-group reductions in VR but no superiority to tablet-based comparators [<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. Grab et al. found significant improvement in VAS anxiety but not in STAI, whereas El Mathari et al., Rousseaux et al., and Laghlam et al. reported no significant between-group differences [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>].</p><p>Effect of VR on Patient Satisfaction in Cardiac Surgery Patients</p><p>Four RCTs reported post-intervention patient satisfaction outcomes and were included in the quantitative synthesis [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>]. Together, these trials comprised 446 patients (220 VR, 226 control). A random-effects meta-analysis demonstrated a nonsignificant trend toward higher satisfaction with VR compared to controls (SMD = 0.36, 95% CI -0.65 to 1.38; p = 0.34). Substantial heterogeneity was observed (I² = 92.2%), indicating inconsistency in effect size and direction across studies. Funnel plot analysis and Egger’s test (p = 0.11) did not suggest publication bias. These results are visualized in the forest plot in Figure <xref rid="FIG5" ref-type="fig">5</xref> and the funnel plot in Figure <xref rid="FIG6" ref-type="fig">6</xref>.</p><fig position="anchor" fig-type="figure" id="FIG5" orientation="portrait"><label>Figure 5</label><caption><title>Forest plot comparing VR versus control management for patient satisfaction outcomes in cardiac surgery patients (random-effects meta-analysis)</title><p>Forest plot displaying pooled estimates comparing VR interventions with standard care for patient satisfaction outcomes in cardiac surgery. While individual studies reported variable results, the overall analysis showed no statistically significant difference between the VR and control groups. Considerable heterogeneity was observed across studies.</p><p>VR, virtual reality</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i05.jpg"><?image-name cureus-0017-00000097819-i05.jpg?><?image-size 38933?><?image-md5 55251cab0bc92b887fdc7e85abb0e8e9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 661?><?image-original-width 3000?><?image-scaled-height 165?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/55251cab0bc9/cureus-0017-00000097819-i05.jpg?><?thumb-name cureus-0017-00000097819-i05.gif?><?thumb-size 3987?><?thumb-md5 8f2fad2aec08dcd47fb5d1818a431795?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 44?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/8f2fad2aec08/cureus-0017-00000097819-i05.gif?></graphic></fig><fig position="anchor" fig-type="figure" id="FIG6" orientation="portrait"><label>Figure 6</label><caption><title>Funnel plot evaluating publication bias for patient satisfaction outcomes in cardiac surgery patients</title><p>Funnel plot illustrating the relationship between standard error and standardized mean difference for studies assessing patient satisfaction outcomes. The plot demonstrates a roughly symmetrical distribution, suggesting minimal evidence of publication bias [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>].</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="cureus-0017-00000097819-i06.jpg"><?image-name cureus-0017-00000097819-i06.jpg?><?image-size 25197?><?image-md5 122e6bb01fcf86015782e3a74a29d230?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1530?><?image-original-width 3000?><?image-scaled-height 383?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/122e6bb01fcf/cureus-0017-00000097819-i06.jpg?><?thumb-name cureus-0017-00000097819-i06.gif?><?thumb-size 2783?><?thumb-md5 eb73bd0d6e82fa1b74b87af3a40901c6?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 156?><?thumb-cloudpmc-urn urn:cdn:blobs/7bb3/12741572/eb73bd0d6e82/cureus-0017-00000097819-i06.gif?></graphic></fig><p>Results varied between trials. Both El Mathari et al. and Grab et al. demonstrated significantly greater satisfaction in the VR group compared with conventional education methods [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF15" ref-type="bibr">15</xref>]. Amiri et al. similarly found VR to be associated with higher satisfaction compared with standard 2D video education [<xref rid="REF16" ref-type="bibr">16</xref>]. In contrast, Laghlam et al. reported greater satisfaction with Kalinox (standard care) compared to VR during chest drain removal post cardiac surgery [<xref rid="REF18" ref-type="bibr">18</xref>].</p><p>Effect of VR on Postoperative Pain in Cardiac Surgery Patients</p><p>Postoperative pain outcomes were reported in only two of the included trials [<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]. Laghlam et al. compared immersive VR with Kalinox during chest drain removal in 200 post-cardiac surgery patients and found that pain intensity, measured by the NRS, was significantly higher in the VR group immediately after the procedure (median 5.0 (IQR 3-7) versus 3.0 (2-6), p = 0.009). No difference was observed 10 minutes after drain removal [<xref rid="REF18" ref-type="bibr">18</xref>]. Rousseaux et al. assessed pain using a VAS across control, hypnosis, VR, and combined VR-hypnosis groups and reported an overall postoperative increase in pain across all groups, with no significant between-group differences [<xref rid="REF19" ref-type="bibr">19</xref>]. With only two trials available and differing comparators and contexts, a quantitative synthesis was not feasible for postoperative pain assessment.</p><p>Effect of VR on Physiological Outcomes in Cardiac Surgery Patients</p><p>Physiological outcomes were variably reported across trials, with heterogeneous measures ranging from standard vital signs to advanced neurophysiological and biomarker assessments.</p><p>Amiri et al. demonstrated that VR significantly reduced heart rate, blood pressure, and respiratory rate compared with a standard video intervention, suggesting modulation of autonomic arousal [<xref rid="REF16" ref-type="bibr">16</xref>]. In contrast, Subramaniam et al. found that both VR and tablet-based interventions produced small reductions in heart rate, but no between-group differences were observed [<xref rid="REF14" ref-type="bibr">14</xref>]. Similarly, Rousseaux et al. reported no significant effects of VR, hypnosis, or their combination on heart rate, arterial pressure, respiratory rate, or oxygen saturation in the perioperative setting [<xref rid="REF19" ref-type="bibr">19</xref>]. Laghlam et al. assessed autonomic responses using the Analgesia/Nociception Index and found no difference between VR and Kalinox during chest drain removal [<xref rid="REF18" ref-type="bibr">18</xref>].</p><p>Beyond conventional physiological measures, Tarasova et al. demonstrated that VR multitask training modulated postoperative EEG activity by increasing alpha power and preventing the rise in theta activity typically associated with cognitive dysfunction, indicating a potential neuroprotective effect [<xref rid="REF17" ref-type="bibr">17</xref>]. Hendricks et al. reported reductions in subjective tension, strain, and upset following VR, which were interpreted as markers of reduced physiological stress, although objective vitals were not measured [<xref rid="REF21" ref-type="bibr">21</xref>]. Finally, Sadlonova et al. found no significant differences in postoperative cytokine responses (IL-6 and IL-8) but noted a trend toward lower IL-6 increases and significantly shorter hospital stays in the multimodal intervention group, which included VR [<xref rid="REF20" ref-type="bibr">20</xref>].</p><p>Other Outcomes Reported in the Use of VR in Cardiac Surgery Patients</p><p>Opioid consumption was infrequently reported across the studies included in this review. Laghlam et al. observed very low peri-procedural morphine use during chest drain removal, with no significant difference between VR and Kalinox [<xref rid="REF18" ref-type="bibr">18</xref>]. Similarly, Rousseaux et al. reported that on-demand opioid use in the immediate postoperative period did not differ across control, hypnosis, VR, or VR-hypnosis groups [<xref rid="REF19" ref-type="bibr">19</xref>].</p><p>Adverse effects of VR were generally mild, rare, and self-limiting. Laghlam et al. noted transient vertigo and nausea in a small number of patients, while Subramaniam et al. reported occasional eye strain [<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF18" ref-type="bibr">18</xref>]. Grab et al. documented that some patients were excluded prior to randomization due to dizziness or difficulty with VR equipment, but no adverse effects were seen in those who proceeded with the intervention [<xref rid="REF15" ref-type="bibr">15</xref>]. Rousseaux et al. reported no VR-related adverse events [<xref rid="REF19" ref-type="bibr">19</xref>]. Other trials, including Amiri et al., El Mathari et al., Hendricks et al., and Sadlonova et al., did not report any adverse effects [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF20" ref-type="bibr">20</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. Across all studies, no serious VR-related complications were described [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF21" ref-type="bibr">21</xref>].</p><p>Beyond opioid use and adverse events, several studies reported additional exploratory outcomes. Sadlonova et al. found that VR-containing interventions were associated with shorter hospital stays and improved postoperative self-efficacy compared with standard care [<xref rid="REF20" ref-type="bibr">20</xref>]. Similarly, El Mathari et al. reported greater perceived preparedness for surgery in patients who received VR education [<xref rid="REF13" ref-type="bibr">13</xref>]. Feasibility and acceptability were also consistently supported, with Subramaniam et al. noting no withdrawals due to VR and Grab et al. reporting only minor pre-randomization exclusions for dizziness or equipment handling issues [<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF15" ref-type="bibr">15</xref>].</p><p>Discussion</p><p>This systematic review and meta-analysis evaluated the role of VR as a perioperative adjunct in cardiac surgery, synthesizing evidence across nine RCTs [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF21" ref-type="bibr">21</xref>]. VR interventions were consistently associated with higher patient satisfaction, while findings for preoperative anxiety and postoperative pain were mixed and did not demonstrate significant pooled effects. Physiological outcomes showed heterogeneous results, with some trials indicating modulation of autonomic or neurophysiological responses, though overall evidence was inconclusive. Importantly, VR was well tolerated across all studies, with adverse events limited to minor, self-limiting symptoms and no serious complications reported. Collectively, these findings highlight VR’s potential as a feasible and acceptable nonpharmacological adjunct in cardiac surgical care, while underscoring the need for larger, standardized trials to clarify its efficacy across clinical endpoints.</p><p>Across seven RCTs including 670 participants, our meta-analysis demonstrated a nonsignificant trend toward reduced preoperative anxiety with VR compared to controls (SMD = -0.23, 95% CI -0.50 to 0.04, p = 0.079) [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. Heterogeneity was low (I² = 37.4%), suggesting that effect sizes were relatively consistent despite differences in intervention design. Funnel plot inspection and Egger’s test (p = 0.154) did not indicate publication bias. Although the pooled effect did not reach statistical significance, the direction of benefit is clinically meaningful in the context of cardiac surgery, where heightened anticipatory anxiety has been linked to poorer recovery, longer hospitalization, and increased postoperative complications [<xref rid="REF22" ref-type="bibr">22</xref>]. Several trials, including Amiri et al. and Hendricks et al., reported significant anxiety reductions, while others showed neutral effects, particularly when VR was compared with active controls such as tablet-based education or inhaled analgesia [<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]. These discrepancies likely reflect heterogeneity in VR content, intervention timing, and comparator groups.</p><p>Emerging mechanistic evidence may help explain VR’s potential anxiolytic effects. Park et al. demonstrated that VR produced greater anxiety reduction in highly stressful awake surgical procedures, proposing that VR operates not only via attentional distraction but also through cortical modulation of the amygdala, analogous to the gate control theory of pain [<xref rid="REF23" ref-type="bibr">23</xref>]. This suggests that VR could be particularly effective in populations experiencing intense anticipatory anxiety, such as those awaiting major cardiac surgery.</p><p>Our findings parallel broader surgical literature, where VR has consistently reduced perioperative anxiety in orthopedic and pediatric surgery and in interventional cardiology [<xref rid="REF8" ref-type="bibr">8</xref>,<xref rid="REF10" ref-type="bibr">10</xref>,<xref rid="REF11" ref-type="bibr">11</xref>]. The lack of clear significance in cardiac surgery may reflect the unique psychological burden of these operations, which may attenuate relative effect sizes. Nevertheless, the consistency of direction, coupled with promising mechanistic data, supports VR’s potential as a low-risk adjunct in this setting.</p><p>The meta-analysis demonstrated a nonsignificant trend toward higher patient satisfaction with VR compared to control conditions (SMD = 0.36, 95% CI -0.65 to 1.38, p = 0.34), with substantial heterogeneity (I² = 92.2%). Funnel plot inspection and Egger’s test (p = 0.11) did not indicate publication bias.</p><p>Although statistical significance was not achieved, patients consistently reported positive experiences with VR, suggesting strong acceptability and engagement during cardiac surgery. This may indicate that VR has a more beneficial role in enhancing patient satisfaction through immersive preoperative education rather than replacing conventional comfort measures during procedures. These findings are consistent with broader perioperative research. Caruso et al. demonstrated that pediatric patients experienced high satisfaction with VR during vascular access procedures despite neutral pain outcomes, reflecting strong acceptability of the intervention [<xref rid="REF24" ref-type="bibr">24</xref>]. Similarly, Haisley et al. found that most patients in the VR group reported a positive experience and willingness to use VR again after foregut surgery, even when satisfaction scores did not differ from controls [<xref rid="REF25" ref-type="bibr">25</xref>]. In head and neck surgery, Pandrangi et al. reported high satisfaction in both VR and control groups, indicating that VR achieves at least parity with standard care while offering novel experiential benefits [<xref rid="REF26" ref-type="bibr">26</xref>].</p><p>The evidence evaluating the effect of VR on postoperative pain in cardiac surgery remains limited, with only two RCTs addressing this outcome [<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]. Laghlam et al. reported that pain intensity immediately following chest drain removal was significantly higher in the VR group compared with patients receiving Kalinox, though this difference resolved within 10 minutes [<xref rid="REF18" ref-type="bibr">18</xref>]. Similarly, Rousseaux et al. found no significant differences in postoperative pain between VR, hypnosis, VR-hypnosis, and standard care groups, despite an overall increase in pain across all interventions [<xref rid="REF19" ref-type="bibr">19</xref>]. Collectively, these findings suggest that VR has not yet demonstrated consistent analgesic benefit in the postoperative cardiac setting.</p><p>The heterogeneity in observed effects may be explained by the mechanisms through which VR modulates pain perception. By diverting attentional focus and providing immersive multisensory input, VR can attenuate the salience of nociceptive stimuli and influence cortical regions involved in pain processing, such as the anterior cingulate cortex and insula [<xref rid="REF27" ref-type="bibr">27</xref>]. This mechanism appears effective in procedures that are shorter and less invasive, as demonstrated in prior meta-analyses of percutaneous interventions and ablation procedures [<xref rid="REF11" ref-type="bibr">11</xref>]. However, in cardiac surgery, where postoperative pain is intense, diffuse, and sustained, brief VR interventions may provide insufficient exposure to produce measurable analgesic effects. Despite these limitations, given its favorable safety profile and potential to reduce reliance on pharmacologic analgesia, VR remains a promising nonpharmacologic adjunct, warranting larger, methodologically rigorous trials to clarify its role in cardiac surgical pain management.</p><p>Patterns of physiological response to VR during cardiac surgery remain heterogeneous and context dependent. Amiri et al. reported significant reductions in heart rate, blood pressure, and respiratory rate following VR exposure compared with standard video, suggesting attenuation of autonomic arousal [<xref rid="REF16" ref-type="bibr">16</xref>]. In contrast, Subramaniam et al. and Rousseaux et al. found minimal or no between-group differences in standard vital parameters, while Laghlam et al. observed comparable responses between VR and Kalinox when assessed using the Analgesia/Nociception Index [<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]. More exploratory measures revealed additional variability: Tarasova et al. documented EEG patterns indicative of reduced postoperative cognitive strain, whereas Sadlonova et al. detected no significant changes in inflammatory cytokine activity [<xref rid="REF17" ref-type="bibr">17</xref>,<xref rid="REF20" ref-type="bibr">20</xref>]. Such inconsistency likely stems from variation in intervention timing, comparator selection, and the sensitivity of physiological endpoints.</p><p>Nonetheless, the capacity of VR to modulate cardiovascular and neurophysiological responses in some studies supports its potential to influence autonomic regulation and perioperative stability. Comparable findings have been observed beyond cardiac surgery. Moharam et al. demonstrated significant reductions in perioperative heart rate and blood pressure during total hip arthroplasty, underscoring VR’s ability to favorably alter autonomic tone during invasive procedures [<xref rid="REF8" ref-type="bibr">8</xref>].</p><p>Collectively, these findings suggest that VR may mitigate stress-related physiological responses by engaging immersive distraction and activating parasympathetic pathways that counteract sympathetic drive. In cardiac surgery, where autonomic imbalance contributes to complications such as arrhythmias, hemodynamic lability, and delayed recovery, this represents a promising avenue for perioperative optimization.</p><p>Beyond anxiety, pain, satisfaction, and physiological markers, several studies also explored secondary outcomes such as opioid use, safety, and feasibility. Across the included trials, VR did not significantly reduce perioperative opioid consumption. Both Laghlam et al. and Rousseaux et al. reported comparable morphine use between VR and control groups, suggesting that any analgesic benefit of VR may not consistently translate into reduced pharmacologic demand in cardiac surgery [<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]. By contrast, opioid-sparing effects have been demonstrated in other surgical contexts, such as head and neck procedures, highlighting the influence of surgical setting, intervention timing, and baseline analgesic practices on observed outcomes [<xref rid="REF26" ref-type="bibr">26</xref>].</p><p>VR was consistently well tolerated, with adverse effects rare, mild, and self-limiting, typically transient dizziness, nausea, or eye strain, with no serious complications reported [<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF18" ref-type="bibr">18</xref>]. This favorable safety profile stresses the feasibility of integrating VR into routine perioperative care. Several studies also reported additional benefits. Sadlonova et al. observed shorter hospital stays and improved postoperative self-efficacy with multimodal interventions incorporating VR, while El Mathari et al. found enhanced preparedness for surgery following VR education [<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF20" ref-type="bibr">20</xref>]. Similarly, Tarasova et al. demonstrated neurocognitive benefits at the cortical and limbic levels, with increased alpha-band activation in the parahippocampal and posterior cingulate regions (Brodmann Area 30) and modulation of frontal cortical activity (middle and superior frontal gyri), indicating engagement of neural networks related to spatial memory, attention, and cognitive control [<xref rid="REF17" ref-type="bibr">17</xref>].</p><p>Taken together, although the direct impact of VR on opioid use remains inconclusive, the intervention appears safe, feasible, and potentially beneficial across domains extending beyond pain control. These findings support VR’s role as a patient-centered adjunct that may enhance psychological resilience, recovery confidence, and overall perioperative experience.</p><p>Limitations</p><p>Several limitations should be acknowledged when interpreting the findings of this review. The available RCTs investigating VR in cardiac surgery remain few and are predominantly single-center studies with modest sample sizes, which limits statistical power and generalizability. Considerable heterogeneity was also evident across interventions, with variation in VR content, duration, timing, and delivery platforms likely contributing to inconsistent findings across studies. Methodological concerns were frequent, as many trials exhibited some risk of bias arising from incomplete blinding, selective outcome reporting, or the predominance of subjective endpoints such as anxiety and pain.</p><p>Outcome measures lacked consistency. While anxiety and satisfaction were commonly assessed using validated scales, pain and physiological outcomes were measured with variable tools, and few studies examined longer-term or objective parameters such as functional recovery, neurocognitive outcomes, or quality of life.</p><p>The potential for publication bias must also be considered, given the small evidence base and potential underreporting of neutral or negative findings. These factors collectively emphasize the need for larger, multicenter randomized trials employing standardized VR protocols, rigorous methodology, and consistent outcome reporting to better define the role of immersive technologies in perioperative cardiac surgical care.</p><p>The overall certainty of evidence across outcomes was assessed using the GRADE approach, which indicated moderate confidence for anxiety and satisfaction outcomes but low to very low confidence for pain, physiological, and opioid-related measures, as demonstrated in Table <xref rid="TAB2" ref-type="table">2</xref>. These findings reflect the small number of trials, heterogeneity in interventions and measurement tools, and limited blinding feasibility inherent to VR-based studies.</p><table-wrap position="float" id="TAB2" orientation="portrait"><label>Table 2</label><caption><title>GRADE certainty of evidence assessment for included outcomes</title><p>Certainty of evidence for preoperative anxiety and patient satisfaction was rated as moderate certainty, supported by consistent trends favoring VR and low publication bias. Postoperative pain, physiological outcomes, and opioid use were downgraded to low certainty due to heterogeneity, small sample sizes, and imprecision. Safety outcomes were rated as high certainty, with consistent findings demonstrating VR to be well tolerated and free of serious adverse effects.</p><p>GRADE, Grading of Recommendations Assessment, Development and Evaluation; RCT, randomized controlled trial; VR, virtual reality</p></caption><table frame="hsides" rules="groups"><tbody><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Outcome
+</td><td rowspan="1" colspan="1">
+Number of studies
+</td><td rowspan="1" colspan="1">
+Study design
+</td><td rowspan="1" colspan="1">
+Risk of bias
+</td><td rowspan="1" colspan="1">
+Inconsistency
+</td><td rowspan="1" colspan="1">
+Indirectness
+</td><td rowspan="1" colspan="1">
+Imprecision
+</td><td rowspan="1" colspan="1">
+Publication bias
+</td><td rowspan="1" colspan="1">
+Overall certainty
+</td><td rowspan="1" colspan="1">
+References
+</td></tr><tr><td rowspan="1" colspan="1">
+Preoperative anxiety
+</td><td rowspan="1" colspan="1">
+Seven studies (meta-analysis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Some concerns (blinding and subjective outcomes)
+</td><td rowspan="1" colspan="1">
+Low (I² = 37.4%)
+</td><td rowspan="1" colspan="1">
+No serious indirectness
+</td><td rowspan="1" colspan="1">
+Some imprecision (95% CI crosses null)
+</td><td rowspan="1" colspan="1">
+Low risk (symmetrical funnel plot, p = 0.15)
+</td><td rowspan="1" colspan="1">
+Moderate
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Patient satisfaction
+</td><td rowspan="1" colspan="1">
+Four studies (meta-analysis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Some concerns (allocation concealment and subjective measures)
+</td><td rowspan="1" colspan="1">
+Substantial (I² = 92.2%)
+</td><td rowspan="1" colspan="1">
+No serious indirectness
+</td><td rowspan="1" colspan="1">
+No serious imprecision
+</td><td rowspan="1" colspan="1">
+Low risk (Egger’s p = 0.11)
+</td><td rowspan="1" colspan="1">
+Low to moderate
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF13" ref-type="bibr">13</xref>,<xref rid="REF15" ref-type="bibr">15</xref>,<xref rid="REF16" ref-type="bibr">16</xref>,<xref rid="REF18" ref-type="bibr">18</xref>]
+</td></tr><tr><td rowspan="1" colspan="1">
+Postoperative pain
+</td><td rowspan="1" colspan="1">
+Two studies (narrative synthesis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Some concerns
+</td><td rowspan="1" colspan="1">
+Serious inconsistency (directionally mixed results)
+</td><td rowspan="1" colspan="1">
+Some indirectness (different comparators and timing)
+</td><td rowspan="1" colspan="1">
+Serious imprecision (small samples)
+</td><td rowspan="1" colspan="1">
+Not assessable
+</td><td rowspan="1" colspan="1">
+Low
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Physiological outcomes
+</td><td rowspan="1" colspan="1">
+Seven studies (narrative synthesis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Some concerns (measurement bias and variable methods)
+</td><td rowspan="1" colspan="1">
+Serious inconsistency
+</td><td rowspan="1" colspan="1">
+Serious indirectness (heterogeneous markers and timings)
+</td><td rowspan="1" colspan="1">
+Serious imprecision
+</td><td rowspan="1" colspan="1">
+Not assessable
+</td><td rowspan="1" colspan="1">
+Low
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF14" ref-type="bibr">14</xref>,<xref rid="REF16" ref-type="bibr">16</xref>-<xref rid="REF19" ref-type="bibr">19</xref>,<xref rid="REF20" ref-type="bibr">20</xref>,<xref rid="REF21" ref-type="bibr">21</xref>]
+</td></tr><tr><td rowspan="1" colspan="1">
+Opioid use
+</td><td rowspan="1" colspan="1">
+Two studies (narrative synthesis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Some concerns
+</td><td rowspan="1" colspan="1">
+Not applicable (limited data)
+</td><td rowspan="1" colspan="1">
+Some indirectness (nonstandardized reporting)
+</td><td rowspan="1" colspan="1">
+Serious imprecision
+</td><td rowspan="1" colspan="1">
+Not assessable
+</td><td rowspan="1" colspan="1">
+Low
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF18" ref-type="bibr">18</xref>,<xref rid="REF19" ref-type="bibr">19</xref>]
+</td></tr><tr style="background-color:#ccc"><td rowspan="1" colspan="1">
+Safety/adverse events
+</td><td rowspan="1" colspan="1">
+Nine studies (narrative synthesis)
+</td><td rowspan="1" colspan="1">
+RCTs
+</td><td rowspan="1" colspan="1">
+Low risk
+</td><td rowspan="1" colspan="1">
+No inconsistency
+</td><td rowspan="1" colspan="1">
+No indirectness
+</td><td rowspan="1" colspan="1">
+No imprecision
+</td><td rowspan="1" colspan="1">
+Low risk
+</td><td rowspan="1" colspan="1">
+High
+</td><td rowspan="1" colspan="1">
+[<xref rid="REF13" ref-type="bibr">13</xref>-<xref rid="REF21" ref-type="bibr">21</xref>]
+</td></tr></tbody></table></table-wrap></sec><sec sec-type="conclusions"><title>Conclusions</title><p>This systematic review and meta-analysis provide the first comprehensive synthesis of randomized evidence evaluating VR in cardiac surgery. VR was found to be a safe and well-tolerated adjunct, with trends suggesting modest improvements in patient satisfaction and reductions in anxiety, though these did not reach statistical significance. Findings for postoperative pain, opioid use, and physiological outcomes were inconsistent, indicating that VR may not confer clear advantages over standard perioperative care. Nevertheless, its strong feasibility, minimal adverse effects, and potential to enhance patient engagement highlight its clinical promise.</p><p>Future research should prioritize larger, multicenter randomized trials employing standardized VR protocols, consistent outcome measures, and long-term follow-up to determine its true therapeutic value. Furthermore, expanding on underlying autonomic and neurocognitive mechanisms may further clarify how immersive technologies can optimize recovery and psychological well-being in cardiac surgical populations.</p></sec></body><back><ack><p>Ali Alseneid and Harvey Xiang contributed equally to this work and should be considered co-first authors.</p></ack><fn-group content-type="conflict"><title>Disclosures</title><fn fn-type="COI-statement"><p><bold>Conflicts of interest:</bold> In compliance with the ICMJE uniform disclosure form, all authors declare the following:</p><p><bold>Payment/services info:</bold> All authors have declared that no financial support was received from any organization for the submitted work.</p><p><bold>Financial relationships:</bold> All authors have declared that they have no financial relationships at present or within the previous three years with any organizations that might have an interest in the submitted work.</p><p><bold>Other relationships:</bold> All authors have declared that there are no other relationships or activities that could appear to have influenced the submitted work.</p></fn></fn-group><fn-group content-type="other"><title>Author Contributions</title><fn fn-type="other"><p><bold>Concept and design:</bold>  Ali Alseneid, Harvey Xiang, Shivam Bhindi</p><p><bold>Acquisition, analysis, or interpretation of data:</bold>  Ali Alseneid, Harvey Xiang, Alhassen Alseneid, Marwan Ibrahim, Shivam Bhindi</p><p><bold>Drafting of the manuscript:</bold>  Ali Alseneid, Harvey Xiang, Alhassen Alseneid, Marwan Ibrahim</p><p><bold>Critical review of the manuscript for important intellectual content:</bold>  Ali Alseneid, Harvey Xiang, Alhassen Alseneid, Marwan Ibrahim, Shivam Bhindi</p><p><bold>Supervision:</bold>  Ali Alseneid, Harvey Xiang</p></fn></fn-group><ref-list><title>References</title><ref id="REF1"><label>1</label><element-citation publication-type="journal"><article-title>United States national trends in comorbidity and outcomes of adult cardiac surgery patients</article-title><source>J Card Surg</source><person-group>
+<name name-style="western"><surname>Mullan</surname><given-names>CW</given-names></name>
+<name name-style="western"><surname>Mori</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Pichert</surname><given-names>MD</given-names></name>
+<name name-style="western"><surname>Bin Mahmood</surname><given-names>SU</given-names></name>
+<name name-style="western"><surname>Yousef</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Geirsson</surname><given-names>A</given-names></name>
+</person-group><fpage>2248</fpage><lpage>2253</lpage><volume>35</volume><year>2020</year><pub-id pub-id-type="pmid">33448476</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jocs.14764</pub-id></element-citation></ref><ref id="REF2"><label>2</label><element-citation publication-type="journal"><article-title>Cardiac surgery during and after the pandemic: a retrospective analysis of UK trends and outcomes</article-title><source>Eur J Cardiothorac Surg</source><person-group>
+<name name-style="western"><surname>Dong</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Briffa</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Narayan</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Chan</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Angelini</surname><given-names>GD</given-names></name>
+</person-group><volume>67</volume><year>2025</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ejcts/ezaf246</pub-id><pub-id pub-id-type="pmcid">PMC12371327</pub-id><pub-id pub-id-type="pmid">40720588</pub-id></element-citation></ref><ref id="REF3"><label>3</label><element-citation publication-type="journal"><article-title>"Prehabilitation" prior to CABG surgery improves physical functioning and depression</article-title><source>Int J Cardiol</source><person-group>
+<name name-style="western"><surname>Furze</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Dumville</surname><given-names>JC</given-names></name>
+<name name-style="western"><surname>Miles</surname><given-names>JN</given-names></name>
+<name name-style="western"><surname>Irvine</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Thompson</surname><given-names>DR</given-names></name>
+<name name-style="western"><surname>Lewin</surname><given-names>RJ</given-names></name>
+</person-group><fpage>51</fpage><lpage>58</lpage><volume>132</volume><year>2009</year><pub-id pub-id-type="pmid">18703241</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijcard.2008.06.001</pub-id><pub-id pub-id-type="pmcid">PMC2643012</pub-id></element-citation></ref><ref id="REF4"><label>4</label><element-citation publication-type="journal"><article-title>Checking the moderating effect of perceived control on the relationship between anxiety and postoperative hospital length of stay among coronary artery bypass graft patients</article-title><source>Int J Gen Med</source><person-group>
+<name name-style="western"><surname>AbuRuz</surname><given-names>ME</given-names></name>
+<name name-style="western"><surname>Al-Dweik</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Al-Akash</surname><given-names>HY</given-names></name>
+</person-group><fpage>79</fpage><lpage>85</lpage><volume>12</volume><year>2019</year><pub-id pub-id-type="pmid">30787628</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/IJGM.S192333</pub-id><pub-id pub-id-type="pmcid">PMC6363494</pub-id></element-citation></ref><ref id="REF5"><label>5</label><element-citation publication-type="journal"><article-title>A prospective pilot study assessing levels of preoperative physical activity and postoperative neurocognitive disorder among patients undergoing elective coronary artery bypass graft surgery</article-title><source>PLoS ONE</source><person-group>
+<name name-style="western"><surname>Tasbihgou</surname><given-names>SR</given-names></name>
+<name name-style="western"><surname>Dijkstra</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Atmosoerodjo</surname><given-names>SD</given-names></name>
+<name name-style="western"><surname>Tigchelaar</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Huet</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Mariani</surname><given-names>MA</given-names></name>
+<name name-style="western"><surname>Absalom</surname><given-names>AR</given-names></name>
+</person-group><fpage>0</fpage><volume>15</volume><year>2020</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0240128</pub-id><pub-id pub-id-type="pmcid">PMC7553306</pub-id><pub-id pub-id-type="pmid">33048965</pub-id></element-citation></ref><ref id="REF6"><label>6</label><element-citation publication-type="journal"><article-title>Effectiveness of intravenous administration of a combination of sufentanil and esketamine on post-cardiac surgery pain management and depression: a randomized controlled trial</article-title><source>Cardiovasc Diagn Ther</source><person-group>
+<name name-style="western"><surname>Xu</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Liang</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>W</given-names></name>
+</person-group><fpage>291</fpage><lpage>301</lpage><volume>15</volume><year>2025</year><pub-id pub-id-type="pmid">40385271</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.21037/cdt-24-312</pub-id><pub-id pub-id-type="pmcid">PMC12082191</pub-id></element-citation></ref><ref id="REF7"><label>7</label><element-citation publication-type="journal"><article-title>Effectiveness of virtual reality in the management of paediatric anxiety during the peri‑operative period: a systematic review and meta-analysis</article-title><source>Int J Nurs Stud</source><person-group>
+<name name-style="western"><surname>Simonetti</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Tomietto</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Comparcini</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Vankova</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Marcelli</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Cicolini</surname><given-names>G</given-names></name>
+</person-group><fpage>104115</fpage><volume>125</volume><year>2022</year><pub-id pub-id-type="pmid">34781118</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijnurstu.2021.104115</pub-id></element-citation></ref><ref id="REF8"><label>8</label><element-citation publication-type="journal"><article-title>Effect of virtual reality on perioperative anxiety, stress and pain in total hip arthroplasty: a randomized controlled trial</article-title><source>BMC Anesthesiol</source><person-group>
+<name name-style="western"><surname>Moharam</surname><given-names>SA</given-names></name>
+<name name-style="western"><surname>ElSharkawy</surname><given-names>MS</given-names></name>
+<name name-style="western"><surname>ELkashef</surname><given-names>AM</given-names></name>
+<name name-style="western"><surname>Romeih</surname><given-names>MA</given-names></name>
+<name name-style="western"><surname>El Rasool</surname><given-names>AO</given-names></name>
+<name name-style="western"><surname>Shaheen</surname><given-names>MM</given-names></name>
+</person-group><fpage>446</fpage><volume>25</volume><year>2025</year><pub-id pub-id-type="pmid">40922021</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12871-025-03316-3</pub-id><pub-id pub-id-type="pmcid">PMC12418640</pub-id></element-citation></ref><ref id="REF9"><label>9</label><element-citation publication-type="journal"><article-title>Virtual reality immersion compared to monitored anesthesia care for hand surgery: a randomized controlled trial</article-title><source>PLoS ONE</source><person-group>
+<name name-style="western"><surname>Faruki</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Nguyen</surname><given-names>TB</given-names></name>
+<name name-style="western"><surname>Gasangwa</surname><given-names>DV</given-names></name>
+<etal/>
+</person-group><fpage>0</fpage><volume>17</volume><year>2022</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0272030</pub-id><pub-id pub-id-type="pmcid">PMC9491608</pub-id><pub-id pub-id-type="pmid">36129891</pub-id></element-citation></ref><ref id="REF10"><label>10</label><element-citation publication-type="journal"><article-title>Virtual reality exposure before elective day care surgery to reduce anxiety and pain in children: a randomised controlled trial</article-title><source>Eur J Anaesthesiol</source><person-group>
+<name name-style="western"><surname>Eijlers</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Dierckx</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Staals</surname><given-names>LM</given-names></name>
+<etal/>
+</person-group><fpage>728</fpage><lpage>737</lpage><volume>36</volume><year>2019</year><pub-id pub-id-type="pmid">31356373</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/EJA.0000000000001059</pub-id><pub-id pub-id-type="pmcid">PMC6738544</pub-id></element-citation></ref><ref id="REF11"><label>11</label><element-citation publication-type="journal"><article-title>Effectiveness of virtual reality on pain and anxiety in patients undergoing cardiac procedures: a systematic review and meta-analysis of randomized controlled trials</article-title><source>Curr Probl Cardiol</source><person-group>
+<name name-style="western"><surname>Micheluzzi</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Burrai</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Casula</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Serra</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Al Omary</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Merella</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Casu</surname><given-names>G</given-names></name>
+</person-group><fpage>102532</fpage><volume>49</volume><year>2024</year><pub-id pub-id-type="pmid">38503359</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cpcardiol.2024.102532</pub-id></element-citation></ref><ref id="REF12"><label>12</label><element-citation publication-type="journal"><article-title>RoB 2: a revised tool for assessing risk of bias in randomised trials</article-title><source>BMJ</source><person-group>
+<name name-style="western"><surname>Sterne</surname><given-names>JA</given-names></name>
+<name name-style="western"><surname>Savović</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Page</surname><given-names>MJ</given-names></name>
+<etal/>
+</person-group><fpage>0</fpage><volume>366</volume><year>2019</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/bmj.l4898</pub-id><pub-id pub-id-type="pmid">31462531</pub-id></element-citation></ref><ref id="REF13"><label>13</label><element-citation publication-type="journal"><article-title>Evaluating virtual reality patient education in cardiac surgery: impact on preoperative anxiety and postoperative patient satisfaction</article-title><source>J Clin Med</source><person-group>
+<name name-style="western"><surname>El Mathari</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kuitert</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Boulidam</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Shehadeh</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Klautz</surname><given-names>RJ</given-names></name>
+<name name-style="western"><surname>de Lind van Wijngaarden</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Kluin</surname><given-names>J</given-names></name>
+</person-group><fpage>6567</fpage><volume>13</volume><year>2024</year><pub-id pub-id-type="pmid">39518707</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/jcm13216567</pub-id><pub-id pub-id-type="pmcid">PMC11546597</pub-id></element-citation></ref><ref id="REF14"><label>14</label><element-citation publication-type="journal"><article-title>A randomized, controlled trial of in-hospital use of virtual reality to reduce preoperative anxiety prior to cardiac surgery</article-title><source>Mayo Clin Proc</source><person-group>
+<name name-style="western"><surname>Subramaniam</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Dearani</surname><given-names>JA</given-names></name>
+<name name-style="western"><surname>Stulak</surname><given-names>JM</given-names></name>
+<name name-style="western"><surname>Lahr</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Miller</surname><given-names>JD</given-names></name>
+</person-group><fpage>220</fpage><lpage>234</lpage><volume>100</volume><year>2025</year><pub-id pub-id-type="pmid">39755969</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mayocp.2024.08.027</pub-id></element-citation></ref><ref id="REF15"><label>15</label><element-citation publication-type="journal"><article-title>New perspectives in patient education for cardiac surgery using 3D-printing and virtual reality</article-title><source>Front Cardiovasc Med</source><person-group>
+<name name-style="western"><surname>Grab</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Hundertmark</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Thierfelder</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Fairchild</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Mela</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Hagl</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Grefen</surname><given-names>L</given-names></name>
+</person-group><fpage>1092007</fpage><volume>10</volume><year>2023</year><pub-id pub-id-type="pmid">36937915</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fcvm.2023.1092007</pub-id><pub-id pub-id-type="pmcid">PMC10020687</pub-id></element-citation></ref><ref id="REF16"><label>16</label><element-citation publication-type="journal"><article-title>The effect of using virtual reality technology on anxiety and vital signs before surgery in patients undergoing open heart surgery</article-title><source>Perioper Med (Lond)</source><person-group>
+<name name-style="western"><surname>Amiri</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Jalali</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Salari</surname><given-names>N</given-names></name>
+</person-group><fpage>62</fpage><volume>12</volume><year>2023</year><pub-id pub-id-type="pmid">38001555</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13741-023-00354-8</pub-id><pub-id pub-id-type="pmcid">PMC10668463</pub-id></element-citation></ref><ref id="REF17"><label>17</label><element-citation publication-type="journal"><article-title>Neurophysiological effects of virtual reality multitask training in cardiac surgery patients: a study with standardized low-resolution electromagnetic tomography (sLORETA)</article-title><source>Biomedicines</source><person-group>
+<name name-style="western"><surname>Tarasova</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Trubnikova</surname><given-names>O</given-names></name>
+<name name-style="western"><surname>Kupriyanova</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Kukhareva</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Sosnina</surname><given-names>A</given-names></name>
+</person-group><fpage>1755</fpage><volume>13</volume><year>2025</year><pub-id pub-id-type="pmid">40722825</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biomedicines13071755</pub-id><pub-id pub-id-type="pmcid">PMC12292947</pub-id></element-citation></ref><ref id="REF18"><label>18</label><element-citation publication-type="journal"><article-title>Virtual reality vs. Kalinox® for management of pain in intensive care unit after cardiac surgery: a randomized study</article-title><source>Ann Intensive Care</source><person-group>
+<name name-style="western"><surname>Laghlam</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Naudin</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Coroyer</surname><given-names>L</given-names></name>
+<etal/>
+</person-group><fpage>74</fpage><volume>11</volume><year>2021</year><pub-id pub-id-type="pmid">33983498</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13613-021-00866-w</pub-id><pub-id pub-id-type="pmcid">PMC8119554</pub-id></element-citation></ref><ref id="REF19"><label>19</label><element-citation publication-type="journal"><article-title>Virtual reality and hypnosis for anxiety and pain management in intensive care units: a prospective randomised trial among cardiac surgery patients</article-title><source>Eur J Anaesthesiol</source><person-group>
+<name name-style="western"><surname>Rousseaux</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Dardenne</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Massion</surname><given-names>PB</given-names></name>
+<etal/>
+</person-group><fpage>58</fpage><lpage>66</lpage><volume>39</volume><year>2022</year><pub-id pub-id-type="pmid">34783683</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/EJA.0000000000001633</pub-id><pub-id pub-id-type="pmcid">PMC8654253</pub-id></element-citation></ref><ref id="REF20"><label>20</label><element-citation publication-type="journal"><article-title>Feasibility and preliminary efficacy of perioperative interventions in patients undergoing coronary artery bypass grafting: the randomized controlled I-COPE trial</article-title><source>Eur J Cardiothorac Surg</source><person-group>
+<name name-style="western"><surname>Sadlonova</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Nagel</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Becker</surname><given-names>S</given-names></name>
+<etal/>
+</person-group><volume>62</volume><year>2022</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/ejcts/ezac041</pub-id><pub-id pub-id-type="pmid">35137022</pub-id></element-citation></ref><ref id="REF21"><label>21</label><element-citation publication-type="journal"><article-title>The use of virtual reality to reduce preoperative anxiety in first-time sternotomy patients: a randomized controlled pilot trial</article-title><source>Mayo Clin Proc</source><person-group>
+<name name-style="western"><surname>Hendricks</surname><given-names>TM</given-names></name>
+<name name-style="western"><surname>Gutierrez</surname><given-names>CN</given-names></name>
+<name name-style="western"><surname>Stulak</surname><given-names>JM</given-names></name>
+<name name-style="western"><surname>Dearani</surname><given-names>JA</given-names></name>
+<name name-style="western"><surname>Miller</surname><given-names>JD</given-names></name>
+</person-group><fpage>1148</fpage><lpage>1157</lpage><volume>95</volume><year>2020</year><pub-id pub-id-type="pmid">32498771</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mayocp.2020.02.032</pub-id></element-citation></ref><ref id="REF22"><label>22</label><element-citation publication-type="journal"><article-title>Preoperative state of mind among patients undergoing CABG: effect on length of stay and postoperative complications</article-title><source>J Nurs Care Qual</source><person-group>
+<name name-style="western"><surname>Halpin</surname><given-names>LS</given-names></name>
+<name name-style="western"><surname>Barnett</surname><given-names>SD</given-names></name>
+</person-group><fpage>73</fpage><lpage>80</lpage><volume>20</volume><year>2005</year><uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://journals.lww.com/jncqjournal/fulltext/2005/01000/preoperative_state_of_mind_among_patients.12.aspx">https://journals.lww.com/jncqjournal/fulltext/2005/01000/preoperative_state_of_mind_among_patients.12.aspx</uri><pub-id pub-id-type="pmid">15686079</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/00001786-200501000-00012</pub-id></element-citation></ref><ref id="REF23"><label>23</label><element-citation publication-type="journal"><article-title>A comparison between the use of patient-worn virtual reality in wound care and hand surgery: how does virtual reality work?</article-title><source>Plast Reconstr Surg Glob Open</source><person-group>
+<name name-style="western"><surname>Park</surname><given-names>SK</given-names></name>
+<name name-style="western"><surname>Oakes</surname><given-names>TC</given-names></name>
+<name name-style="western"><surname>Lin</surname><given-names>JC</given-names></name>
+<name name-style="western"><surname>Chahal</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Clarkson</surname><given-names>JH</given-names></name>
+</person-group><fpage>0</fpage><volume>11</volume><year>2023</year><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/GOX.0000000000005185</pub-id><pub-id pub-id-type="pmcid">PMC10412433</pub-id><pub-id pub-id-type="pmid">37577243</pub-id></element-citation></ref><ref id="REF24"><label>24</label><element-citation publication-type="journal"><article-title>Virtual reality during pediatric vascular access: a pragmatic, prospective randomized, controlled trial</article-title><source>Paediatr Anaesth</source><person-group>
+<name name-style="western"><surname>Caruso</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>George</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Menendez</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>De Souza</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Khoury</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Kist</surname><given-names>MN</given-names></name>
+<name name-style="western"><surname>Rodriguez</surname><given-names>ST</given-names></name>
+</person-group><fpage>116</fpage><lpage>123</lpage><volume>30</volume><year>2020</year><pub-id pub-id-type="pmid">31785015</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pan.13778</pub-id></element-citation></ref><ref id="REF25"><label>25</label><element-citation publication-type="journal"><article-title>Feasibility of implementing a virtual reality program as an adjuvant tool for peri-operative pain control; results of a randomized controlled trial in minimally invasive foregut surgery</article-title><source>Complement Ther Med</source><person-group>
+<name name-style="western"><surname>Haisley</surname><given-names>KR</given-names></name>
+<name name-style="western"><surname>Straw</surname><given-names>OJ</given-names></name>
+<name name-style="western"><surname>Müller</surname><given-names>DT</given-names></name>
+<etal/>
+</person-group><fpage>102356</fpage><volume>49</volume><year>2020</year><pub-id pub-id-type="pmid">32147069</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ctim.2020.102356</pub-id></element-citation></ref><ref id="REF26"><label>26</label><element-citation publication-type="journal"><article-title>Use of perioperative virtual reality experiences on anxiety and pain: a randomized comparative trial</article-title><source>Laryngoscope</source><person-group>
+<name name-style="western"><surname>Pandrangi</surname><given-names>VC</given-names></name>
+<name name-style="western"><surname>Low</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Slijepcevic</surname><given-names>A</given-names></name>
+<etal/>
+</person-group><fpage>1197</fpage><lpage>1202</lpage><volume>134</volume><year>2024</year><pub-id pub-id-type="pmid">37578212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/lary.30967</pub-id></element-citation></ref><ref id="REF27"><label>27</label><element-citation publication-type="journal"><article-title>Modulation of thermal pain-related brain activity with virtual reality: evidence from fMRI</article-title><source>Neuroreport</source><person-group>
+<name name-style="western"><surname>Hoffman</surname><given-names>HG</given-names></name>
+<name name-style="western"><surname>Richards</surname><given-names>TL</given-names></name>
+<name name-style="western"><surname>Coda</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Bills</surname><given-names>AR</given-names></name>
+<name name-style="western"><surname>Blough</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Richards</surname><given-names>AL</given-names></name>
+<name name-style="western"><surname>Sharar</surname><given-names>SR</given-names></name>
+</person-group><fpage>1245</fpage><lpage>1248</lpage><volume>15</volume><year>2004</year><pub-id pub-id-type="pmid">15167542</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/01.wnr.0000127826.73576.91</pub-id></element-citation></ref></ref-list></back></article>

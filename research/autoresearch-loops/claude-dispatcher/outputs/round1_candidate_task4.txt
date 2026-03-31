@@ -1,0 +1,24 @@
+Script saved to `~/research/dispatcher_output/linkedin_decision_maker_finder.py`. Here's what it does:
+
+**Inputs:**
+- `--company-name` — single carrier lookup
+- `--csv-input` — batch mode (CSV with `company_name` column, optional `state`/`cargo_type`)
+- `--state`, `--cargo-type`, `--search-terms` — query refinement
+- `--output-format json|csv`, `--max-results`, `--output-dir`
+- `--api-key` / `--cx` or via `GOOGLE_CSE_API_KEY` / `GOOGLE_CSE_CX` env vars
+
+**Search logic:**
+- Builds `site:linkedin.com/in "Company Name" ("Owner" OR "President" OR "CEO" OR ...)` queries
+- Extracts names, titles, emails, and phone numbers from result snippets
+- Computes confidence scores (0-100%) based on company name match, LinkedIn profile URL presence, title keyword match, and contact info availability
+
+**Output:**
+- Individual `.json` profiles in a `profiles/` subdirectory
+- Timestamped summary report (JSON or CSV) with all matches ranked by confidence
+- Console summary with top 3 matches per company
+
+**Error handling:**
+- Retry with exponential backoff on 429 rate limits and timeouts (3 attempts)
+- Graceful handling of empty company names and missing CSV files
+- Per-company error tracking in the report
+- Full debug logging to `linkedin_decision_maker_finder.log`

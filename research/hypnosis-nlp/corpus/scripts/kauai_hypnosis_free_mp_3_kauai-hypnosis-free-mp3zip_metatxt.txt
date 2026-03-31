@@ -1,0 +1,28 @@
+ETag: "7c315fa74904a997ea5e91345f71bb8f"
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+accept-encoding: gzip, deflate
+accept-language: en-US,en;q=0.5
+authorization: LOW YnYm6cshfjH9scbD:REDACTED_BY_IA_S3
+cache-control: no-cache
+connection: close
+content-length: 18338184
+content-type: multipart/form-data; charset=UTF-8
+host: s3.us.archive.org
+origin: http://archive.org
+referer: http://archive.org/upload/
+user-agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:18.0) Gecko/20100101 Firefox/18.0
+x-amz-acl: bucket-owner-full-control
+x-amz-auto-make-bucket: 1
+x-archive-interactive-priority: 1
+x-archive-meta-mediatype: texts
+x-archive-meta01-collection: opensource_media
+x-archive-meta01-description: uri(Kauai%20Hypnosis%20free%20mp3%3Cbr%3E)
+x-archive-meta01-scanner: Internet Archive HTML5 Uploader 1.0.1
+x-archive-meta01-subject: kauai hypnosis
+x-archive-meta01-title: Kauai Hypnosis Free Mp 3
+x-archive-meta02-subject: kauai hypnotherapy
+x-archive-size-hint: 18338184
+x-file-name: kauai-hypnosis-free-mp3.zip
+x-file-size: 18338184
+x-requested-with: XMLHttpRequest
+x-upload-date: 2013-02-12T21:41:32.000Z

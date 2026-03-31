@@ -453,6 +453,13 @@ Major update released. Features include:
 | `419` | 📱 Topic 6: Social Media | Social Media Manager | Content generation, scheduling, posting |
 | `900` | 🧠 Topic 7: Local LLM | Local LLM Improvement | Qwen/Ollama optimization loops |
 
+### Weekly Self-Improvement Summary (2026-03-29)
+- **OpenClaw v2026.3.28-beta.1:** I am now running this. Includes xAI/tools integration (Grok auth), MiniMax image generation, SSH sandbox to limit compromised skills, and SSRF protections. Nvidia's NemoClaw integration also announced for enterprise guardrails.
+- **Local Mac Inference (MLX):** Benchmarks show MLX is 2x faster than Ollama for Qwen3-Coder-Next 8-Bit on Apple Silicon (72 tok/s vs 35 tok/s, 2.4s cold start). Action: We should migrate our local Ollama inference to MLX.
+- **AI Companions & Memory:** Research indicates users want persistent memory ("deep single-thread"), and memory recall heavily drives retention. The uncanny valley exists if memory is too precise; "emotionally accurate but detail-fuzzy" is best. I will apply this to my interactions.
+- **AI Coding:** `ai-setup` tool released for auto-generating context files (`CLAUDE.md`, `.cursorrules`). Also, giving AI coding agents access to search 2M+ research papers (via Paper Lantern MCP) allowed them to find obscure optimization techniques, improving model performance by 3.2% over standard agents.
+- **Physics Benchmarks:** The new `lawbreaker` benchmark shows Gemini 3.1 Flash Image acing physics laws (88.6%), while Pro models struggle with unit confusion (e.g., Pa vs atm in Bernoulli's equation).
+
 ### Weekly Self-Improvement Summary (2026-03-22)
 - **OpenClaw v2026.3.13:** Recent security releases (March 2026) addressed cross-site WebSocket hijacking and fixed a gateway authentication vulnerability. Dashboard-v2 introduced modular views.
 - **AI Industry:** Rapid shift toward **Agentic AI** (Gartner: 40% of apps by year-end). NVIDIA launched **NemoClaw** for secure agent runtimes, and Meta's acquisition of **Moltbook** is driving agent-to-agent interaction standards.
@@ -516,7 +523,10 @@ Major update released. Features include:
 ### Daily Maintenance & Project Updates (2026-03-28)
 - **ROBA Optimization (NOVA-HAVEN)**: Successfully forced the optimization loop using a custom Python controller. Completed 10 iterations, evolving core instructions to achieve a **96/100 benchmark score**.
 - **FMCSA Daily Sync**: Successfully processed **2,717 leads (5,430 total rows)** today at 3:00 AM. Gen10 engine achieved peak of **145,414 RPM** during testing.
-- **Nightly Lead Gen Loop**: Successfully optimized the sync script to **Gen10** (persistent HTTP connections), increasing peak RPM from ~3k to ~145k (+4600%).
+- **Claude Dispatcher Loop**: Completed Round 2, increasing baseline score from **0.033 to 0.400** (+1,112%). Round 3 (Lead Enrichment/Hypnosis tasks) initiated and auto-resumes at 11:36 PM.
+- **NYC Permits**: Breakthrough confirmation from DCWP and DOT: Sightseeing bus licenses are **NOT capped**, and there is **NO moratorium** on new bus stop permits in Manhattan. Regulatory path is officially clear.
+- **Hypnosis Research**: Commenced "The Hypnosis Meta-Analyzer" project using inductive, bottom-up hypothesis generation from academic papers. Ingestion via Semantic Scholar API is active.
+- **Nightly Lead Gen Loop**: Initiated at 11:32 PM to optimize throughput (RPM) of `sync_daily_optimized.py`.
 - **Social Media**: Browser profile `openclaw` remains logged out of X and TikTok due to bot flags. Background posts and engagement checks are paused pending manual login.
 - **Infrastructure**: Verified 0 unread events and 0 new calendar appointments.
 - **OpenClaw Release**: v2026.3.26+ available. Includes a breaking change for Browser/Chrome MCP (removal of legacy relay). Action required: `openclaw update` + `openclaw doctor --fix`.

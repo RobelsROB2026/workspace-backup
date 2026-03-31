@@ -1,0 +1,15 @@
+Script saved to `~/research/dispatcher_output/dot_contact_extractor.py` and verified working. Here's what it does:
+
+**Pipeline per DOT number:**
+1. **FMCSA lookup** - POSTs to SAFER to get the company's legal name
+2. **Web search** - Searches Google for the company's official website (filters out directories/social media)
+3. **Contact extraction** - Fetches the website, extracts emails (mailto links + regex) and phone numbers (tel links + regex). If none found on homepage, tries `/contact`, `/contact-us`, `/about`, `/about-us` pages
+
+**Features:**
+- `--dot-numbers` accepts multiple DOT numbers
+- `--output-csv` defaults to `dot_contacts.csv`
+- `--verbose` for debug logging
+- Filters junk emails (social media domains, image file extensions)
+- Phone regex requires 10+ digits to avoid false positives
+- CSV columns: DOT number, company name, website URL, email, phone, extraction date
+- Multiple emails/phones per carrier are semicolon-separated

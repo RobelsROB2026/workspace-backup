@@ -1,0 +1,857 @@
+[
+  {
+    "jurisdiction": "Fort Bend County",
+    "type": "Performance Bond",
+    "detail": "Cable/Pole lines in right-of-way"
+  },
+  {
+    "jurisdiction": "Galveston County",
+    "type": "Right-of-Way Bond",
+    "detail": "$100,000 for pipelines/utilities"
+  },
+  {
+    "jurisdiction": "Harris County",
+    "type": "Right-of-Way Bond",
+    "detail": "Construction of Facilities"
+  },
+  {
+    "jurisdiction": "Travis County",
+    "type": "Right-of-Way Permit Bond",
+    "detail": "Driveway access"
+  },
+  {
+    "jurisdiction": "Abilene",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Amarillo",
+    "type": "Contractor Bond",
+    "detail": "and Service Line Permit Bond"
+  },
+  {
+    "jurisdiction": "Austin",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Ballinger",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Baytown",
+    "type": "Sign Removal Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Beaumont",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Bedford",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Bellmead",
+    "type": "Electrical Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Big Spring",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Bowie",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Bridge City",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Brownfield",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Cameron",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Cedar Park",
+    "type": "Right-of-Way Maintenance Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Childress",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Cibolo",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Cleburne",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Conroe",
+    "type": "Surety Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Converse",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Corpus Christi",
+    "type": "Well Driller Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Corsicana",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Cuero",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Dallas",
+    "type": "Surety Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Denison",
+    "type": "Right-of-Way Bond",
+    "detail": "or Sidewalk Contractor Bond"
+  },
+  {
+    "jurisdiction": "Denton",
+    "type": "Sidewalk, Curb and Gutter Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Dickinson",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Dumas",
+    "type": "Contractor Registration Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Duncanville",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Eagle Pass",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Edinburg",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "El Paso",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Farmers Branch",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Fort Worth",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Fredericksburg",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Friendswood",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Galveston",
+    "type": "Contractor License/Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Garland",
+    "type": "Contractor Bond",
+    "detail": "and Repair Sidewalk Permit Bond"
+  },
+  {
+    "jurisdiction": "Granbury",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Grand Prairie",
+    "type": "House Mover Bond",
+    "detail": "and Right-of-Way Bond"
+  },
+  {
+    "jurisdiction": "Greenville",
+    "type": "Demolition Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Groves",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Hallettsville",
+    "type": "Building Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Haltom",
+    "type": "House Mover Bond",
+    "detail": "and Right-of-Way Bond"
+  },
+  {
+    "jurisdiction": "Hedwig Village",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Highland Park",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Horizon City",
+    "type": "Building Blanket and Construction Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Houston",
+    "type": "Permit Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Hurst",
+    "type": "Permit Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Irving",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Jersey Village",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Kerrville",
+    "type": "General Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Kilgore",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Killeen",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Kirby",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lakeway",
+    "type": "Improvement Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lancaster",
+    "type": "Concrete Paving Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Laredo",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lockhart",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Longview",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lubbock",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lufkin",
+    "type": "Building Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Lumberton",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Marshall",
+    "type": "Contractor Registration Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Merkel",
+    "type": "Contractor Registration Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Mesquite",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Midland",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Nacogdoches",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Nederland",
+    "type": "Contractor License Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Olmos Park",
+    "type": "General Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Orange",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Panhandle",
+    "type": "Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Paris",
+    "type": "Right-of-Way Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Plano",
+    "type": "Construction Debris Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Port Aransas",
+    "type": "Construction Debris Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Port Arthur",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Port Neches",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Poteet",
+    "type": "License/Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Ransom Canyon",
+    "type": "License/Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Richardson",
+    "type": "Right-of-Way Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "River Oaks",
+    "type": "Surety Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Rockdale",
+    "type": "Contractor Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Rockwall",
+    "type": "Moving Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Round Rock",
+    "type": "Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Sachse",
+    "type": "Sidewalk and Approach Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "San Antonio",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Seguin",
+    "type": "Surety Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Sherman",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Snyder",
+    "type": "Sign Builder Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Socorro",
+    "type": "Construction Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "South Padre Island",
+    "type": "Building Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Temple",
+    "type": "Street Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas City",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Tyler",
+    "type": "Contractor Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Universal City",
+    "type": "Contractor Registration Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "University Park",
+    "type": "Concrete Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Waco",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "White Oak",
+    "type": "Contractor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Wichita Falls",
+    "type": "Contractor Compliance Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Administrator/Executor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Alcoholic Beverage Business Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Appeal Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Athlete Agent Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Automobile Club Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Barber School Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Bingo Conductor and Manufacturer Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "BNSF Railway Company Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Burglar Alarm Seller Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Business Opportunity Seller Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Carpenters Millwrights Union Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Combative Sports Promoter Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Commercial Driver License (CDL) Third Party Test Provider Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Commercial Sign Operator Bond (Outdoor Advertiser)",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Cooperative Inspection Program Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Counter Replevin Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Credit Services Organization Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Debt Management Services Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Discount Health Care Program Operator Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Driver Safety Course Provider and Education School Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "El Paso - Foreign Trade Zone User Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Emergency Medical Services Subscription Program Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Escrow (Timeshare Interests) Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Fitting and Dispensing of Hearing Instruments Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "For-Profit Legal Service Contracts Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Game Warden Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Grain and Public Warehouse Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Guardian Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Health Spa Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Houston - Towing Service Private Storage Lot Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Hunting Dog Event Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "IBEW Union Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Insurance Agency Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "International Fuel Tax Agreement License (IFTA) Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "License Plates and License Registration Receipts Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Lien Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Lost Title Bond (Certificate of Title)",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Manufactured Housing Bonds",
+    "detail": "Broker, Installer, Manufacturer, Retailer"
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Medicaid Provider Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Mixed Beverage Gross Receipts Tax Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Money Services Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Motor Fuels Tax Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Motor Home Show Promoter Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Motor Vehicle Dealer Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Notary Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Oil and Gas Well Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Over Axle and Overweight Tolerance Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Peddler, Itinerant Vendor, Solicitor, Street Vendor Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Plumber and Pipefitter Union Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Polygraph Examiner Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Professional Employer Organization Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Public Insurance Adjuster Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Public Weigher Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Real Estate School Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Reinsurance Intermediary Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Replevin Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Residential Mortgage Loan Servicer Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Sales Tax Bond (Continuous Bond of Seller)",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Self-Insurance Workers' Compensation Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Sherman - Junk / Secondhand Dealer Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "SMART Union 67 Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Telemarketing Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Third Party Debt Collector Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Timber Permit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Title Agent or Direct Operation Bonds",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Trustee Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Utility Deposit Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Waste Hauler Bond",
+    "detail": ""
+  },
+  {
+    "jurisdiction": "Texas (State)",
+    "type": "Wichita Falls - Precious Metals Dealer Bond",
+    "detail": ""
+  }
+]

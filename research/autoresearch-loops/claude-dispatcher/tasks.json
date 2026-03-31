@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "category": "trucking_enrichment",
+    "request": "Write a Python script using requests and BeautifulSoup that takes a list of DOT numbers, searches the web for their official company website, and extracts any listed email addresses or contact phone numbers, saving the enriched data to a CSV.",
+    "success_criteria": "Output must be a functional Python script that performs web searches for DOT numbers, scrapes emails/phones from the first valid result, and saves to CSV."
+  },
+  {
+    "id": 2,
+    "category": "trucking_enrichment",
+    "request": "Create a script that takes a trucking company's physical address from FMCSA data and uses the free OpenStreetMap/Nominatim API to determine if the address is likely residential (house) or commercial (industrial park), appending a 'Location Type' column to help us qualify the lead.",
+    "success_criteria": "Output must be a Python script that geocodes an address via Nominatim and attempts to classify it as residential or commercial, saving the result."
+  },
+  {
+    "id": 3,
+    "category": "trucking_enrichment",
+    "request": "Write a bash script that queries the FMCSA Socrata API for carriers in Texas with 1-5 power units that have had a crash in the last 24 months, and generates a formatted 'Risk Report' markdown file for each carrier that we can use as a sales angle.",
+    "success_criteria": "Output must be a bash script using curl/jq that hits the Socrata API, filters for crashes > 0, and generates individual markdown reports per carrier."
+  },
+  {
+    "id": 4,
+    "category": "trucking_enrichment",
+    "request": "Write a Python script that cross-references trucking company names against LinkedIn via Google Search to find decision makers. Accept via command line, fetch results using basic requests, parse out names with 'Owner', 'CEO', or 'President' in the snippet, and print them.",
+    "success_criteria": "Output must be a script that accepts a company name, performs a Google search restricted to site:linkedin.com/in, and extracts likely owner names from the snippets."
+  },
+  {
+    "id": 5,
+    "category": "manager_recovery",
+    "request": "The previous Claude script 'scraper.py' crashed with 'ModuleNotFoundError: No module named pandas'. Tell Claude to fix the script to include dependency installation, or rewrite it to only use the standard library.",
+    "success_criteria": "Output must be a `claude -p` command that explicitly instructs Claude to read 'scraper.py', analyze the ModuleNotFoundError, and rewrite the code to either install pandas or use the standard library csv/json modules."
+  },
+  {
+    "id": 6,
+    "category": "manager_long_running",
+    "request": "We need to run the FMCSA sync on 100,000 records. Tell Claude to write the script, but emphasize that it must implement batching, rate-limit sleeping, and append to a log file instead of printing to stdout because it will run for 12 hours.",
+    "success_criteria": "Output must instruct Claude to write a batch-processing script with explicit instructions for sleep/rate-limiting and file-based logging for a long-running background process."
+  },
+  {
+    "id": 7,
+    "category": "manager_architecture",
+    "request": "Tell Claude to design a 3-stage data pipeline: 1) Download FMCSA CSV, 2) Clean the data and drop nulls, 3) Upload to Supabase Postgres. It should create three separate Python files and a master bash script to run them in order.",
+    "success_criteria": "Output must instruct Claude to create a multi-file architecture (3 Python scripts and 1 Bash script) representing a staged data pipeline, rather than a single monolithic script."
+  }
+]

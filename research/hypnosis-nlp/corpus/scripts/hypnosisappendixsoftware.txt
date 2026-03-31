@@ -1,0 +1,35 @@
+HypnoStudio 1.0 (
+http://www.innerlab.com/cat/innerlab/hypnostudio
+), freeware for Windows only.
+Virtual Hypnotist (
+http://vhypno.sourceforge.net/
+), open source for Windows only, VisualBasic 6 SP6.
+SBaGen (
+http://uazu.net/sbagen/
+), binaural beat brain wave experimenter's lab. Open-source GPL software (C language). Available for Windows (including Windows CE), Linux, Mac OS X and others.
+Gnaural
+(
+http://gnaural.sourceforge.net/
+), open source programmable auditory binaural-beat generator, implementing the principle as described in the October 1973 Scientific American article "Auditory Beats in the Brain" by Gerald Oster.
+SHARM (Self-Hypnosis And Relaxation Machine) (
+http://www.thesharm.com/
+), commercial for Windows only (trail version available).
+Neuro-Programmer 3 (
+http://www.transparentcorp.com/products/np/
+), commercial for Windows only (trial version available).
+Mind WorkStation (
+http://www.transparentcorp.com/products/mindws/
+), it handles the entire process of creating professional brainwave entrainment sessions, offering a wide range of audio/visual effects, cutting edge neural stimulation methods, and easy integration with biofeedback and EEG devices. Commercial for Windows.
+Mind Stereo (
+http://www.transparentcorp.com/products/mindstereo/
+) a fully functional media center for your mind, allowing you to listen to musical playlists, Internet radio and watch mesmerizing visualizations while enjoying the many benefits of brainwave entrainment (changes the output in accordance to Neuro-Programmer 3 sessions). Commercial software for Windows.
+BrainWave Generator (
+http://www.bwgen.com/
+). Generates binaural beats. Commercial shareware for Windows, can be used for one month free.
+I-Doser
+(
+http://www.i-doser.com/
+). Commercial software for Windows, Mac and portable devices IPhone and Android, based on the audio technology of a GPL-licensed binaural beat generator, SBaGen. Some versions may be free but functionally limited.
+See also Wikipedia's
+comparison of brainwave entrainment software
+.

@@ -1,0 +1,14 @@
+2026-03-28 17:13:43,840 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:43,844 [INFO] Added carrier 'ABC Trucking' (DOT 1234567)
+2026-03-28 17:13:43,881 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:43,882 [INFO] Added carrier 'XYZ Freight' (DOT 7654321)
+2026-03-28 17:13:43,918 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:43,918 [INFO] Logged 'initial contact' interaction for DOT 1234567
+2026-03-28 17:13:43,955 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:43,955 [INFO] Logged 'follow-up' interaction for DOT 1234567
+2026-03-28 17:13:43,992 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:43,993 [INFO] Logged 'quote requested' interaction for DOT 7654321
+2026-03-28 17:13:44,029 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:44,029 [INFO] Search returned 1 result(s)
+2026-03-28 17:13:44,065 [INFO] Database initialized at /Users/roba/research/dispatcher_output/trucking_crm_data_entry.db
+2026-03-28 17:13:44,066 [INFO] Report generated

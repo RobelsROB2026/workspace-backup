@@ -1,0 +1,35 @@
+Create a Karpathy-style empirical autoresearch loop in `~/research/autoresearch-loops/claude-dispatcher/` to optimize a local LLM's system prompt. The local LLM acts as an expert Dispatcher: it takes a raw user request and outputs a highly optimized `claude -p` bash command to successfully complete the task autonomously.
+
+CRITICAL COST CONSTRAINT:
+DO NOT use ANY paid or metered APIs (OpenAI, Anthropic API, Google Gemini API, etc.) for mutating the prompt, evaluating the results, or any other part of this loop. You MUST use the `claude` CLI tool via `subprocess.run` for EVERYTHING. The `claude` CLI is on a fixed-cost subscription, so we want to burn those tokens, not metered API tokens.
+
+1. **Baseline Prompt**: Create `baseline_prompt.txt` with a basic system prompt instructing a local LLM (like qwen2.5-coder:7b or llama3.1:8b) to act as a Claude Code Dispatcher.
+2. **Benchmark Tasks**: Create `tasks.json` with 20 diverse, challenging test requests. The topics MUST focus exclusively on:
+   - Finding and generating leads that need trucking insurance.
+   - Building or scripting tools that will help sell trucking insurance.
+   - Finding, downloading, and analyzing recent research regarding hypnosis.
+3. **The Loop Script**: Write `loop.py` that does the following:
+   - Loads the current system prompt from `baseline_prompt.txt`.
+   - Uses the `claude` CLI via `subprocess` to intelligently mutate and improve the system prompt to handle edge cases better.
+   - Randomly selects 3 tasks from `tasks.json`.
+   - For each task, uses the local Ollama API (e.g., `http://localhost:11434/api/generate`) with the mutated prompt to generate a `claude -p` command string.
+   - Executes that generated `claude -p` command via `subprocess`. (Crucial: append `--max-turns 4 --dangerously-skip-permissions` to whatever it generates).
+   - Uses the `claude` CLI via `subprocess` as an LLM-Judge to evaluate the success of the task (did the command fail? did it output what was requested?).
+   - If the new system prompt achieves a higher score than the baseline, overwrite `baseline_prompt.txt` with the winner. If worse, discard it.
+4. **Execution**: Make the script executable and robust, logging iterations to `history.log`.
+
+Start by analyzing this architecture, then write and test the code to get the loop running.
+
+5. **Limit Handling & Auto-Rescheduling (CRITICAL COST CONSTRAINT 2)**:
+   - The `claude` CLI is powered by a Claude Pro subscription which has hard message limits.
+   - Your `subprocess.run` calls MUST check the stderr/stdout of the `claude` command for limit errors (e.g., strings like "usage limit", "limit exceeded", "try again at", "wait until").
+   - If a limit is detected, use regex to parse the reset time provided in the error message (usually in the format "Please wait until X:XX AM/PM to send more messages").
+   - Calculate the precise ISO-8601 UTC timestamp for that reset time.
+   - Automatically schedule a resumption of the script the EXACT minute the limit is lifted by running the following OpenClaw CLI command via `subprocess`:
+     `openclaw cron add --at "<PARSED_TIME_IN_ISO>" --session main --system-event "CRON JOB: Resume the claude-dispatcher autoresearch loop. Run python3 ~/research/autoresearch-loops/claude-dispatcher/loop.py >> ~/research/autoresearch-loops/claude-dispatcher/history.log 2>&1" --name "Resume Claude Dispatcher Loop" --delete-after-run`
+   - Log the limit hit and the scheduled resume time to `history.log`, then gracefully exit the python script. Do not poll or sleep; rely on OpenClaw's cron to wake the script back up.
+
+6. **Parallel Execution (SPEED OPTIMIZATION)**:
+   - Instead of running tasks sequentially, use `concurrent.futures.ThreadPoolExecutor` in `loop.py` to evaluate the 3 benchmark tasks concurrently.
+   - Claude Code supports multiple simultaneous sessions. You can spawn multiple `subprocess.run(["claude", "-p", ...])` calls at the exact same time.
+   - This will drastically cut down the time required per iteration. Ensure the local Ollama API requests and Claude CLI calls are executed in parallel.

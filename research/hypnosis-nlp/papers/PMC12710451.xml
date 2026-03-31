@@ -1,0 +1,340 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="nicc70299" xml:lang="en" article-type="case-study" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Nurs Crit Care</journal-id><journal-id journal-id-type="iso-abbrev">Nurs Crit Care</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="publisher-id">NICC</journal-id><journal-title-group><journal-title>Nursing in Critical Care</journal-title></journal-title-group><issn pub-type="ppub">1362-1017</issn><issn pub-type="epub">1478-5153</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12710451</article-id><article-id pub-id-type="pmcid-ver">PMC12710451.1</article-id><article-id pub-id-type="pmcaid">12710451</article-id><article-id pub-id-type="pmcaiid">12710451</article-id><article-id pub-id-type="pmid">41405323</article-id><article-id pub-id-type="doi">10.1111/nicc.70299</article-id><article-id pub-id-type="publisher-id">NICC70299</article-id><article-id pub-id-type="other">2004088</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Case Study</subject></subj-group><subj-group subj-group-type="heading"><subject>Case Study</subject></subj-group></article-categories><title-group><article-title>Family Partnership in Hypnosis to Improve Mechanical Ventilation Weaning in an <styled-content style="fixed-case" toggle="no">ICU</styled-content> Patient With High Cervical Spinal Cord Injury—A Case Report</article-title></title-group><contrib-group><contrib id="nicc70299-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bernard</surname><given-names initials="C">Christine</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2412-3497</contrib-id><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>christine-bernard@chu-montpellier.fr</email></address></contrib><contrib id="nicc70299-cr-0002" contrib-type="author"><name name-style="western"><surname>Ascher</surname><given-names initials="M">Margrit</given-names></name><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="nicc70299-cr-0003" contrib-type="author"><name name-style="western"><surname>Vaast</surname><given-names initials="F">François</given-names></name><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="nicc70299-cr-0004" contrib-type="author"><name name-style="western"><surname>Martinez</surname><given-names initials="C">Chiara</given-names></name><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="nicc70299-cr-0005" contrib-type="author"><name name-style="western"><surname>Chalard</surname><given-names initials="K">Kevin</given-names></name><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="nicc70299-cr-0006" contrib-type="author"><name name-style="western"><surname>Perrigault</surname><given-names initials="PF">Pierre‐François</given-names></name><xref rid="nicc70299-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="nicc70299-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Anaesthesia and Critical Care Medicine Gui de Chauliac</named-content>
+<institution>CHU Montpellier, Univ Montpellier</institution>
+<city>Montpellier</city>
+<country country="FR">France</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Christine Bernard (<email>christine-bernard@chu-montpellier.fr</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>17</day><month>12</month><year>2025</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2026</year></pub-date><volume>31</volume><issue seq="440">1</issue><issue-id pub-id-type="pmc-issue-id">502610</issue-id><issue-id pub-id-type="doi">10.1111/nicc.v31.1</issue-id><elocation-id>e70299</elocation-id><history>
+<date date-type="rev-recd"><day>20</day><month>11</month><year>2025</year></date>
+<date date-type="received"><day>26</day><month>9</month><year>2025</year></date>
+<date date-type="accepted"><day>26</day><month>11</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>17</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>18</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-18 11:25:12.570"><day>18</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">Nursing in Critical Care</italic> published by John Wiley &amp; Sons Ltd on behalf of British Association of Critical Care Nurses.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="NICC-31-0.pdf"><?pdf-name NICC-31-0.pdf?><?pdf-size 203517?><?pdf-md5 b78dabb0fbbe1516e4f94555be088ba9?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:6b34/12710451/b78dabb0fbbe/NICC-31-0.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:NICC-31-0.pdf"/><abstract><title>ABSTRACT</title><p>Quadriplegia often leads to severe respiratory impairment, accompanied by distressing symptoms such as dyspnoea and breathlessness. Ventilator weaning remains a challenge in the acute phase of high cervical spinal cord injury. We present the case of a 27‐year‐old man with traumatic C5–C6 quadriplegia. His clinical course was complicated by recurrent respiratory issues and a prolonged ventilator weaning process. Medical hypnosis was introduced as a complementary strategy to support ventilator weaning. A nurse anaesthetist certified in medical hypnosis performed the intervention. As sedation limited direct communication, the patient's mother participated in creating a personalised ‘safe place’ script based on family memories and the patient's personal resources. Hypnosis helped reduce anxiety and dyspnoea, contributing to the success of spontaneous breathing trials. It also strengthened the therapeutic alliance by involving the family. This case study underscores the potential role of hypnosis in critical care, particularly when developed in collaboration with family members. Family involvement promotes a more personalised and humanised approach to care. In this case, family partnership promoted respiratory autonomy and facilitated ventilator weaning.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="nicc70299-kwd-0001">family‐centred care</kwd><kwd id="nicc70299-kwd-0002">humanising critical care</kwd><kwd id="nicc70299-kwd-0003">hypnosis</kwd><kwd id="nicc70299-kwd-0004">quadriplegia</kwd><kwd id="nicc70299-kwd-0005">ventilator weaning</kwd></kwd-group><counts><fig-count count="0"/><table-count count="2"/><page-count count="6"/><word-count count="3000"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:17.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="nicc70299-cit-1001">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bernard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ascher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Vaast</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Martinez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Chalard</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P.‐F.</given-names>
+<surname>Perrigault</surname>
+</string-name>, “<article-title>Family Partnership in Hypnosis to Improve Mechanical Ventilation Weaning in an <styled-content style="fixed-case" toggle="no">ICU</styled-content> Patient With High Cervical Spinal Cord Injury—A Case Report</article-title>,” <source>Nursing in Critical Care</source>
+<volume>31</volume>, no. <issue>1</issue> (<year>2026</year>): <elocation-id>e70299</elocation-id>, <pub-id pub-id-type="doi">10.1111/nicc.70299</pub-id>.</mixed-citation>
+</p></notes></front><body id="nicc70299-body-0001"><sec id="nicc70299-sec-0001"><label>1</label><title>Introduction</title><p>Respiratory failure is common in patients with quadriplegia. Spinal cord injuries above C6 can compromise diaphragm function as well as accessory respiratory muscles. Additionnal complications—including airway obstruction, bronchial hyperreactivity and reduced thoracic compliance—may further impair ventilation [<xref rid="nicc70299-bib-0001" ref-type="bibr">1</xref>]. In this context, ventilator weaning is often complex, prolonged and distressing for patients and their families.</p><p>Hypnosis which is defined as a ‘modified state of consciousness’ that modulates brain networks is increasingly recognised as a non‐pharmacological intervention in intensive care [<xref rid="nicc70299-bib-0002" ref-type="bibr">2</xref>]. Although hypnosis is well established in pain management [<xref rid="nicc70299-bib-0003" ref-type="bibr">3</xref>], it may also alleviate the emotional aspect of dyspnoea [<xref rid="nicc70299-bib-0004" ref-type="bibr">4</xref>]. Like pain, dyspnoea involves sensory discomfort and emotional responses [<xref rid="nicc70299-bib-0005" ref-type="bibr">5</xref>]. By reducing the unpleasantness of breathlessness and mitigating anxiety, hypnosis may facilitate the transition to spontaneous breathing.</p><p>Hypnosis requires a conscious and willing participant who can contribute personal imagery and sensory cues. In this case, however, sedation and the patient's inability to speak restricted access to his subjective experience. To preserve the integrity of the process, the patient's mother provided sensory and biographical elements, that allowed for the creation of a personalised ‘safe place’ script that remained faithful to the patient's identity.</p><p>Thus, families may serve as mediators of the patient's inner world by contributing memories, values and personal imagery. This case study illustrates how family‐partnered hypnosis supported ventilator weaning in a young man with quadriplegia, highlighting both its clinical potential and its role in advancing family‐centred care.</p></sec><sec id="nicc70299-sec-0002"><label>2</label><title>Clinical Findings</title><sec id="nicc70299-sec-0003"><label>2.1</label><title>Patient Information</title><p>Alex (pseudonym), a 27‐year‐old man, had no significant medical history apart from a prior ICU admission in 2021 for head trauma which left no long‐term sequelae. On 28 February 2022, he sustained a traumatic neck injury while playing rugby, resulting in immediate quadriplegia. He was airlifted to the neurological ICU at Montpellier University Hospital.</p><p>An MRI revealed a C5–C6 fracture with an associated spinal cord injury. Upon admission, a neurological examination showed complete tetraplegia with flaccid paralysis and loss of motor and sensory function below the C5 level. His ASIA score was 8 of 100.</p><p>He underwent cervical spine osteosynthesis on the day of the injury, followed by a tracheostomy on March 9.</p><p>Deep sedation was frequently required during his ICU stay due to recurrent respiratory decompensation and ventilator asynchrony. Sedation consisted of continuous infusions of propofol, midazolam, ketamine and sufentanil, along with norepinephrine for hemodynamic support. After a pulmonary embolism was diagnosed on March 6, the patient began anticoagulation therapy with unfractionated heparin. This therapy continued until April 14, when it was transitioned to subcutaneous enoxaparin (Lovenox).</p><p>The patient's ICU course was complicated by several significant respiratory events, including right lung atelectasis unresponsive to prone positioning or antibiotics; a pulmonary embolism; and hypoxic cardiac arrest, from which he recovered quickly. He also developed compressive left pneumothorax. Overall, he required 64 days of invasive mechanical ventilation, including 46 days under sedation (Table <xref rid="nicc70299-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="nicc70299-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Respiratory events during hospitalisation.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Sedation Y/N</th><th align="center" valign="bottom" rowspan="1" colspan="1">Mechanical ventilation mode/FiO<sub>2</sub>
+</th><th align="center" valign="bottom" rowspan="1" colspan="1">Respiratory events</th><th align="center" valign="bottom" rowspan="1" colspan="1">Therapeutic interventions</th><th align="center" valign="bottom" rowspan="1" colspan="1">Weaning: behavorial observations</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">28/02</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/25%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Sedated during 1 week</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">03/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/30%</td><td align="left" valign="top" rowspan="1" colspan="1">Hypoxemia</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Changed for a non‐armoured endotracheal tube</p>
+<p>Bronchoalveolar washing</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">06/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/70%</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Pulmonary embolism</p>
+<p>Ventilator‐associated pneumoniae</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Antibiotics</p>
+<p>Heparin</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">09/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/50%</td><td align="left" valign="top" rowspan="1" colspan="1">Tracheotomised</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">13/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/60%</td><td align="left" valign="top" rowspan="1" colspan="1">Bibasal atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">Deeped sedated</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">16/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">SPN/40%</td><td align="left" valign="top" rowspan="1" colspan="1">Right basal atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">20/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/60%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Deeped sedated</p>
+<p>Bronchoalveolar washing</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">22/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/60%</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Pneumothorax</p>
+<p>Right atelectasis</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Drainage</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">25/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">Bronchoalveolar washing</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">29/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/50%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">Bronchoalveolar washing</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">30/03</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/50%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Bronchoalveolar washing</p>
+<p>Prone position</p>
+<p>(with the surgeon's consent)</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">03/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/50%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Bronchoalveolar washing</p>
+<p>Prone position</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">07/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Y</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/40%</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Right atelectasis</p>
+<p>Alveolar derecruitment when SPN hypoxia</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SPN</p>
+<p>Impossible</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">11/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/30%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Positioning</p>
+<p>Verticalisation</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">14/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Change for compact home adapted respirator</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">17/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/30%</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Positioning</p>
+<p>Verticalisation</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">19/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC 30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Verticalisation</p>
+<p>Abdominal belt</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">Hypoxia after 2 h SPN</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">25/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">VC‐AC/30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SPN during the day</p>
+<p>Dyspnoea</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">28/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">SPN/30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">SBT using hypnosis</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">29/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">SPN/30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Change of cannula with fenestred inner cannula</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">03/05</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">SPN/30%</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">
+<p>Positioning</p>
+<p>Verticalisation</p>
+</td><td align="left" valign="top" rowspan="1" colspan="1">SBT</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">05/05</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Speaking valve</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">11/05</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">Decannulation</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">15/05</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">Right atelectasis</td><td align="left" valign="top" rowspan="1" colspan="1">Cannula replacement</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SBT during the day</p>
+<p>SPN/30% during the night</p>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">16/05</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">N</td><td align="center" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">ICU discharge</td><td align="left" valign="top" rowspan="1" colspan="1">
+<p>SBT during the day</p>
+<p>SPN/30% during the night</p>
+</td></tr></tbody></table><table-wrap-foot id="nicc70299-ntgp-0001"><fn id="nicc70299-note-0001"><p>
+<italic toggle="yes">Note:</italic> Mechanical ventilation with Dräger Evita V800.</p></fn><fn id="nicc70299-note-0002"><p>Abbreviations: 0: spontaneous breathing; FiO<sub>2</sub>, fraction of inspired oxygen; ICU, intensive care unit; SBT, spontaneous breathing trial; SPN: spontaneous‐assisted mode (SPN‐CPAP/PS: spontaneous‐continuous positive airway pressure/pressure support); VC‐AC, volume control–assist control.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="nicc70299-sec-0004"><label>3</label><title>Interventions</title><sec id="nicc70299-sec-0005"><label>3.1</label><title>Conventional Management</title><p>Weaning followed the best‐established practices for high cervical spinal cord injuries. These practices included abdominal binding and favouring the supine position during spontaneous breathing trials [<xref rid="nicc70299-bib-0006" ref-type="bibr">6</xref>]. Despite repeated attempts over the first 6 weeks, all trials failed. On April 14, his ICU ventilator was replaced with a compact, home‐adapted device to facilitate the transition to rehabilitation.</p><p>Due to persistent challenges and growing family distress, medical hypnosis was introduced as a complementary intervention. A nurse anaesthetist formally trained in medical hypnosis conducted the sessions. A preliminary review of theoretical and clinical littérature suggested that hypnosis could support weaning patients with high cervical spinal cord injuries by modulating the sensory and emotional dimensions of dyspnoea. In this case, hypnosis was used to promote respiratory autonomy by addressing the physiological and psychological aspects of care.</p><p>Four hypnosis sessions were conducted during the weaning process, each aligned with clinical opportunities for spontaneous breathing trials. While there are no current standardised recommendations regarding the optimal number of sessions, Fernandes et al. [<xref rid="nicc70299-bib-0007" ref-type="bibr">7</xref>] recently demonstrate that a brief intervention consisting of five hypnosis sessions focusing on the emotional regulation of dyspnoea, when combined with pulmonary rehabilitation, produces sustained benefits for at least 6 months. These findings support the use of short, repeated hypnosis sessions to reinforce emotional coping and respiratory control mechanisms during critical care weaning.</p><p>The potential benefits were explained, and his relatives were immediately convinced of its value. As Alex could not speak, a preparatory session was held with his mother to develop the ‘safe place’ imagery. She played an active role in creating this scene without conducting hypnosis herself. She provided vivid sensory details, including the smell of wood, the sound of birdsong and the coolness of the nearby river. These elements formed the basis of a personalised hypnosis script tailored to Alex's identity and history.</p></sec><sec id="nicc70299-sec-0006"><label>3.2</label><title>Hypnosis Sessions (Table <xref rid="nicc70299-tbl-0002" ref-type="table">2</xref>)</title><table-wrap position="float" id="nicc70299-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Hypnosis sessions description.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1"/><th align="center" valign="bottom" rowspan="1" colspan="1">Anaesthesiologist hypnotherapist nurse action</th><th align="center" valign="bottom" rowspan="1" colspan="1">Aim of the session</th><th align="center" valign="bottom" rowspan="1" colspan="1">Hypnosis session details</th><th align="center" valign="bottom" rowspan="1" colspan="1">Patient's clinical state</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">07/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Preparation of the safe place with his mother</td><td align="center" valign="top" rowspan="1" colspan="1">Positive projection of Alex's helpers</td><td align="center" valign="top" rowspan="1" colspan="1">Conversational hypnosis</td><td align="center" valign="top" rowspan="1" colspan="1">Sedated, VC‐AC</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">11/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Relaxation</td><td align="center" valign="top" rowspan="1" colspan="1">Experiment hypnosis effects, deep relaxation</td><td align="center" valign="top" rowspan="1" colspan="1">Safe place and suggestions 20 min</td><td align="center" valign="top" rowspan="1" colspan="1">Lighted sedated, VC‐AC</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">22/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">First SBT + hypnosis support</td><td align="center" valign="top" rowspan="1" colspan="1">Break the anxious part of dyspnoea to try SBT, aware of his resources</td><td align="center" valign="top" rowspan="1" colspan="1">Safe place and suggestions 20 min</td><td align="center" valign="top" rowspan="1" colspan="1">Non‐sedated, VC‐AC and SPN</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">28/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Second SBT + hypnosis support</td><td align="center" valign="top" rowspan="1" colspan="1">Break the anxious part of dyspnoea to try SBT, aware of his resources</td><td align="center" valign="top" rowspan="1" colspan="1">Safe place and suggestions 20 min</td><td align="center" valign="top" rowspan="1" colspan="1">Non‐sedated, SPN</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">29/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">SBT during verticalisation + Hypnosis support</td><td align="center" valign="top" rowspan="1" colspan="1">At patient's request to break dyspnoea</td><td align="center" valign="top" rowspan="1" colspan="1">Safe place and suggestions 20 min</td><td align="center" valign="top" rowspan="1" colspan="1">Non‐sedated, SPN</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic toggle="yes">29/04</italic>
+</td><td align="center" valign="top" rowspan="1" colspan="1">Teach self‐hypnosis</td><td align="center" valign="top" rowspan="1" colspan="1">Hypnotherapist weaning</td><td align="center" valign="top" rowspan="1" colspan="1">Post‐hypnotic suggestions</td><td align="center" valign="top" rowspan="1" colspan="1">Non‐sedated, SPN</td></tr></tbody></table><table-wrap-foot id="nicc70299-ntgp-0002"><fn id="nicc70299-note-0003"><p>Abbreviations: SBT, spontaneous breathing trial; SPN, spontaneous‐assisted mode (SPN‐CPAP/PS: spontaneous‐continuous positive airway pressure/pressure support); VC‐AC, volume control—assist control.</p></fn></table-wrap-foot></table-wrap><p>April 22: First spontaneous breathing trial (SBT) using a T‐tube under hypnosis. The session lasted 15 min but it was stopped due to abdominal distention and atelectasis, though gas exchange remained stable. Alex reported a comfort level of 8 of 10.</p><p>From April 23 to 28, three additional SBTs under hypnosis were successful without oxygen desaturation.</p><p>On April 29, placement of a fenestrated Shiley cannula improved coughing and phonation. The patient requested that the procedure be performed under hypnosis.</p><p>On May 11, complete decannulation was achieved.</p><p>On May 15, recannulation was required due to recurrent right‐sided atelectasis. However, Alex was fully weaned from mechanical ventilation at discharge.</p></sec></sec><sec sec-type="discussion" id="nicc70299-sec-0007"><label>4</label><title>Discussion</title><p>Managing patients with quadriplegia requires a long‐term, multidisciplinary approach that extends from intensive care to rehabilitation. Although respiratory function may improve over time due to reduced inflammation, decreased chest wall stiffness and neural adaptation [<xref rid="nicc70299-bib-0001" ref-type="bibr">1</xref>], dyspnoea remains highly prevalent, affecting up to 77% of patients with high‐level spinal cord injuries [<xref rid="nicc70299-bib-0008" ref-type="bibr">8</xref>].</p><p>Previous studies indicate that weaning from the ventilator after a high cervical spinal cord injury typically requires 8–12 weeks [<xref rid="nicc70299-bib-0009" ref-type="bibr">9</xref>]. In this case, the overall weaning duration of approximately 10 weeks was consistent with the expected trajectory. However, once respiratory instability had resolved, the patient progressed rapidly and tolerated spontaneous breathing trials particularly well during hypnosis‐assisted sessions, reporting improved comfort and reduced dyspnoea.</p><sec id="nicc70299-sec-0008"><label>4.1</label><title>The Role of Hypnosis in Dyspnoea Modulation</title><p>Hypnosis acts as a complementary intervention, reducing dyspnoea and interrupting the cycle in which respiratory discomfort increases anxiety worsening breathlessness.</p><p>Unlike bottom‐up models of sensory processing, where afferent respiratory signals are translated into conscious perception, hypnosis predominantly operates via top‐down modulation [<xref rid="nicc70299-bib-0010" ref-type="bibr">10</xref>]. Through mental imagery and personal representations, higher order cortical networks influence the interpretation of sensory input. This allows patients to reframe and reduce the perceived unpleasantness of dyspnoea.</p><p>Neuroimaging research supports this mechanism. Although most studies focus on pain, dyspnoea has a similar dual sensory‐affective structure [<xref rid="nicc70299-bib-0005" ref-type="bibr">5</xref>]. Hypnosis primarily modulates the affective component. Rainville et al. [<xref rid="nicc70299-bib-0011" ref-type="bibr">11</xref>] demonstrated that hypnotic modulation of pain unpleasantness selectively alters anterior cingulate cortex activity without altering somatosensory cortex activation. Similarly, Faymonville et al. [<xref rid="nicc70299-bib-0012" ref-type="bibr">12</xref>] demonstrated that hypnosis enhances functional modulation within networks governing sensory, affective, cognitive and behavioural processing. These findings support a top‐down mechanism in which hypnosis reshapes the emotional significance of sensory stimuli.</p></sec><sec id="nicc70299-sec-0009"><label>4.2</label><title>Implications for Nursing Practice</title><p>From a nursing perspective, hypnosis can be a practical therapeutic tool, not just an extension of the therapeutic relationship. Training nurses in hypnosis increases its accessibility and facilitates its integration into routine ICU practice. As a communication technique, hypnosis can reduce distress, personalise care and strengthen the therapeutic alliance, even when verbal communication is limited.</p><p>In our unit, the ‘Resource Wall’ enables families to share photos and personal notes about patients' preferences and daily lives. This helps preserve the patient's biography during periods of prolonged sedation, ensuring that the patient is approached as a person with a rich life history rather than an anonymous body. For caregivers, the wall serves as a bridge between critical illness and lived experience, informing relational and therapeutic approaches.</p><p>A notable aspect of this case was the mother's contribution to the hypnotic script. In cases where communication is challenging, family members can play a crucial role in providing essential biographical and sensory information. They can do so by using familiar language and shared experiences to guide the development of personalised interventions that would otherwise be inaccessible. Family‐partnered hypnosis is in line with the broader movement toward family‐centred ICU care, promoting not only symptom relief but also resilience, therapeutic alliances and family agency. In this case, the mother's involvement proved to be pivotal, as she provided the sensory and emotional elements that anchored the hypnosis experience.</p></sec></sec><sec id="nicc70299-sec-0010"><label>5</label><title>Strengths and Limitations</title><p>This is a single case, which limits generalisability. The highly personalised hypnosis intervention may not be replicable without family participation or in other cultural contexts. Additionally, it is difficult to isolate the effect of hypnosis on ventilator weaning due to concurrent medical care and natural recovery processes. Future research should evaluate structured hypnosis protocols in ICU care.</p></sec><sec id="nicc70299-sec-0012"><label>6</label><title>Patient Perspective</title><p>Alex and his family were informed that hypnosis was being used on an exploratory basis.</p><p>From the beginning, Alex was highly motivated. After his stay in the ICU, he reported having no memory of experiencing respiratory discomfort during the four hypnosis‐assisted spontaneous breathing trials. He did not remember the first session, but he clearly recalled the others. He described the sessions as profoundly helpful for ventilator weaning and noted that he experienced no respiratory difficulty while under hypnosis. He vividly recalled sensory impressions of the imagined scene, including the smell of barbecue, the voices and laughter of friends and physical sensations such as relaxation and tingling, which made the experience feel real and reassuring.</p><p>One year later, he was decannulated and using an electric wheelchair. He shared a video capturing a symbolic moment: his wheelchair was strapped onto a quad trailer, and he returned—proudly—to the shack.</p></sec><sec sec-type="conclusions" id="nicc70299-sec-0011"><label>7</label><title>Conclusion</title><p>This case study emphasises the valuable role of hypnosis in ventilator weaning for patients with quadriplegia. Involving family members in creating hypnotic scripts provides access to patients' resources, supports respiratory autonomy and makes ICU care more humane.</p></sec><sec id="nicc70299-sec-0014"><title>Funding</title><p>The authors have nothing to report.</p></sec><sec id="nicc70299-sec-0015"><title>Ethics Statement</title><p>Written informed consent was obtained from the patient. ‘Alex’ is a pseudonym used to protect privacy.</p></sec><sec sec-type="COI-statement" id="nicc70299-sec-0016"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="nicc70299-sec-0013"><title>Acknowledgements</title><p>Alex, thank you for helping me become a hypnotherapist. We would like to express our sincere gratitude to Dr. Isabelle Nicklès and the late Dr. Alain Vallée for their inspiring teaching and guidance. This report is dedicated to Dr. Vallée, whose legacy continues to influence our work: ‘It is never too late to become the kind of person you aspire to be’.</p></ack><sec sec-type="data-availability" id="nicc70299-sec-0018"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list content-type="cited-references" id="nicc70299-bibl-0001"><title>References</title><ref id="nicc70299-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="nicc70299-cit-0001">
+<string-name name-style="western">
+<given-names>G. J.</given-names>
+<surname>Schilero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Spungen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Bauman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Radulovic</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lesser</surname>
+</string-name>, “<article-title>Pulmonary Function and Spinal Cord Injury</article-title>,” <source>Respiratory Physiology &amp; Neurobiology</source>
+<volume>166</volume>, no. <issue>3</issue> (<year>2009</year>): <fpage>129</fpage>–<lpage>141</lpage>, <pub-id pub-id-type="doi">10.1016/j.resp.2009.04.002</pub-id>.<pub-id pub-id-type="pmid">19442929</pub-id>
+</mixed-citation></ref><ref id="nicc70299-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="nicc70299-cit-0002">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vanhaudenhuyse</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Nyssen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Faymonville</surname>
+</string-name>, “<article-title>Recent Insight on How the Neuroscientific Approach Helps Clinicians</article-title>,” <source>OBM Integrative and Complementary Medicine</source>
+<volume>5</volume>, no. <issue>2</issue> (<year>2020</year>): <elocation-id>028</elocation-id>, <pub-id pub-id-type="doi">10.21926/obm.icm.2002028</pub-id>.</mixed-citation></ref><ref id="nicc70299-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="nicc70299-cit-0003">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Thompson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. B.</given-names>
+<surname>Terhune</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Oram</surname>
+</string-name>, et al., “<article-title>The Effectiveness of Hypnosis for Pain Relief: A Systematic Review and Meta‐Analysis of 85 Controlled Experimental Trials</article-title>,” <source>Neuroscience and Biobehavioral Reviews</source>
+<volume>99</volume> (<year>2019</year>): <fpage>298</fpage>–<lpage>310</lpage>, <pub-id pub-id-type="doi">10.1016/j.neubiorev.2019.02.013</pub-id>.<pub-id pub-id-type="pmid">30790634</pub-id>
+</mixed-citation></ref><ref id="nicc70299-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="nicc70299-cit-0004">
+<string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Molinier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Fernandes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Moine</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Alexandre</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Heraud</surname>
+</string-name>, “<article-title>Late Breaking Abstract ‐ Effect of Dyspnea‐Oriented Hypnosis as an Adjunct to Pulmonary Rehabilitation on the Affective Dimension of Dyspnea: A Randomized Controlled Trial</article-title>,” <source>Rehabilitation and Chronic Care</source>
+<volume>64</volume>, no. <issue>suppl 68</issue> (<year>2024</year>): <elocation-id>OA5538</elocation-id>, <pub-id pub-id-type="doi">10.1183/13993003.congress-2024.OA5538</pub-id>.</mixed-citation></ref><ref id="nicc70299-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="nicc70299-cit-0005">
+<string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Parshall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Schwartzstein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Adams</surname>
+</string-name>, et al., “<article-title>An Official American Thoracic Society Statement: Update on the Mechanisms, Assessment, and Management of Dyspnea</article-title>,” <source>American Journal of Respiratory and Critical Care Medicine</source>
+<volume>185</volume>, no. <issue>4</issue> (<year>2012</year>): <fpage>435</fpage>–<lpage>452</lpage>, <pub-id pub-id-type="doi">10.1164/rccm.201111-2042ST</pub-id>.<pub-id pub-id-type="pmid">22336677</pub-id>
+<pub-id pub-id-type="pmcid">PMC5448624</pub-id></mixed-citation></ref><ref id="nicc70299-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="nicc70299-cit-0006">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Roquilly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Vigué</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Boutonnet</surname>
+</string-name>, et al., “<article-title>French Recommendations for the Management of Patients With Spinal Cord Injury or at Risk of Spinal Cord Injury</article-title>,” <source>Anaesthesia, Critical Care &amp; Pain Medicine</source>
+<volume>39</volume>, no. <issue>2</issue> (<year>2020</year>): <fpage>279</fpage>–<lpage>289</lpage>, <pub-id pub-id-type="doi">10.1016/j.accpm.2020.02.003</pub-id>.<pub-id pub-id-type="pmid">32229270</pub-id></mixed-citation></ref><ref id="nicc70299-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="nicc70299-cit-0007">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Fernandes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Molinier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Moine</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Alexandre</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Héraud</surname>
+</string-name>, “<article-title>Effet de l'hypnose orientée vers la dyspnée comme complément à la réhabilitation respiratoire sur la dimension affective de la dyspnée: un essai contrôlé randomisé</article-title>,” <source>Revue des Maladies Respiratoires Actualités</source>
+<volume>17</volume>, no. <issue>1</issue> (<year>2025</year>): <fpage>233</fpage>–<lpage>234</lpage>, ISSN 1877–1203, <pub-id pub-id-type="doi">10.1016/j.rmra.2024.11.485</pub-id>.</mixed-citation></ref><ref id="nicc70299-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="nicc70299-cit-0008">
+<string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Spungen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Grimm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lesser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. A.</given-names>
+<surname>Bauman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Almenoff</surname>
+</string-name>, “<article-title>Self‐Reported Prevalence of Pulmonary Symptoms in Subjects With Spinal Cord Injury</article-title>,” <source>Spinal Cord</source>
+<volume>35</volume>, no. <issue>10</issue> (<year>1997</year>): <fpage>652</fpage>–<lpage>657</lpage>, <pub-id pub-id-type="doi">10.1038/sj.sc.3100489</pub-id>.<pub-id pub-id-type="pmid">9347593</pub-id>
+</mixed-citation></ref><ref id="nicc70299-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="nicc70299-cit-0009">
+<string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Berlowitz</surname>
+</string-name> and <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tamplin</surname>
+</string-name>, “<article-title>Respiratory Muscle Training for Cervical Spinal Cord Injury</article-title>,” <source>Cochrane Database of Systematic Reviews</source>
+<volume>2013</volume>, no. <issue>7</issue> (<year>2013</year>): <elocation-id>CD008507</elocation-id>, <pub-id pub-id-type="doi">10.1002/14651858.CD008507.pub2</pub-id>.<pub-id pub-id-type="pmid">23881660</pub-id>
+<pub-id pub-id-type="pmcid">PMC11089516</pub-id></mixed-citation></ref><ref id="nicc70299-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="nicc70299-cit-0010">
+<string-name name-style="western">
+<given-names>A. G.</given-names>
+<surname>Taylor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. E.</given-names>
+<surname>Goehler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. I.</given-names>
+<surname>Galper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Innes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bourguignon</surname>
+</string-name>, “<article-title>Top‐Down and Bottom‐Up Mechanisms in Mind‐Body Medicine: Development of an Integrative Framework for Psychophysiological Research</article-title>,” <source>Explorer</source>
+<volume>6</volume>, no. <issue>1</issue> (<year>2010</year>): <fpage>29</fpage>–<lpage>41</lpage>, <pub-id pub-id-type="doi">10.1016/j.explore.2009.10.004</pub-id>.<pub-id pub-id-type="pmcid">PMC2818254</pub-id><pub-id pub-id-type="pmid">20129310</pub-id></mixed-citation></ref><ref id="nicc70299-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="nicc70299-cit-0011">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Rainville</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. H.</given-names>
+<surname>Duncan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. D.</given-names>
+<surname>Price</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Carrier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Bushnell</surname>
+</string-name>, “<article-title>Pain Affect Encoded in Human Anterior Cingulate but Not Somatosensory Cortex</article-title>,” <source>Science</source>
+<volume>277</volume>, no. <issue>5328</issue> (<year>1997</year>): <fpage>968</fpage>–<lpage>971</lpage>, <pub-id pub-id-type="doi">10.1126/science.277.5328.968</pub-id>.<pub-id pub-id-type="pmid">9252330</pub-id>
+</mixed-citation></ref><ref id="nicc70299-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="nicc70299-cit-0012">
+<string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Faymonville</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Boly</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Laureys</surname>
+</string-name>, “<article-title>Functional Neuroanatomy of the Hypnotic State</article-title>,” <source>Journal of Physiology, Paris</source>
+<volume>99</volume>, no. <issue>4–6</issue> (<year>2006</year>): <fpage>463</fpage>–<lpage>469</lpage>, <pub-id pub-id-type="doi">10.1016/j.jphysparis.2006.03.018</pub-id>.<pub-id pub-id-type="pmid">16750615</pub-id>
+</mixed-citation></ref></ref-list></back></article>

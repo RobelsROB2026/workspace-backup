@@ -1,0 +1,34 @@
+Scripts
+[
+edit
+|
+edit source
+]
+In any script
+{{Pause=n}}
+equals to a n second delay on speech, never longer than 3 seconds unless required for observing or archiving a response or as intentional delay that the subject will be previously informed of. Fractions of seconds can also be used in decimal values. For example, a half second pause would be
+{{Pause=.5}}
+. Also if <name> is used it means the name of the subject listening to the script.
+Like in computer programming why recreate the wheel every time, relating to the open-source movement most Hypnotist will share these information freely for all to improve and build upon. In any case most of the scripts would be to hard to have any claim authorship stick, since most are themselves derivations of previous scripts. As we will see scripts are mostly constituted by repetitions of simpler phrases and singe phrases can not be copyrighted.
+Pre-Talk
+[
+edit
+|
+edit source
+]
+Induction
+[
+edit
+|
+edit source
+]
+Progressive relaxation
+Session
+[
+edit
+|
+edit source
+]
+Stop Smoking
+Confidence in Company
+End Depression Script

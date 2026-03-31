@@ -1,0 +1,5 @@
+triage:
+  command: "claude -p --no-session-persistence"
+  model: "claude-3-5-haiku-20241022"
+notify:
+  command: "openclaw gateway call wake --params"

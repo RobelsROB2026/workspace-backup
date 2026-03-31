@@ -1,0 +1,41 @@
+About the book
+Foreword
+This book is designed to teach people what Hypnosis is, how it works, and enable them to use it. You do not need any prior knowledge on the subject to understand this book's subject.
+Guide to Readers
+This is a
+wikibook
+(en.wikibooks.org)
+, as such you should be aware of what that implies.
+The book is organized into different parts, but as this is a work that is always evolving, things may be missing or just not where they should be, you are free to become a writer and contribute to fix things up...
+Reader Comments
+If you have comments about the technical accuracy, content, or organization of this document, please tell us (e.g. by using the "discussion" pages or by email). Be sure to include the section or the part title of the document with your comments and the date of your copy of the book. If you are really convinced of your point, information or correction then consider becoming a writer (at Wikibooks) and do it yourself.
+Guide to Writers
+Everyone is welcome to use the material or contribute to this work. At Wikibooks they should register if intending to make non-anonymous contributions to the book and please try to follow the structure. If you have major ideas or big changes use the project discussion area.
+Conventions
+A set of conventions have been proposed and adopted at Wikibooks for this book,
+please read about them
+before you contributing to it.
+Copyright Notice
+Authors
+The following people are authors to this book:
+Panic
+You can verify who has contributed to this book by examining the history logs at Wikibooks (
+http://en.wikibooks.org/
+).
+Acknowledgment is given for using some contents from other works like
+:
+Wikipedia
+and
+Complete Hypnotism: Mesmerism, Mind-Reading and Spiritualism by A. Alpheus
+The above authors release their work under the following license:
+This work is licensed under the
+Creative Commons
+Attribution-Share Alike 3.0 Unported
+license. In short: you are free to share and to make derivatives of this work under the conditions that you appropriately attribute it, and that you only distribute it under the same, similar or a
+compatible
+license. Any of the above conditions can be waived if you get permission from the copyright holder.
+Unless otherwise noted media and source code usable in stand alone form have their own copyrights and different licenses (but compatible with the
+Copyleft
+nature of the work). Media may be under
+Fair use
+, that is not recognized in some jurisdictions. Source code or scripts not listing copyrights or license information shall be considered in the public domain.

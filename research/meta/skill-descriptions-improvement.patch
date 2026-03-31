@@ -1,0 +1,558 @@
+From 13e296f5abbf77ecbab85142ece9659c96c5b7d2 Mon Sep 17 00:00:00 2001
+From: RobelsROB2026 <robake2006@gmail.com>
+Date: Fri, 13 Feb 2026 09:38:17 -0600
+Subject: [PATCH] docs(skills): improve descriptions with routing logic and
+ negative examples
+
+Based on OpenAI's skill design patterns article, this PR improves skill
+descriptions to help agents route more accurately:
+
+1. Added 'Use when / Don't use when' format to all descriptions
+2. Added explicit negative examples to prevent misfires
+3. Added overlap clarification tables for related tools
+4. Kept descriptions concise (routing logic, not marketing)
+
+Skills updated:
+- peekaboo: clarified native apps vs browser/CLI
+- nano-banana-pro: distinguished generation from analysis
+- gemini: explained cost optimization use case
+- github: separated platform ops from code work
+- 1password: added security rules
+- coding-agent: clarified delegation vs direct edits
+- weather: added data limitations
+- clawhub: distinguished from skill-creator
+- apple-notes: added ecosystem constraints
+- blogwatcher: added RSS-only limitation
+- healthcheck: added access safety warning
+- nano-pdf: clarified edit vs create
+- skill-creator: distinguished from clawhub
+---
+ skills/1password/SKILL.md       | 45 ++++++++++++++++++++++++++-
+ skills/apple-notes/SKILL.md     |  2 +-
+ skills/blogwatcher/SKILL.md     |  2 +-
+ skills/clawhub/SKILL.md         | 28 ++++++++++++++++-
+ skills/coding-agent/SKILL.md    | 39 +++++++++++++++++++++++-
+ skills/gemini/SKILL.md          | 54 +++++++++++++++++++++++++++++++--
+ skills/github/SKILL.md          | 43 ++++++++++++++++++++++++--
+ skills/healthcheck/SKILL.md     |  2 +-
+ skills/nano-banana-pro/SKILL.md | 39 +++++++++++++++++++++++-
+ skills/nano-pdf/SKILL.md        |  2 +-
+ skills/peekaboo/SKILL.md        | 48 +++++++++++++++++++++++++----
+ skills/skill-creator/SKILL.md   |  2 +-
+ skills/weather/SKILL.md         | 19 +++++++++++-
+ 13 files changed, 305 insertions(+), 20 deletions(-)
+
+diff --git a/skills/1password/SKILL.md b/skills/1password/SKILL.md
+index c3dcb82..c400cab 100644
+--- a/skills/1password/SKILL.md
++++ b/skills/1password/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: 1password
+-description: Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.
++description: "Retrieve and inject secrets from 1Password vaults via `op` CLI. Use when: a script needs API keys/passwords from 1Password, running commands with secrets as env vars (`op run`), injecting secrets into config files (`op inject`), or listing vault contents. Don't use when: user can just type a one-time password, secret is already in environment variables, creating/storing new secrets (human should do this in the app), 1Password desktop app isn't running or unlocked, or the data isn't actually sensitive (use regular config)."
+ homepage: https://developer.1password.com/docs/cli/get-started/
+ metadata:
+   {
+@@ -24,6 +24,49 @@ metadata:
+ 
+ # 1Password CLI
+ 
++Retrieve secrets from 1Password vaults — don't create or store them (that's human territory).
++
++## When to Use
++
++- **Inject secrets into commands**: `op run -- ./deploy.sh` (secrets as env vars)
++- **Template injection**: `op inject -i template.env -o .env` (fill placeholders)
++- **Retrieve specific secrets**: When a script or tool needs credentials
++- **List vault contents**: See what's available (without exposing values)
++
++## When NOT to Use
++
++- **One-time entry**: If user can just type the password, don't automate it
++- **Already in env vars**: Check `env | grep -i api` first — might already be set
++- **Creating secrets**: Humans should create/store secrets in the 1Password app, not via CLI
++- **Desktop app not running**: `op` requires the 1Password desktop app to be open and unlocked
++- **Non-sensitive data**: Regular config files don't need vault storage
++- **Temporary/test credentials**: Overhead not worth it for throwaway values
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "Run deploy with API key from 1Password" | **op** ✓ | `op run` injects secrets |
++| "I need to enter my password" | User types it | One-time, interactive |
++| "Save this new API key" | User saves in app | Humans manage secret storage |
++| "Script needs DATABASE_URL" | Check env first | Might already be set |
++| "Need AWS creds for boto3" | **op** ✓ | Inject via `op run` |
++
++## Security Rules
++
++- **Never log secrets**: Don't echo, print, or include in command output
++- **Prefer `op run`/`op inject`**: Secrets stay in memory, never touch disk
++- **Don't hardcode secret references**: Use templates or env vars
++- **Clean up**: If you must write a secret file, delete it immediately after use
++
++## Prerequisites
++
++- 1Password desktop app installed, running, and unlocked
++- `op` CLI installed and integrated with desktop app
++- App integration enabled in 1Password settings
++
++---
++
+ Follow the official CLI get-started steps. Don't guess install commands.
+ 
+ ## References
+diff --git a/skills/apple-notes/SKILL.md b/skills/apple-notes/SKILL.md
+index 61e8cf7..aea9cd5 100644
+--- a/skills/apple-notes/SKILL.md
++++ b/skills/apple-notes/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: apple-notes
+-description: Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks OpenClaw to add a note, list notes, search notes, or manage note folders.
++description: "Manage Apple Notes via the `memo` CLI on macOS. Use when: user asks to create, view, edit, delete, or search notes in Apple Notes, managing note folders, exporting notes to markdown/HTML. Don't use when: user wants notes stored in workspace (use memory/ files instead), non-macOS system (Apple Notes only), user prefers plain text files, or note needs to be shared outside Apple ecosystem (export first)."
+ homepage: https://github.com/antoniorodr/memo
+ metadata:
+   {
+diff --git a/skills/blogwatcher/SKILL.md b/skills/blogwatcher/SKILL.md
+index 8d623a0..ed0759d 100644
+--- a/skills/blogwatcher/SKILL.md
++++ b/skills/blogwatcher/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: blogwatcher
+-description: Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.
++description: "Monitor blogs and RSS/Atom feeds for new posts using the blogwatcher CLI. Use when: tracking specific blogs for updates, monitoring RSS/Atom feeds, setting up alerts for new content from followed sources. Don't use when: doing one-time web research (use web_search/web_fetch), monitoring social media (different tools), tracking non-RSS sources (use web_fetch with scheduling), or the site doesn't have RSS/Atom feeds."
+ homepage: https://github.com/Hyaxia/blogwatcher
+ metadata:
+   {
+diff --git a/skills/clawhub/SKILL.md b/skills/clawhub/SKILL.md
+index f44c82b..f1c39d5 100644
+--- a/skills/clawhub/SKILL.md
++++ b/skills/clawhub/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: clawhub
+-description: Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.
++description: "Search, install, update, and publish agent skills from clawhub.com. Use when: looking for a skill to solve a specific problem, installing community skills, updating installed skills to latest version, publishing skills you've created. Don't use when: skill is already installed and working (check `clawhub list` first), creating a new custom skill from scratch (use `skill-creator` skill instead), or just browsing casually (use clawhub.com website)."
+ metadata:
+   {
+     "openclaw":
+@@ -22,6 +22,32 @@ metadata:
+ 
+ # ClawHub CLI
+ 
++Skill marketplace for OpenClaw — find, install, and share skills.
++
++## When to Use
++
++- **Find skills**: `clawhub search "postgres"` — find skills for specific problems
++- **Install skills**: `clawhub install skill-name` — add community skills
++- **Update skills**: `clawhub update --all` — sync to latest versions
++- **Publish skills**: Share your skills with the community
++
++## When NOT to Use
++
++- **Skill already installed**: Check `clawhub list` first — avoid reinstalling
++- **Creating new skill**: Use `skill-creator` skill instead — it handles structure/best practices
++- **Casual browsing**: Just visit clawhub.com in browser — better UX for discovery
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "Find a skill for X" | **clawhub** ✓ | Search the registry |
++| "Build a new skill" | `skill-creator` | Proper scaffolding |
++| "Update all my skills" | **clawhub** ✓ | Batch update |
++| "Browse what's available" | clawhub.com website | Visual discovery |
++
++---
++
+ Install
+ 
+ ```bash
+diff --git a/skills/coding-agent/SKILL.md b/skills/coding-agent/SKILL.md
+index 14f3ee7..1914463 100644
+--- a/skills/coding-agent/SKILL.md
++++ b/skills/coding-agent/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: coding-agent
+-description: Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control.
++description: "Spawn a dedicated coding AI (Codex, Claude Code, OpenCode, Pi) to write, refactor, or review code. Use when: building features that need sustained coding work, reviewing PRs with code analysis, refactoring across multiple files, fixing bugs that require code exploration, or running parallel coding tasks. Don't use when: making simple file edits (do it yourself with `edit` tool), just reading/understanding code (read the file directly), the task needs your judgment not code (answer yourself), quick one-liner changes, or non-code tasks like config tweaks."
+ metadata:
+   {
+     "openclaw": { "emoji": "🧩", "requires": { "anyBins": ["claude", "codex", "opencode", "pi"] } },
+@@ -9,6 +9,43 @@ metadata:
+ 
+ # Coding Agent (bash-first)
+ 
++Spawn a dedicated coding AI for sustained development work — not for simple edits you can do yourself.
++
++## When to Use
++
++- **Feature development**: Building something that needs multiple files, tests, iteration
++- **PR code review**: Agent can read the diff and provide detailed analysis
++- **Multi-file refactoring**: Renaming, restructuring, updating patterns across codebase
++- **Bug investigation**: Agent can explore code, run tests, trace issues
++- **Parallel tasks**: Spin up multiple agents for independent issues/features
++- **Full-auto mode**: Let agent build something end-to-end with minimal intervention
++
++## When NOT to Use
++
++- **Simple edits**: Use `edit` tool yourself — faster and no agent overhead
++- **Reading code**: Just `read` the file — you can understand it
++- **Non-code decisions**: If user wants YOUR analysis or opinion, don't delegate
++- **One-liner fixes**: `edit` tool, not a whole agent
++- **Config/docs**: Usually simpler to do directly
++- **Already know the solution**: If you know exactly what to change, just change it
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "Add error handling to all API calls" | **coding-agent** ✓ | Multi-file, needs exploration |
++| "Fix typo in README" | `edit` tool | One line, trivial |
++| "Build a REST API for todos" | **coding-agent** ✓ | Feature build |
++| "What does this function do?" | Read it yourself | Just comprehension |
++| "Review PR #55" | **coding-agent** ✓ | Needs code analysis |
++| "Change port from 3000 to 8080" | `edit` tool | One change |
++
++## Key Rule
++
++**Don't delegate thinking.** If the task requires judgment, analysis, or decision-making, that's your job. Coding agents are for execution, not strategy.
++
++---
++
+ Use **bash** (with optional background mode) for all coding agent work. Simple and effective.
+ 
+ ## ⚠️ PTY Mode Required!
+diff --git a/skills/gemini/SKILL.md b/skills/gemini/SKILL.md
+index 70850a4..b100aee 100644
+--- a/skills/gemini/SKILL.md
++++ b/skills/gemini/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: gemini
+-description: Gemini CLI for one-shot Q&A, summaries, and generation.
++description: "Offload bulk text processing to Gemini when cost matters more than deep reasoning. Use when: summarizing large documents, synthesizing research from multiple sources, extracting structured data from messy text, processing more content than fits in working memory, or simple Q&A that doesn't need complex reasoning. Don't use when: the task requires deep reasoning or judgment (handle it yourself), multi-turn conversation is needed (stay in session), tool use is required (Gemini CLI can't call tools), generating code (use coding-agent), generating images (use nano-banana-pro), or the user is specifically asking YOU not 'an AI'."
+ homepage: https://ai.google.dev/
+ metadata:
+   {
+@@ -24,7 +24,57 @@ metadata:
+ 
+ # Gemini CLI
+ 
+-Use Gemini in one-shot mode with a positional prompt (avoid interactive mode).
++Offload text-heavy grunt work to Gemini when you don't need Opus-level reasoning.
++
++## Why This Exists
++
++You (ROB) run on Opus — powerful but expensive. Gemini Flash is fast, cheap, and has a huge context window. Use it as a "worker" for bulk processing while you focus on reasoning and decisions.
++
++## When to Use
++
++- **Bulk summarization**: Condense 10 articles into key points
++- **Research synthesis**: Process multiple search results, extract patterns
++- **Large document processing**: Gemini's context window handles huge files
++- **Structured extraction**: Pull specific data from messy text (names, dates, prices)
++- **Translation/reformatting**: Convert formats, translate languages
++- **Simple Q&A**: Factual questions that don't need nuanced reasoning
++- **Parallel processing**: Run multiple Gemini calls simultaneously for speed
++
++## When NOT to Use
++
++- **Complex reasoning**: That's your job (Opus) — don't delegate thinking
++- **Multi-turn conversation**: Stay in the current session
++- **Tool-dependent tasks**: Gemini CLI can't call tools, browse, or execute code
++- **Code generation**: Use `coding-agent` skill instead
++- **Image generation**: Use `nano-banana-pro` skill instead
++- **User wants YOUR opinion**: If they're asking you specifically, answer yourself
++- **Context-dependent tasks**: Gemini doesn't have access to this conversation's history
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "Summarize these 5 articles" | **Gemini CLI** ✓ | Bulk processing, cost-efficient |
++| "What do you think about X?" | Handle yourself | User wants your reasoning |
++| "Analyze this data and recommend..." | Handle yourself | Requires judgment |
++| "Extract all prices from this page" | **Gemini CLI** ✓ | Structured extraction, grunt work |
++| "Write a Python script" | `coding-agent` | Code generation |
++| "Help me debug this" | Handle yourself | Requires back-and-forth |
++
++## Model Selection
++
++```bash
++# Default (usually Flash)
++gemini "Summarize: ..."
++
++# Explicitly use Flash for bulk work
++gemini --model gemini-2.5-flash "Summarize: ..."
++
++# Use Pro for harder tasks (still cheaper than Opus)
++gemini --model gemini-2.5-pro "Analyze: ..."
++```
++
++---
+ 
+ Quick start
+ 
+diff --git a/skills/github/SKILL.md b/skills/github/SKILL.md
+index 043f2c0..06d3516 100644
+--- a/skills/github/SKILL.md
++++ b/skills/github/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: github
+-description: "Interact with GitHub using the `gh` CLI. Use `gh issue`, `gh pr`, `gh run`, and `gh api` for issues, PRs, CI runs, and advanced queries."
++description: "Interact with GitHub platform using `gh` CLI for issues, PRs, CI runs, releases, and API queries. Use when: checking PR/CI status, creating or listing issues, creating PRs, viewing workflow runs and logs, querying GitHub API, managing releases. Don't use when: reviewing actual code content (use coding-agent), making code changes (use git + coding-agent), visual repo browsing (use browser), `gh` isn't authenticated (run `gh auth status` first), or managing repo settings (web UI is clearer)."
+ metadata:
+   {
+     "openclaw":
+@@ -30,7 +30,46 @@ metadata:
+ 
+ # GitHub Skill
+ 
+-Use the `gh` CLI to interact with GitHub. Always specify `--repo owner/repo` when not in a git directory, or use URLs directly.
++Use `gh` CLI for GitHub platform operations — not for code itself.
++
++## When to Use
++
++- **PR operations**: Check status, list PRs, create PRs, merge
++- **CI/CD**: View workflow runs, check status, see failed logs
++- **Issues**: Create, list, comment, close, label
++- **Releases**: Create releases, list tags
++- **API queries**: Access any GitHub API endpoint with `gh api`
++- **Quick lookups**: "Is CI passing?", "What PRs are open?", "Who's assigned to this issue?"
++
++## When NOT to Use
++
++- **Code review**: Use `coding-agent` — it can actually read and analyze the code
++- **Code changes**: Use `git` for commits, `coding-agent` for writing code
++- **Visual browsing**: For exploring unfamiliar repos, browser might be easier
++- **Unauthenticated**: Check `gh auth status` first — most commands need auth
++- **Repo settings**: Branch protection, webhooks, etc. — web UI is clearer
++- **Complex code search**: GitHub's code search in browser is more powerful
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "Is CI passing on PR #55?" | **gh** ✓ | Platform status check |
++| "Review the code in PR #55" | `coding-agent` | Needs to read/analyze code |
++| "Create a PR for my branch" | **gh** ✓ | Platform operation |
++| "Fix the failing tests" | `coding-agent` | Code changes needed |
++| "List open issues" | **gh** ✓ | Platform query |
++| "Commit my changes" | `git` | Version control, not GitHub-specific |
++
++## Prerequisites
++
++- `gh` CLI installed
++- Authenticated: `gh auth status`
++- For private repos: appropriate permissions
++
++---
++
++Always specify `--repo owner/repo` when not in a git directory, or use URLs directly.
+ 
+ ## Pull Requests
+ 
+diff --git a/skills/healthcheck/SKILL.md b/skills/healthcheck/SKILL.md
+index 4471f04..1cf3a09 100644
+--- a/skills/healthcheck/SKILL.md
++++ b/skills/healthcheck/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: healthcheck
+-description: Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).
++description: "Audit and harden host security for machines running OpenClaw. Use when: user asks for security audit, hardening firewall/SSH/updates, reviewing system exposure, setting up periodic security checks, or checking OpenClaw version status. Don't use when: troubleshooting OpenClaw bugs (check docs/GitHub issues), network-level security (this is host-focused), cloud infrastructure security (use cloud-specific tools), or user hasn't confirmed how they access the machine (could lock them out)."
+ ---
+ 
+ # OpenClaw Host Hardening
+diff --git a/skills/nano-banana-pro/SKILL.md b/skills/nano-banana-pro/SKILL.md
+index 20bf59a..a7564c5 100644
+--- a/skills/nano-banana-pro/SKILL.md
++++ b/skills/nano-banana-pro/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: nano-banana-pro
+-description: Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro).
++description: "Generate or edit images using Gemini 3 Pro Image. Use when: creating images from text descriptions, editing/modifying existing images (add objects, change colors, restyle), combining multiple images into a composite scene, creating visual content for blogs/social. Don't use when: analyzing or describing an image (use `image` tool instead), creating diagrams/charts/graphs (use code—matplotlib, mermaid), the image needs precise text rendering (AI struggles with text), pixel-perfect design work (use Figma/Canva), or taking screenshots (use Peekaboo or browser)."
+ homepage: https://ai.google.dev/
+ metadata:
+   {
+@@ -25,6 +25,43 @@ metadata:
+ 
+ # Nano Banana Pro (Gemini 3 Pro Image)
+ 
++Generate and edit images using Google's Gemini 3 Pro Image model.
++
++## When to Use
++
++- **Image generation**: Create images from text descriptions ("a sunset over mountains")
++- **Image editing**: Modify existing images ("make the sky more dramatic", "add a person walking")
++- **Multi-image composition**: Combine up to 14 images into a single scene
++- **Visual content creation**: Blog headers, social media graphics, concept art
++
++## When NOT to Use
++
++- **Image analysis**: If you need to understand/describe what's in an image, use the `image` tool instead
++- **Screenshots**: Use Peekaboo (macOS apps) or browser tool (web pages)
++- **Diagrams/charts/graphs**: Use code generation (matplotlib, mermaid, d3.js) — more precise and editable
++- **Text-heavy images**: AI image generators are bad at rendering text accurately
++- **Pixel-perfect design**: Use proper design tools (Figma, Canva) for precise work
++- **Logos/brand assets**: Usually need a human designer for brand consistency
++
++## Overlap Clarification
++
++| Task | Use This | Why |
++|------|----------|-----|
++| "What's in this image?" | `image` tool | Analysis, not generation |
++| "Create a landscape painting" | **nano-banana-pro** ✓ | Generation from prompt |
++| "Add a hat to this photo" | **nano-banana-pro** ✓ | Image editing |
++| "Screenshot this website" | `browser` tool | Capture, not generate |
++| "Make a flowchart" | Code (mermaid) | Precise, editable, text-accurate |
++
++## Limitations
++
++- **Text in images**: Often garbled or misspelled — avoid prompts requiring readable text
++- **Specific styles**: Results vary; may need prompt iteration
++- **Content policy**: Some subjects (violence, certain people) may be restricted
++- **Faces**: Quality can be inconsistent; may hit safety filters
++
++---
++
+ Use the bundled script to generate or edit images.
+ 
+ Generate
+diff --git a/skills/nano-pdf/SKILL.md b/skills/nano-pdf/SKILL.md
+index f703d45..3a89061 100644
+--- a/skills/nano-pdf/SKILL.md
++++ b/skills/nano-pdf/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: nano-pdf
+-description: Edit PDFs with natural-language instructions using the nano-pdf CLI.
++description: "Edit PDFs using natural-language instructions via nano-pdf CLI. Use when: adding/removing content from PDFs, redacting information, filling forms, annotating pages, modifying existing PDF documents. Don't use when: creating PDFs from scratch (use other tools like markdown→PDF), extracting text from PDFs (use `pdftotext` CLI), converting PDFs to other formats, or reading/analyzing PDF content (just read the text)."
+ homepage: https://pypi.org/project/nano-pdf/
+ metadata:
+   {
+diff --git a/skills/peekaboo/SKILL.md b/skills/peekaboo/SKILL.md
+index ca888d2..8ad0162 100644
+--- a/skills/peekaboo/SKILL.md
++++ b/skills/peekaboo/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: peekaboo
+-description: Capture and automate macOS UI with the Peekaboo CLI.
++description: "Automate native macOS apps via accessibility APIs. Use when: clicking buttons/menus in desktop apps without CLIs, reading screen content that isn't accessible programmatically, taking annotated screenshots to identify UI elements, managing windows (resize/move/focus), or interacting with menu bar items and Dock. Don't use when: automating web pages (use browser tool instead), the app has a CLI or API (use that—more reliable), doing file operations (use shell), on non-macOS systems (won't work), or for simple app launching (just use `open` command)."
+ homepage: https://peekaboo.boo
+ metadata:
+   {
+@@ -25,11 +25,47 @@ metadata:
+ 
+ # Peekaboo
+ 
+-Peekaboo is a full macOS UI automation CLI: capture/inspect screens, target UI
+-elements, drive input, and manage apps/windows/menus. Commands share a snapshot
+-cache and support `--json`/`-j` for scripting. Run `peekaboo` or
+-`peekaboo <cmd> --help` for flags; `peekaboo --version` prints build metadata.
+-Tip: run via `polter peekaboo` to ensure fresh builds.
++Automate native macOS applications through accessibility APIs when no CLI/API exists.
++
++## When to Use
++
++- **Native app automation**: Click buttons, fill forms, navigate menus in apps like System Settings, Finder, Mail, Notes
++- **Screen inspection**: Take annotated screenshots (`see --annotate`) to identify clickable elements before acting
++- **Window management**: Resize, move, focus, minimize windows programmatically
++- **Menu bar / Dock**: Click status bar items, launch apps from Dock, access app menus
++- **No programmatic access**: The app doesn't expose a CLI, API, or AppleScript dictionary
++
++## When NOT to Use
++
++- **Web pages**: Use the `browser` tool instead — it has DOM access and more reliable selectors
++- **Apps with CLIs**: If the app has a CLI (e.g., `gh` for GitHub, `code` for VS Code), use that — more reliable and scriptable
++- **Apps with APIs**: Direct API calls beat UI automation every time
++- **File operations**: Use shell commands (`exec`), not UI clicks
++- **Simple app launching**: Just use `open -a "App Name"` — simpler and faster
++- **Non-macOS**: Peekaboo only works on macOS (uses Accessibility framework)
++- **Missing permissions**: Requires Screen Recording + Accessibility permissions — check with `peekaboo permissions`
++
++## Overlap Clarification
++
++| Task | Use This | Not Peekaboo Because |
++|------|----------|---------------------|
++| Click button on website | `browser` tool | Browser has DOM selectors, more reliable |
++| Open GitHub PR | `gh pr view` | CLI is scriptable, works headless |
++| Launch Safari | `open -a Safari` | Simpler, no accessibility needed |
++| Click "Allow" in System Settings | **Peekaboo** ✓ | No CLI for this, must use UI |
++| Resize Finder window | **Peekaboo** ✓ | Window management is a strength |
++| Read text from a PDF | `exec` with `pdftotext` | CLI tool is more reliable |
++
++## Prerequisites
++
++- macOS only
++- Screen Recording permission (for screenshots/see)
++- Accessibility permission (for clicking/typing)
++- Check status: `peekaboo permissions`
++
++---
++
++Commands share a snapshot cache and support `--json`/`-j` for scripting. Run `peekaboo` or `peekaboo <cmd> --help` for flags.
+ 
+ ## Features (all CLI capabilities, excluding agent/MCP)
+ 
+diff --git a/skills/skill-creator/SKILL.md b/skills/skill-creator/SKILL.md
+index ca9da73..15d6ab9 100644
+--- a/skills/skill-creator/SKILL.md
++++ b/skills/skill-creator/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: skill-creator
+-description: Create or update AgentSkills. Use when designing, structuring, or packaging skills with scripts, references, and assets.
++description: "Create or update OpenClaw agent skills with proper structure and best practices. Use when: building a new skill from scratch, restructuring an existing skill, adding scripts/references/assets to a skill, preparing a skill for publishing to ClawHub. Don't use when: just installing a skill (use clawhub skill), making minor edits to an existing skill (edit directly), or the 'skill' is really just a workflow/process doc (use a markdown file instead)."
+ ---
+ 
+ # Skill Creator
+diff --git a/skills/weather/SKILL.md b/skills/weather/SKILL.md
+index 15c88f4..cdba92e 100644
+--- a/skills/weather/SKILL.md
++++ b/skills/weather/SKILL.md
+@@ -1,6 +1,6 @@
+ ---
+ name: weather
+-description: Get current weather and forecasts (no API key required).
++description: "Get current weather conditions and forecasts using free APIs (no key required). Use when: checking current conditions, getting multi-day forecasts, quick weather lookups for any location. Don't use when: historical weather data is needed (requires different API endpoints), hyper-local radar/precipitation data, severe weather alerts (use dedicated alert services), or real-time storm tracking."
+ homepage: https://wttr.in/:help
+ metadata: { "openclaw": { "emoji": "🌤️", "requires": { "bins": ["curl"] } } }
+ ---
+@@ -9,6 +9,23 @@ metadata: { "openclaw": { "emoji": "🌤️", "requires": { "bins": ["curl"] } }
+ 
+ Two free services, no API keys needed.
+ 
++## When to Use
++
++- **Current conditions**: Temperature, humidity, wind, conditions
++- **Forecasts**: Multi-day outlook for any location
++- **Quick lookups**: "What's the weather in Tokyo?"
++- **Pre-trip checks**: Weather at destination before travel
++
++## When NOT to Use
++
++- **Historical data**: These APIs are for current/forecast only
++- **Radar/precipitation maps**: Need dedicated weather services
++- **Severe weather alerts**: Use NWS API or weather.gov for official alerts
++- **Real-time storm tracking**: Specialized services required
++- **Hyperlocal data**: Point forecasts, not block-by-block precision
++
++---
++
+ ## wttr.in (primary)
+ 
+ Quick one-liner:
+-- 
+2.50.1 (Apple Git-155)
+

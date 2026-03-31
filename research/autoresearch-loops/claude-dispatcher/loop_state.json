@@ -1,0 +1,7 @@
+{
+  "round": 21,
+  "wins": 1,
+  "losses": 19,
+  "best_score": 0.13333333333333333,
+  "prev_feedback": "Task 1 (trucking_enrichment): candidate=0.0 vs baseline=0.0\nTask 2 (trucking_enrichment): candidate=0.0 vs baseline=0.0\nTask 3 (trucking_enrichment): candidate=0.0 vs baseline=0.0"
+}

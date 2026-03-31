@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "request": "Start the FMCSA sync script (claude -p 'Write python script for fmcsa') in the background so it doesn't block me. Give it a PTY.",
+    "expected_tool": "exec",
+    "required_params": {
+      "command": "claude -p 'Write python script for fmcsa'",
+      "background": true,
+      "pty": true
+    }
+  },
+  {
+    "id": 2,
+    "request": "Check the status of the background session named 'fmcsa-sync'.",
+    "expected_tool": "process",
+    "required_params": {
+      "action": "poll",
+      "sessionId": "fmcsa-sync"
+    }
+  },
+  {
+    "id": 3,
+    "request": "Kill the runaway background session named 'broken-scraper'.",
+    "expected_tool": "process",
+    "required_params": {
+      "action": "kill",
+      "sessionId": "broken-scraper"
+    }
+  },
+  {
+    "id": 4,
+    "request": "Read lines 1-50 of my MEMORY.md file.",
+    "expected_tool": "memory_get",
+    "required_params": {
+      "path": "MEMORY.md",
+      "from": 1,
+      "lines": 50
+    }
+  },
+  {
+    "id": 5,
+    "request": "Send a message to Robel in Telegram topic 96 saying the job is done.",
+    "expected_tool": "message",
+    "required_params": {
+      "action": "send",
+      "target": "telegram:-1003783528968",
+      "threadId": "96",
+      "message": "the job is done"
+    }
+  }
+]

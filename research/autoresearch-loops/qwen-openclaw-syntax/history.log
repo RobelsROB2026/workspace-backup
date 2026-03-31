@@ -1,0 +1,5 @@
+
+  File "/Users/roba/research/autoresearch-loops/qwen-openclaw-syntax/loop.py", line 22
+    user_prompt = f"TASK: {task[\'request\']}\nOutput ONLY valid JSON representing the OpenClaw tool call. Your entire response MUST be inside a ```json block."
+                                                                                                                                                                ^
+SyntaxError: f-string expression part cannot include a backslash

@@ -1,0 +1,69 @@
+Let me look at the current setup first.
+
+<tool_call>
+{"name": "Glob", "arguments": {"pattern": "**/*", "path": "/Users/roba/research/autoresearch-loops/qwen-openclaw-syntax"}}
+</tool_call>
+
+<tool_result>
+[]
+</tool_result>
+
+<tool_call>
+{"name": "Bash", "arguments": {"command": "ls -la /Users/roba/research/autoresearch-loops/qwen-openclaw-syntax/"}}
+</tool_call>
+
+<tool_result>
+total 0
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 .
+drwxr-xr-x  5 roba  staff  160 Mar 29 12:56 ..
+</tool_result>
+
+The directory is empty. Let me check if there's related context nearby.
+
+<tool_call>
+{"name": "Bash", "arguments": {"command": "ls -la /Users/roba/research/autoresearch-loops/"}}
+</tool_call>
+
+<tool_result>
+total 0
+drwxr-xr-x  5 roba  staff  160 Mar 29 12:56 .
+drwxr-xr-x  8 roba  staff  256 Mar 29 12:56 ..
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 qwen-openclaw-syntax
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 qwen-tool-calling
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 shared
+</tool_result>
+
+<tool_call>
+{"name": "Bash", "arguments": {"command": "ls -laR /Users/roba/research/autoresearch-loops/qwen-tool-calling/ /Users/roba/research/autoresearch-loops/shared/"}}
+</tool_call>
+
+<tool_result>
+/Users/roba/research/autoresearch-loops/qwen-tool-calling/:
+total 0
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 .
+drwxr-xr-x  5 roba  staff  160 Mar 29 12:56 ..
+
+/Users/roba/research/autoresearch-loops/shared/:
+total 0
+drwxr-xr-x  2 roba  staff   64 Mar 29 12:56 .
+drwxr-xr-x  5 roba  staff  160 Mar 29 12:56 ..
+</tool_result>
+
+All directories are empty — there's no existing prompt or configuration to review. I'll write a system prompt optimized for Qwen models doing OpenClaw-style tool calling, focusing on the exact JSON schema format (`name` + `parameters`).
+
+<tool_call>
+{"name": "Write", "arguments": {"file_path": "/Users/roba/research/autoresearch-loops/qwen-openclaw-syntax/system_prompt.txt", "content": "You are a helpful assistant with access to tools. When the user's request requires using a tool, you MUST respond with a tool call.\n\nTo call a tool, output a JSON object inside <tool_call> tags with exactly two fields:\n- \"name\": the exact name of the tool to call (string)\n- \"parameters\": an object containing the tool's arguments as key-value pairs\n\nFormat:\n<tool_call>\n{\"name\": \"tool_name\", \"parameters\": {\"param1\": \"value1\", \"param2\": \"value2\"}}\n</tool_call>\n\nRules:\n1. Always use the exact tool name from the available tools list.\n2. Always include the \"parameters\" field, even if it is an empty object {}.\n3. Only include parameter names that are defined in the tool's schema.\n4. Required parameters must always be provided.\n5. Parameter values must match the types specified in the tool schema (string, number, boolean, array, object).\n6. Do not wrap the JSON in markdown code blocks. Output raw JSON inside the tags.\n7. You may call multiple tools by using multiple <tool_call> blocks.\n8. If no tool is needed, respond normally in plain text without any <tool_call> tags.\n\nExample with a tool call:\nUser: What is the weather in London?\n<tool_call>\n{\"name\": \"get_weather\", \"parameters\": {\"location\": \"London\"}}\n</tool_call>\n\nExample with no tool needed:\nUser: Hello!\nAssistant: Hello! How can I help you today?\n\nAlways think step by step about whether a tool is needed and which tool best fits the request before responding."}}
+</tool_call>
+
+<tool_result>
+File created successfully at /Users/roba/research/autoresearch-loops/qwen-openclaw-syntax/system_prompt.txt
+</tool_result>
+
+The new system prompt is at `system_prompt.txt`. Key changes that should fix the 0% score:
+
+1. **Explicit JSON schema**: Clearly defines the two required fields `name` (string) and `parameters` (object) — no ambiguity
+2. **Concrete format with XML tags**: Uses `<tool_call>` delimiters which Qwen models handle well for structured output
+3. **Worked examples**: Shows both a tool-call case and a no-tool case so the model learns the pattern
+4. **Strict rules**: Addresses common failure modes — wrong field names, missing parameters, markdown wrapping, type mismatches
+
+If the OpenClaw harness expects a different delimiter format (e.g. `\n` markers or `[TOOL_CALL]` tokens instead of XML tags), let me know and I'll adjust to match.

@@ -1,0 +1,7 @@
+Optimize the `loop.py` script to prevent Ollama "Read timed out" errors during parallel execution.
+
+1. **Sequential Dispatching**: Update `evaluate_prompt` so that the **Local LLM dispatching** (Ollama API calls) happens **sequentially** within each prompt evaluation group, while keeping the **Claude CLI execution** (the expensive/long part) **parallel**. Small local models (7B) on a single Mac mini cannot handle 3-6 simultaneous inference requests without timing out or crashing.
+2. **Increase Timeout**: Increase the Ollama API timeout from 90s to 180s.
+3. **Task Retries**: Implement a single retry for Ollama API calls if they timeout.
+
+Apply these changes to `~/research/autoresearch-loops/claude-dispatcher/loop.py` now.

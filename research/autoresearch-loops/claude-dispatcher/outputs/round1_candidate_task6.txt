@@ -1,0 +1,17 @@
+Script saved to `~/research/dispatcher_output/nlp_hypnosis_research_tool.py`. Here's what it does:
+
+**Sources queried:**
+- **arXiv** — searches title and abstract fields via the Atom API, filters results to the last 5 years client-side
+- **PubMed** — uses `esearch.fcgi` with date range params (`mindate`/`maxdate`, `datetype=pdat`), then `efetch.fcgi` to pull full metadata + abstracts
+
+**CLI usage:**
+```bash
+python3 nlp_hypnosis_research_tool.py
+python3 nlp_hypnosis_research_tool.py --search-terms "Neuro-Linguistic Programming" "Ericksonian Hypnosis" --max-results 30 --output-file results.md
+```
+
+**Features:**
+- Deduplicates by normalized title across both sources
+- Sorts results newest-first
+- Outputs markdown with title, authors (capped at 5 + "et al."), date, link, and full abstract
+- Logging throughout, error handling on all HTTP requests with graceful fallback (returns empty list on failure)

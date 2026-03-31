@@ -1,0 +1,13 @@
+Script is saved and working. Here's what it does:
+
+**`~/research/dispatcher_output/trucking_decision_maker_finder.py`**
+
+- **Google Search** with `site:linkedin.com/in "Company Name" Owner OR President OR CEO OR Director OR Founder OR VP` syntax
+- **Fetches LinkedIn profiles** to enrich data from meta tags (og:title, og:description)
+- **Extracts**: full name, current title, location, connection count, profile URL
+- **Argparse flags**: `--company-name` (required), `--state`, `--cargo-type`, `--output-format` (json/text), `--limit`, `--verbose`
+- **Error handling**: request timeouts, HTTP errors, missing data gracefully handled with logging
+- **Rate limiting**: 2-second delay between requests to avoid throttling
+- **Dependencies**: `requests`, `beautifulsoup4` (`pip install requests beautifulsoup4`)
+
+Note: Google may return CAPTCHAs or block automated searches after repeated use. LinkedIn also restricts public profile scraping. Results will vary depending on rate limiting.

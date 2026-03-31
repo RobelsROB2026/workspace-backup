@@ -1,0 +1,52 @@
+# Bulk Downloaded Papers
+
+- **First person – Ekaterina Gribkova** (2025) - PMCID: PMC12714132
+- **Hypnosis as a Mechanism of Emotion Regulation and Self-Integration: An Integrative Review of Neural, Cognitive, and Experiential Pathways to Fundamental Peace.** (2026) - PMCID: PMC13024316
+- **Hypnosis reshapes multilevel stress response and enhances executive performance in stressed medical students.** (2026) - PMCID: PMC12982806
+- **Effects of app delivered self hypnosis on stress management.** (2025) - PMCID: PMC12775527
+- **Comparison of Experimental Pain Modulation by Hypnosis, Virtual Reality and Virtual Reality Hypnosis in Healthy Individuals.** (2025) - PMCID: PMC12599604
+- **Self-Administered Hypnosis vs Sham Hypnosis for Hot Flashes: A Randomized Clinical Trial.** (2025) - PMCID: PMC12606380
+- **Evidence-Based Self-Management Strategies for Fibromyalgia: Foundations for Digital Therapeutic Applications.** (2026) - PMCID: PMC12957949
+- **Can Any Procedure Be Hypnosis? Exploring the Effect of Framing on Hypnotic Depth and Electrophysiological Correlates of Hypnosis in a Balanced Placebo Design.** (2025) - PMCID: PMC12595402
+- **Protocol for modulating anesthesia delta oscillations using closed loop auditory stimulation.** (2026) - PMCID: PMC13006686
+- **Effect of Mindful Hypnotherapy on Psychological Distress: A Systematic Review and Meta-Analysis.** (2026) - PMCID: PMC12837898
+- **Octopus 'hypnosis': inducing tonic immobility for studying local sensorimotor responses and arm-sucker coordination.** (2025) - PMCID: PMC12714133
+- **Electroencephalography Oscillations During Prehypnosis and Hypnosis in Subjects With High and Low Dissociative Experiences.** (2025) - PMCID: PMC12265433
+- **Changes in brain connectivity and neurovascular dynamics during dexmedetomidine-induced loss of consciousness.** (2025) - PMCID: PMC12368020
+- **2024 international conference on neuroprotective agents conference proceedings.** (2025) - PMCID: PMC12319427
+- **Hypnosis efficacy on nicotine addiction: An analysis of EEG microstates and brain oscillation entropy.** (2025) - PMCID: PMC12011983
+- **Brain Mechanisms of Hypnosis.** (2025) - PMCID: PMC11852439
+- **If Freud had known….** (2025) - PMCID: PMC12129887
+- **Placebo in Functional Neurological Disorders: Promise and Controversy.** (2025) - PMCID: PMC12652343
+- **Reimagining pain: the role of mental imagery in pain experience.** (2026) - PMCID: PMC12994519
+- **Jean-Martin Charcot at 200: revolutionizing neurology through a multidisciplinary lens.** (2025) - PMCID: PMC12721966
+- **&lt;i&gt;In vivo&lt;/i&gt; silencing of the thalamic Ca&lt;sub&gt;V&lt;/sub&gt;3.1 voltage-gated calcium channels demonstrates their region-specific role in anesthetic mediated hypnosis.** (2025) - PMCID: PMC12123693
+- **Beyond mindfulness: how Buddhist meditation transforms consciousness through distinct psychological pathways.** (2025) - PMCID: PMC12358409
+- **Electrophysiological Characterization of Sex-Dependent Hypnosis by an Endogenous Neuroactive Steroid Epipregnanolone.** (2025) - PMCID: PMC12293945
+- **Parafacial GABAergic neurone ablation induces behavioural resistance to volatile anaesthetic-induced hypnosis without reducing sleep.** (2025) - PMCID: PMC12106870
+- **What a NeuroRights legislation should not look like: the case of the Latin American Parliament.** (2024) - PMCID: PMC11739119
+- **Comparative electrophysiological study of neuroactive steroid-induced hypnosis in mice: sex and drug-specific differences.** (2025) - PMCID: PMC12185358
+- **Heals on Wheels: Development and Implementation of Community-Based Workshops for Integrative, Whole Person Pain Care in Underserved Communities.** (2026) - PMCID: PMC12966527
+- **Comprehensive methodology for evaluating the immobility responses in laboratory animals.** (2026) - PMCID: PMC12857180
+- **The Japanese version of the Phenomenological Control Scale.** (2025) - PMCID: PMC12094076
+- **Single-Agent Sedation for Behavioral Management in Pediatric Dentistry: An Umbrella Review of Agents, Routes of Administration, Providers, and Clinical Settings.** (2026) - PMCID: PMC13025869
+- **Clinical hypnosis in pediatric care: An adjunctive tool or therapeutic illusion.** (2025) - PMCID: PMC12767259
+- **Family Partnership in Hypnosis to Improve Mechanical Ventilation Weaning in an ICU Patient With High Cervical Spinal Cord Injury-A Case Report.** (2026) - PMCID: PMC12710451
+- **Volatile Anesthesia in Contemporary Cardiac Surgery: Clinical Implications, Organ Protection and Perspectives for Personalized Perioperative Care.** (2026) - PMCID: PMC13027520
+- **Editorial: Determinants of achievement in top sport.** (2026) - PMCID: PMC12953381
+- **Effect of dyspnoea-oriented hypnosis as an adjunct to pulmonary rehabilitation on the affective dimension of dyspnoea and physical activity level: a randomised controlled trial.** (2026) - PMCID: PMC12862456
+- **Decoding multicomponent crosstalk: integrated pharmacodynamic‒pharmacokinetic network of sour jujube seed.** (2025) - PMCID: PMC12632117
+- **Mind-Body Interventions for Comorbid Sleep and Gastrointestinal Concerns.** (2025) - PMCID: PMC12708811
+- **Pain in multiple sclerosis: clinical phenotypes and therapeutic strategies - a narrative review.** (2026) - PMCID: PMC12915704
+- **Nursing Interventions for Symptom Management in Breast Cancer: A Systematic Review** (2026) - PMCID: PMC13031046
+- **Reframing Dental Anxiety: Cognitive Behavioral Therapy and Its Role in Phobia Treatment-A Narrative Review.** (2025) - PMCID: PMC12651226
+- **Virtual Reality for Perioperative Care in Cardiac Surgery: A Systematic Review and Meta-Analysis.** (2025) - PMCID: PMC12741572
+- **Remembering what did not happen: the role of hypnosis in memory recall and false memories formation.** (2025) - PMCID: PMC11832514
+- **Effects of the SmartACT Intervention on Motor and Psychological Variables in Adolescent Athletes: A Controlled Trial Using BlazePod and Microgate.** (2025) - PMCID: PMC12562448
+- **Study on resting-state functional connectivity characteristics under hypnosis using functional near-infrared spectroscopy.** (2025) - PMCID: PMC12178158
+- **Evaluation of Therapeutic Effects and Underlying Mechanisms of Baichuan Baile Formula in Rodent Insomnia Models** (2026) - PMCID: PMC12986263
+- **Progress in the Application of Esketamine During the Perioperative Period.** (2026) - PMCID: PMC12955369
+- **Effects of group hypnotic intervention on pregnant mental health and delivery mode: a retrospective analysis.** (2025) - PMCID: PMC12611927
+- **Shared neural signatures in Functional Neurological Disorder and Chronic Pain: a multimodal narrative review.** (2025) - PMCID: PMC12258340
+- **The collective lie in ketamine therapy: a call to realign clinical practice with neurobiology.** (2025) - PMCID: PMC12497829
+- **The Use of Medical Hypnosis to Prevent and Treat Acute and Chronic Pain: A Systematic Review and Meta-Analysis.** (2025) - PMCID: PMC12250368

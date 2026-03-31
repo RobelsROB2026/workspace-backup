@@ -1,0 +1,12 @@
+Script saved to `~/research/dispatcher_output/fmcsa_address_location_classifier.py`. Here's what it does:
+
+1. **FMCSA query** — Hits the Socrata API with SoQL filtering by state, minimum fleet size (power units), and non-null physical addresses, ordered by fleet size descending
+2. **Nominatim classification** — For each carrier, geocodes the physical address and inspects the OSM `class`/`type` fields to label it as Residential, Commercial, or Unknown
+3. **Rate limiting** — 1.1s delay between Nominatim calls per their usage policy
+4. **Output** — Formatted ASCII table (default) or CSV, with a Location Type column and summary stats
+
+Key details:
+- Residential detection uses OSM types like `house`, `residential`, `apartments`, `farm`
+- Commercial detection uses `industrial`, `warehouse`, `office`, `retail`, etc.
+- Includes error handling with logging for both API calls
+- All four argparse flags work: `--state`, `--min-fleet-size`, `--output-format`, `--limit`
