@@ -1,8 +1,8 @@
-# The Holographic Mesh — V2
+# The Holographic Mesh — V3
 
-> Synthesized from 50 PMC papers + 171 induction scripts (of which ~35 are pure hypnotic scripts).
+> Synthesized from 50 PMC papers + 171 induction scripts + 12 live session transcripts.
 > Generated: 2026-03-31
-> Revision: V2 — Full neuroscience ↔ script bridge with strict inline citations.
+> Revision: V3 — Static scripts vs. live cybernetic feedback loops. Two-layer model with strict inline citations.
 
 ---
 
@@ -299,7 +299,261 @@ The **direct gaze method's** eightfold repetition of "closing" (Source: scripts/
 
 ---
 
-## III. ANOMALIES & UNEXPLAINED PHENOMENA
+## III. THE CYBERNETIC LAYER: STATIC SCRIPTS VS. LIVE FEEDBACK LOOPS
+
+**This section is new in V3.** It documents the fundamental distinction between the Phase 1 lexical substrate (static scripts) and the Phase 2 cybernetic controller (live sessions), based on computational analysis of 12 live hypnosis session transcripts (5,673 words) compared against the Phase 1 baseline of 26 pure scripts (17,819 words) [Source: phase2_cybernetic_analysis.md].
+
+### 7. The Central Discovery: Two Layers of Hypnotic Communication
+
+Phase 1 identified the *vocabulary* of hypnotic language — a stable computational fingerprint (you-density, let-rate, nominalization density, kinesthetic dominance, embedded command rate) that appears identically across all hypnotic texts. Phase 2 asks: if the vocabulary is the same, what does the live hypnotist *add*?
+
+The answer is measurable and dramatic. Live sessions contain **74.2 control markers per 1,000 words** of cybernetic infrastructure that is completely absent from static scripts (baseline: ~2.0/1k). This is a **37x increase in control-layer density** [Source: phase2_cybernetic_analysis.md, Section 2.1]. The static fingerprint is preserved — the *content* is the same — but the live hypnotist wraps it in a feedback-controlled delivery system that decides *when*, *which*, and *how* each tool is deployed based on continuous observation of the subject.
+
+**The analogy:** The static script is a tape recording of a concert. The live session is the concert itself. The notes are identical. The difference is that the conductor watches the orchestra and adjusts in real time — and this adjustment is not a minor refinement but a fundamentally different class of communication [Source: phase2_cybernetic_analysis.md, Section 6].
+
+---
+
+### 8. The Five Components of the Cybernetic Layer
+
+The 37x explosion decomposes into five measurable components [Source: phase2_cybernetic_analysis.md, Section 2.1]:
+
+| Component | Rate (/1k words) | Phase 1 Baseline | Function |
+|---|---|---|---|
+| **Wait/pause markers** | 44.8 | 0.0 | Speech locked to subject's physiology — the hypnotist halts and waits for the subject's next signal |
+| **Contingency ratifiers** | 10.9 | 0.0 | "That's right," "Good," "Wonderful" — validates subject compliance and closes the feedback loop |
+| **Utilization patterns** | 11.6 | ~2.0 (as_you only) | Feeds subject's current observable state back into suggestions |
+| **Conditional branches** | 6.9 | 0.0 | If/when contingent on subject response — creates decision trees within the induction |
+| **Feedback markers** | ~5.0* | 0.0 | Stage directions noting non-verbal cues: breathing shifts, eye flutter, arm position changes |
+| **TOTAL** | **74.2** | **~2.0** | **37x increase in control infrastructure** |
+
+*Feedback markers partially captured; true density is higher when implicit observation points are included.
+
+None of these components appear in the Phase 1 signature because they are *control variables*, not *content variables*. The content (the "what") is the Phase 1 fingerprint. The control (the "when/how") is the Phase 2 cybernetic layer [Source: phase2_cybernetic_analysis.md, Section 4.3].
+
+#### 8.1 Wait/Pause Markers — The Timing System (44.8/1k)
+
+The single largest cybernetic component. These take three forms [Source: phase2_cybernetic_analysis.md, Section 2.3]:
+
+1. **Explicit wait directives:** `[wait for next blink]`, `[wait for exhalation]`, `[wait for movement in hands]`
+2. **Ellipsis encoding:** The `…` character at 246.1/1k words across all transcripts — a prosodic notation entirely absent from the Phase 1 corpus
+3. **Parenthetical pauses:** `[pause]`, `[several seconds]`
+
+The static script delivers its content as a continuous stream. The live hypnotist creates **suspension points** — moments where the system halts and waits for the subject to produce the next signal before resuming.
+
+The My Friend John induction has the highest wait density at 104 markers [Source: corpus/transcripts/04_my_friend_john_induction.txt]. The entire staircase counting sequence is structured around exhalation synchronization:
+
+> *"…from ten to one… and as each number passes go deeper and deeper… [wait for exhalation] as you go further down."* [Source: corpus/transcripts/04_my_friend_john_induction.txt]
+
+The count does not proceed at a fixed tempo. Each number is delivered on the subject's exhale. The subject's respiratory rhythm *drives* the pacing of the induction. The words don't change, but the timing becomes a function of the subject's autonomic output [Source: phase2_cybernetic_analysis.md, Section 2.3].
+
+**Neural implication:** This maps directly to the parasympathetic cascade documented in Section 4 (Source: PMC12982806). By locking suggestion delivery to exhalation, the hypnotist ensures each suggestion arrives during the parasympathetic phase of the respiratory cycle — when vagal tone is highest and the autonomic system is in its most receptive state. A static script delivers suggestions at random points relative to the subject's breathing, losing this physiological synchronization entirely.
+
+#### 8.2 Contingency Ratification — The "That's Right" Mechanism (10.9/1k)
+
+"That's right" is the most important phrase that does not appear in any static script [Source: phase2_cybernetic_analysis.md, Section 2.2]. Rate in live transcripts: 4.0/1k words. Rate in static scripts: 0.0/1k words. It serves a triple function:
+
+1. **Validates** the subject's current response (you're doing the right thing)
+2. **Maintains rapport** by demonstrating the hypnotist is observing
+3. **Bridges** between the subject's output and the next suggestion
+
+The phrase is a **cybernetic ratifier** — it closes the feedback loop. It says: *I received your signal. Here is what comes next because of that signal* [Source: phase2_cybernetic_analysis.md, Section 2.2].
+
+From the Rehearsal induction:
+
+> *[arm remains suspended without assistance]… you noticed the tendency …for your eyes to close, and you would go deep into a trance* [Source: corpus/transcripts/03_rehearsal_induction.txt]
+
+The hypnotist *waits* for the arm to stay, then *utilizes* the observation ("you noticed the tendency") and *bridges* to the next instruction. The timing of the ratification is contingent on the arm remaining suspended. A static script would say the same words at a fixed point regardless of the subject's arm position.
+
+#### 8.3 Utilization — Turning Resistance into Raw Material (11.6/1k)
+
+Utilization is the mechanism by which the hypnotist takes *whatever the subject does* — including non-compliance — and incorporates it into the induction narrative. Phase 1 identified `as you` (4.0/1k) as the primary pacing phrase. In live transcripts, utilization goes far beyond pacing [Source: phase2_cybernetic_analysis.md, Section 2.4]:
+
+**Pattern 1 — Observation-to-suggestion bridge:**
+
+> *[client's head began to drop forward slightly] head sinking comfortably… imagine how their eyes could be so tired that every blink gets longer…* [Source: corpus/transcripts/04_my_friend_john_induction.txt]
+
+The hypnotist *sees* the head drop and immediately *labels* it as relaxation, then *extends* it to the eyes. The subject's involuntary action becomes evidence for the suggestion.
+
+**Pattern 2 — Behavioral ratification (anticipatory compliance):**
+
+> *[client anticipates and begins to lift arm herself] … that's right… and as that arm lifts, like that, as your eyes close…* [Source: corpus/transcripts/03_rehearsal_induction.txt]
+
+The subject lifts her arm *before being told to*. The hypnotist doesn't correct this or wait — she immediately ratifies it and incorporates the anticipation into the suggestion sequence. The subject's "error" becomes the induction's next step.
+
+**Pattern 3 — Conditional branching (explicit decision tree):**
+
+> *[If head doesn't drop slightly forward at that point, say…] And your head can drop forward as you drop down… deeper* [Source: corpus/transcripts/06_magnetic_hands_induction.txt]
+
+The transcript explicitly encodes a control flow statement. If the subject produces behavior X, proceed. If not, insert suggestion Y. This is completely absent from static scripts [Source: phase2_cybernetic_analysis.md, Section 2.4].
+
+#### 8.4 Conditional Branching — The State Machine (6.9/1k)
+
+The Magnetic Hands induction has the highest stage direction density in the corpus at 48.9/1k words, revealing the most sophisticated conditional logic [Source: corpus/transcripts/06_magnetic_hands_induction.txt; Source: phase2_cybernetic_analysis.md, Section 2.5]:
+
+> *[wait for their eyes to close]*
+> *[If head doesn't drop slightly forward at that point, say…]*
+> *[apply a little pressure on the top of their hands, if they haven't begun to go down]*
+> *[Wait for movement in the hands]*
+> *[look for the slightest movement of the eyes, or a blink]*
+
+This is a **state machine**. The hypnotist monitors multiple channels simultaneously (hand position, eye state, head position) and has branching responses for each state. The subject's body produces continuous output; the hypnotist reads that output and selects the next instruction accordingly.
+
+**Neural implication:** This maps to the SaN's role as the switching mechanism between DMN and ECN (Source: PMC13024316). The hypnotist is functioning as an *external salience network* — detecting which signals are relevant (a blink, a hand movement, a breathing shift) and routing the next suggestion accordingly. In a static script, the subject's own SaN must do this work internally. In a live session, the hypnotist offloads the salience-detection function, allowing the subject's SaN to couple more fully with the ECN for suggestion processing.
+
+#### 8.5 Feedback Markers — Reading the Body (~5.0/1k)
+
+Stage directions in the transcripts encode non-verbal cues that the hypnotist is monitoring: breathing rate, eye position, muscle tone, involuntary movement [Source: phase2_cybernetic_analysis.md, Section 2.1]. These are the sensor readings in the cybernetic model — the data that drives all other components.
+
+The Bandler Handshake induction contains minimal verbal content (132 words) but dense stage directions tracking the subject's hand position through an entire kinesthetic sequence [Source: corpus/transcripts/05_bandler_handshake_induction.txt]. The verbal delivery is almost secondary to the continuous non-verbal monitoring.
+
+---
+
+### 9. What Changes Between Static and Live — And What Doesn't
+
+#### 9.1 The Stable Core (Phase 1 Signature Preserved)
+
+| Metric | Live | Static Baseline | Delta | Interpretation |
+|---|---|---|---|---|
+| You-rate (/1k) | 95.2 | 89.8 | +6.0% | Other-direction preserved |
+| Nominalization (/1k) | 13.1 | 12.4 | +5.3% | State-entity conversion preserved |
+| Pacing phrases (/1k) | 10.4 | 10.1 | +2.5% | Pacing-leading structure preserved |
+| Kinesthetic % | 50.9% | 60.3% | -15.5% | Still kinesthetic-dominant (but shifted by fixation inductions) |
+
+**The static signature is confirmed in live sessions.** You-density, nominalization density, and pacing phrase rate are essentially identical. The core "vocabulary" of trance — the computational fingerprint identified in Phase 1 — is stable across static and live contexts [Source: phase2_cybernetic_analysis.md, Section 3.1].
+
+#### 9.2 The Amplified Directives
+
+| Metric | Live | Static Baseline | Delta | Interpretation |
+|---|---|---|---|---|
+| **Let rate** | 8.1/1k | 6.0/1k | **+35%** | The paradoxical imperative is *amplified* in live sessions |
+| **Deeper rate** | 4.4/1k | 2.9/1k | **+55%** | More presupposition of ongoing descent |
+| **Embedded cmds** | 14.9/1k | 10.1/1k | **+48%** | More covert command framing |
+| **Visual channel** | 40.3% | 25.0% | **+61%** | Live sessions use more fixation ("look at your hand") |
+
+The amplified tools are all directive. `let`, `deeper`, and embedded commands all increased — the live hypnotist deploys the high-impact tools *more frequently* and *more precisely* because she can time them to the subject's feedback [Source: phase2_cybernetic_analysis.md, Section 3.2].
+
+The visual channel increase is explained by fixation inductions (Bandler Handshake, Magnetic Hands, Early Learning Set) that require the subject to look at a physical object [Source: corpus/transcripts/05_bandler_handshake_induction.txt; Source: corpus/transcripts/06_magnetic_hands_induction.txt]. Static scripts default to eyes-closed kinesthetic work because there is no physical interaction possible.
+
+#### 9.3 The Type-Token Ratio Divergence — The Most Striking Finding
+
+| Metric | Live | Static Baseline | Delta | Interpretation |
+|---|---|---|---|---|
+| **Type-Token Ratio** | 0.57 | 0.10 | **+464%** | Live sessions use 5.6x more varied vocabulary |
+| **You:I ratio** | 5.37 | 6.43 | **-16.5%** | Hypnotist uses more first-person |
+
+TTR is the most dramatic divergence between the two corpora [Source: phase2_cybernetic_analysis.md, Section 3.3]. Static scripts have extreme lexical poverty (TTR 0.10 — only 1 new word per 10 words). Live transcripts have normal conversational TTR (0.57). This reveals two fundamentally different strategies for achieving trance:
+
+- **Static scripts achieve trance through repetitive semantic saturation** — the closed vocabulary creates a hypnotic rhythm. The same words cycle through again and again, bypassing analytical processing through sheer repetition (linking to the left-hemisphere suppression mechanism in Section 5.6).
+- **Live sessions achieve trance through adaptive variety** — the hypnotist modulates vocabulary in real-time, selecting different words based on subject feedback. The vocabulary expands because the hypnotist is describing what she *observes*, not what she *planned to say*.
+
+The higher I-rate (lower You:I ratio) is also significant [Source: phase2_cybernetic_analysis.md, Section 3.3]. In live sessions, the hypnotist uses more first-person language to establish rapport and share experience: *"I started by having them relax," "I'm going to suggest something to you."* The static script effaces the hypnotist entirely. The live hypnotist **uses herself as a tool** — her presence is part of the cybernetic loop.
+
+**Neural implication:** The TTR divergence suggests that the two modalities activate the left-hemisphere suppression pathway differently. Static scripts suppress BA45 through content-free repetition (Section 5.6). Live sessions may suppress BA45 through attentional capture — the varied vocabulary keeps the linguistic system engaged but subordinate to the hypnotist's pacing, while the cybernetic layer (wait markers, ratifiers) controls when the system receives input. Both routes arrive at the same destination (reduced BA45 connectivity, Source: PMC12178158), but the mechanism is different.
+
+---
+
+### 10. The Formal Cybernetic Model
+
+#### 10.1 Static Script — Open-Loop System (Phase 1)
+
+```
+INPUT:   Script text (fixed)
+PROCESS: Linear delivery at constant tempo
+OUTPUT:  Hypnotic language stream
+FEEDBACK: None
+```
+
+The static script is an **open-loop system** [Source: phase2_cybernetic_analysis.md, Section 4.1]. It delivers the same content in the same order regardless of the listener's state. It works (the Phase 1 signature is real and effective) but it works *blindly*. This is why TTR is 0.10 — there is no reason to vary vocabulary when there is no feedback signal to respond to.
+
+#### 10.2 Live Session — Closed-Loop Control System (Phase 2)
+
+```
+INPUT:      Hypnotic vocabulary (Phase 1 signature)
+SENSOR:     Multi-channel observation (breathing, eye state, muscle tone, verbal response)
+COMPARATOR: Desired state vs. observed state
+CONTROLLER: Hypnotist's decision engine
+OUTPUT:     Timed, selected, branched application of Phase 1 tools
+FEEDBACK:   Continuous → modifies timing, selection, sequence
+```
+
+The live session is a **closed-loop control system** [Source: phase2_cybernetic_analysis.md, Section 4.2]. The Phase 1 vocabulary is the *actuator* — the tools that produce state change. But the timing, selection, and sequencing of those tools is driven by a feedback loop that reads the subject's output and adjusts in real time.
+
+#### 10.3 The Four Control Variables
+
+The hypnotist controls four variables that static scripts fix [Source: phase2_cybernetic_analysis.md, Section 4.3]:
+
+1. **Tempo** — when to deliver the next suggestion (driven by breathing, blink rate)
+2. **Selection** — which suggestion to deliver next (driven by observed compliance level)
+3. **Branching** — whether to proceed, repeat, or redirect (driven by ideomotor response)
+4. **Ratification** — whether to validate the current state before continuing (driven by observed depth)
+
+---
+
+### 11. Sequencing: How Live Sessions Restructure Time
+
+Static scripts are linear: A → B → C. Live sessions introduce three non-linear sequencing patterns that are impossible without feedback [Source: phase2_cybernetic_analysis.md, Section 5].
+
+#### 11.1 The Progressive Rehearsal Pattern
+
+Three transcripts use a **progressive rehearsal** structure [Source: corpus/transcripts/03_rehearsal_induction.txt; Source: corpus/transcripts/06_magnetic_hands_induction.txt; Source: corpus/transcripts/02_fractionation_conversation_induction.txt]:
+
+1. **Describe** what will happen ("All I'm going to do is lift your arm...")
+2. **Demonstrate** the action ("So it would be like this...")
+3. **Repeat** with less framing ("If now was the time...")
+4. **Execute** for real — but by this point the subject has already entered trance from the rehearsals
+
+Each cycle removes one layer of meta-framing ("I don't want you to go into trance *just yet*"), adds one layer of embedded suggestion ("you noticed the tendency for your eyes to close"), and observes one more response (arm catalepsy, eye flutter, breathing shift) [Source: phase2_cybernetic_analysis.md, Section 5.1].
+
+The Rehearsal induction has 4 explicit cycles. By cycle 3, the subject anticipates and lifts her arm before being told to — the cybernetic loop has trained an automatic response. The hypnotist ratifies this ("that's right") rather than correcting it [Source: corpus/transcripts/03_rehearsal_induction.txt].
+
+**This is non-linear sequencing.** The static script moves A → B → C. The rehearsal pattern moves A → A' → A'' → A''' where each iteration is "the same" but with calibrated micro-adjustments based on the previous iteration's feedback.
+
+#### 11.2 The Fractionation Pattern
+
+The Fractionation conversation uses repeated eye-opening/closing cycles [Source: corpus/transcripts/02_fractionation_conversation_induction.txt]:
+
+1. Close eyes for 4 seconds → open → "Did that feel strange?" → "No"
+2. Close eyes for 7 seconds, add breathing → open → "How was that?" → "Relaxing"
+3. Close eyes, add visualization → stay closed → begin deepener
+
+Each step is **gated by the previous response** [Source: phase2_cybernetic_analysis.md, Section 5.2]. The subject's "No" (not strange) licenses the therapist to increase duration. The subject's "Relaxing" licenses the addition of visualization. The subject's beach description licenses the full deepener.
+
+#### 11.3 Erickson's Reversal — Weaponizing the Subject's Predictive Model
+
+The Erickson trance deepening demonstration is the purest cybernetic demonstration in the corpus [Source: corpus/transcripts/01_erickson_trance_deepening_demonstration.txt; Source: phase2_cybernetic_analysis.md, Section 5.3]:
+
+1. Count 1-20 (induction)
+2. Count 20-1 (awakening)
+3. **Reverse direction mid-count** and count 1-20 again
+
+The subject reports: *"The first time I went to 20, I didn't get nearly so deep as I did when you backed me up. Then I couldn't hold back at all."* [Source: corpus/transcripts/01_erickson_trance_deepening_demonstration.txt]
+
+Erickson's analysis: *"There it is, the psychologic expectation that you'll continue to count backward. The subject is all set for it and, when you suddenly reverse the count and go forward again, there's a terrific pause in his thinking and in his feeling."* [Source: corpus/transcripts/01_erickson_trance_deepening_demonstration.txt]
+
+**This is utilization of the subject's own predictive model.** The subject's brain builds an expectation (countdown = awakening). Erickson violates that expectation at the precise moment the subject is committed to it. The subject's cognitive resources, allocated to waking up, are suddenly stranded — the only available anchor is Erickson's forward count. The subject goes *deeper than before* because the resistance has been disarmed by the reversal.
+
+**Neural mapping:** This maps directly to the predictive coding override framework (Section 2). The first count-cycle establishes a predictive model (ascending numbers = deeper trance, descending = emergence). The reversal creates a massive prediction error at the moment of maximum prediction confidence. The resulting processing "stumble" is functionally equivalent to the confusion method's paradox (Section 3 / Bridge 4) — it creates a momentary BA45 suppression event (Source: PMC12178158) that the hypnotist fills with the next suggestion.
+
+This technique is impossible in a static script because it requires: (1) establishing the expectation through the first cycle, (2) observing that the subject has committed to the pattern, (3) timing the reversal to the moment of maximum commitment, and (4) using the resulting cognitive stumble as the deepening mechanism. Each step depends on the previous step's output. Remove the feedback loop and the technique collapses into an arbitrary counting exercise [Source: phase2_cybernetic_analysis.md, Section 5.3].
+
+---
+
+### 12. Interactivity Classification of the Live Corpus
+
+The 12 transcripts fall into four distinct interactivity strata, revealing that even "non-interactive" live sessions carry cybernetic information [Source: phase2_cybernetic_analysis.md, Section 1]:
+
+| Level | Count | Description | Examples |
+|---|---|---|---|
+| **HIGH** | 2 | Rich two-way dialogue; subject provides verbal content | Erickson trance deepening [Source: corpus/transcripts/01_erickson_trance_deepening_demonstration.txt], Fractionation conversation [Source: corpus/transcripts/02_fractionation_conversation_induction.txt] |
+| **MODERATE** | 4 | Subject gives minimal verbal cues (yes/no/numbers) | Elman inductions, Magnetic Hands, My Friend John |
+| **NONVERBAL** | 2 | No verbal subject response; hypnotist reads body signals via stage directions | Rehearsal [Source: corpus/transcripts/03_rehearsal_induction.txt], Bandler Handshake [Source: corpus/transcripts/05_bandler_handshake_induction.txt] |
+| **MONOLOGUE** | 4 | No feedback annotation; structurally identical to static scripts | Sensory Overload, Confusion, Coin Drop |
+
+**Key finding:** Even the MONOLOGUE transcripts are prosodically different from static scripts — they contain ellipsis/pause markers (…) at 246.1/1k words, a timing notation entirely absent from the Phase 1 corpus [Source: phase2_cybernetic_analysis.md, Section 1]. The dots encode **timing information** that static scripts omit. A live "monologue" is still being delivered with tempo sensitivity — the transcriber encodes pauses that a script author never needs to specify.
+
+---
+
+## IV. ANOMALIES & UNEXPLAINED PHENOMENA
 
 ### A-1. The Sleep-Anaesthesia Dissociation
 Ablating 80% of parafacial zone GABAergic (PZGABA) neurons in mice produced anaesthetic resistance but zero insomnia — directly falsifying the hypothesis that anaesthetics co-opt natural sleep circuitry. Behavioral resistance occurred without corresponding EEG changes: the brain "looked" anaesthetized while the animal was behaviorally awake (Source: PMC12106870). PZGABA neurons are necessary for volatile anaesthetic sensitivity but not for normal sleep maintenance. Consciousness may operate at levels invisible to surface electrophysiology.
@@ -329,7 +583,7 @@ Hilgard's "hidden observer" — a dissociated monitoring consciousness that pers
 
 ---
 
-## IV. MISSED CONNECTIONS & CROSS-DOMAIN BRIDGES
+## V. MISSED CONNECTIONS & CROSS-DOMAIN BRIDGES
 
 ### M-1. Ketamine as Chemical Hypnosis — And the Plasticity Window Hypothesis
 
@@ -361,9 +615,9 @@ FND, hypnosis, and placebo share overlapping neural substrates: ACC, insula, pre
 
 TMS to L-DLPFC enhances hypnotizability by strengthening the DLPFC-dACC circuit (Source: PMC12982806, PMC13024316, PMC12652343). This creates a bootstrapping possibility: use neuromodulation to make someone hypnotizable enough to benefit from hypnosis, then use hypnosis to maintain the network configuration. Barely explored.
 
-### M-5. Computational Linguistic Analysis — The Largest Gap, Now Partially Filled
+### M-5. Computational Linguistic Analysis — The Largest Gap, Now Filled
 
-Across 50 papers, not one performs computational linguistic analysis of hypnotic scripts (Source: corpus-wide observation). However, the script corpus now enables this analysis. Pre-existing analysis tools (`analyze_final.py`, `analyze_corpus_v2.py` in Source: scripts/) classify scripts by "you-density," extract Milton Model patterns, measure sensory channel distribution, and identify trance grammar features across the 35 pure-script subset.
+Across 50 papers, not one performs computational linguistic analysis of hypnotic scripts (Source: corpus-wide observation). However, the script corpus now enables this analysis. Pre-existing analysis tools (`analyze_final.py`, `analyze_corpus_v2.py` in Source: scripts/) classify scripts by "you-density," extract Milton Model patterns, measure sensory channel distribution, and identify trance grammar features across the 35 pure-script subset. Phase 2 extends this analysis to live transcripts via `analyze_live_transcripts.py` [Source: corpus/transcripts/analyze_live_transcripts.py].
 
 **Key computational findings from corpus analysis** (Source: scripts/analyze_final.py, scripts/analyze_corpus_v2.py):
 - **Kinesthetic language dominates** the sensory channel distribution (heavy, warm, tingling, comfortable, tension, soft, smooth), followed by visual, then auditory
@@ -372,9 +626,17 @@ Across 50 papers, not one performs computational linguistic analysis of hypnotic
 - **Repetitive intensifiers:** "deeper and deeper" is the most common phrase across the corpus; triple patterns ("every nerve, every muscle, every fiber") appear in nearly every script
 - **Nominalization density:** Extremely high — process words turned into nouns (relaxation, awareness, comfort, sensation, experience) are the backbone of hypnotic grammar
 
+**Key computational findings from live transcript analysis** [Source: phase2_cybernetic_analysis.md]:
+- **Cybernetic density:** 74.2 markers/1k words (37x baseline), entirely absent from static scripts
+- **TTR divergence:** 0.57 live vs. 0.10 static — 5.6x more lexical variety in live sessions
+- **Directive amplification:** let (+35%), deeper (+55%), embedded commands (+48%) all increase in live delivery
+- **Ellipsis encoding:** 246.1/1k words — a prosodic layer that encodes timing information absent from scripts
+
 ### M-6. Digital Delivery and Population Scale
 
 App-delivered self-hypnosis (Reveri, developed with Spiegel) at N=84,395 users showed consistent, significant stress reduction with minimal adverse effects (Source: PMC12775527). Group hypnotherapy is effective for sustained autonomic and psychological benefits (Source: PMC12611927). SmartACT integration (ACT + hypnosis + guided imagery) outperformed single-modality approaches for both motor and psychological outcomes (Source: PMC12562448). Self-administered hypnosis was effective for vasomotor symptoms (Source: PMC12606380). The field's dependence on individual in-person delivery is a choice, not a constraint.
+
+**Phase 2 implication:** The cybernetic layer (Section III) explains why in-person delivery has historically been preferred despite digital scalability. App delivery is a Phase 1 system — a static script delivered linearly. The 37x control infrastructure identified in live sessions [Source: phase2_cybernetic_analysis.md] is entirely absent from app-delivered hypnosis. The prediction: building adaptive timing into digital delivery (e.g., biometric-responsive pacing, breathing-synchronized audio) would recover some of the cybernetic layer's effectiveness without requiring a live hypnotist.
 
 ### M-7. The Evolutionary Thread
 
@@ -382,13 +644,15 @@ Tonic immobility — "animal hypnosis" — is an ancestral survival strategy fou
 
 ---
 
-## V. META-PATTERNS
+## VI. META-PATTERNS
 
 ### The Precision-Absorption Continuum
 
 Every mechanism above maps onto a single axis: **how precisely the brain's predictive model is captured by the suggestion** (Source: PMC13024316, PMC12994519). Low precision (generic relaxation script) = relaxation response + modest autonomic shift. Medium precision (personalized progressive relaxation) = behavioral compliance + autonomic reorganization. High precision (vivid imagery with ideomotor suggestion) = genuine perceptual alteration + involuntary motor response.
 
 The mechanism is always predictive coding override; what changes is the resolution. The scripts confirm this: the **progressive relaxation** script (Source: scripts/progressive_relaxation.txt) — low precision, naming body parts without vivid imagery — produces physical relaxation. The **arm levitation** script (Source: scripts/arm_levitation_method.txt) — high precision, numbered sequence with graduated sensory detail and concrete metaphor — produces involuntary movement.
+
+**Phase 2 extension:** The cybernetic layer (Section III) adds a second precision axis. Static scripts vary only in *content precision* (how vivid and specific the suggestion is). Live sessions add *temporal precision* (how accurately the suggestion is timed to the subject's physiological state). The 44.8/1k wait/pause markers [Source: phase2_cybernetic_analysis.md] are the mechanism of temporal precision — they lock suggestion delivery to the subject's autonomic rhythm, amplifying the prediction's precision beyond what static content alone can achieve.
 
 ### The Dual-Route Architecture
 
@@ -399,6 +663,8 @@ Two independent neural pathways to hypnotic responding (Source: PMC12265433):
 2. **Absorptive route**: Enhanced executive engagement → focused attention → suggestion compliance (LD subjects, alpha increase, left-hemisphere beta increase, active working memory). **Script affinity:** Permissive inductions, guided imagery, client-directed visualization, self-hypnosis (Source: scripts/awareness_induction.txt, scripts/favorite_place.txt, scripts/seven_plus_or_minus_two.txt)
 
 Both routes converge on the same behavioral output through different neural mechanisms. The field has been treating these as one phenomenon. The script corpus confirms the duality: authoritative and permissive scripts represent distinct traditions that may be targeting different neural populations.
+
+**Phase 2 extension:** The cybernetic layer may be what allows a skilled hypnotist to *switch between routes mid-session*. The conditional branching component (6.9/1k) [Source: phase2_cybernetic_analysis.md, Section 2.5] includes explicit route-switching: if the subject responds to authoritative commands (arm drops on cue), proceed with the dissociative route; if the subject hesitates, switch to utilization and permissive framing. This route-switching is impossible in a static script, which must commit to one route at the time of writing.
 
 ### The Frame > Content Principle
 
@@ -413,6 +679,8 @@ Across studies AND scripts, contextual framing consistently outweighs specific t
 
 This suggests hypnosis is fundamentally a **frame-setting operation** that reconfigures the brain's processing context. The scripts are the delivery vehicle, not the active ingredient. But the scripts shape the precision of the reconfiguration — which is why the mismatch between "frame sufficient" and "script precision matters" is not a contradiction but a spectrum.
 
+**Phase 2 extension:** The cybernetic layer adds a dynamic framing capability. The contingency ratifiers ("that's right," "good") are micro-frames — they continuously reinforce the hypnotic frame by validating the subject's experience in real-time [Source: phase2_cybernetic_analysis.md, Section 2.2]. A static script sets the frame once; a live session maintains and reinforces the frame 10.9 times per 1,000 words.
+
 ### The Durability Principle
 
 Across clinical studies, hypnosis effects are durable ONLY when accompanied by self-hypnosis training or structured reorientation:
@@ -425,7 +693,7 @@ This maps to the neuroplasticity window hypothesis (M-1): the trance opens a win
 
 ---
 
-## VI. THE COMPLETE TECHNIQUE-TO-MECHANISM MAP
+## VII. THE COMPLETE TECHNIQUE-TO-MECHANISM MAP
 
 | Script Technique | Example Source | Primary Neural Mechanism | Evidence Source |
 |---|---|---|---|
@@ -449,10 +717,32 @@ This maps to the neuroplasticity window hypothesis (M-1): the trance opens a win
 | Family/personalized content | PMC12710451 (case) | Network-specific targeting via emotional salience | PMC12982806, PMC12710451 |
 | Group delivery format | PMC12611927 (study) | Scalable autonomic modulation | PMC12611927, PMC12775527 |
 | Dissociation language (conscious/subconscious split) | scripts/confusion_method.txt | Frontal-hippocampal connectivity disruption | PMC12129887, PMC11832514 |
+| **Wait/pause markers** | corpus/transcripts/04_my_friend_john_induction.txt | **Respiratory-locked suggestion delivery → parasympathetic synchronization** | phase2_cybernetic_analysis.md, PMC12982806 |
+| **Contingency ratification ("That's right")** | corpus/transcripts/03_rehearsal_induction.txt | **Feedback loop closure → sustained frame maintenance** | phase2_cybernetic_analysis.md |
+| **Utilization (subject output → next suggestion)** | corpus/transcripts/03_rehearsal_induction.txt | **Predictive model co-optation → resistance elimination** | phase2_cybernetic_analysis.md, PMC13024316 |
+| **Conditional branching** | corpus/transcripts/06_magnetic_hands_induction.txt | **External salience network → multi-channel state monitoring** | phase2_cybernetic_analysis.md, PMC13024316 |
+| **Progressive rehearsal** | corpus/transcripts/03_rehearsal_induction.txt | **Iterative prediction training → automatic response generation** | phase2_cybernetic_analysis.md |
+| **Expectation reversal** | corpus/transcripts/01_erickson_trance_deepening_demonstration.txt | **Prediction-error spike → BA45 suppression → deepening** | phase2_cybernetic_analysis.md, PMC12178158 |
+| **Fractionation cycles** | corpus/transcripts/02_fractionation_conversation_induction.txt | **Gated escalation → progressive autonomic deepening** | phase2_cybernetic_analysis.md, PMC12982806 |
 
 ---
 
-## VII. OPEN QUESTIONS FOR V3
+## VIII. THE TWO-LAYER CLASSIFIER — IMPLICATIONS FOR H5
+
+Phase 1's H5 proposed building a classifier to distinguish hypnotic from non-hypnotic language using formal properties. Phase 2 reveals this classifier needs two feature sets [Source: phase2_cybernetic_analysis.md, Section 7]:
+
+**Layer 1 — Static Features (Phase 1):** lexical density, you-density, let-rate, nominalization density, embedded command rate, kinesthetic channel %, TTR, presupposition markers
+
+**Layer 2 — Dynamic Features (Phase 2):** cybernetic density, wait/pause frequency, contingency ratification rate, conditional branching density, turn-taking ratio, progressive rehearsal structure, ellipsis density
+
+A text that scores high on Layer 1 but zero on Layer 2 is a **script** — effective but blind.
+A transcript that scores high on both layers is a **session** — the same vocabulary deployed through a feedback-controlled state machine.
+
+**The prediction:** Sessions with higher Layer 2 scores should produce deeper physiological responses (lower EDA, higher RMSSD) than scripts with equivalent Layer 1 scores, because the cybernetic controller optimizes delivery timing to the subject's real-time autonomic state [Source: phase2_cybernetic_analysis.md, Section 7]. This is experimentally testable.
+
+---
+
+## IX. OPEN QUESTIONS FOR V4
 
 1. **The EEG-behavior gap:** Why does labeling change clinical outcomes (Source: PMC12606380) but NOT EEG signatures (Source: PMC12595402)? Where does the frame-effect live neurologically if not in measurable oscillations?
 
@@ -468,6 +758,31 @@ This maps to the neuroplasticity window hypothesis (M-1): the trance opens a win
 
 7. **The endogenous neurochemistry bridge:** Hypnosis modulates cortisol, oxytocin, endogenous opioids, serotonin, and norepinephrine (Source: PMC11852439, PMC12767259). How do specific script elements map to specific neurochemical effects?
 
+8. **Biometric-responsive digital delivery:** Can the cybernetic layer be partially recovered in app-delivered hypnosis by synchronizing audio pacing to real-time breathing data (smartwatch, phone accelerometer)? The 44.8/1k wait markers [Source: phase2_cybernetic_analysis.md] suggest that timing is the single highest-impact control variable — and it is the most automatable.
+
+9. **Cybernetic density as efficacy predictor:** Does the total cybernetic marker density (74.2/1k in the current corpus) correlate with session-level therapeutic outcomes? If a hypnotist produces only 30/1k cybernetic markers, does that predict weaker physiological response?
+
+10. **The TTR paradox:** Static scripts achieve trance through lexical poverty (TTR 0.10); live sessions achieve trance through lexical variety (TTR 0.57). Are these two genuinely different mechanisms (semantic saturation vs. adaptive engagement), or is the TTR difference an artifact of corpus size? [Source: phase2_cybernetic_analysis.md, Section 3.3]
+
 ---
 
-*Mesh V2 — 50 papers + 171 scripts indexed. Every claim cited to source. Next: computational linguistic validation (H5), dual-route script-matching experiment, emergence phase protocol design.*
+## Appendix: Live Transcript Inventory
+
+| # | Transcript | Words | Interactivity | Key Cybernetic Feature | Source |
+|---|---|---|---|---|---|
+| 01 | Erickson Trance Deepening | 389 | HIGH | Expectation reversal, audience Q&A | corpus/transcripts/01_erickson_trance_deepening_demonstration.txt |
+| 02 | Fractionation Conversation | 416 | HIGH | Progressive eye-closing cycles, rich verbal feedback | corpus/transcripts/02_fractionation_conversation_induction.txt |
+| 03 | Rehearsal Induction | 555 | NONVERBAL | 4-cycle progressive rehearsal, arm catalepsy utilization | corpus/transcripts/03_rehearsal_induction.txt |
+| 04 | My Friend John | 986 | MODERATE | Breath-synchronized counting, 3rd→2nd person shift | corpus/transcripts/04_my_friend_john_induction.txt |
+| 05 | Bandler Handshake | 132 | NONVERBAL | Pattern interrupt, hand-position-contingent deepener | corpus/transcripts/05_bandler_handshake_induction.txt |
+| 06 | Magnetic Hands | 450 | MODERATE | Highest stage direction density (48.9/1k), state machine branching | corpus/transcripts/06_magnetic_hands_induction.txt |
+| 07 | Dave Elman Standard | 602 | MODERATE | Compliance testing (eyelid challenge), count-to-disappearance | corpus/transcripts/07_dave_elman_induction.txt |
+| 08 | Dave Elman Two-Finger | 333 | MODERATE | Arm drop deepener, forehead touch anchor | corpus/transcripts/08_dave_elman_two_finger_technique.txt |
+| 09 | Sensory Overload | 467 | MONOLOGUE | Channel stacking (A+K+V+proprioceptive), no feedback annotation | corpus/transcripts/09_sensory_overload_induction.txt |
+| 10 | Confusion Induction | 365 | MONOLOGUE | Phonological ambiguity (one/wonder, two/to), syntactic overload | corpus/transcripts/10_confusion_induction.txt |
+| 11 | Early Learning Set | 534 | MONOLOGUE | Age regression metaphor, eyelid observation | corpus/transcripts/11_early_learning_set_induction.txt |
+| 12 | Coin Drop | 248 | MONOLOGUE | Ideomotor signal (coin release as trance indicator) | corpus/transcripts/12_coin_drop_induction.txt |
+
+---
+
+*Mesh V3 — 50 papers + 171 scripts + 12 live transcripts indexed. Two-layer model: Phase 1 lexical substrate + Phase 2 cybernetic controller. Every claim cited to source. Next: biometric-responsive digital delivery prototype, cybernetic density as efficacy predictor, TTR mechanism disambiguation.*

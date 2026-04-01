@@ -80,9 +80,14 @@ def ensure_tags_column(conn):
         conn.rollback()
 
 
-def fetch_leads(conn, limit=None):
-    nationality_check = " AND ".join([f"NOT (COALESCE(l.tags, '{{}}') @> ARRAY['{n}'])" for n in NATIONALITIES])
+def fetch_leads(conn, limit=None, daily=False):
+    # Exclude any leads that already have a nationality tag OR a 'NotApplicable' tag from prior runs
+    tags_to_check = NATIONALITIES + ["NotApplicable"]
+    nationality_check = " AND ".join([f"NOT (COALESCE(l.tags, '{{}}') @> ARRAY['{n}'])" for n in tags_to_check])
+    
     limit_clause = f"LIMIT {limit}" if limit else ""
+    daily_clause = "AND l.created_at >= CURRENT_DATE - INTERVAL '3 days'" if daily else ""
+    
     sql = f"""
         SELECT
             l.id,
@@ -92,7 +97,8 @@ def fetch_leads(conn, limit=None):
         LEFT JOIN public.companies c ON c.dot_number = l.dot_number
         WHERE ({nationality_check})
           AND (c.legal_name IS NOT NULL OR c.email IS NOT NULL)
-        ORDER BY l.created_at
+          {daily_clause}
+        ORDER BY l.created_at DESC
         {limit_clause};
     """
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
@@ -245,7 +251,10 @@ def process_batch(client, batch_rows, batch_num, total_batches):
             for item in results:
                 nat = item.get("nationality")
                 reasoning = item.get("reasoning", "")
-                if nat and nat in NATIONALITIES:
+                if nat == "null" or not nat:
+                    nat = "NotApplicable"
+                
+                if nat in NATIONALITIES or nat == "NotApplicable":
                     updates.append((item["id"], nat))
                     if DRY_RUN:
                         print(f"    [CoT] {item['id'][:8]}... -> {nat} | {reasoning}")
@@ -263,7 +272,7 @@ def process_batch(client, batch_rows, batch_num, total_batches):
     return batch_num, []
 
 
-def run(full_backfill=False, dry_run=False):
+def run(full_backfill=False, dry_run=False, daily=False):
     global DRY_RUN
     DRY_RUN = dry_run
 
@@ -272,9 +281,9 @@ def run(full_backfill=False, dry_run=False):
     conn = get_connection()
     ensure_tags_column(conn)
 
-    limit = None if full_backfill else BATCH_SIZE
+    limit = None if full_backfill or daily else BATCH_SIZE
     t_fetch = time.perf_counter()
-    rows = fetch_leads(conn, limit=limit)
+    rows = fetch_leads(conn, limit=limit, daily=daily)
     fetch_ms = (time.perf_counter() - t_fetch) * 1000
     total = len(rows)
     print(f"[DB] Fetched {total} leads in {fetch_ms:.0f}ms")
@@ -343,4 +352,5 @@ def run(full_backfill=False, dry_run=False):
 if __name__ == "__main__":
     full = "--all" in sys.argv
     dry = "--dry-run" in sys.argv
-    run(full_backfill=full, dry_run=dry)
+    daily = "--daily" in sys.argv
+    run(full_backfill=full, dry_run=dry, daily=daily)

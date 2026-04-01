@@ -1,0 +1,7 @@
+It looks like I need write permission to the meta-analyzer directory. Could you approve the edit to `fetch_papers.py`? The change:
+
+- Preserves the original Phase 1 queries
+- Adds Phase 2 queries (prosody, synchrony, expectancy, interpersonal neurobiology)
+- Refactors into a `run_fetch()` function with a CLI arg: `python3 fetch_papers.py 2` runs Phase 2 → `phase2_corpus.json`
+- Auto-excludes Phase 1 paper IDs so we get a clean new corpus
+I approve the edits to fetch_papers.py

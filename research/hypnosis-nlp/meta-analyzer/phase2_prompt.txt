@@ -1,0 +1,12 @@
+We are moving to Phase 2 of the Hypnosis Meta-Analyzer. 
+Robel's directive: "The fact that the interactions have similar mathematical results doesn’t necessarily mean the back-and-forth between the Hypnotist and the subject does not matter because hypnotist can still alter why he is saying without changing the words or the method he uses to communicate with the subject."
+
+Tasks for Claude Code:
+1. Modify `fetch_papers.py` to target new queries specifically focused on the relational and non-verbal payload: 
+   - "hypnotic prosody and vocal tone"
+   - "biobehavioral synchrony hypnosis"
+   - "therapist expectancy effect hypnosis"
+   - "interpersonal neurobiology hypnosis"
+2. Run the fetch script to pull a new batch of papers into `phase2_corpus.json`.
+3. Analyze these papers to isolate anomalies and evidence regarding how the operator's *intent*, *prosody*, and *real-time micro-adaptations* drive physiological changes, entirely independent of the semantic script.
+4. Synthesize these findings into a new section in `hypotheses.md` called "Phase 2: Intent, Prosody, and Synchrony". 
