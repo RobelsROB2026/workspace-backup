@@ -87,6 +87,11 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
+### Daily Maintenance & Project Updates (2026-03-31)
+- **Infrastructure:** Lost persistent GWS access due to a 401 error. The `openclaw` browser profile also got logged out of X. Both require Robel to manually re-authenticate.
+- **AutoPax Pipeline:** Autoresearch Loop completed for leads/companies mogrify (3-way ThreadPool). Median RPM jumped from 76,503 -> 96,395 (+26%). DB upsert specifically dropped from 1.615s -> 1.01s.
+- **OpenClaw Ecosystem:** Added notes to `memory/openclaw-tips.md` about v2026.3.28's new current-conversation ACP binds for Discord/BlueBubbles/iMessage (e.g. `/acp spawn codex --bind here`).
+
 ### Daily Maintenance & Project Updates (2026-03-22)
 - **Weekly Self-Improvement**: Successfully completed the Sunday morning loop. 
     - **Regulatory Intelligence**: Captured Texas vehicle title law changes (SB 2245) and insurance transparency (HB 2067).
