@@ -525,6 +525,11 @@ Major update released. Features include:
 - **NemoClaw**: NVIDIA announced the NemoClaw agent platform integration for Nemotron models and OpenShell runtime.
 - **Venn.ai Integration**: Secure governance layer for permission-based access to 40+ external tools.
 
+### Daily Maintenance & Project Updates (2026-04-01)
+- **FMCSA Daily Sync (Gen13)**: Claude completed a 6-round autoresearch optimization loop on `sync_daily_optimized.py`. Achieved a 46% reduction in DB upsert latency (down to ~977ms average) by splitting the CTE into parallel INSERTs and dropping RTTs. The pipeline is now hitting ~147k RPM.
+- **Infrastructure**: GWS authentication threw a 401 error, blocking background Gmail and Calendar checks. The `openclaw` browser profile also got logged out of X and TikTok. Manual re-auth by Robel is pending.
+- **OpenClaw Ecosystem**: v2026.3.28 released, adding current-conversation ACP binds for Discord and iMessage. Added to `openclaw-tips.md`.
+
 ### Daily Maintenance & Project Updates (2026-03-28)
 - **ROBA Optimization (NOVA-HAVEN)**: Successfully forced the optimization loop using a custom Python controller. Completed 10 iterations, evolving core instructions to achieve a **96/100 benchmark score**.
 - **FMCSA Daily Sync**: Successfully processed **2,717 leads (5,430 total rows)** today at 3:00 AM. Gen10 engine achieved peak of **145,414 RPM** during testing.
