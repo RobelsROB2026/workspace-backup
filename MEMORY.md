@@ -87,6 +87,9 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
+### Daily Maintenance & Project Updates (2026-04-02)
+- **FMCSA Daily Sync (Gen14)**: Claude completed a 6-round autoresearch optimization loop on `sync_daily_optimized.py`. Fixed an FK race condition from Gen13, and achieved a 30% reduction in DB upsert latency (down to ~1200ms average) by splitting the companies INSERT into 2 parallel halves and overlapping the leads SQL build. The pipeline is now hitting peaks of ~177k RPM.
+
 ### Daily Maintenance & Project Updates (2026-03-31)
 - **Infrastructure:** Lost persistent GWS access due to a 401 error. The `openclaw` browser profile also got logged out of X. Both require Robel to manually re-authenticate.
 - **AutoPax Pipeline:** Autoresearch Loop completed for leads/companies mogrify (3-way ThreadPool). Median RPM jumped from 76,503 -> 96,395 (+26%). DB upsert specifically dropped from 1.615s -> 1.01s.
