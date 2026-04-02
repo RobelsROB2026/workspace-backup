@@ -27,9 +27,12 @@ from google import genai
 from google.genai import types
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-load_dotenv()
+load_dotenv(os.path.expanduser("~/research/trucking/.env"))
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL") or os.environ.get("DATABASE_URL")
+if not DATABASE_URL:
+    load_dotenv(os.path.expanduser("~/.openclaw/workspace/projects/AutoPax-Trucking-CRM/.env.local"))
+    DATABASE_URL = os.getenv("DATABASE_URL")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 MODEL = "gemini-3-flash-preview"
 
@@ -281,7 +284,7 @@ def run(full_backfill=False, dry_run=False, daily=False):
     conn = get_connection()
     ensure_tags_column(conn)
 
-    limit = None if full_backfill or daily else BATCH_SIZE
+    limit = None if full_backfill else (5000 if daily else BATCH_SIZE)
     t_fetch = time.perf_counter()
     rows = fetch_leads(conn, limit=limit, daily=daily)
     fetch_ms = (time.perf_counter() - t_fetch) * 1000
