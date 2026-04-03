@@ -189,20 +189,30 @@ def run(limit=None):
     total_batches = len(batches)
     tagged_count = 0
     
-    print(f"Firing up to {MAX_WORKERS} concurrent requests for {total_batches} batches...")
+    print(f"Processing {total_batches} batches in strict chunks of {MAX_WORKERS} calls at a time...")
     
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = [
-            executor.submit(process_batch, client, batch, idx + 1, total_batches, write_queue)
-            for idx, batch in enumerate(batches)
-        ]
+    # Process in chunks of 10
+    for chunk_idx in range(0, total_batches, MAX_WORKERS):
+        chunk_batches = batches[chunk_idx:chunk_idx + MAX_WORKERS]
+        chunk_futures = []
         
-        for future in as_completed(futures):
-            try:
-                _, count = future.result()
-                tagged_count += count
-            except Exception as e:
-                print(f"  Fatal exception in worker: {e}")
+        print(f"\n--- Starting chunk {chunk_idx // MAX_WORKERS + 1} (Batches {chunk_idx + 1} to {min(total_batches, chunk_idx + MAX_WORKERS)}) ---")
+        
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            for i, batch in enumerate(chunk_batches):
+                batch_num = chunk_idx + i + 1
+                chunk_futures.append(executor.submit(process_batch, client, batch, batch_num, total_batches, write_queue))
+            
+            for future in as_completed(chunk_futures):
+                try:
+                    _, count = future.result()
+                    tagged_count += count
+                except Exception as e:
+                    print(f"  Fatal exception in worker: {e}")
+        
+        # Optional: Add a small sleep between chunks to ensure we don't bombard the API
+        if chunk_idx + MAX_WORKERS < total_batches:
+            time.sleep(2)
 
     stop_event.set()
     writer.join()

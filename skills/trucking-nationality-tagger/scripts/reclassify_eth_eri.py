@@ -25,7 +25,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 MODEL = "gemini-2.0-flash"
 
 BATCH_SIZE = 30
-MAX_WORKERS = 5
+MAX_WORKERS = 10
 
 RESPONSE_SCHEMA = types.Schema(
     type="ARRAY",
