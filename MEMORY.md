@@ -49,6 +49,9 @@ Five-point rule:
 
 ## Robel's Preferences
 
+### Telegram Topic Routing Fix (2026-04-02)
+**CRITICAL PROTOCOL:** When replying to Robel in a Telegram Group Chat, I must ALWAYS start my response with the `[[reply_to_current]]` tag (with no leading text/newlines). If I fail to use this tag, Telegram routes my reply to the General topic instead of the specific project thread where he asked the question.
+
 - Wants me proactive — do things, don't explain what I'm about to do
 - Action over narration
 - Direct communication
