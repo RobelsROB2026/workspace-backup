@@ -1,0 +1,38 @@
+=== Benchmarking: sync_daily_optimized.py (3 runs) ===
+
+--- Run 1/3 ---
+[PERF] Phase 3+4 (combined CTE upsert): 9583ms
+
+[PERF] Total pipeline time: 11.58s
+[PERF] Phase breakdown: src=1.14s | batch=0.84s | cte_upsert=9.583s
+[PERF] Records processed: 7616 (3808 companies + 3808 leads)
+[PERF] RPM: 39444
+GEN10_ELAPSED_SEC 11.585
+GEN10_RPM 39444
+
+--- Run 2/3 ---
+[PERF] Phase 3+4 (combined CTE upsert): 1595ms
+
+[PERF] Total pipeline time: 4.12s
+[PERF] Phase breakdown: src=1.84s | batch=0.67s | cte_upsert=1.595s
+[PERF] Records processed: 7616 (3808 companies + 3808 leads)
+[PERF] RPM: 111007
+GEN10_ELAPSED_SEC 4.116
+GEN10_RPM 111007
+
+--- Run 3/3 ---
+[PERF] Phase 3+4 (combined CTE upsert): 1284ms
+
+[PERF] Total pipeline time: 3.71s
+[PERF] Phase breakdown: src=1.73s | batch=0.68s | cte_upsert=1.284s
+[PERF] Records processed: 7616 (3808 companies + 3808 leads)
+[PERF] RPM: 123222
+GEN10_ELAPSED_SEC 3.708
+GEN10_RPM 123222
+
+=== RESULTS: sync_daily_optimized.py ===
+RPMs: 39444 111007 123222
+Upsert(ms): 9583 1595 1284
+Total(s): 11.58 4.12 3.71
+Median RPM: 111007
+Median Upsert(ms): 1595

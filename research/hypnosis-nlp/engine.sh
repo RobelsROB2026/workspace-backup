@@ -34,6 +34,6 @@ PROMPT
 claude -p "$(cat $PROMPT_FILE)"
 
 # Schedule a callback in OpenClaw to notify Robel exactly when it finishes
-openclaw cron add --at "+1m" --session "main" --system-event "CRON_CALLBACK: The Holographic Ingest for $TODAY is complete. Read the file ~/.openclaw/workspace/research/hypnosis-nlp/updates/$TODAY.md. Send a message to Robel titled '⚡ DAILY HYPNOSIS DISCOVERY REPORT' outlining the anomalies and testable hypotheses. Be direct and sharp."
+openclaw cron add --name "hypnosis-callback-$TODAY" --at "+1m" --session "isolated" --agent "hypnosis" --system-event "CRON_CALLBACK: The Holographic Ingest for $TODAY is complete. Read the file ~/.openclaw/workspace/research/hypnosis-nlp/updates/$TODAY.md. Send a message to Robel titled '⚡ DAILY HYPNOSIS DISCOVERY REPORT' outlining the anomalies and testable hypotheses. Be direct and sharp. Route it to the Telegram AutoPax Group, Topic 943."
 
 echo "Ingest loop complete. Engine is spinning down."

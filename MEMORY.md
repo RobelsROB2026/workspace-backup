@@ -463,6 +463,8 @@ Major update released. Features include:
 | `96` | 🚚 Topic 5: Trucking Leads | RockLike Agency Trucking | Daily trucking insurance lead reports |
 | `419` | 📱 Topic 6: Social Media | Social Media Manager | Content generation, scheduling, posting |
 | `900` | 🧠 Topic 7: Local LLM | Local LLM Improvement | Qwen/Ollama optimization loops |
+| `943` | 🌀 Topic 8: Hypnosis | Holographic NLP/Hypnosis | Daily research digest, hypotheses |
+| `1051`| 💎 Topic 9: Gemma Agent | Gemma isolated tests | Local LLM interaction experiments |
 
 ### Weekly Self-Improvement Summary (2026-03-29)
 - **OpenClaw v2026.3.28-beta.1:** I am now running this. Includes xAI/tools integration (Grok auth), MiniMax image generation, SSH sandbox to limit compromised skills, and SSRF protections. Nvidia's NemoClaw integration also announced for enterprise guardrails.

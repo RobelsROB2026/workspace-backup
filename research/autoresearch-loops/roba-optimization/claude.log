@@ -1,0 +1,40 @@
+## ROBA Optimization Loop — Complete
+
+**5 iterations run (Gen11–Gen15). Winner: Gen14 at 497/500.**
+
+### What changed in SOUL.md:
+1. **Fact-Check Rule** — no more hallucinated dollar amounts in client emails. "Varies by [factor]" unless verified.
+2. **Email Template** — 6-step structured format replacing freeform drafts
+3. **Tool Call Discipline** — one search, inline citations, no preamble/filler, stop after format
+
+### Score progression:
+- Gen0 (2026-03-21 baseline): **377/500**
+- Gen10 (2026-03-21 best): **493/500** (+31%)
+- Gen14 (2026-04-03 best): **497/500** (+31.8% cumulative)
+
+### Remaining 3 points:
+- Q3: 1pt lost to minor email verbosity
+- Q4: 2pts lost to placeholder text in simulated tool output
+
+Results logged to `history.log` and `benchmark_report.md`. Ready for Robel's Saturday morning review.
+Done. Here's the summary:
+
+## ROBA Optimization Loop Complete
+
+**50 iterations (Gen16–Gen65) | 500/500 achieved**
+
+### What changed in SOUL.md
+1. **Email Density Rule** — 80-word cap on client email bodies. Closes the Q3 verbosity gap (-1 pt).
+2. **Concrete Sources Rule** — Real .gov domains + inline exemplar. Closes the Q4 placeholder gap (-2 pts).
+
+### Score progression
+| Phase | Score |
+|-------|-------|
+| Gen0 (baseline) | 377/500 |
+| Gen10 (first run) | 493/500 |
+| Gen14 (second run) | 497/500 |
+| **Gen55 (tonight)** | **500/500** |
+
+8 of 50 tested mutations hit 500/500. Gen55 was adopted — most compact (4 lines), least regression risk. The benchmark is solved.
+
+Reports written to `benchmark_report.md` and `history.log`. Ready for your Saturday morning review.

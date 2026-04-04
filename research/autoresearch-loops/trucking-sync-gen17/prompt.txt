@@ -1,0 +1,22 @@
+You are an elite Python performance optimization agent running the "Nightly Lead Gen Autoresearch Loop" for the AutoPax Trucking CRM.
+
+Your goal: optimize `sync_daily_optimized.py`.
+
+Context:
+- `sync_daily_optimized_baseline.py` is the Gen15 script. Read it carefully.
+- The `notes/final_report.md` from Gen15 (if you look in `../trucking-sync-gen15/notes/final_report.md`) shows we hit ~900ms DB latency and ~230k RPM.
+- We want to break the optimization floor. Try using the Postgres `COPY` protocol via `psycopg2.extras.execute_values` or actual `COPY FROM STDIN` instead of manual `INSERT ... ON CONFLICT` if possible, or experiment with asyncio/aiohttp for the fetch phase, or hyper-optimized JSON parsing (e.g. `orjson`).
+
+Process (Karpathy Autoresearch Loop):
+1. Write your hypotheses to `notes/autoresearch_plan.md` first (create the `notes/` dir). Agents should use a file system!
+2. Create a test script `run_loop.sh` to benchmark a candidate against the baseline.
+3. For each hypothesis (e.g., Round 1, Round 2... Round 6):
+   - Modify `sync_daily_optimized.py`.
+   - Run the benchmark script.
+   - Compare "DB upsert latency" or "Phase 1 network fetch" times.
+   - If it improves by >5%, keep it and document it.
+   - If it degrades or fails, revert it (`cp sync_daily_optimized_baseline.py sync_daily_optimized.py` or from the last winning round).
+4. Save intermediate scripts as `sync_daily_optimized_r1.py`, etc., so we have the history.
+5. After several rounds, write the final results to `notes/final_report.md` detailing the winning changes (O41, O42...), reverted changes, and final RPM / latency.
+
+Execute this now. Use bash freely. Run tests iteratively. Let's get that latency down!
