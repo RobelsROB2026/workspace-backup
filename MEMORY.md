@@ -90,8 +90,17 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
-### Daily Maintenance & Project Updates (2026-04-02)
-- **FMCSA Daily Sync (Gen14)**: Claude completed a 6-round autoresearch optimization loop on `sync_daily_optimized.py`. Fixed an FK race condition from Gen13, and achieved a 30% reduction in DB upsert latency (down to ~1200ms average) by splitting the companies INSERT into 2 parallel halves and overlapping the leads SQL build. The pipeline is now hitting peaks of ~177k RPM.
+### Daily Maintenance & Project Updates (2026-04-05)
+- **Infrastructure:**
+    - **OpenClaw v2026.4.2:** Upgraded to the latest version. New features: `/tasks` board, SearXNG search, and human-in-the-loop tool approvals.
+    - **Anthropic Subscription Cutoff:** Starting today, Anthropic no longer covers Claude usage via OpenClaw for subscription customers. We must monitor our `claude` (Claude Code) CLI for auth failures. It was still working as of 4:10 AM, but we may need to switch to an API key.
+    - **Gemma 4:** Released and benchmarked as the new local MoE king (64GB Mac recommended). Testing as a local fallback for the Mac mini.
+- **AutoPax Pipeline:**
+    - **FMCSA Daily Sync:** Successfully completed at 3:01 AM.
+    - **Nationality Tagging:** Processed 779 leads, tagging 46 new high-intent records at 3:10 AM. Summary delivered to Telegram Topic 96.
+- **Hypnosis & NLP (Topic 943):**
+    - **Ingest Failure:** Nightly ingest job failed initially due to a Docker sandbox requirement error. A second run is currently in progress; monitoring for resolution.
+- **GWS:** Still unauthorized (401 error). Robel needs to re-authenticate robake2006@gmail.com for Drive/Gmail/Calendar access.
 
 ### Daily Maintenance & Project Updates (2026-03-31)
 - **Infrastructure:** Lost persistent GWS access due to a 401 error. The `openclaw` browser profile also got logged out of X. Both require Robel to manually re-authenticate.
@@ -465,6 +474,15 @@ Major update released. Features include:
 | `900` | 🧠 Topic 7: Local LLM | Local LLM Improvement | Qwen/Ollama optimization loops |
 | `943` | 🌀 Topic 8: Hypnosis | Holographic NLP/Hypnosis | Daily research digest, hypotheses |
 | `1051`| 💎 Topic 9: Gemma Agent | Gemma isolated tests | Local LLM interaction experiments |
+
+### Weekly Self-Improvement Summary (2026-04-05)
+- **OpenClaw v2026.4.2:** Released April 3. Features a new `/tasks` board for session status, durable Task Flows for complex background work, and SearXNG/Bedrock Guardrails integration.
+- **AI Industry:** Gemma 4 (26B/31B MoE) is the new local model "king," outperforming frontier models like Claude Sonnet on long-horizon tasks (FoodTruck Bench).
+- **Agents:** "AutoAgent" launched—an open-source framework for agents to autonomously optimize their own harness (system prompts/tools).
+- **Action Items:**
+  - Audit custom skills for "Agentic Journalism" patterns (machine-readable outputs like JSON/bullets).
+  - Test Gemma 4 as a high-performance local fallback for privacy-sensitive coding.
+  - Monitor Sam Altman allegations for industry governance shifts.
 
 ### Weekly Self-Improvement Summary (2026-03-29)
 - **OpenClaw v2026.3.28-beta.1:** I am now running this. Includes xAI/tools integration (Grok auth), MiniMax image generation, SSH sandbox to limit compromised skills, and SSRF protections. Nvidia's NemoClaw integration also announced for enterprise guardrails.
