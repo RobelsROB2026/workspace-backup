@@ -90,17 +90,15 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
-### Daily Maintenance & Project Updates (2026-04-05)
+### Daily Maintenance & Project Updates (2026-04-06)
 - **Infrastructure:**
-    - **OpenClaw v2026.4.2:** Upgraded to the latest version. New features: `/tasks` board, SearXNG search, and human-in-the-loop tool approvals.
-    - **Anthropic Subscription Cutoff:** Starting today, Anthropic no longer covers Claude usage via OpenClaw for subscription customers. We must monitor our `claude` (Claude Code) CLI for auth failures. It was still working as of 4:10 AM, but we may need to switch to an API key.
-    - **Gemma 4:** Released and benchmarked as the new local MoE king (64GB Mac recommended). Testing as a local fallback for the Mac mini.
+    - **OpenClaw Update:** v2026.4.5 is available. Breaking changes noted for XAI and Firecrawl configs.
+    - **ACP Loop Mitigation:** Updated `plugins.entries.acpx.config.permissionMode` to `approve-all` to resolve the massive background task failure loop seen on Apr 5.
 - **AutoPax Pipeline:**
-    - **FMCSA Daily Sync:** Successfully completed at 3:01 AM.
-    - **Nationality Tagging:** Processed 779 leads, tagging 46 new high-intent records at 3:10 AM. Summary delivered to Telegram Topic 96.
+    - **Nightly Autoresearch Loop:** Triggered mandatory optimization loop for enrichment hit rates (Method: Karpathy). Running in the background until 3:00 AM.
 - **Hypnosis & NLP (Topic 943):**
-    - **Ingest Failure:** Nightly ingest job failed initially due to a Docker sandbox requirement error. A second run is currently in progress; monitoring for resolution.
-- **GWS:** Still unauthorized (401 error). Robel needs to re-authenticate robake2006@gmail.com for Drive/Gmail/Calendar access.
+    - **Ingest Status:** Daily ingest triggered successfully via `engine.sh` (PID 68080). Fixed a Telegram target delivery error.
+- **GWS:** access remains unauthorized (401 error). Robel needs to re-auth.
 
 ### Daily Maintenance & Project Updates (2026-03-31)
 - **Infrastructure:** Lost persistent GWS access due to a 401 error. The `openclaw` browser profile also got logged out of X. Both require Robel to manually re-authenticate.
