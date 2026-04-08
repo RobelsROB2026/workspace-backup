@@ -90,14 +90,13 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
-### Daily Maintenance & Project Updates (2026-04-06)
+### Daily Maintenance & Project Updates (2026-04-07)
 - **Infrastructure:**
-    - **OpenClaw Update:** v2026.4.5 is available. Breaking changes noted for XAI and Firecrawl configs.
-    - **ACP Loop Mitigation:** Updated `plugins.entries.acpx.config.permissionMode` to `approve-all` to resolve the massive background task failure loop seen on Apr 5.
-- **AutoPax Pipeline (Gen 19):** Claude Code completed a massive 12-round autoresearch loop. The daily sync is now production-ready at Gen 19. Key wins: **+38.8% cell phones**, **+77.1% officers**, and **+89.6% mailing addresses**. RPM holding steady at ~205k.
-- **Hypnosis & NLP (Topic 943):**
-    - **Ingest Status:** Daily ingest triggered successfully via `engine.sh` (PID 68080). Fixed a Telegram target delivery error.
-- **GWS:** access remains unauthorized (401 error). Robel needs to re-auth.
+    - **OpenClaw v2026.4.5:** Confirmed update is applied. 
+    - **Bonds Agent Recovery:** Restored the RockLikeAgency (Bonds) agent by manually creating its identity and workspace files. Project thread routing is being monitored.
+    - **ACP Runtime:** Monitoring long-running tasks for Hypnosis fix and agent routing migration.
+- **GWS Status:** Credential cache wiped via `gws auth logout`. Manual re-auth (`gws auth login`) required to restore Drive/Gmail/Calendar access.
+- **Nightly Loop:** The Lead Gen optimization loop (`tidal-at`) failed due to system resource constraints (SIGKILL). Investigating mini's resource pressure.
 
 ### Daily Maintenance & Project Updates (2026-03-31)
 - **Infrastructure:** Lost persistent GWS access due to a 401 error. The `openclaw` browser profile also got logged out of X. Both require Robel to manually re-authenticate.
