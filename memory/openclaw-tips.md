@@ -6,7 +6,6 @@
   - Native Matrix voice bubbles for TTS replies.
   - Adds async `requireApproval` to plugin hooks (pauses tool execution and prompts user via /approve).
   - Removes deprecated `qwen-portal-auth` integration for portal.qwen.ai.
-  - Add `--container` flag to run openclaw commands inside Docker/Podman.
 - [2026-03-31] OpenClaw v2026.3.28 added current-conversation ACP binds for Discord, BlueBubbles, and iMessage. Use `/acp spawn codex --bind here` to turn the current chat into a Codex-backed workspace without creating a child thread.
 
 ## 2026-04-02
@@ -27,14 +26,12 @@
   - Breaking changes for XAI search and Firecrawl configs (migration to plugin-owned paths required).
   - Phishing alert: Watch out for fake GitHub issues asking for crypto wallet connections.
 
-## 2026-04-11
-- **Releases:** OpenClaw v2026.4.9 confirmed. Features grounded REM backfill and structured diary view.
-- **Ecosystem:**
-  - **Anthropic Claude Restriction:** Anthropic has restricted standard subscription Claude models for 3rd party agent tools (effective April 4). API-based billing is required.
-  - **NemoClaw:** Nvidia unveiled NemoClaw, an enterprise version of OpenClaw with built-in security guardrails.
-  - **Security:** Continued focus on protecting internet-facing instances. Researchers flagged risks of script execution with minimal safeguards.
-  - **ClawHub:** Marketplace for skills is live.
-- **Project Updates:**
-  - **AutoPax Gen 23:** Completed. 100% mailing coverage, 97.6% driver count enrichment, 100% reachability.
-  - **GWS Auth:** Still 401. Requires `gws auth login`.
-  - **Trucking:** Topic routing fixed using `[[reply_to_current]]`.
+## 2026-04-12
+- **Ecosystem News:**
+  - **Japanese AI Consortium:** SoftBank, NEC, Sony, and Honda formed a firm to develop high-performance Japanese AI, supported by a ¥1 trillion government program (NEDO).
+  - **California AI Regulation:** California is moving forward with its own AI safety framework, despite federal efforts to limit state-level controls.
+  - **DeepSeek V4:** Anticipation for DeepSeek's new V4 model, a benchmark for China's AI progress and self-sufficiency in hardware.
+  - **AI in Warfare:** Emerging ethical and risk discussions regarding automation bias and corporate responsibility in military AI.
+- **Project Status:**
+  - **Gen 25 Autoresearch:** Baseline established at 34311 RPM. 2-hour optimization loop started in ACP session.
+  - **GWS:** Access remains 401 Unauthorized. User action required.
