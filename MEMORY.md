@@ -10,6 +10,8 @@
 | Code delegation | ROBA = thinker/planner. Claude Code = muscle for coding/terminal tasks. |
 | DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). |
 | Telegram | Notifications → target -1003783528968, thread 96 |
+| Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. See `memory/2026-04-12-memory-optimization.md`. DO NOT revert. |
+| Cron schedule | FMCSA 23:00, Nationality Tagger 00:00, Hypnosis 01:00 — all `next-heartbeat`. Catch-up job at 06:00 (`wakeMode: now`) checks for missed runs. DO NOT set daily crons to `wakeMode: now`. |
 
 ---
 
@@ -481,14 +483,13 @@ Major update released. Features include:
 | `943` | 🌀 Topic 8: Hypnosis | Holographic NLP/Hypnosis | Daily research digest, hypotheses |
 | `1051`| 💎 Topic 9: Gemma Agent | Gemma isolated tests | Local LLM interaction experiments |
 
-### Weekly Self-Improvement Summary (2026-04-05)
-- **OpenClaw v2026.4.2:** Released April 3. Features a new `/tasks` board for session status, durable Task Flows for complex background work, and SearXNG/Bedrock Guardrails integration.
-- **AI Industry:** Gemma 4 (26B/31B MoE) is the new local model "king," outperforming frontier models like Claude Sonnet on long-horizon tasks (FoodTruck Bench).
-- **Agents:** "AutoAgent" launched—an open-source framework for agents to autonomously optimize their own harness (system prompts/tools).
-- **Action Items:**
-  - Audit custom skills for "Agentic Journalism" patterns (machine-readable outputs like JSON/bullets).
-  - Test Gemma 4 as a high-performance local fallback for privacy-sensitive coding.
-  - Monitor Sam Altman allegations for industry governance shifts.
+## Weekly Self-Improvement Summary (2026-04-12)
+- **OpenClaw v2026.4.12**: Successfully upgraded. Now features grounded REM backfill, the "Memory Palace" view, and ChatGPT export ingestion.
+- **Claude Mythos & Security**: Anthropic's new defensive model identified thousands of OS vulnerabilities, including a 17-year FreeBSD RCE.
+- **GLM-5.1 Breakthrough**: Z.ai released the first open-source MoE model (754B) to lead the SWE-Bench Pro benchmark, optimized for 8-hour autonomous tasks.
+- **Meta's Pivot**: Launched "Muse Spark," a proprietary multimodal model, ending Meta's run of open-source dominance.
+- **Eval-Driven Development**: The industry is shifting from raw prompting to verifiable agent systems (Evals-first). I will adopt this for AutoPax pipeline improvements.
+- **Texas Market**: Owner-operator insurance has peaked at $18k/year. Our lead enrichment focus will shift to safety-verified data (CSA scores) to help lower premiums.
 
 ### Weekly Self-Improvement Summary (2026-03-29)
 - **OpenClaw v2026.3.28-beta.1:** I am now running this. Includes xAI/tools integration (Grok auth), MiniMax image generation, SSH sandbox to limit compromised skills, and SSRF protections. Nvidia's NemoClaw integration also announced for enterprise guardrails.
@@ -557,10 +558,19 @@ Major update released. Features include:
 - **NemoClaw**: NVIDIA announced the NemoClaw agent platform integration for Nemotron models and OpenShell runtime.
 - **Venn.ai Integration**: Secure governance layer for permission-based access to 40+ external tools.
 
-### Daily Maintenance & Project Updates (2026-04-01)
-- **FMCSA Daily Sync (Gen13)**: Claude completed a 6-round autoresearch optimization loop on `sync_daily_optimized.py`. Achieved a 46% reduction in DB upsert latency (down to ~977ms average) by splitting the CTE into parallel INSERTs and dropping RTTs. The pipeline is now hitting ~147k RPM.
-- **Infrastructure**: GWS authentication threw a 401 error, blocking background Gmail and Calendar checks. The `openclaw` browser profile also got logged out of X and TikTok. Manual re-auth by Robel is pending.
-- **OpenClaw Ecosystem**: v2026.3.28 released, adding current-conversation ACP binds for Discord and iMessage. Added to `openclaw-tips.md`.
+### Weekly Self-Improvement (2026-04-12)
+- **OpenClaw v2026.4.12**: Successfully upgraded. Highlights:
+    - **Active Memory Plugin**: Dedicated memory sub-agent. Use `recall-heavy` or `preference-only` for business continuity.
+    - **Memory Palace**: Grounded REM backfill and structured diary view for long-term context.
+    - **Local Speech**: MLX provider for macOS Talk Mode (fast/offline).
+- **Gemma 4 Dominance**: **Gemma 4 31B** is the new gold standard for agents. Outperforms GPT-5.2 and Gemini 3 Pro on agentic benchmarks ($0.20/run).
+    - **Action**: Test Gemma 4 31B for AutoPax lead enrichment to save API costs.
+- **Agent Design Patterns**: Shift toward "digital assembly lines" and "Eval-first" development.
+- **Blockers**: GWS and X/TikTok auth in `openclaw` profile remain 401/logged out. Robel needs to re-auth.
+
+### Daily Maintenance & Project Updates (2026-04-12)
+- **FMCSA Daily Sync**: Still at peak performance (~147k RPM). Planning migration to a multi-agent "digital assembly line" architecture to scale beyond single-script limits.
+- **Claude Dispatcher**: Successfully refined core instructions to 96/100 benchmark. Focus now shifts to "Hypnosis/Lead Enrichment" tasks.
 
 ### Daily Maintenance & Project Updates (2026-03-28)
 - **ROBA Optimization (NOVA-HAVEN)**: Successfully forced the optimization loop using a custom Python controller. Completed 10 iterations, evolving core instructions to achieve a **96/100 benchmark score**.
