@@ -90,14 +90,15 @@ Five-point rule:
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
 - **FMCSA Sync**: Gen11 sync engine stable at ~65k RPM. Processed 5,818 records this morning.
 
-### Daily Maintenance & Project Updates (2026-04-10)
+### Daily Maintenance & Project Updates (2026-04-11)
 - **Infrastructure:**
-    - **OpenClaw v2026.4.9:** Verified update is applied. New features: grounded REM backfill and structured diary view.
-    - **Security:** Noted phishing alert on GitHub.
+    - **OpenClaw v2026.4.9:** Confirmed. Features grounded REM backfill and structured diary view.
+    - **Anthropic Claude Restriction:** Standard subscription Claude models restricted for 3rd party tools. Shift to API-based usage billing required.
+    - **NemoClaw:** Nvidia enterprise version of OpenClaw unveiled.
 - **AutoPax Pipeline:**
-    - **Enrichment Gains:** Confirmed Gen 20 status with significant hit rate improvements.
-- **GWS Status:** Still unauthorized (401 error). Manual re-auth (`gws auth login`) required.
-- **Loops:** Friday Night loops scheduled for 23:00.
+    - **Gen 23 Success:** 100% mailing coverage, 97.6% driver count enrichment, 100% reachability.
+- **GWS Status:** Still 401 Unauthorized. Manual re-auth (`gws auth login`) required.
+- **Loops:** Nightly loop scheduled for 23:00.
 
 ### Daily Maintenance & Project Updates (2026-04-07)
 - **Infrastructure:**
