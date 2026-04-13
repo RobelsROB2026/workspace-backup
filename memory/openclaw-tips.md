@@ -30,8 +30,10 @@
 - **Ecosystem News:**
   - **Japanese AI Consortium:** SoftBank, NEC, Sony, and Honda formed a firm to develop high-performance Japanese AI, supported by a ¥1 trillion government program (NEDO).
   - **California AI Regulation:** California is moving forward with its own AI safety framework, despite federal efforts to limit state-level controls.
-  - **DeepSeek V4:** Anticipation for DeepSeek's new V4 model, a benchmark for China's AI progress and self-sufficiency in hardware.
-  - **AI in Warfare:** Emerging ethical and risk discussions regarding automation bias and corporate responsibility in military AI.
+  - **OpenClaw v2026.4.10:** Major release with bundled Codex provider, Active Memory plugin, and local MLX speech for Talk Mode on macOS.
+  - **OpenClaw v2026.4.7:** Introduced "Memory Wiki Stack" and session compaction & branching.
+  - **ClawHub Package Catalog:** Now supports native publishing and versioning of code/bundle plugins (not just text SKILL.md).
+  - **Anthropic Claude Restriction:** Third-party tools like OpenClaw are now blocked from using Claude models on standard subscription plans; API usage-billing is required.
 - **Project Status:**
-  - **Gen 25 Autoresearch:** Baseline established at 34311 RPM. 2-hour optimization loop started in ACP session.
-  - **GWS:** Access remains 401 Unauthorized. User action required.
+  - **Gen 25 Autoresearch:** Baseline established at 34,311 RPM. Nightly loop failed to run autonomously due to interactive TTY prompts. Terminated process.
+  - **GWS:** Gmail/Calendar active but require regular triage.
