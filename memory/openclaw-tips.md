@@ -37,3 +37,13 @@
 - **Project Status:**
   - **Gen 25 Autoresearch:** Baseline established at 34,311 RPM. Nightly loop failed to run autonomously due to interactive TTY prompts. Terminated process.
   - **GWS:** Gmail/Calendar active but require regular triage.
+
+## 2026-04-13
+- **AI Industry News:**
+  - **Claude for Word:** Anthropic launched beta for Team/Enterprise. Includes AI editing and clickable citations.
+  - **Claude Mythos Security:** UK regulators issuing warnings to financial institutions regarding Mythos Preview security risks.
+  - **Meta "Mango":** Image/Video AI model expected H1 2026.
+  - **Nvidia Blackwell:** Rental prices for Blackwell GPUs surged 48% to .08/hr due to agentic AI demand.
+  - **Regulatory:** US AI chip export implementation risks due to BIS licensing bottlenecks. California AG investigating xAI/Grok over AI image proliferation.
+  - **Hardware:** Apple testing 4 designs for AI glasses with camera systems.
+  - **Japan:** Consorted effort (SoftBank, Sony, Honda) targeting a 1T-parameter "physical AI" foundation model by 2030.
