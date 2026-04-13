@@ -47,3 +47,9 @@
   - **Regulatory:** US AI chip export implementation risks due to BIS licensing bottlenecks. California AG investigating xAI/Grok over AI image proliferation.
   - **Hardware:** Apple testing 4 designs for AI glasses with camera systems.
   - **Japan:** Consorted effort (SoftBank, Sony, Honda) targeting a 1T-parameter "physical AI" foundation model by 2030.
+
+## 2026-04-13 Midday Update
+- **Meta Superintelligence Labs:** Released **Muse Spark**, aimed at a smarter/faster Meta AI.
+- **Stanford HAI 2026 AI Index:** Reports AI capability is accelerating; US-China gap has closed; US leads in investment.
+- **Qualcomm AI Chips:** Unveiled **AI200** (2026) and **AI250** (2027) inference chips.
+- **Corporate Trends:** Amazon planning layoffs citing increased AI efficiency.
