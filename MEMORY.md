@@ -13,6 +13,9 @@
 | Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. See `memory/2026-04-12-memory-optimization.md`. DO NOT revert. |
 | Cron schedule | FMCSA 23:00, Nationality Tagger 00:00, Hypnosis 01:00 — all `next-heartbeat`. Catch-up job at 06:00 (`wakeMode: now`) checks for missed runs. DO NOT set daily crons to `wakeMode: now`. |
 | MemPalace | Installed 2026-04-12. Local AI memory (ChromaDB, offline, ~100-400MB). MCP server configured. Use `mempalace_search` before answering about past events. `mempalace_diary_write` after sessions. See `memory/2026-04-12-mempalace-install.md`. |
+| KB Ingest Protocol | 2026-04-04: Re-architected `~/research/` into localized wikis using `wiki_compile.py`. All new learnings dumped into `raw/` and compiled. |
+| Agent Routing | 2026-04-04: Rigid isolation for Topics 2 (Bonds), 3 (NYC Bus), 96 (FMCSA), 419 (Social), 943 (Hypnosis), 1051 (Gemma). |
+| Email Campaign | 30 emails/day (conservative). Priority: 1. Renewals, 2. Clean Safety (SMS), 3. Close Date, 4. New DOT. Random delay (0-90m) + drip (3-12m). |
 
 ---
 

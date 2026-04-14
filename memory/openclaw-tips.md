@@ -53,3 +53,16 @@
 - **Stanford HAI 2026 AI Index:** Reports AI capability is accelerating; US-China gap has closed; US leads in investment.
 - **Qualcomm AI Chips:** Unveiled **AI200** (2026) and **AI250** (2027) inference chips.
 - **Corporate Trends:** Amazon planning layoffs citing increased AI efficiency.
+
+## 2026-04-13 Afternoon Update
+- **Nvidia Milestone:** Market cap reached **$5 Trillion**; Jensen Huang dismisses bubble fears, expects 20M Blackwell chip sales.
+- **OpenAI Restructuring:** Finalized for-profit move; Microsoft now holds ~27% stake for $135B; OpenAI committed to $250B in Azure services.
+- **Claude Mythos CTF:** Achieved **73% success rate** on expert-level Capture-The-Flag challenges; UK regulators to warn banks about security risks.
+- **Apple AI Glasses:** Testing 4 designs with unique vertical oval camera lenses.
+
+## 2026-04-13 Evening Update
+- **Microsoft & OpenClaw:** Microsoft is reportedly exploring technologies like **OpenClaw** for enterprise "always-on" agents within M365.
+- **Stanford HAI 2026 AI Index:** Confirms AI is accelerating, not plateauing; US-China capability gap has closed.
+- **Physical AI Venture:** SoftBank, Sony, Honda, etc. targeting 1T-parameter "physical AI" model by 2030.
+- **Security Alert:** Sam Altman's home targeted in a second attack; a separate suspect charged for Molotov attack on an AI CEO's residence.
+- **Nvidia in Healthcare:** Hoppr integrating Nvidia systems into "Hoppr AI Foundry" for hospital infrastructure.
