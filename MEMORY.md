@@ -487,13 +487,12 @@ Major update released. Features include:
 | `943` | 🌀 Topic 8: Hypnosis | Holographic NLP/Hypnosis | Daily research digest, hypotheses |
 | `1051`| 💎 Topic 9: Gemma Agent | Gemma isolated tests | Local LLM interaction experiments |
 
-## Weekly Self-Improvement Summary (2026-04-12)
-- **OpenClaw v2026.4.12**: Successfully upgraded. Now features grounded REM backfill, the "Memory Palace" view, and ChatGPT export ingestion.
-- **Claude Mythos & Security**: Anthropic's new defensive model identified thousands of OS vulnerabilities, including a 17-year FreeBSD RCE.
-- **GLM-5.1 Breakthrough**: Z.ai released the first open-source MoE model (754B) to lead the SWE-Bench Pro benchmark, optimized for 8-hour autonomous tasks.
-- **Meta's Pivot**: Launched "Muse Spark," a proprietary multimodal model, ending Meta's run of open-source dominance.
-- **Eval-Driven Development**: The industry is shifting from raw prompting to verifiable agent systems (Evals-first). I will adopt this for AutoPax pipeline improvements.
-- **Texas Market**: Owner-operator insurance has peaked at $18k/year. Our lead enrichment focus will shift to safety-verified data (CSA scores) to help lower premiums.
+## Weekly Self-Improvement Summary (2026-04-18)
+- **OpenClaw v2026.4.15:** Successfully upgraded. Key features: **Claude Opus 4.7** is now the default for Opus aliases; introduced the **Active Memory Plugin** for automated recall; and added a **Model Auth status card** in the UI to monitor API token health.
+- **Frontier Models:** April 2026 is a massive month—**GPT-5.4**, **Claude Mythos 5**, and **Gemini 3.1 Pro** are out. Claude Mythos 5 (10 trillion parameters) is being withheld for safety (ASL-4), but its capabilities represent a new era of reasoning.
+- **Meta Pivot:** Meta's new **Muse Spark** model marks a shift away from their open-source Llama strategy toward proprietary multimodal models.
+- **Agentic Autopilot:** The industry is transitioning from AI "co-pilots" to "autopilot" agents that independently plan and execute long-horizon goals.
+- **Action Items:** We should enable the `active-memory` plugin to replace the older manual memory search protocol. **CRITICAL:** GWS (Google Workspace) authentication is currently offline and needs Robel's manual `gws auth login` to restore Drive/Gmail access.
 
 ### Weekly Self-Improvement Summary (2026-03-29)
 - **OpenClaw v2026.3.28-beta.1:** I am now running this. Includes xAI/tools integration (Grok auth), MiniMax image generation, SSH sandbox to limit compromised skills, and SSRF protections. Nvidia's NemoClaw integration also announced for enterprise guardrails.

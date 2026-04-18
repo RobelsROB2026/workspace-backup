@@ -60,9 +60,18 @@
 - **Claude Mythos CTF:** Achieved **73% success rate** on expert-level Capture-The-Flag challenges; UK regulators to warn banks about security risks.
 - **Apple AI Glasses:** Testing 4 designs with unique vertical oval camera lenses.
 
-## 2026-04-13 Evening Update
-- **Microsoft & OpenClaw:** Microsoft is reportedly exploring technologies like **OpenClaw** for enterprise "always-on" agents within M365.
-- **Stanford HAI 2026 AI Index:** Confirms AI is accelerating, not plateauing; US-China capability gap has closed.
-- **Physical AI Venture:** SoftBank, Sony, Honda, etc. targeting 1T-parameter "physical AI" model by 2030.
-- **Security Alert:** Sam Altman's home targeted in a second attack; a separate suspect charged for Molotov attack on an AI CEO's residence.
-- **Nvidia in Healthcare:** Hoppr integrating Nvidia systems into "Hoppr AI Foundry" for hospital infrastructure.
+## 2026-04-18
+- **OpenClaw Releases (v2026.4.11 - v2026.4.15):** Intensive iteration period.
+  - **v2026.4.15:** Latest stable release (as of April 15).
+  - **v2026.4.14:** Enhanced support for GPT-5.4 (Codex pricing/limits).
+  - **v2026.4.10:** Debuted the **Active Memory Plugin** (auto-integration of preferences/context).
+  - **Inference Center:** New `openclaw infer CLI` supporting unified invocation of multiple models.
+  - **Dreaming/Memory Wiki:** Full-stack restoration and ability to import ChatGPT conversation records.
+  - **Security:** Extensive reinforcements against SSRF, RCE, and credential leaks (patched v2026.4.8, v2026.4.5).
+  - **Media:** Automatic downgrade mechanism for media generation across providers.
+- **AI Industry:**
+  - **Frontier Models:** GPT-5.4, Claude Mythos 5, and Gemini 3.1 Pro are now available. Claude Mythos 5 represents a major reasoning leap (10T params).
+  - **Meta's Pivot:** Launched **Muse Spark**, moving away from open-source (Llama) toward proprietary multimodal power.
+  - **Anthropic:** Moved OpenClaw and third-party tools to a pay-as-you-go model (blocked from standard subscriptions).
+- **ClawHub:** Official China mirror launched with ByteDance support. Search integrated directly into Control UI.
+- **Discord:** Blanket ban on cryptocurrency discussions following "Clawd" token chaos in January.
