@@ -73,3 +73,10 @@
 - **Ecosystem News:**
   - ClawHub exceeds 52k tools.
   - **Techmeme:** ElevenLabs introduced "ElevenAgents" with Expressive Mode.
+- **2026-04-23 Breaking News:**
+  - **Meta:** Laying off 8,000 workers by May 20 (shift to AI-assisted work).
+  - **OpenAI:** Launched "workspace agents" in ChatGPT.
+  - **Google:** Launched Gemini Enterprise Agent Platform and building capabilities.
+  - **Pentagon:** Military/civilians created 100,000 AI agents in <5 weeks using Gemini.
+  - **Scientific:** AI discovered new physics laws in "dusty plasma" (Emory Univ); Cambridge developed brain-inspired AI chip (70% more efficient).
+  - **Infrastructure:** Applied Digital signed $7.5B lease for AI factory campus.

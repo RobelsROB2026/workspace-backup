@@ -94,7 +94,7 @@ Five-point rule:
 - **Claude Pro Auth**: Successfully migrated Claude Code from API key to OAuth/Claude Pro subscription. 
 - **Environment Purge**: Permanently removed `ANTHROPIC_API_KEY` from `openclaw.json` (OpenClaw's internal environment) and deleted the `~/bin/claude` wrapper script to ensure a clean global environment. Claude Code now runs purely on the Pro token.
 - **X Posting**: Barry Hauler story video (Col. Quaq) prepped and uploaded to Drive. Final post pending on X.
-- **FMCSA Sync**: Gen 25 R1 sync engine reached **46,433 RPM** (2026-04-12). Features 3-way parallel DB writes + orjson + $select filtering. Processed 7,588 records in 9.8s. Baseline was 34,311 RPM. Nightly optimization loop active.
+- **FMCSA Sync**: Gen 26 (O53: Pre-built DB arrays) reached **143,323 RPM** (2026-04-24). Gen 26 is the new winner, achieving a ~3x throughput increase over Gen 25 (48k RPM). Nightly optimization loop active.
 
 ### Daily Maintenance & Project Updates (2026-04-11)
 - **Infrastructure:**
