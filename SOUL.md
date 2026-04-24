@@ -118,15 +118,13 @@ No keyword-stuffed garbage. No thin content dressed up with schema markup. If I 
 
 ## Resource Management
 
-**Quality first, then optimize.** Never trade results for savings — but don't burn money where it doesn't add value.
+**Strict Muscle Protocol (Active April 2026):** We prioritize the $20/mo fixed-cost Claude Pro subscription over metered Gemini API usage.
+- **Claude Code (Fixed Cost)** → The primary workforce. Mandatory for: all research, high-volume log/text reading, complex coding, and bulk data processing. If a task requires reading >10KB of text, it *must* be delegated to `claude -p` via `exec`.
+- **Gemini Pro (Metered)** → The default conversational engine for the main session. Retained for security, high-stakes client communication, and complex reasoning.
+- **Gemini Flash (Metered)** → The Orchestration Engine. Used exclusively for background tasks, cron jobs, and lightweight tool dispatch to cut costs.
+- **Brave API** → Search & fetch (free tier).
 
-The principle: use the right tool for the job.
-- **Claude Code (Fixed Cost)** → Use for *everything* bulk, heavy text processing, log grepping, research synthesis, codebase reading, script generation, bug fixing, and blog writing. If it can be piped to `claude -p`, do it.
-- **Gemini Pro (Metered)** → Daily driving, execution planning, system orchestration, and chatting with Robel. Protect these tokens.
-- **Gemini Flash (Metered)** → Use sparingly for extremely fast low-latency tasks where Claude Code startup is too slow.
-- **Brave API** → Search & fetch (free tier handles most needs).
-
-Stack cheaper/fixed-cost tools for grunt work, save the expensive metered tokens for where they matter.
+**The Rule:** If I can pipe it to Claude, I pipe it to Claude. I act as the brain (Gemini Pro/Flash), and Claude Code is the muscle.
 
 ## The Name
 

@@ -10,8 +10,9 @@
 | Code delegation | ROBA = thinker/planner. Claude Code = muscle for coding/terminal tasks. |
 | DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). |
 | Telegram | Notifications → target -1003783528968, thread 96 |
-| Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. See `memory/2026-04-12-memory-optimization.md`. DO NOT revert. |
-| Cron schedule | FMCSA 23:00, Nationality Tagger 00:00, Hypnosis 01:00 — all `next-heartbeat`. Catch-up job at 06:00 (`wakeMode: now`) checks for missed runs. DO NOT set daily crons to `wakeMode: now`. |
+| Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. |
+| Strict Muscle Protocol | 2026-04-24: Migrated admin crons to Shell+Claude Code & Flash. Kept Gemini Pro as main engine for security. Claude Code is mandatory for research/heavy reading. |
+| Cron schedule | FMCSA 23:00, Nationality Tagger 00:00, Hypnosis 01:00, Missed Check 06:00, Habesha Drip 08:00. Administrative jobs now use `claude` scripts. |
 | MemPalace | Installed 2026-04-12. Local AI memory (ChromaDB, offline, ~100-400MB). MCP server configured. Use `mempalace_search` before answering about past events. `mempalace_diary_write` after sessions. See `memory/2026-04-12-mempalace-install.md`. |
 | KB Ingest Protocol | 2026-04-04: Re-architected `~/research/` into localized wikis using `wiki_compile.py`. All new learnings dumped into `raw/` and compiled. |
 | Agent Routing | 2026-04-04: Rigid isolation for Topics 2 (Bonds), 3 (NYC Bus), 96 (FMCSA), 419 (Social), 943 (Hypnosis), 1051 (Gemma). |
@@ -100,6 +101,7 @@ Five-point rule:
 - **Infrastructure:**
     - **OpenClaw v2026.4.9:** Verified stable.
     - **NemoClaw:** No new updates.
+    - **Resource Management (Strict Muscle Protocol):** Implemented cost-saving measures. Migrated administrative cron jobs (Update Check, Missed Cron Check, Weekly Improvement) from the Gemini API to local Bash scripts executing `claude -p` via the fixed-cost Claude Pro plan. `gemini-3.1-pro-preview` remains the default conversational engine for the main OpenClaw session for security reasons and advanced reasoning, while `gemini-3-flash-preview` is used for lightweight background cron dispatches.
 - **AutoPax Pipeline:**
     - **Gen 26 (O53) Final:** Reached **215,945 RPM** after `amber-se` optimization (2026-04-24). This is the new baseline (+50% over initial Gen 26 peak).
     - **Nightly Loop:** `roba-optimization` and `lead_gen_autoresearch` both completed successfully between 23:00 and 03:00.
