@@ -60,18 +60,16 @@
 - **Claude Mythos CTF:** Achieved **73% success rate** on expert-level Capture-The-Flag challenges; UK regulators to warn banks about security risks.
 - **Apple AI Glasses:** Testing 4 designs with unique vertical oval camera lenses.
 
-## 2026-04-18
-- **OpenClaw Releases (v2026.4.11 - v2026.4.15):** Intensive iteration period.
-  - **v2026.4.15:** Latest stable release (as of April 15).
-  - **v2026.4.14:** Enhanced support for GPT-5.4 (Codex pricing/limits).
-  - **v2026.4.10:** Debuted the **Active Memory Plugin** (auto-integration of preferences/context).
-  - **Inference Center:** New `openclaw infer CLI` supporting unified invocation of multiple models.
-  - **Dreaming/Memory Wiki:** Full-stack restoration and ability to import ChatGPT conversation records.
-  - **Security:** Extensive reinforcements against SSRF, RCE, and credential leaks (patched v2026.4.8, v2026.4.5).
-  - **Media:** Automatic downgrade mechanism for media generation across providers.
-- **AI Industry:**
-  - **Frontier Models:** GPT-5.4, Claude Mythos 5, and Gemini 3.1 Pro are now available. Claude Mythos 5 represents a major reasoning leap (10T params).
-  - **Meta's Pivot:** Launched **Muse Spark**, moving away from open-source (Llama) toward proprietary multimodal power.
-  - **Anthropic:** Moved OpenClaw and third-party tools to a pay-as-you-go model (blocked from standard subscriptions).
-- **ClawHub:** Official China mirror launched with ByteDance support. Search integrated directly into Control UI.
-- **Discord:** Blanket ban on cryptocurrency discussions following "Clawd" token chaos in January.
+## 2026-04-23
+- **Releases:** OpenClaw v2026.4.22 is out.
+  - Adds **xAI provider** (Grok) with image generation, TTS, and STT support for Voice Call streaming.
+  - Adds **TUI local embedded mode** for terminal chats without a Gateway.
+  - Adds **auto-install** for missing plugins during onboarding.
+  - New **`/models add`** command to register models from chat.
+  - **WhatsApp** enhancements: native reply quoting and per-group/direct system prompts.
+  - **GPT-5 prompt overlay** moved to shared runtime for all compatible providers.
+  - **Task filters** added to `sessions_list` (label, agent, search).
+  - Many performance and stability fixes (Jiti plugin loading, price fetching, etc.).
+- **Ecosystem News:**
+  - ClawHub exceeds 52k tools.
+  - **Techmeme:** ElevenLabs introduced "ElevenAgents" with Expressive Mode.
