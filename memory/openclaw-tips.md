@@ -80,3 +80,5 @@
   - **Pentagon:** Military/civilians created 100,000 AI agents in <5 weeks using Gemini.
   - **Scientific:** AI discovered new physics laws in "dusty plasma" (Emory Univ); Cambridge developed brain-inspired AI chip (70% more efficient).
   - **Infrastructure:** Applied Digital signed $7.5B lease for AI factory campus.
+
+- [2026-04-24] OpenClaw v2026.4.22 released: xAI image/audio, realtime transcription, TUI local mode, and /models add command.
