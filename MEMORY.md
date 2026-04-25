@@ -83,7 +83,7 @@ Five-point rule:
 - **Infrastructure:**
     - **OpenClaw v2026.4.23:** Verified stable.
     - **Resource Management (Strict Muscle Protocol):** Migrated administrative cron jobs (Update Check, Missed Cron Check, Weekly Improvement) from the Gemini API to local Bash scripts executing `claude -p` via the fixed-cost Claude Pro plan. `gemini-3.1-pro-preview` remains the default conversational engine for the main session for security and advanced reasoning; `gemini-3-flash-preview` is used for lightweight background dispatches.
-- **Nightly Lead Gen Loop (Gen 27)**: Winner R2 (Parallel Phase 3). +26% RPM improvement (177,328 RPM baseline). SQL time reduced by 45% (960ms). promoted to `research/trucking/sync_daily_optimized.py`.
+- **Nightly Lead Gen Loop (Gen 28)**: Winner (O75: Merged SQL Updates + Cell Fallback). +340% RPM improvement on small batches (peak 157k). Cell hit rate increased to 59.1% via phone fallback. Promoted to `research/trucking/sync_daily_optimized.py`.
 - **ROBA Optimization (Gen 55)**: Score 500/500. 80-word email cap, concrete .gov source citations. SOUL.md updated.
 - **AI Industry:**
     - **Anthropic:** Google planning $40B investment; Amazon $5B. Revenues hit $30B (surpassing OpenAI).
