@@ -83,12 +83,13 @@ Five-point rule:
 - **Infrastructure:**
     - **OpenClaw v2026.4.23:** Verified stable.
     - **Resource Management (Strict Muscle Protocol):** Migrated administrative cron jobs (Update Check, Missed Cron Check, Weekly Improvement) from the Gemini API to local Bash scripts executing `claude -p` via the fixed-cost Claude Pro plan. `gemini-3.1-pro-preview` remains the default conversational engine for the main session for security and advanced reasoning; `gemini-3-flash-preview` is used for lightweight background dispatches.
-- **AutoPax Pipeline:**
-    - **Gen 26 (O53) Final:** Reached **215,945 RPM** after `amber-se` optimization. New baseline (+50% over initial Gen 26 peak).
-    - **Nightly Loop:** `roba-optimization` and `lead_gen_autoresearch` both completed successfully between 23:00 and 03:00.
+- **Nightly Lead Gen Loop (Gen 27)**: Winner R2 (Parallel Phase 3). +26% RPM improvement (177,328 RPM baseline). SQL time reduced by 45% (960ms). promoted to `research/trucking/sync_daily_optimized.py`.
+- **ROBA Optimization (Gen 55)**: Score 500/500. 80-word email cap, concrete .gov source citations. SOUL.md updated.
 - **AI Industry:**
-    - **GPT-5.5 (OpenAI):** Released April 24, 2026. Frontier reasoning, workspace agents (Slack/ChatGPT integration), improved long-horizon planning.
-    - **Apple/Google Partnership:** Confirmed; Gemini will power Apple Intelligence in iOS 27.
+    - **Anthropic:** Google planning $40B investment; Amazon $5B. Revenues hit $30B (surpassing OpenAI).
+    - **SpaceX:** IPO prospectus reveals $1.75T valuation; xAI division incurring losses due to cap-ex.
+    - **Elon Musk vs OpenAI:** Trial starts Monday April 27, 2026.
+    - **DeepSeek V4:** Debuted in China.
 - **GWS Status:** 401 Unauthorized. Robel intervention required for Drive/Gmail/Calendar.
 
 ### Heartbeat & GWS Status (2026-04-23)
@@ -210,8 +211,8 @@ Index at `_index.md`. Template at `_template/`.
 
 ### AutoPax Pipeline Breakthrough (2026-03-11)
 - **Nightly Lead Gen Loop**: Karpathy-style autoresearch loop on `sync_daily_optimized.py`.
-- **Results**: **+5,307% performance increase**, baseline ~3,039 RPM → peak **~165,000 RPM**.
-- **Gen9 Winner**: Collapsed company and lead upserts into a single PostgreSQL CTE, reducing DB round trips. 4,129 leads in **6.10s**.
+- **Results**: **+5,307% performance increase**, baseline ~3,039 RPM → Gen 27 peak **~177,328 RPM**.
+- **Gen 27 Winner**: Split Phase 3 into parallel streams (Companies vs Leads). Reduced SQL execution to 960ms.
 - **Impact**: Refresh the entire high-intent lead database for AutoPax in seconds rather than minutes.
 
 ---
