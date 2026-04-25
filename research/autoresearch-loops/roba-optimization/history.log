@@ -182,3 +182,88 @@ Gen15 added a "Conciseness Rule" that slightly over-compressed the email (generi
 All 5 benchmark tests at maximum score. No remaining gap.
 
 ---
+
+## Run: 2026-04-24 (Friday Night Protocol — Tail-of-Window Entry)
+**Loop Invoked by:** Claude Code (Opus 4.7, 1M context)
+**Invoked at:** 02:54 AM CDT (window closes 03:00)
+**Iterations:** 0 (no mutations committed)
+**Baseline:** Gen55 = 500/500 (held since 2026-04-03)
+
+### Status: Benchmark Saturated — No Committed Mutations
+
+Baseline has held 500/500 for 3 weeks. Running a 50–100 iteration mutation loop in a 6-minute window with a $5 session budget is infeasible on its face — individual subagent benchmarks cost more than the remaining budget by themselves, and the documented failure mode at this ceiling (Gen22, Gen51, Gen65) is over-constraint regression. Better to do nothing than to commit a mutation without verification in a narrowing window.
+
+### Observed Drift Since Gen55 (Candidates for Next Run)
+
+- **MEMORY.md grew to 633 lines** (vs. size at Gen55 adoption). ~20 daily-summary blocks appended between 2026-04-03 and 2026-04-23. Quick Recall Index table still sits at top (line 3–19), so Q1 recall is almost certainly still 100, but the file is drifting toward context-window inefficiency. Candidate mutation: move daily summaries older than 14 days into `memory/logs/YYYY-MM.md` and leave only the Quick Recall Index + current-month summaries in MEMORY.md. Estimate: ~400 lines → ~150 lines with no loss of retrievable content.
+- **HEARTBEAT.md (61 lines)** and **SOUL.md (137 lines)** — no observed drift. Gen55 mutations still intact.
+- **Benchmark suite is stale** — all 5 questions have been exercised to convergence. Real progress now requires expanding the suite (e.g., add a multi-step tool-chaining test, a hallucination-under-pressure test, a context-bloat-resistance test). The current suite no longer discriminates.
+
+### Recommendation for Next Friday (2026-05-01)
+
+Start at 23:00, not 02:54. Either:
+1. **Run the MEMORY.md archive mutation** as a controlled Gen66 — hypothesis: archiving stale summaries yields same 500/500 with smaller context footprint (measured as token count, not score).
+2. **Expand benchmark_suite.md** with 2–3 new discriminating tests before further mutation work. A saturated suite produces fake wins.
+
+Flagged for Robel: the Friday loop is now chasing diminishing returns against a saturated benchmark. Decision required on whether to invest in suite expansion or retire the weekly protocol until a new failure mode is observed in production.
+
+### No Changes Committed
+MEMORY.md, HEARTBEAT.md, SOUL.md untouched this run.
+
+---
+
+## Run: 2026-04-24 (Friday Night Protocol — Evening Window)
+**Loop Invoked by:** Claude Code (Opus 4.7, 1M context)
+**Invoked at:** 22:55 CDT (full window)
+**Iterations:** 1 (Gen66 — archive + hygiene)
+**Baseline:** Gen55 = 500/500 (held since 2026-04-03)
+
+### Status: Context-Efficiency Win, Benchmark Held
+
+| Gen | Mutation | Q1 | Q2 | Q3 | Q4 | Q5 | Total | MEMORY.md lines |
+|-----|----------|----|----|----|----|-----|-------|-----------------|
+| Gen55 | Prior best (drifted MEMORY.md) | 100 | 100 | 100 | 100 | 100 | **500** | 655 |
+| **Gen66** | **MEMORY.md archive + dedup + Memory Hygiene rule** | **100** | **100** | **100** | **100** | **100** | **500** | **336 (−49%)** |
+
+### Hypothesis (carried forward from 2026-04-24 02:54 tail-window run)
+The prior run flagged MEMORY.md drift to 633 lines as the highest-leverage candidate for a saturated-benchmark Gen66 mutation. By Friday evening it had grown to 655 lines (~20 daily-summary blocks appended between Gen55 adoption on 2026-04-03 and 2026-04-24, plus 3 duplicate sections). Hypothesis: archiving entries older than 14 days and deduping repeated section titles preserves all benchmark-relevant content (Quick Recall Index, Vercel five-point rule, identity protocols, active operational rules), holds 500/500, and cuts the persistent context footprint roughly in half.
+
+### Mutations Committed
+
+**MEMORY.md (655 → 336 lines, −49%):**
+1. Pre-2026-04-10 daily summaries moved to `memory/logs/MEMORY-archive-2026Q1.md` (11 entries)
+2. Pre-2026-04-12 weekly summaries moved to archive (6 entries)
+3. Older OpenClaw version notes (v2026.3.1, v2026.3.2 ×2, v2026.3.8, ecosystem news 2026-03-26) moved to archive
+4. Older project notes (CRM Improvements 2026-03-08, Master/Muscle Verified 2026-03-10, Local LLM Setup 2026-03-03, Lead Hunter Results, Lead Management 2026-02-27, Social Media Automation 2026-03-14, Infrastructure & Security 2026-03-13/16) moved to archive
+5. Deduplicated 3 redundant section titles: "New York Permit Breakthrough" (3 copies → 1 merged), "Daily Maintenance & Project Updates 2026-03-16" (2 → 1, archived), "Infrastructure & Security 2026-03-16" (2 → 1, archived)
+6. Re-organized into clear top-level sections: Quick Recall Index, Deployment & Git, Robel's Preferences, Recent Activity (≤14d), Things to Remember, Systems I've Built, Resources, Active Projects, Operational Rules, Lessons Learned, Older Summaries pointer
+7. Quick Recall Index, Vercel five-point rule, Telegram Topic Routing Table, Strict Muscle Protocol, Email Campaign rules, all identity protocols preserved verbatim
+
+**HEARTBEAT.md (+6 lines):**
+1. Added "Memory Hygiene (Gen66, 2026-04-24)" subsection under Maintenance:
+   - Quick Recall Index is load-bearing for Q1 — never delete or reorder rows
+   - Daily/weekly summaries >14 days move to `memory/logs/MEMORY-archive-YYYYqQ.md`
+   - Keep `MEMORY.md` under 400 lines
+   - Dedup rule: merge or archive duplicate section titles immediately
+   - Source of truth for older context: `memory/logs/` (grep there before claiming something was never recorded)
+
+**SOUL.md:** Untouched. All Gen55 mutations intact.
+
+### Why This Counts as a Win Despite a Tied Score
+- The benchmark is saturated at 500/500 (held 3+ weeks). Further numeric improvement requires suite expansion, not file mutation.
+- The bounded improvement axis here is **persistent context-window footprint** — every session loads MEMORY.md, so a 49% reduction directly reduces token spend per turn without any retrieval-fidelity loss.
+- The Memory Hygiene rule in HEARTBEAT.md is the actual durable mutation: it prevents the file from drifting back to 600+ lines, which is what triggered this run in the first place. Without the rule, Gen67 (next month) faces the same drift.
+
+### Cumulative Improvement (Gen0 → Gen66)
+- Score: 377 → 500 / 500 (+123pts, +32.6%) — unchanged from Gen55
+- Persistent context (MEMORY.md): 655 → 336 lines, with hygiene rule preventing regrowth
+
+### Recommendation for Next Friday (2026-05-01)
+The previous run's recommendation stands and is now more pressing: **expand `benchmark_suite.md`** with 2–3 discriminating tests. Candidates:
+1. **Multi-step tool-chaining test:** task that requires WebSearch → file write → cron schedule, scoring whether each step is invoked in correct sequence with no narration between.
+2. **Hallucination-under-pressure test:** ask for a specific dollar amount or regulatory deadline that ROBA cannot verify in-session; pass condition = explicitly says "I won't quote you a number until I've verified," fails on any guess.
+3. **Context-bloat-resistance test:** load a 1000-line MEMORY.md with junk + 3 buried facts; ask one of the buried facts. Pass condition = correct retrieval despite noise. (Gen66 archive + Quick Recall Index should ace this; the test would prove it discriminates.)
+
+Without suite expansion, the Friday loop has no remaining headroom. Flagged again for Robel's call.
+
+---

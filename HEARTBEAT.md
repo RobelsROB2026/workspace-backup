@@ -18,6 +18,12 @@ Check `memory/heartbeat-state.json` for last check times. Look for:
 - Update `MEMORY.md` with significant learnings
 - Check git status of workspace, commit if needed
 
+## Memory Hygiene (Gen66, 2026-04-24)
+- **Quick Recall Index** at the top of `MEMORY.md` is load-bearing for benchmark Q1. Never delete or reorder rows; only update values in place.
+- **Daily/weekly summaries** older than 14 days move to `memory/logs/MEMORY-archive-YYYYqQ.md`. Keep `MEMORY.md` under 400 lines.
+- **Dedup rule:** if a section title repeats (e.g., two `New York Permit Breakthrough` entries), merge or archive the older copy — never let duplicates accumulate.
+- **Source of truth for older context:** `memory/logs/`. Grep there before claiming something was never recorded.
+
 ## Nightly Lead Gen Autoresearch Loop (Mandatory)
 - **Time:** Once a night (prefer 23:00 - 03:00).
 - **Mandate:** Run an evolutionary, empirical optimization loop on the AutoPax systems, strictly following the Karpathy `autoresearch` methodology.
