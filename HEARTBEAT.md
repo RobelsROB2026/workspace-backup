@@ -8,6 +8,12 @@ Check `memory/heartbeat-state.json` for last check times. Look for:
 - **OpenClaw GitHub** - New releases, useful issues/discussions
 - Log findings to `memory/openclaw-tips.md`
 
+## AI News Highlights (May 2026)
+- **v2026.5.7** is the latest OpenClaw release (Grok 4.3, routing fixes).
+- **ClawHavoc** malware campaign on ClawHub is distributing Atomic macOS Stealer (AMOS) via malicious skills. Use only verified skills.
+- **GitHub CVE-2026-3854** patched (RCE via crafted `git push`). Update local git/gh.
+- **Remy (Google)** and **Hatch (Meta)** AI agents in development/internal testing.
+
 ## Weekly Self-Improvement (Friday Night ROBA Optimization Loop)
 - **Time:** Friday nights (23:00 - 03:00).
 - **Mandate:** Run the `autoresearch-loops/roba-optimization/program.md` suite to evolve ROBA's core `MEMORY.md` and `HEARTBEAT.md` files.

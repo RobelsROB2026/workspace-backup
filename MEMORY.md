@@ -9,6 +9,7 @@
 | Autonomy | Mac mini = ROBA's machine. No permission needed. Full autonomy. |
 | Code delegation | ROBA = thinker/planner. Claude Code = muscle for coding/terminal tasks. |
 | DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). |
+| Ecosystem | 2026-04-25: ClawHub supply chain attack (ClawHavoc). Avoid unvetted skills. GPT-5.5/DeepSeek V4 released. |
 | Telegram | Notifications → target -1003783528968, thread 96 |
 | Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. |
 | Strict Muscle Protocol | 2026-04-24: Migrated admin crons to Shell+Claude Code & Flash. Kept Gemini Pro as main engine for security. Claude Code is mandatory for research/heavy reading. |
