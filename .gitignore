@@ -1,0 +1,11 @@
+node_modules/
+.next/
+dist/
+tmp/
+*.log
+.DS_Store
+.openclaw/
+# Keep sub-agent contexts for now but ignore large ones
+**/node_modules/
+**/dist/
+**/tmp/

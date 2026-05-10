@@ -88,7 +88,7 @@ Five-point rule:
 **Crucial Capability:** We now have a fully authenticated `gws` CLI with a refresh token. This means **I have persistent, background access to Drive, Docs, Sheets, Calendar, and Gmail at all times**.
 - I can read/write data, manage leads, and schedule events autonomously via cron jobs without needing Robel to manually authenticate or have a browser open.
 - All active projects (Bonds, FMCSA, NYC Permits) can now leverage live Google Sheets or Docs for data storage and reporting.
-- (Status note: Auth has gone 401 several times in April 2026; requires Robel's manual `gws auth login` to restore when offline.)
+- (Status note: Auth is currently ❌ **401 Unauthorized** (2026-05-09); requires Robel's manual `gws auth login` to restore.)
 
 - OpenClaw browser works without the Chrome extension (use profile: openclaw)
 - Peekaboo needs Screen Recording permission for UI automation
