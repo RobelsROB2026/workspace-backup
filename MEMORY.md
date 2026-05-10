@@ -8,7 +8,7 @@
 | Blog writing | PAUSED since 2026-03-10 (Vercel account migration ongoing) |
 | Autonomy | Mac mini = ROBA's machine. No permission needed. Full autonomy. |
 | Code delegation | ROBA = thinker/planner. Claude Code = muscle for coding/terminal tasks. |
-| DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). |
+| DB/Sync | AutoPax: Supabase Postgres (AWS us-west-2). Sync: sync_daily_optimized.py (~59-167k RPM). Gen 29: Cell enrichment 36% -> 99.9% (H1 fallback chain). |
 | Ecosystem | 2026-04-25: ClawHub supply chain attack (ClawHavoc). Avoid unvetted skills. GPT-5.5/DeepSeek V4 released. |
 | Telegram | Notifications → target -1003783528968, thread 96 |
 | Memory optimization | 2026-04-12: Major config changes for 8GB stability. maxConcurrent=1, subagents=2, browser DISABLED, ollama DISABLED, heartbeat isolated+light, contextTokens=100k, Node heap capped at 2GB. |
@@ -88,7 +88,7 @@ Five-point rule:
 **Crucial Capability:** We now have a fully authenticated `gws` CLI with a refresh token. This means **I have persistent, background access to Drive, Docs, Sheets, Calendar, and Gmail at all times**.
 - I can read/write data, manage leads, and schedule events autonomously via cron jobs without needing Robel to manually authenticate or have a browser open.
 - All active projects (Bonds, FMCSA, NYC Permits) can now leverage live Google Sheets or Docs for data storage and reporting.
-- (Status note: Auth is currently ❌ **401 Unauthorized** (2026-05-09); requires Robel's manual `gws auth login` to restore.)
+- (Status note: Auth is currently ❌ **401 Unauthorized** (2026-05-10); requires Robel's manual `gws auth login` to restore.)
 
 - OpenClaw browser works without the Chrome extension (use profile: openclaw)
 - Peekaboo needs Screen Recording permission for UI automation
