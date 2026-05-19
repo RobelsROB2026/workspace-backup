@@ -9,10 +9,12 @@ Check `memory/heartbeat-state.json` for last check times. Look for:
 - Log findings to `memory/openclaw-tips.md`
 
 ## AI News Highlights (May 2026)
-- **v2026.5.7** is the latest OpenClaw release (Grok 4.3, routing fixes).
-- **ClawHavoc** malware campaign on ClawHub is distributing Atomic macOS Stealer (AMOS) via malicious skills. Use only verified skills.
-- **GitHub CVE-2026-3854** patched (RCE via crafted `git push`). Update local git/gh.
-- **Remy (Google)** and **Hatch (Meta)** AI agents in development/internal testing.
+- **v2026.5.14** is the latest OpenClaw release (fixes Codex refresh errors, preserves tool media, improvements to Copilot Gemini image descriptions).
+- **ClawHavoc** malware campaign on ClawHub is distributing info stealers and reverse shells via malicious skills. Security audit found hundreds of malicious skills; use only verified skills.
+- **GitHub CVE-2026-3854** patched (RCE via crafted push access). High severity flaw; update local git/gh/GitHub Enterprise.
+- **Remy (Google)** and **Hatch (Meta)** AI agents in development; Remy is a proactive 24/7 personal assistant; Hatch is an agentic assistant for shopping/content on Meta platforms.
+- **Grok 4.3** released with native video understanding and 1M-2M token context window.
+- **OpenClaw Discord** maintains strict "no crypto" policy after $CLAWD scam.
 
 ## Weekly Self-Improvement (Friday Night ROBA Optimization Loop)
 - **Time:** Friday nights (23:00 - 03:00).

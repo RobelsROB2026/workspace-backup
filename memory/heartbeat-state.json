@@ -1,16 +1,18 @@
 {
   "lastChecks": {
-    "techmeme": 1778392151,
-    "email": 1778392151,
-    "calendar": 1778392151,
-    "social": 1778392151,
-    "autoresearch": 1778392151,
-    "ecosystem": 1778392151,
-    "maintenance": 1778392151,
-    "roba_optimization": 1778382695,
-    "lead_gen_autoresearch": 1778411340,
+    "techmeme": 1779209355,
+    "email": 1779209355,
+    "calendar": 1779209355,
+    "social": 1779209355,
+    "autoresearch": 1779209355,
+    "ecosystem": 1779209355,
+    "maintenance": 1779209355,
+    "roba_optimization": 1779209355,
+    "lead_gen_autoresearch": 1779209355,
     "gws_auth_status": "401_AUTHENTICATION_REQUIRED",
+    "last_check": 1779209355,
     "last_autoresearch_gen": 29,
-    "last_autoresearch_improvement": "+39-64pt composite"
+    "last_autoresearch_improvement": "+39-64pt composite",
+    "recent_news": "Google I/O 2026: Gemini 4.0, Omni, Spark, Aluminium OS, Android XR Glasses; Karpathy joins Anthropic; Musk lawsuit dismissed"
   }
 }

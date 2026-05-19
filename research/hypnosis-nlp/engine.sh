@@ -1,8 +1,11 @@
 #!/bin/bash
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
+WORKDIR="$HOME/.openclaw/workspace/research/hypnosis-nlp"
+cd "$WORKDIR" || { echo "ERROR: cannot cd to $WORKDIR"; exit 1; }
+
 TODAY=$(date +%Y-%m-%d)
-UPDATE_DIR="$HOME/.openclaw/workspace/research/hypnosis-nlp/updates"
+UPDATE_DIR="$WORKDIR/updates"
 mkdir -p "$UPDATE_DIR"
 
 echo "Waking up Holographic Engine for $TODAY..."
@@ -31,9 +34,9 @@ Work completely autonomously using bash, grep, curl, etc. Do not stop until the 
 PROMPT
 
 # Run Claude Code in the background to execute the daily creative prompt
-claude -p "$(cat $PROMPT_FILE)"
+claude --permission-mode bypassPermissions --add-dir "$WORKDIR" -p "$(cat $PROMPT_FILE)"
 
 # Schedule a callback in OpenClaw to notify Robel exactly when it finishes
-openclaw cron add --name "hypnosis-callback-$TODAY" --at "+1m" --session "isolated" --agent "hypnosis" --system-event "CRON_CALLBACK: The Holographic Ingest for $TODAY is complete. Read the file ~/.openclaw/workspace/research/hypnosis-nlp/updates/$TODAY.md. Send a message to Robel titled '⚡ DAILY HYPNOSIS DISCOVERY REPORT' outlining the anomalies and testable hypotheses. Be direct and sharp. Route it to the Telegram AutoPax Group, Topic 943."
+openclaw cron add --name "hypnosis-callback-$TODAY" --at "1m" --session "isolated" --agent "hypnosis" --system-event "CRON_CALLBACK: The Holographic Ingest for $TODAY is complete. Read the file ~/.openclaw/workspace/research/hypnosis-nlp/updates/$TODAY.md. Send a message to Robel titled '⚡ DAILY HYPNOSIS DISCOVERY REPORT' outlining the anomalies and testable hypotheses. Be direct and sharp. Route it to the Telegram AutoPax Group, Topic 943."
 
 echo "Ingest loop complete. Engine is spinning down."
