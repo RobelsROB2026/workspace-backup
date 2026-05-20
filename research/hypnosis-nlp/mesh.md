@@ -1,8 +1,8 @@
-# The Holographic Mesh — V3
+# The Holographic Mesh — V4
 
-> Synthesized from 50 PMC papers + 171 induction scripts + 12 live session transcripts.
-> Generated: 2026-03-31
-> Revision: V3 — Static scripts vs. live cybernetic feedback loops. Two-layer model with strict inline citations.
+> Synthesized from 53 PMC papers + 171 induction scripts + 12 live session transcripts.
+> Generated: 2026-03-31 (V3) → Updated 2026-05-20 (V4)
+> Revision: V4 — Adds the LOCUS COERULEUS / NORADRENERGIC layer and pupillometric biomarkers. Three new papers integrated (PMC7970859, PMC10067681, PMC12536535).
 
 ---
 
@@ -299,6 +299,32 @@ The **direct gaze method's** eightfold repetition of "closing" (Source: scripts/
 
 ---
 
+### 6.5 The Locus Coeruleus Layer — The Missing Neuromodulator (V4 NEW)
+
+The triple network reconfiguration (Section 1) and the predictive coding override (Section 2) both presuppose a neuromodulator that implements **precision-weighting** — the mechanism by which suggestions become "Bayesian priors with artificially high precision" (Source: PMC13024316). The existing mesh has been silent on what that neuromodulator IS. The most likely candidate, on independent neuroscience grounds, is the locus coeruleus (LC) noradrenergic system, which projects diffusely to the entire cortex including primary motor, orbitofrontal, medial prefrontal, and anterior cingulate cortices — precisely the regions documented in the hypnosis literature (Source: PMC7970859, citing the LC anatomy). Pupil size is the validated peripheral proxy for LC firing (Source: PMC7970859; Source: PMC10067681).
+
+**The shock: direct measurement falsifies the expected pattern.** Lanatà et al. (Source: PMC7970859) measured pupil size as a function of hypnotizability in 41 SHSS-screened participants (15 highs, 11 mediums, 15 lows) and found **no significant differences in resting pupil diameter between groups**. The highs' documented greater cortical excitability and arousal cannot be explained by elevated tonic LC noradrenergic tone.
+
+**Three reframes follow:**
+
+**Reframe 1 — The signal is in the frequency domain, not the amplitude.** Pupil Band Median Frequency (BMF) — the spectral position of the dominant oscillation in the pupil signal — DOES discriminate hypnotizability groups, but in a U-shaped pattern: mediums > highs and lows at the start of relaxation (Source: PMC7970859). Spectral content of pupil oscillation is sensitive to cortical noradrenergic state independently of absolute pupil diameter (Source: PMC7970859, citing Peysakhovich et al. 2015). The field's near-exclusive focus on pupil diameter has missed this layer.
+
+**Reframe 2 — The signal is in the non-linear dynamics, not the linear time-series.** Recurrence Plot Entropy of the pupil signal increased during relaxation only in highs (Source: PMC7970859). This means the LC-noradrenergic system in highs becomes MORE complex/chaotic during what is nominally a quiet state. The hypnosis literature has implicitly assumed that "trance" means a more ordered/regular neural state — the pupil dynamics suggest the opposite for the LC system specifically.
+
+**Reframe 3 — The LC and the vagal system are independently regulated.** During the same task, pupil indicators shifted toward sympathetic while heart indicators shifted toward parasympathetic (Source: PMC7970859). The autonomic profile of hypnosis (Section 4) is not a single coordinated state — it is two systems pulling in different directions, and the "challenge profile" emerges from their interaction.
+
+**The trigeminal-LC pathway as a hidden hypnotic entry point:** Sensory input from the trigeminal region drives LC and ascending reticular activating system (ARAS) firing (Source: PMC10601341, ICARE 2023, trigeminal nerve network section). Trigeminal input includes facial muscle proprioception, periorbital sensation, and oral/jaw sensation. Hypnotic inductions that emphasize eye fixation, eyelid heaviness, facial muscle relaxation, and jaw release (Source: scripts/elman_classic_induction.txt — eye catalepsy; scripts/awareness_induction.txt — facial scan; scripts/body_conditioning.txt — "Let relaxation move into your scalp... your forehead... your eyes") may be working specifically through trigeminal modulation of LC firing. The strict no-tooth-contact instruction in the PMC7970859 protocol (preventing trigeminal stimulation that could artifactually activate LC; Source: PMC7970859, Methods) confirms this pathway's relevance. No paper in the existing corpus has analyzed scripts for trigeminal-pathway recruitment.
+
+**Pupillary Dilation Reflex (PDR) as a hypoalgesia depth marker:** PDR is a validated objective marker of nociception used clinically during general anesthesia to titrate the nociception-antinociception balance (Source: PMC10067681). It distinguishes excitation-stage (stimulus strength) from exploration-stage (emotional processing) components of the pupil response to noxious stimuli (Source: PMC10067681). The hypoalgesia literature in hypnosis (Section 2, Bridge 5) has never used PDR as a depth marker despite its clinical validation in anesthesia — this is a direct cross-domain transfer opportunity.
+
+#### What This Looks Like in a Script
+
+Eye-fixation inductions are likely trigeminal-LC modulators. The **direct gaze method** (Source: scripts/direct_gaze_method.txt) sustains visual fixation on the operator's eyes while delivering rhythmic suggestions. Sustained fixation activates the trigeminal-oculomotor circuit and may drive LC firing toward attended-stimulus mode (Source: PMC7970859, citing Aston-Jones et al. 1994 — LC neurons selectively activated by attended cues in vigilance tasks). The eightfold "closing, closing, closing..." repetition (Source: scripts/direct_gaze_method.txt) coincides with the moment the trigeminal-LC system is most engaged — converting LC firing energy into the suggestion's precision-weighting.
+
+The **arm levitation method's** numbered tingling progression (Source: scripts/arm_levitation_method.txt) is hypothesized to recruit LC phasic firing. Each new number in the sequence is an attended cue that the LC fires on, briefly amplifying the precision of the sensory prediction associated with that number ("Number 5 — your hand feels lighter"). The 20-count structure is, in this frame, a 20-pulse LC entrainment sequence.
+
+---
+
 ## III. THE CYBERNETIC LAYER: STATIC SCRIPTS VS. LIVE FEEDBACK LOOPS
 
 **This section is new in V3.** It documents the fundamental distinction between the Phase 1 lexical substrate (static scripts) and the Phase 2 cybernetic controller (live sessions), based on computational analysis of 12 live hypnosis session transcripts (5,673 words) compared against the Phase 1 baseline of 26 pure scripts (17,819 words) [Source: phase2_cybernetic_analysis.md].
@@ -581,6 +607,34 @@ Meta-analysis shows hypnosis produces medium, significant effects on acute pain 
 ### A-8. The Hidden Observer Persists
 Hilgard's "hidden observer" — a dissociated monitoring consciousness that persists during hypnosis — has never been explained or disproven (Source: PMC12767259). It maps onto the PMC12106870 finding of behavioral-EEG incongruence: awareness may be layered, with some layers inaccessible to standard measurement.
 
+### A-9. The Resting-Pupil Null — Highs and Lows Have IDENTICAL Tonic LC Output
+
+Direct measurement of tonic pupil diameter (the gold-standard proxy for resting LC-noradrenergic activity) across high, medium, and low hypnotizables found **NO significant difference in resting pupil size** between groups (Source: PMC7970859). This DIRECTLY FALSIFIES the hypothesis that the highs' documented greater cortical excitability (Source: PMC7970859, citing TMS evidence) and higher arousal (Source: PMC7970859, citing Attention Network Test studies) are produced by elevated tonic LC noradrenergic tone.
+
+**The footnote phenomenon researchers brushed past:** A non-linear analysis (Recurrence Quantification Analysis — Entropy) of the pupil signal time-series did show that **pupil signal complexity increased during relaxation only in highs** (Source: PMC7970859, Fig. 4b, F(2,38)=3.907, p=0.029) — but the authors treated this as a minor secondary finding because it didn't pass the Bonferroni-corrected threshold (p < 0.025). This is the wrong frame. The directional pattern is consistent and reveals that the noradrenergic system in highs is becoming MORE chaotic, not less, during what they describe as relaxation. Their LC is doing more cognitive work, not less.
+
+**The U-shaped relationship:** Pupil Band Median Frequency (BMF) — a spectral measure of pupil oscillation — was higher in mediums than in BOTH highs and lows at the start of the session, but converged by the end (Source: PMC7970859). The mesh's existing model treats mediums as an intermediate state on a continuum. The pupil BMF data suggests mediums occupy a DISTINCT regime that differs from highs and lows in the same direction (both up). This is a U-shape, not a linear gradient.
+
+**Implication for the field:** Hypnotizability is not graded LC tone. It is something else entirely — and the field has been looking at the wrong amplitude (tonic pupil size) when the signal lives in the frequency domain (pupil spectral content) and the non-linear dynamics (entropy of pupil time-series).
+
+### A-10. The Pupil-Cardiac Dissociation — Two Autonomic Systems, Opposite Directions
+
+During the same relaxation task, healthy participants showed cardiac shift toward parasympathetic (MeanRR increase, RMSSD changes) while pupil dynamics shifted toward sympathetic control (MeanTonicSC decrease BUT pupil signal variability increase + spectral median frequency decrease indicating sympathetic shift) (Source: PMC7970859). The same internal state ("relaxation") produced opposite autonomic readouts depending on the measurement modality.
+
+**What the existing mesh said:** Section 4 documented hypnosis's "paradoxical autonomic signature" (tonic EDA up, phasic SCR down, RMSSD up) as a UNIFIED challenge-autonomic profile (Source: PMC12982806). PMC7970859 reveals this is misleading — the LC-noradrenergic and vagal-cardiovascular systems are independently regulated. The "challenge profile" is the average of two systems pulling in different directions, not a single coordinated state.
+
+**The "cognitive cost of relaxation" finding:** Highs showed DECREASED RMSSD during the relaxation task while mediums INCREASED it (Source: PMC7970859). For highs, the instruction "relax" triggers a cognitive process that costs vagal tone — they are doing the work of relaxation. For mediums, relaxation is genuinely restful. The autonomic measurement that the existing mesh treated as "depth of trance" may instead be tracking "cognitive effort to comply with the relaxation instruction."
+
+### A-11. The Pupil Frequency Signature — The Wrong Variable Has Been Measured
+
+Across the existing 50-paper corpus, no study used PUPIL SPECTRAL CONTENT or non-linear pupil dynamics as a hypnosis biomarker. The field measures pupil diameter (amplitude). PMC7970859 demonstrates that hypnotizability-related differences live in:
+
+- **Band Median Frequency (BMF)** of the pupil power spectrum (U-shaped vs. hypnotizability)
+- **Recurrence Plot Entropy** of the pupil time-series (increased complexity during relaxation in highs only)
+- **MAD (Median Absolute Deviation)** of pupil signal (increased during session in all groups)
+
+None of these are captured by static pupil diameter. The Pupillary Dilatation Reflex (PDR) used clinically for anti-nociception titration during general anesthesia (Source: PMC10067681) similarly uses amplitude — the spectral analysis approach (Source: PMC7970859) has never been combined with PDR for hypnosis depth tracking. This is a buried methodological gap.
+
 ---
 
 ## V. MISSED CONNECTIONS & CROSS-DOMAIN BRIDGES
@@ -763,6 +817,14 @@ A transcript that scores high on both layers is a **session** — the same vocab
 9. **Cybernetic density as efficacy predictor:** Does the total cybernetic marker density (74.2/1k in the current corpus) correlate with session-level therapeutic outcomes? If a hypnotist produces only 30/1k cybernetic markers, does that predict weaker physiological response?
 
 10. **The TTR paradox:** Static scripts achieve trance through lexical poverty (TTR 0.10); live sessions achieve trance through lexical variety (TTR 0.57). Are these two genuinely different mechanisms (semantic saturation vs. adaptive engagement), or is the TTR difference an artifact of corpus size? [Source: phase2_cybernetic_analysis.md, Section 3.3]
+
+11. **The pupil frequency vs. amplitude question (V4 NEW):** If pupil diameter does not discriminate hypnotizability (Source: PMC7970859), but Band Median Frequency and Recurrence Plot Entropy do, why has the entire hypnosis-pupillometry literature focused on amplitude? Can pupil spectral features (BMF, entropy, MAD) serve as a real-time biomarker of hypnotic depth that outperforms behavioral depth ratings?
+
+12. **The pupil-cardiac dissociation question (V4 NEW):** During hypnosis, do skilled hypnotists modulate the LC-noradrenergic (pupil) and vagal-cardiovascular (heart) systems independently? If so, the "depth" of trance is not a scalar — it is a 2D state and the cybernetic layer's wait-for-exhalation markers (Section 8.1) may only control the cardiovascular dimension. What controls the LC dimension?
+
+13. **The trigeminal-LC question (V4 NEW):** Eye fixation, eyelid heaviness, jaw release, and facial muscle relaxation are universal across the script corpus. Are these specifically trigeminal-LC modulators? If so, scripts can be classified by trigeminal-recruitment density and this should correlate with hypnotic effect.
+
+14. **The PDR-as-hypnoanalgesia-marker question (V4 NEW):** Pupillary Dilation Reflex is the validated clinical marker of nociception-antinociception balance during general anesthesia (Source: PMC10067681). It has never been used to measure hypnotic analgesia depth in awake subjects despite the same circuitry being involved. Direct transfer opportunity.
 
 ---
 
