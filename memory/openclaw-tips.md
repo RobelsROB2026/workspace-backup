@@ -49,3 +49,8 @@ Combo pattern teams are using: **DeepSeek** for context, **Kimi** for orchestrat
 - **Q8_0**: overkill for most agentic cases
 
 ## Last research: 2026-05-19 (Friday self-improvement)
+
+## 2026-05-19: Security Warning - ClawHavoc
+- **ClawHavoc Supply Chain Attack**: A massive malware campaign hit ClawHub, distributing info stealers and reverse shells via malicious skills. Up to 13.4% of scanned skills had critical security issues. Use only verified skills and audit before installing.
+- **OpenClaw Flaw Patched**: "Claw Chain" vulnerabilities patched in OpenClaw. Ensure we are updated to v2026.5.14.
+- **Google I/O 2026**: Google announced Gemini Spark as a direct competitor to OpenClaw.

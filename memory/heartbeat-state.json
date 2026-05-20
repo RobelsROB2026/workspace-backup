@@ -1,18 +1,18 @@
 {
   "lastChecks": {
-    "techmeme": 1779209355,
-    "email": 1779209355,
-    "calendar": 1779209355,
-    "social": 1779209355,
-    "autoresearch": 1779209355,
-    "ecosystem": 1779209355,
-    "maintenance": 1779209355,
-    "roba_optimization": 1779209355,
-    "lead_gen_autoresearch": 1779209355,
+    "techmeme": 1779256680,
+    "email": 1779256680,
+    "calendar": 1779256680,
+    "social": 1779256680,
+    "autoresearch": 1779256680,
+    "ecosystem": 1779259774,
+    "maintenance": 1779256680,
+    "roba_optimization": 1716162540,
+    "lead_gen_autoresearch": 1779256680,
     "gws_auth_status": "401_AUTHENTICATION_REQUIRED",
-    "last_check": 1779209355,
-    "last_autoresearch_gen": 29,
-    "last_autoresearch_improvement": "+39-64pt composite",
-    "recent_news": "Google I/O 2026: Gemini 4.0, Omni, Spark, Aluminium OS, Android XR Glasses; Karpathy joins Anthropic; Musk lawsuit dismissed"
+    "last_check": 1779259774,
+    "last_autoresearch_gen": 30,
+    "last_autoresearch_improvement": "FAILED_PATH_ERROR",
+    "recent_news": "OpenClaw v2026.5.14 released (Codex fixes). ClawChain vulnerabilities (sandbox escape) patched. ClawHub ClawHavoc malware campaign identified. Google Remy and Meta Hatch AI agents in development. GitHub CVE-2026-3854 (RCE) patched."
   }
 }
